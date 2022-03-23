@@ -26,15 +26,128 @@
   <!-- artificial -->
   <section class="metarix_artifix">
       <div class="container" >
-         <div class="heading update_text">
-            <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> METARIX ARTIFACTS <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
-            <!-- <p class="heading_para">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut laboure et dolore magna aliqua."</p> -->
-        </div> 
-        <div class="row">
+            <div class="heading update_text">
+                <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> METARIX ARTIFACTS <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
+                <!-- <p class="heading_para">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut laboure et dolore magna aliqua."</p> -->
+            </div> 
+            <div class="row">
+                <div class="features-box1">
+
+                    <div class="zoom border_radi_us">
+                        <div class="zoom-img">
+                        <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/BitcoinBusiness_City.jpg" alt="">
+                    </div>
+                
+                    <div class="zoom-text">
+                        <h2 class="features_text">Bitcoin Business City</h2>
+                        <p class="features_para">Business is prime for all of us. Introducing, Bitcoin Business City in Metarix. A place where the world’s biggest companies will open their virtual headquarters.</p>
+                    </div>
+                </div>
+
+                    <div class="zoom border_radi_us">
+                        <div class="zoom-img">
+                        <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/Opensea_art.jpg" alt="">
+                    </div>
+                
+                    <div class="zoom-text">
+                        <h2 class="features_text">Opensea Art and Museum Center</h2>   
+                        <p class="features_para">Are you an aesthete? Do you love art and artists? Opensea art and museum center has a range of art NFTs that you can buy and put on your walls over digital screens.</p>
+                    </div>
+                </div>
+
+                    <div class="zoom border_radi_us">
+                        <div class="zoom-img">
+                        <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/Shiba_Shopping.jpg" alt="">
+                    </div>
+                
+                    <div class="zoom-text">
+                        <h2 class="features_text">Shiba Shopping District</h2>  
+                        <p class="features_para">We will launch the alpha version with five theme parks; users will have access to them and will be able to transact and store their digital assets. They will also engage with other asset creators, as well as sell and monetize their assets on the platform. Smart contracts will be used to handle everything on the site.</p>
+                    </div>
+                </div>
+             </div>
+            </div>
+
+            <div class="row">
+                <div class="features-box1">
+
+                    <div class="zoom border_radi_us">
+                        <div class="zoom-img">
+                        <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/Sol_Fashion.jpg" alt="">
+                    </div>
+                
+                    <div class="zoom-text">
+                        <h2 class="features_text">Sol Fashion District</h2>
+                        <p class="features_para">For all the fashionistas out there, virtual fashion is here now. Take part in virtual fashion shows</p>
+                    </div>
+                </div>
+
+                    <div class="zoom border_radi_us">
+                        <div class="zoom-img">
+                        <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/Metarix_Game_Plaza.jpg" alt="">
+                    </div>
+                
+                    <div class="zoom-text">
+                        <h2 class="features_text">Metarix Game Plaza</h2>   
+                        <p class="features_para"> Playing slot machines is one of the most famous games played in casinos around the world.</p>
+                    </div>
+                </div>
+
+                    <div class="zoom border_radi_us">
+                        <div class="zoom-img">
+                        <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/Ripple_Party_City.jpg" alt="">
+                    </div>
+                
+                    <div class="zoom-text">
+                        <h2 class="features_text">Ripple Party City</h2>  
+                        <p class="features_para">Party 24*7 into the virtual world of Ripple Party City. The place hosts top DJ artists from around the world. With Metarix, club-hopping is as easy as a click of a button.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="row">
+                <div class="features-box1">
+
+                    <div class="zoom border_radi_us">
+                        <div class="zoom-img">
+                        <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/Casino.jpg" alt="">
+                    </div>
+                
+                    <div class="zoom-text">
+                        <h2 class="features_text">Cosmos Casino</h2>
+                        <p class="features_para">You don’t need to visit Vegas now. Metarix brings the best of Vegas, Macau, and Marina Bay into one single virtual world. Play your favourite games like poker, blackjack, roulette, and others by sitting at your home and betting on cryptocurrencies.  </p>
+                    </div>
+                </div>
+
+                    <div class="zoom border_radi_us">
+                        <div class="zoom-img">
+                        <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/Gala_Game_Zone.jpg" alt="">
+                    </div>
+                
+                    <div class="zoom-text">
+                        <h2 class="features_text">Gala Game Zone</h2>   
+                        <p class="features_para">We all love games. With time, games have changed a lot and today, everyone is stuck to their screen playing action, arcade, or racing games.</p>
+                    </div>
+                </div>
+
+                    <div class="zoom border_radi_us">
+                        <div class="zoom-img">
+                        <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/Doge_Park.jpg" alt="">
+                    </div>
+                
+                    <div class="zoom-text">
+                        <h2 class="features_text">Doge Park</h2>  
+                        <p class="features_para">A park dedicated to dogs worldwide including the famous Shiba Inu from Japan. Doge Park is a place where people can buy and sell 3D NFTs of different dogs and also socialize with other fellow dog lovers across the globe. </p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        <!-- <div class="row">
             <div class="col-md-12 card_data">
                 <div class="box-container ">
                     <div class="box-img">
-                        <img src="img/science.png" alt="">
+                        <img src="img/Artifacts/Artifacts_Conceptual/BitcoinBusiness_City.jpg" alt="">
                     </div>
                     <div class="box-head">
                         <h3>Bitcoin Business City</h3>
@@ -43,7 +156,7 @@
                 </div>
                 <div class="box-container ">
                     <div class="box-img">
-                        <img src="img/spaceexplo.png" alt="">
+                        <img src="img/Artifacts/Artifacts_Conceptual/Opensea_art.jpg" alt="">
                     </div>
                     <div class="box-head">
                         <h3>Opensea Art and Museum Center</h3>
@@ -52,7 +165,7 @@
                 </div>
                 <div class="box-container ">
                     <div class="box-img">
-                        <img src="img/blockchain.png" alt="">
+                        <img src="img/Artifacts/Artifacts_Conceptual/Shiba_Shopping.jpg" alt="">
                     </div>
                     <div class="box-head">
                         <h3>Shiba Shopping District</h3>
@@ -61,7 +174,7 @@
                 </div>
                 <div class="box-container ">
                     <div class="box-img">
-                        <img src="img/Startupvalley.png" alt="">
+                        <img src="img/Artifacts/Artifacts_Conceptual/Sol_Fashion.jpg" alt="">
                     </div>
                     <div class="box-head">
                         <h3>Sol Fashion District</h3>
@@ -70,7 +183,7 @@
                 </div>
                 <div class="box-container ">
                     <div class="box-img">
-                        <img src="img/LIVEMUSIC.png" alt="">
+                        <img src="img/Artifacts/Artifacts_Conceptual/Metarix_Game_Plaza.jpg" alt="">
                     </div>
                     <div class="box-head">
                         <h3>Metarix Game Plaza</h3>
@@ -79,7 +192,7 @@
                 </div>
                 <div class="box-container">
                     <div class="box-img">
-                        <img src="img/ARTS.png" alt="">
+                        <img src="img/Artifacts/Artifacts_Conceptual/Ripple_Party_City.jpg" alt="">
                     </div>
                     <div class="box-head">
                         <h3>Ripple Party City</h3>
@@ -88,7 +201,7 @@
                 </div>
                 <div class="box-container ">
                     <div class="box-img">
-                        <img src="img/LIVEMUSIC.png" alt="">
+                        <img src="img/Artifacts/Artifacts_Conceptual/Casino.jpg" alt="">
                     </div>
                     <div class="box-head">
                         <h3>Cosmos Casino</h3>
@@ -97,7 +210,7 @@
                 </div>
                 <div class="box-container">
                     <div class="box-img">
-                        <img src="img/ARTS.png" alt="">
+                        <img src="img/Artifacts/Artifacts_Conceptual/Gala_Game_Zone.jpg" alt="">
                     </div>
                     <div class="box-head">
                         <h3>Gala Game Zone</h3>
@@ -106,7 +219,7 @@
                 </div>
                  <div class="box-container ">
                     <div class="box-img">
-                        <img src="img/Startupvalley.png" alt="">
+                        <img src="img/Artifacts/Artifacts_Conceptual/Doge_Park.jpg" alt="">
                     </div>
                     <div class="box-head">
                         <h3>Doge Park</h3>
@@ -114,7 +227,7 @@
                     </div>
                 </div>
             </div>
-        </div>      
+        </div>       -->
       </div>
   </section>
 
@@ -123,6 +236,30 @@
   <section class="all_products" id="Products">
     <div class="container-fluid p-0">
           <div class="row">
+                <div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                    <li data-target="#video-carousel-example2" data-slide-to="0" class="active"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="view">
+                                <video class="video-fluid" autoplay loop muted>
+                                    <source src="img/videos/Banner_2.mp4" type="video/mp4" />
+                                </video>
+                                <div class="mask rgba-indigo-light">
+                                    <div class="main_left_text">
+                                        <h2 class="right_text">Metarix Metaverse</h2>
+                                        <p class="right_para">Explore the Metaverse world with Metarix</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
                 <div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
                     <ol class="carousel-indicators">
                     <li data-target="#video-carousel-example2" data-slide-to="0" class="active"></li>
@@ -143,6 +280,30 @@
                         </div>
                     </div>
                 </div>    
+
+              
+
+                <div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                    <li data-target="#video-carousel-example2" data-slide-to="0" class="active"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="view">
+                                <video class="video-fluid" autoplay loop muted>
+                                    <source src="img/videos/Banner_3.mp4" type="video/mp4" />
+                                </video>
+                                <div class="mask rgba-indigo-light">
+                                    <div class="main_left_text">
+                                        <h2 class="right_text">Metarix Smart Watch</h2>
+                                        <p class="right_para">Experience the 3D smart watch from Metarix</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    
           </div>
         <!-- <div class="row m-0">
             <div class="col-md-12 p-0 product_data_2">

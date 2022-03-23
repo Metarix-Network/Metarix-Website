@@ -102,7 +102,7 @@ unset($_SESSION['message']);
 
                 <div class="zoom border_radi_us">
                     <div class="zoom-img">
-                    <img class="features_img" src="img/metarixsdk/feature_1.png" alt="">
+                    <img class="features_img" src="img/metarixsdk/Master_piece.jpg" alt="">
                 </div>
                
                 <div class="zoom-text">
@@ -113,7 +113,7 @@ unset($_SESSION['message']);
 
                 <div class="zoom border_radi_us">
                     <div class="zoom-img">
-                    <img class="features_img" src="img/metarixsdk/feature_2.png" alt="">
+                    <img class="features_img" src="img/metarixsdk/LAYER_Solution.jpg" alt="">
                 </div>
                
                 <div class="zoom-text">
@@ -124,7 +124,7 @@ unset($_SESSION['message']);
 
                 <div class="zoom border_radi_us">
                     <div class="zoom-img">
-                    <img class="features_img" src="img/metarixsdk/feature_3.png" alt="">
+                    <img class="features_img" src="img/metarixsdk/Five_Theme_Parks.jpg" alt="">
                 </div>
                
                 <div class="zoom-text">

@@ -9,7 +9,7 @@
   <!-- staking page  -->
   <section class="staking_pages" >
     <div class="container stacky_head">
-      <h2 class="stacky-head-text">Stake your <span class="text_bold" >GBL</span></h3>
+      <h2 class="stacky-head-text">Stake your <span class="text_bold" >MTRX</span></h3>
         <div class="staking_page_items">
 
       <div class="row">
