@@ -939,7 +939,7 @@
     </section>
 
   <!-- our blog    -->
-    <!-- <section class="blog">
+    <section class="blog">
       <div class="container">
          <div class="heading">
                 <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> OUR BLOGS <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
@@ -948,12 +948,12 @@
        <div class="col-sm-4">
         <div class="card">
           <div class="zoom-img">
-          <img class="card-img-top features_img" src="img/blockchain.jpg" alt="Card image cap">
+          <img class="card-img-top features_img" src="img/blog/metarics_blogchain.jpeg" alt="Card image cap">
           </div>
           <div class="card-body">
-            <h5 class="card-title">What is Lorem Ipsum</h5>
+            <h5 class="card-title">Know the Augmented reality- Metarix Blockchain and Its Uses</h5>
             <span>March 16, 2022 -3 min read</span>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text">As we  all know about blockchain and how it works. For people who do not understand the simple complexity, Metarix has created a fun and easy way to work, enjoy and earn from it. You must be wondering what we are talking about right? </p>
             <a href="#" class="sdk_btn">Read More</a>
           </div>
         </div>
@@ -961,12 +961,12 @@
          <div class="col-sm-4">
         <div class="card">
           <div class="zoom-img">
-          <img class="card-img-top features_img" src="img/blockchain2.jpg" alt="Card image cap">
+          <img class="card-img-top features_img" src="img/blog/metarix_metaverse.jpeg" alt="Card image cap">
         </div>
           <div class="card-body">
-            <h5 class="card-title">What is Lorem Ipsum</h5>
+            <h5 class="card-title">Essential Information About Metarix and Metaverse</h5>
             <span>March 16, 2022 -3 min read</span>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text">In 2021 when Facebook changed its name to meta, everyone was left wondering what is meta all about. Blockchain technology has already started paving its way in the revolutionary world. People globally have turned to blockchain. </p>
             <a href="#" class="sdk_btn">Read More</a>
           </div>
         </div>
@@ -974,19 +974,19 @@
          <div class="col-sm-4">
         <div class="card">
           <div class="zoom-img">
-          <img class="card-img-top features_img" src="img/Blockchain3.jpg" alt="Card image cap">
+          <img class="card-img-top features_img" src="img/blog/virtual_plot.jpeg" alt="Card image cap">
         </div>
           <div class="card-body">
-            <h5 class="card-title">What is Lorem Ipsum</h5>
+            <h5 class="card-title">Virtual Plot in Metaverse</h5>
             <span>March 16, 2022 -3 min read</span>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text">‘Meta’ means ‘after’ or ‘beyond’ in Greek. Meta will now be the name of the overall Facebook company. The ‘Meta’ symbol is “designed to actively reside in the metaverse.”</p>
             <a href="#" class="sdk_btn">Read More</a>
           </div>
         </div>
        </div>
       </div>
     </div>
-    </section> -->
+    </section>
 
      <!-- our partner   -->
     <section class="our_partners" id="Partners">
