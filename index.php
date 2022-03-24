@@ -952,9 +952,9 @@
           </div>
           <div class="card-body">
             <h5 class="card-title">Know the Augmented reality- Metarix Blockchain and Its Uses</h5>
-            <span>March 16, 2022 -3 min read</span>
-            <p class="card-text">As we  all know about blockchain and how it works. For people who do not understand the simple complexity, Metarix has created a fun and easy way to work, enjoy and earn from it. You must be wondering what we are talking about right? </p>
-            <a href="#" class="sdk_btn">Read More</a>
+            <span>March 24, 2022 -3 min read</span>
+            <p class="card-text">As we  all know about blockchain and how it works. For people who do not understand the simple complexity. </p>
+            <a target="_blank" href="Metarixblockchain_Blog.php" class="sdk_btn">Read More</a>
           </div>
         </div>
        </div>
@@ -965,8 +965,8 @@
         </div>
           <div class="card-body">
             <h5 class="card-title">Essential Information About Metarix and Metaverse</h5>
-            <span>March 16, 2022 -3 min read</span>
-            <p class="card-text">In 2021 when Facebook changed its name to meta, everyone was left wondering what is meta all about. Blockchain technology has already started paving its way in the revolutionary world. People globally have turned to blockchain. </p>
+            <span>March 24, 2022 -3 min read</span>
+            <p class="card-text">In 2021 when Facebook changed its name to meta, everyone was left wondering what is meta all about.  </p>
             <a href="#" class="sdk_btn">Read More</a>
           </div>
         </div>
@@ -978,8 +978,8 @@
         </div>
           <div class="card-body">
             <h5 class="card-title">Virtual Plot in Metaverse</h5>
-            <span>March 16, 2022 -3 min read</span>
-            <p class="card-text">‘Meta’ means ‘after’ or ‘beyond’ in Greek. Meta will now be the name of the overall Facebook company. The ‘Meta’ symbol is “designed to actively reside in the metaverse.”</p>
+            <span>March 24, 2022 -3 min read</span>
+            <p class="card-text">‘Meta’ means ‘after’ or ‘beyond’ in Greek. Meta will now be the name of the overall Facebook company.”</p>
             <a href="#" class="sdk_btn">Read More</a>
           </div>
         </div>
@@ -1022,6 +1022,48 @@
             </div>
         </div>
     </section>
+
+
+    <!-- sdk features section ended  -->
+  <section class="all_products community" id="Products">
+    <div class="container-fluid p-0">
+          <div class="row">
+                <div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                    <li data-target="#video-carousel-example2" data-slide-to="0" class="active"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="view">
+                                <video class="video-fluid" autoplay loop muted>
+                                    <source src="img/videos/Community_Banner_3.mp4" type="video/mp4" />
+                                </video>
+                                <div class="shdow"></div>
+                                <div class="mask rgba-indigo-light">
+                                    <div class="main_left_text">
+                                        <h2 class="right_text">JOIN OUR COMMUNITY</h2>
+                                        <p class="right_para">"Metarix is a globally operational Metaverse platform to revolutionize the virtual world and provide an interesting and satisfying experience to a huge number of people. Our major purpose as a Metaverse platform is to deliver secure and sustainable solutions to all crypto and NFT fans, artists, and other diverse users. It will be a virtual environment with a wide range of entertainment opportunities, including gaming, art, science, music, culture, fashion, and shopping."</p>
+                                         <div class="commuinty_button">
+                                            <form action="form/subscribe.php" class="form-inline" method="post">
+                                     <?php if(isset($message)){ ?>
+                                    <div class="alert alert-success" role="alert">
+                                        <?php echo $message; ?>
+                                    </div>
+                                  <?php } ?>
+                                                <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Your Email"></div>
+                                                <div class="form-group"><button class="btn btn-primary" type="submit">Subscribe </button></div>
+                                            </form>                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+          </div>
+    </div>
+  </section>
+<!-- community sdk  -->
 
 
 

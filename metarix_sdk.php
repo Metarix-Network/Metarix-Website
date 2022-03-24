@@ -137,11 +137,9 @@ unset($_SESSION['message']);
     </div>
 </section>
 
-<!-- sdk features section ended  -->
 
-<!-- community sdk  -->
 
-<section class="community_sdk" id="community_sdk">
+<!-- <section class="community_sdk" id="community_sdk">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
@@ -162,14 +160,10 @@ unset($_SESSION['message']);
                             <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Your Email"></div>
                             <div class="form-group"><button class="btn btn-primary" type="submit">Subscribe </button></div>
                         </form>
-                        <!-- <div id="search">
-                            <div> <input type="email" class="py-2 pl-2" placeholder="Email Address"> <button class="text-white py-2 px-3">Subscribe <span class="fa fa-long-arrow-right"></span></button> </div>
-                        </div> -->
-                        <!-- <a class="community_btn" href="#">Subscribe</a> -->
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
+</section>  -->
 <?php include("includes/footer.php"); ?>
