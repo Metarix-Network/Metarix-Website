@@ -57,7 +57,7 @@
                       <h4 class="stacky-text">0.0000</h4>
                     </div>
                     <div class="rewards">
-                      <h3 class="stacky-text-hed">Rewards (GBL)</h3>
+                      <h3 class="stacky-text-hed">Rewards (MTRX)</h3>
                       <h4 class="stacky-text">0.0000</h4>
                     </div>
                     <div class="stacky-button">
@@ -79,7 +79,7 @@
                   <p class="checkpoints-para">if not connected, click the 'Connect Wallet'button in the top right corner</p>
               </div>
               <div class="check-data-head">
-                  <h3 class="checkpoints-text">GBL available to deposit</h3>
+                  <h3 class="checkpoints-text">MTRX available to deposit</h3>
                   <p class="checkpoints-para">Current Balance: 0</p>
               </div>
               <div class="check-data-head">
@@ -88,7 +88,7 @@
               </div>
               <div class="check-data-head">
                   <h3 class="checkpoints-text">Eligible to stake</h3>
-                  <p class="checkpoints-para">You cannot stake if you have an active GBL unstake/withdrawal request</p>
+                  <p class="checkpoints-para">You cannot stake if you have an active MTRX unstake/withdrawal request</p>
               </div>
           </div>
       </div>

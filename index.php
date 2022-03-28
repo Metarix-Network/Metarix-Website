@@ -30,118 +30,126 @@
                 <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> METARIX ARTIFACTS <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
                 <!-- <p class="heading_para">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut laboure et dolore magna aliqua."</p> -->
             </div> 
-            <div class="row">
-                <div class="features-box1">
+            <div class="row pt-5">
 
-                    <div class="zoom border_radi_us">
-                        <div class="zoom-img">
-                        <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/BitcoinBusiness_City.jpg" alt="">
+                    <div class=" col-md-4  artifix_zoom ">
+                        <div class="border_radi_us">
+                            <div class="zoom-img">
+                                <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/BitcoinBusiness_City.jpg" alt="">
+                            </div>
+                    
+                            <div class="zoom-text">
+                                <h2 class="features_text">Bitcoin Business City</h2>
+                                <p class="features_para">Business is prime for all of us. Introducing, Bitcoin Business City in Metarix. A place where the world’s biggest companies will open their virtual headquarters.</p>
+                            </div>
+                        </div>     
                     </div>
-                
-                    <div class="zoom-text">
-                        <h2 class="features_text">Bitcoin Business City</h2>
-                        <p class="features_para">Business is prime for all of us. Introducing, Bitcoin Business City in Metarix. A place where the world’s biggest companies will open their virtual headquarters.</p>
-                    </div>
-                </div>
 
-                    <div class="zoom border_radi_us">
-                        <div class="zoom-img">
-                        <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/Opensea_art.jpg" alt="">
+                    <div class="col-md-4   artifix_zoom ">
+                        <div class="border_radi_us">
+                            <div class="zoom-img">
+                                <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/Opensea_art.jpg" alt="">
+                            </div>
+                    
+                            <div class="zoom-text">
+                                <h2 class="features_text">Opensea Art and Museum Center</h2>   
+                                <p class="features_para">Are you an aesthete? Do you love art and artists? Opensea art and museum center has a range of art NFTs that you can buy and put on your walls over digital screens.</p>
+                            </div>
+                        </div> 
                     </div>
-                
-                    <div class="zoom-text">
-                        <h2 class="features_text">Opensea Art and Museum Center</h2>   
-                        <p class="features_para">Are you an aesthete? Do you love art and artists? Opensea art and museum center has a range of art NFTs that you can buy and put on your walls over digital screens.</p>
-                    </div>
-                </div>
 
-                    <div class="zoom border_radi_us">
-                        <div class="zoom-img">
-                        <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/Shiba_Shopping.jpg" alt="">
+                    <div class=" col-md-4  artifix_zoom ">
+                        <div class="border_radi_us">
+                            <div class="zoom-img">
+                                <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/Shiba_Shopping.jpg" alt="">
+                            </div>
+                    
+                            <div class="zoom-text">
+                                <h2 class="features_text">Shiba Shopping District</h2>  
+                                <p class="features_para">We will launch the alpha version with five theme parks; users will have access to them and will be able to transact and store their digital assets. They will also engage with other asset creators, as well as sell and monetize their assets on the platform. Smart contracts will be used to handle everything on the site.</p>
+                            </div>
+                        </div> 
                     </div>
-                
-                    <div class="zoom-text">
-                        <h2 class="features_text">Shiba Shopping District</h2>  
-                        <p class="features_para">We will launch the alpha version with five theme parks; users will have access to them and will be able to transact and store their digital assets. They will also engage with other asset creators, as well as sell and monetize their assets on the platform. Smart contracts will be used to handle everything on the site.</p>
-                    </div>
-                </div>
-             </div>
-            </div>
+        
 
-            <div class="row">
-                <div class="features-box1">
+                    <div class="col-md-4  artifix_zoom ">
+                        <div class="border_radi_us">
+                            <div class="zoom-img">
+                              <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/Sol_Fashion.jpg" alt="">
+                            </div>
+                        
+                            <div class="zoom-text">
+                                <h2 class="features_text">Sol Fashion District</h2>
+                                <p class="features_para">For all the fashionistas out there, virtual fashion is here now. Take part in virtual fashion shows</p>
+                            </div>
+                        </div>   
+                    </div>
 
-                    <div class="zoom border_radi_us">
-                        <div class="zoom-img">
-                        <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/Sol_Fashion.jpg" alt="">
-                    </div>
-                
-                    <div class="zoom-text">
-                        <h2 class="features_text">Sol Fashion District</h2>
-                        <p class="features_para">For all the fashionistas out there, virtual fashion is here now. Take part in virtual fashion shows</p>
-                    </div>
-                </div>
+                    <div class="col-md-4  artifix_zoom ">
+                        <div class="border_radi_us">
+                            <div class="zoom-img">
+                               <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/Metarix_Game_Plaza.jpg" alt="">
+                            </div>
+                    
+                            <div class="zoom-text">
+                                <h2 class="features_text">Metarix Game Plaza</h2>   
+                                <p class="features_para"> Playing slot machines is one of the most famous games played in casinos around the world.</p>
+                            </div>
+                        </div>
+                     </div>
 
-                    <div class="zoom border_radi_us">
-                        <div class="zoom-img">
-                        <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/Metarix_Game_Plaza.jpg" alt="">
-                    </div>
-                
-                    <div class="zoom-text">
-                        <h2 class="features_text">Metarix Game Plaza</h2>   
-                        <p class="features_para"> Playing slot machines is one of the most famous games played in casinos around the world.</p>
-                    </div>
-                </div>
+                    <div class="col-md-4  artifix_zoom ">
+                        <div class="border_radi_us">
+                            <div class="zoom-img">
+                              <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/Ripple_Party_City.jpg" alt="">
+                            </div>
+                    
+                            <div class="zoom-text">
+                                <h2 class="features_text">Ripple Party City</h2>  
+                                <p class="features_para">Party 24*7 into the virtual world of Ripple Party City. The place hosts top DJ artists from around the world. With Metarix, club-hopping is as easy as a click of a button.</p>
+                            </div>
+                        </div> 
+                     </div>
+          
 
-                    <div class="zoom border_radi_us">
-                        <div class="zoom-img">
-                        <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/Ripple_Party_City.jpg" alt="">
+                    <div class="col-md-4  artifix_zoom ">
+                        <div class="border_radi_us">
+                            <div class="zoom-img">
+                                 <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/Casino.jpg" alt="">
+                            </div>
+                    
+                            <div class="zoom-text">
+                                <h2 class="features_text">Cosmos Casino</h2>
+                                <p class="features_para">You don’t need to visit Vegas now. Metarix brings the best of Vegas, Macau, and Marina Bay into one single virtual world. Play your favourite games like poker, blackjack, roulette, and others by sitting at your home and betting on cryptocurrencies.  </p>
+                            </div>
+                        </div>
                     </div>
-                
-                    <div class="zoom-text">
-                        <h2 class="features_text">Ripple Party City</h2>  
-                        <p class="features_para">Party 24*7 into the virtual world of Ripple Party City. The place hosts top DJ artists from around the world. With Metarix, club-hopping is as easy as a click of a button.</p>
-                    </div>
-                </div>
-            </div>
-            </div>
 
-            <div class="row">
-                <div class="features-box1">
+                    <div class="col-md-4  artifix_zoom">
+                        <div class="border_radi_us">
+                            <div class="zoom-img">
+                                <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/Gala_Game_Zone.jpg" alt="">
+                            </div>
+                    
+                            <div class="zoom-text">
+                                <h2 class="features_text">Gala Game Zone</h2>   
+                                <p class="features_para">We all love games. With time, games have changed a lot and today, everyone is stuck to their screen playing action, arcade, or racing games.</p>
+                            </div>
+                        </div> 
+                    </div>
 
-                    <div class="zoom border_radi_us">
-                        <div class="zoom-img">
-                        <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/Casino.jpg" alt="">
+                    <div class="col-md-4  artifix_zoom ">
+                        <div class="border_radi_us">
+                            <div class="zoom-img">
+                              <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/Doge_Park.jpg" alt="">
+                            </div>
+                    
+                            <div class="zoom-text">
+                                <h2 class="features_text">Doge Park</h2>  
+                                <p class="features_para">A park dedicated to dogs worldwide including the famous Shiba Inu from Japan. Doge Park is a place where people can buy and sell 3D NFTs of different dogs and also socialize with other fellow dog lovers across the globe. </p>
+                            </div>
+                        </div>
                     </div>
-                
-                    <div class="zoom-text">
-                        <h2 class="features_text">Cosmos Casino</h2>
-                        <p class="features_para">You don’t need to visit Vegas now. Metarix brings the best of Vegas, Macau, and Marina Bay into one single virtual world. Play your favourite games like poker, blackjack, roulette, and others by sitting at your home and betting on cryptocurrencies.  </p>
-                    </div>
-                </div>
-
-                    <div class="zoom border_radi_us">
-                        <div class="zoom-img">
-                        <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/Gala_Game_Zone.jpg" alt="">
-                    </div>
-                
-                    <div class="zoom-text">
-                        <h2 class="features_text">Gala Game Zone</h2>   
-                        <p class="features_para">We all love games. With time, games have changed a lot and today, everyone is stuck to their screen playing action, arcade, or racing games.</p>
-                    </div>
-                </div>
-
-                    <div class="zoom border_radi_us">
-                        <div class="zoom-img">
-                        <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/Doge_Park.jpg" alt="">
-                    </div>
-                
-                    <div class="zoom-text">
-                        <h2 class="features_text">Doge Park</h2>  
-                        <p class="features_para">A park dedicated to dogs worldwide including the famous Shiba Inu from Japan. Doge Park is a place where people can buy and sell 3D NFTs of different dogs and also socialize with other fellow dog lovers across the globe. </p>
-                    </div>
-                </div>
-            </div>
             </div>
         <!-- <div class="row">
             <div class="col-md-12 card_data">
@@ -412,10 +420,204 @@
 
   <section class="token_sale" id="Token">
       <div class="container token_sale_data" >
-        <div class="heading">
-            <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> Tokenomics <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
-          </div>
-          <div class="row token_sale items">
+             <div class="heading">
+                 <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> Tokenomics <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
+             </div>
+
+            <div class="row">
+                <div class="token_sale_items">
+                    <div class="total_supply">
+                        <p>Total Supply</p>
+                        <h6>1.2B</h6>
+                    </div>
+                    <div class="total_supply">
+                        <p>Total Name</p>
+                        <h6>Metarix</h6>
+                    </div>
+                    <div class="total_supply">
+                        <p>Symbol</p>
+                        <h6>MTRX</h6>
+                    </div>
+                    <div class="total_supply">
+                        <p>Blockchain</p>
+                        <h6>Binance Smart Chain</h6>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="staking_rewads">
+                        <div class="staking_rew_items">
+                            <h6><span>10% </span> Staking Rewards</h6>
+                            <p>20 % TGE 10 % unlock each month after</p>
+                        </div>
+                        <div class="tokens">
+                            <p>Tokens</p>
+                            <h6>120,000,000</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                     <div class="staking_rewads">
+                        <div class="staking_rew_items">
+                            <h6><span>10% </span> P2E Rewards</h6>
+                            <p>0% TGE for 3 months 10 % unlock each month after</p>
+                        </div>
+                        <div class="tokens">
+                            <p>Tokens</p>
+                            <h6>120,000,000</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="staking_rewads">
+                        <div class="staking_rew_items">
+                            <h6><span>5% </span> Marketing</h6>
+                            <p>25 % TGE 15 % unlock each month after</p>
+                        </div>
+                        <div class="tokens">
+                            <p>Tokens</p>
+                            <h6>60,000,000</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                     <div class="staking_rewads">
+                        <div class="staking_rew_items">
+                            <h6><span>5% </span> Team</h6>
+                            <p>0 % TGE for 3 months 5 % unlock each month after</p>
+                        </div>
+                        <div class="tokens">
+                            <p>Tokens</p>
+                            <h6>60,000,000</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="staking_rewads">
+                        <div class="staking_rew_items">
+                            <h6><span>5% </span> Development</h6>
+                            <p>10 % TGE 5 % unlock each month after</p>
+                        </div>
+                        <div class="tokens">
+                            <p>Tokens</p>
+                            <h6>60,000,000</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                     <div class="staking_rewads">
+                        <div class="staking_rew_items">
+                            <h6><span>15% </span> Exchange Listing and Liquiditys</h6>
+                            <p>20 % TGE 10 % unlock each month after</p>
+                        </div>
+                        <div class="tokens">
+                            <p>Tokens</p>
+                            <h6>180,000,000</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                     <div class="staking_rewads">
+                        <div class="staking_rew_items">
+                            <h6><span>10% </span> Token Sale</h6>
+                            <p>15 % TGE and 5% vested each week after</p>
+                        </div>
+                        <div class="tokens">
+                            <p>Tokens</p>
+                            <h6>120,000,000</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                     <div class="staking_rewads">
+                        <div class="staking_rew_items">
+                            <h6><span>4% </span> Advisors</h6>
+                            <p>0 % TGE for 3 months and 10 % unlock each month after</p>
+                        </div>
+                        <div class="tokens">
+                            <p>Tokens</p>
+                            <h6>48,000,000</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                     <div class="staking_rewads">
+                        <div class="staking_rew_items">
+                            <h6><span>10% </span> Founders and stakeholders </h6>
+                            <p>0 % TGE for 3 months and 10 % unlock each month after</p>
+                        </div>
+                        <div class="tokens">
+                            <p>Tokens</p>
+                            <h6>120,000,000</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                     <div class="staking_rewads">
+                        <div class="staking_rew_items">
+                            <h6><span>10% </span> Launchpads</h6>
+                            <p>20 % TGE and 3 % vested weekly</p>
+                        </div>
+                        <div class="tokens">
+                            <p>Tokens</p>
+                            <h6>120,000,000</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                     <div class="staking_rewads">
+                        <div class="staking_rew_items">
+                            <h6><span>5% </span> Reward Campaigns</h6>
+                            <p>10 % TGE and 5 % unlock each month after</p>
+                        </div>
+                        <div class="tokens">
+                            <p>Tokens</p>
+                            <h6>60,000,000</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                     <div class="staking_rewads">
+                        <div class="staking_rew_items">
+                            <h6><span>10% </span> Reserve </h6>
+                            <p>10 % TGE and 5 % unlock each month after</p>
+                        </div>
+                        <div class="tokens">
+                            <p>Tokens</p>
+                            <h6>120,000,000</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                     <div class="staking_rewads">
+                        <div class="staking_rew_items">
+                            <h6><span>1% </span> Tenset Partnership </h6>
+                            <p>20 %TGE 10 % vested monthly</p>
+                        </div>
+                        <div class="tokens">
+                            <p>Tokens</p>
+                            <h6>12,000,000</h6>
+                        </div>
+                    </div>
+                </div>
+                
+
+
+
+
+
+
+            </div>
+          <!-- <div class="row token_sale items">
                  <div class="col-xl-6 left_side_sale_data">
                     <div class="right_sale2">
                         <div class="token-sale-items">
@@ -466,10 +668,7 @@
                             <h4 class="sale_text"> <SPan class="sale_bold"> Development</SPan></h4>
                             <H3>5%</H3>
                         </div>
-                        <!-- <div class="token-sale-items">
-                            <h4 class="sale_text"> <SPan class="sale_bold"> Founders</SPan></h4>
-                            <H3>5%</H3>
-                        </div> -->
+                        
                         <div class="token-sale-items">
                             <h4 class="sale_text">Exchange <SPan class="sale_bold">  Listing</SPan></h4>
                             <H3>15%</H3>
@@ -506,8 +705,8 @@
               <div class="col-xl-6 right_side_sale_data">
                 <img class="token_sale_img animated undefined" src="img/token_sale.png" alt="">
               </div>
-          </div>
-      </div>
+          </div> -->
+    </div>
   </section>
 
   <!-- END-TOKEN-SALE  -->
@@ -945,7 +1144,7 @@
                 <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> OUR BLOGS <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
               </div>
         <div class="row mt-3">
-       <div class="col-sm-4">
+       <div class="col-xl-4">
         <div class="card">
           <div class="zoom-img">
           <img class="card-img-top features_img" src="img/blog/metarics_blogchain.jpeg" alt="Card image cap">
@@ -958,7 +1157,7 @@
           </div>
         </div>
        </div>
-         <div class="col-sm-4">
+         <div class="col-xl-4">
         <div class="card">
           <div class="zoom-img">
           <img class="card-img-top features_img" src="img/blog/metarix_metaverse.jpeg" alt="Card image cap">
@@ -967,11 +1166,11 @@
             <h5 class="card-title">Essential Information About Metarix and Metaverse</h5>
             <span>March 24, 2022 -3 min read</span>
             <p class="card-text">In 2021 when Facebook changed its name to meta, everyone was left wondering what is meta all about.  </p>
-            <a href="#" class="sdk_btn">Read More</a>
+            <a href="about_metaverse_blog.php" target="_blank" class="sdk_btn">Read More</a>
           </div>
         </div>
        </div>
-         <div class="col-sm-4">
+         <div class="col-xl-4">
         <div class="card">
           <div class="zoom-img">
           <img class="card-img-top features_img" src="img/blog/virtual_plot.jpeg" alt="Card image cap">
@@ -980,7 +1179,7 @@
             <h5 class="card-title">Virtual Plot in Metaverse</h5>
             <span>March 24, 2022 -3 min read</span>
             <p class="card-text">‘Meta’ means ‘after’ or ‘beyond’ in Greek. Meta will now be the name of the overall Facebook company.”</p>
-            <a href="#" class="sdk_btn">Read More</a>
+            <a href="virtual-plot_blog.php" target="_blank" class="sdk_btn">Read More</a>
           </div>
         </div>
        </div>
@@ -1042,7 +1241,7 @@
                                 <div class="mask rgba-indigo-light">
                                     <div class="main_left_text">
                                         <h2 class="right_text">JOIN OUR COMMUNITY</h2>
-                                        <p class="right_para">"Metarix is a globally operational Metaverse platform to revolutionize the virtual world and provide an interesting and satisfying experience to a huge number of people. Our major purpose as a Metaverse platform is to deliver secure and sustainable solutions to all crypto and NFT fans, artists, and other diverse users. It will be a virtual environment with a wide range of entertainment opportunities, including gaming, art, science, music, culture, fashion, and shopping."</p>
+                                        <!-- <p class="right_para">"Metarix is a globally operational Metaverse platform to revolutionize the virtual world and provide an interesting and satisfying experience to a huge number of people. Our major purpose as a Metaverse platform is to deliver secure and sustainable solutions to all crypto and NFT fans, artists, and other diverse users. It will be a virtual environment with a wide range of entertainment opportunities, including gaming, art, science, music, culture, fashion, and shopping."</p> -->
                                          <div class="commuinty_button">
                                             <form action="form/subscribe.php" class="form-inline" method="post">
                                      <?php if(isset($message)){ ?>

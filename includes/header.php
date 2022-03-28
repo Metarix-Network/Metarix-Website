@@ -76,12 +76,12 @@
           <li><a class="nav-link scrollto" href="#Token">Token Sale</a></li>
           <li><a class="nav-link scrollto" href="#Roadmap">Roadmap</a></li>
           <li><a class="nav-link scrollto" href="#Teams">Team</a></li>
-          <li><a class="nav-link scrollto" href="#Partners">Partners</a></li>
-         
-          <li><a class="nav-link scrollto" href="#">More</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#Partners">Partners</a></li>
+          <li><a class="nav-link scrollto" href="metarix_landing.php">More</a></li> -->
           <li><a class="nav-link scrollto"  href="contact.php">Contact Us</a></li>
-          <li><a class="getstarted scrollto" target="_blank" href="img/whitepaper/Whitepaper .pdf">Whitepaper</a></li>
+          <li><a class="getstarted scrollto" target="_blank" href="img/whitepaper/Whitepaper.pdf">Whitepaper</a></li>
           <li><a class="getstarted scrollto"  href="staking.php">Staking</a></li>
+          <li><a class="getstarted scrollto"  target="_blank" href="metarix_landing.php">Pre-Sale</a></li>
         </ul>
         <i class="fa fa-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->

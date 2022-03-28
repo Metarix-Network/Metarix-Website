@@ -45,7 +45,7 @@
            <div class="box_data">
              <img class="services_img" src="img/metarix_blockchain/b_services_2.png" alt="">
              <h4 class="services_head">Metaverse Asset  </h4>
-             <h6 class="services_bold">Tokenisation</h6>
+             <h6 class="services_bold">Tokenization</h6>
              <div class="box_para">
                <p>Tokenize your metaverse assets to open up additional revenue streams and trading functionalities for your users.</p>
              </div>

@@ -31,10 +31,7 @@
                 </div>
             </div>
 
-            <div class="blog1_img">
-                <img  src="img/blog/blog1/blog1.png" alt="">
-            </div>
-
+           
 
             <div class="blog_metarixs">
                 <div class="metarixs_details">
@@ -81,9 +78,7 @@
 
 
 
-            <div class="blog1_img">
-                <img  src="img/blog/blog1/blog2.png" alt="">
-            </div>
+           
 
 
             <div class="blog_metarixs">

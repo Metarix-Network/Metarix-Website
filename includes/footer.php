@@ -22,7 +22,7 @@
                 <a class="footer_tags" href="#Teams">Team</a>
                 <a class="footer_tags" href="contact.php">Contact Us</a>
                 <li class="ftlightpaper">
-                  <a target="_blank" href="img/whitepaper/Whitepaper .pdf">Light Paper</a>
+                  <a target="_blank" href="img/lightpaper/Lightpaper.pdf">Light Paper</a>
                 </li>
             </div>
           </div>
@@ -61,11 +61,6 @@
   
 
 
-
-<
-
-
-<!-- update page  -->
 
 
  
