@@ -49,8 +49,8 @@
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top" >
-    <div class="container d-flex align-items-center">
-
+    <div class="container ">
+    <div class="header-inner">
       <h1 class="logo me-auto"><a href="index.php"><img src="img/metarix_update_2022.png" alt=""></a></h1>
     
 
@@ -81,11 +81,11 @@
           <li><a class="nav-link scrollto"  href="contact.php">Contact Us</a></li>
           <li><a class="getstarted scrollto" target="_blank" href="img/whitepaper/Whitepaper.pdf">Whitepaper</a></li>
           <li><a class="getstarted scrollto"  href="staking.php">Staking</a></li>
-          <li><a class="getstarted scrollto"  target="_blank" href="metarix_landing.php">Pre-Sale</a></li>
+          <li><a class="getstarted scrollto"  target="_blank" href="metarix_landing.php">Pre - Sale</a></li>
         </ul>
         <i class="fa fa-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-
+    </div>
     </div>
   </header><!-- End Header -->
 

@@ -32,7 +32,7 @@
             </div> 
             <div class="row pt-5">
 
-                    <div class=" col-md-4  artifix_zoom ">
+                    <div class="col-lg-4 col-md-6  artifix_zoom ">
                         <div class="border_radi_us">
                             <div class="zoom-img">
                                 <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/BitcoinBusiness_City.jpg" alt="">
@@ -45,7 +45,7 @@
                         </div>     
                     </div>
 
-                    <div class="col-md-4   artifix_zoom ">
+                    <div class="col-lg-4 col-md-6 artifix_zoom ">
                         <div class="border_radi_us">
                             <div class="zoom-img">
                                 <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/Opensea_art.jpg" alt="">
@@ -58,7 +58,7 @@
                         </div> 
                     </div>
 
-                    <div class=" col-md-4  artifix_zoom ">
+                    <div class="col-lg-4 col-md-6 artifix_zoom ">
                         <div class="border_radi_us">
                             <div class="zoom-img">
                                 <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/Shiba_Shopping.jpg" alt="">
@@ -72,7 +72,7 @@
                     </div>
         
 
-                    <div class="col-md-4  artifix_zoom ">
+                    <div class="col-lg-4 col-md-6 artifix_zoom ">
                         <div class="border_radi_us">
                             <div class="zoom-img">
                               <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/Sol_Fashion.jpg" alt="">
@@ -85,7 +85,7 @@
                         </div>   
                     </div>
 
-                    <div class="col-md-4  artifix_zoom ">
+                    <div class="col-lg-4 col-md-6 artifix_zoom ">
                         <div class="border_radi_us">
                             <div class="zoom-img">
                                <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/Metarix_Game_Plaza.jpg" alt="">
@@ -98,7 +98,7 @@
                         </div>
                      </div>
 
-                    <div class="col-md-4  artifix_zoom ">
+                    <div class="col-lg-4 col-md-6 artifix_zoom ">
                         <div class="border_radi_us">
                             <div class="zoom-img">
                               <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/Ripple_Party_City.jpg" alt="">
@@ -112,7 +112,7 @@
                      </div>
           
 
-                    <div class="col-md-4  artifix_zoom ">
+                    <div class="col-lg-4 col-md-6 artifix_zoom ">
                         <div class="border_radi_us">
                             <div class="zoom-img">
                                  <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/Casino.jpg" alt="">
@@ -125,7 +125,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4  artifix_zoom">
+                    <div class="col-lg-4 col-md-6 artifix_zoom">
                         <div class="border_radi_us">
                             <div class="zoom-img">
                                 <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/Gala_Game_Zone.jpg" alt="">
@@ -138,7 +138,7 @@
                         </div> 
                     </div>
 
-                    <div class="col-md-4  artifix_zoom ">
+                    <div class="col-lg-4 col-md-6 artifix_zoom ">
                         <div class="border_radi_us">
                             <div class="zoom-img">
                               <img class="features_img" src="img/Artifacts/Artifacts_Conceptual/Doge_Park.jpg" alt="">
@@ -241,10 +241,54 @@
 
 
   <!-- ALL ARTIFACTS  -->
-  <section class="all_products" id="Products">
+    <section class="all_products mobile-pro" id="Products">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                  <div class="mask rgba-indigo-light">
+                    <h2 class="right_text">Metarix Metaverse</h2>
+                    <p class="right_para">Explore the Metaverse world with Metarix</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="slide-img">
+                      <img src="img/slid.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                  <div class="mask rgba-indigo-light">
+                    <h2 class="right_text">Ethereum, Binance, and Bored Ape Islands </h2>
+                    <p class="right_para">Looking for premium property in the Metarix world? Look no further. Metarix has Ethereum, Binance, and Bored Ape Islands within the platform.</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="slide-img slider-two">
+                      <img src="img/slid2.jpg" alt="">
+                    </div>
+                </div>
+                
+           </div>
+            <div class="row">
+                <div class="col-md-6">
+                  <div class="mask rgba-indigo-light">
+                        <h2 class="right_text">Metarix Smart Watch</h2>
+                        <p class="right_para">Experience the 3D smart watch from Metarix</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="slide-img">
+                      <img src="img/slid3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  <section class="all_products desk-pro" id="Products">
     <div class="container-fluid p-0">
-          <div class="row">
-                <div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
+          <div class="row"> 
+                <div id="video-carousel-example2" class="carousel slide carousel-fade desk-slid" data-ride="carousel">
                     <ol class="carousel-indicators">
                     <li data-target="#video-carousel-example2" data-slide-to="0" class="active"></li>
                     </ol>
@@ -268,7 +312,7 @@
 
 
 
-                <div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
+                <div id="video-carousel-example2" class="carousel slide carousel-fade desk-slid" data-ride="carousel">
                     <ol class="carousel-indicators">
                     <li data-target="#video-carousel-example2" data-slide-to="0" class="active"></li>
                     </ol>
@@ -287,11 +331,11 @@
                             </div>
                         </div>
                     </div>
-                </div>    
+                </div> 
 
               
 
-                <div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
+                <div id="video-carousel-example2" class="carousel slide carousel-fade desk-slid" data-ride="carousel">
                     <ol class="carousel-indicators">
                     <li data-target="#video-carousel-example2" data-slide-to="0" class="active"></li>
                     </ol>
@@ -444,7 +488,7 @@
                     </div>
                 </div>
                 
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="staking_rewads">
                         <div class="staking_rew_items">
                             <h6><span>10% </span> Staking Rewards</h6>
@@ -456,7 +500,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6">
                      <div class="staking_rewads">
                         <div class="staking_rew_items">
                             <h6><span>10% </span> P2E Rewards</h6>
@@ -469,7 +513,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="staking_rewads">
                         <div class="staking_rew_items">
                             <h6><span>5% </span> Marketing</h6>
@@ -481,7 +525,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6">
                      <div class="staking_rewads">
                         <div class="staking_rew_items">
                             <h6><span>5% </span> Team</h6>
@@ -494,7 +538,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="staking_rewads">
                         <div class="staking_rew_items">
                             <h6><span>5% </span> Development</h6>
@@ -506,10 +550,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6">
                      <div class="staking_rewads">
                         <div class="staking_rew_items">
-                            <h6><span>15% </span> Exchange Listing and Liquiditys</h6>
+                            <h6><span>15% </span> Exchange Listing and Liquidity</h6>
                             <p>20 % TGE 10 % unlock each month after</p>
                         </div>
                         <div class="tokens">
@@ -519,7 +563,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-lg-6">
                      <div class="staking_rewads">
                         <div class="staking_rew_items">
                             <h6><span>10% </span> Token Sale</h6>
@@ -532,7 +576,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-lg-6">
                      <div class="staking_rewads">
                         <div class="staking_rew_items">
                             <h6><span>4% </span> Advisors</h6>
@@ -545,7 +589,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-lg-6">
                      <div class="staking_rewads">
                         <div class="staking_rew_items">
                             <h6><span>10% </span> Founders and stakeholders </h6>
@@ -558,7 +602,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-lg-6">
                      <div class="staking_rewads">
                         <div class="staking_rew_items">
                             <h6><span>10% </span> Launchpads</h6>
@@ -571,7 +615,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-lg-6">
                      <div class="staking_rewads">
                         <div class="staking_rew_items">
                             <h6><span>5% </span> Reward Campaigns</h6>
@@ -584,7 +628,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-lg-6">
                      <div class="staking_rewads">
                         <div class="staking_rew_items">
                             <h6><span>10% </span> Reserve </h6>
@@ -597,7 +641,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-lg-6">
                      <div class="staking_rewads">
                         <div class="staking_rew_items">
                             <h6><span>1% </span> Tenset Partnership </h6>
@@ -1144,7 +1188,7 @@
                 <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> OUR BLOGS <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
               </div>
         <div class="row mt-3">
-       <div class="col-xl-4">
+       <div class="col-lg-4 col-md-6">
         <div class="card">
           <div class="zoom-img">
           <img class="card-img-top features_img" src="img/blog/metarics_blogchain.jpeg" alt="Card image cap">
@@ -1157,7 +1201,7 @@
           </div>
         </div>
        </div>
-         <div class="col-xl-4">
+         <div class="col-lg-4 col-md-6">
         <div class="card">
           <div class="zoom-img">
           <img class="card-img-top features_img" src="img/blog/metarix_metaverse.jpeg" alt="Card image cap">
@@ -1170,7 +1214,7 @@
           </div>
         </div>
        </div>
-         <div class="col-xl-4">
+         <div class="col-lg-4 col-md-6">
         <div class="card">
           <div class="zoom-img">
           <img class="card-img-top features_img" src="img/blog/virtual_plot.jpeg" alt="Card image cap">

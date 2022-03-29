@@ -111,18 +111,18 @@
             <div class="col-md-6">
                 <div class="landing_ryt_data">
                     <div class="busnd">
-                        <h6>1 BUSD = 14.28 PRIDE</h6>
+                        <h6>1 BNB = 50000 MTRX</h6>
                     </div>
                     <div class="total rasid">
                         <h6>Total Raised</h6>
-                        <p>91231.11 BUSD</p>
+                        <p>000.00 MTRX</p>
                     </div>
                     <div class="landing_progress">
-                        <h6>Progress <span>55%</span></h6>
+                        <h6>Progress <span>0%</span></h6>
                         <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
                         </div>
-                        <p>1302780.29/1608602.571 PRIDE</p>
+                        <p>000000000000.0000 MTRX</p>
                     </div>
                     <div class="limites_status">
                         <div class="limited">
@@ -152,15 +152,15 @@
                     </div>
                     <div class="token_distrubation">
                         <h6 class="info_name">Min. Allocation</h6>
-                        <p class="info_para">0.01 BUSD</p>
+                        <p class="info_para">0.5 BNB</p>
                     </div>
                     <div class="token_distrubation">
                         <h6 class="info_name">Max Allocation</h6>
-                        <p class="info_para">10508.85 BUSD</p>
+                        <p class="info_para">10 BNB</p>
                     </div>
                     <div class="token_distrubation">
                         <h6 class="info_name">Total Price</h6>
-                        <p class="info_para">1 BUSD = 14.28 PRIDE</p>
+                        <p class="info_para">1 BNB= 50000 MTRX</p>
                     </div>
                     <div class="token_distrubation_end">
                         <h6 class="info_name">Access Type</h6>
@@ -175,11 +175,11 @@
                 <div class="token_info_data">
                     <div class="token_distrubation">
                         <h6 class="info_name">Name</h6>
-                        <p class="info_para">Normal Exiles</p>
+                        <p class="info_para">Metarix</p>
                     </div>
                     <div class="token_distrubation">
                         <h6 class="info_name">symbol</h6>
-                        <p class="info_para">PRIDE</p>
+                        <p class="info_para">MTRX</p>
                     </div>
                     <div class="token_distrubation">
                         <h6 class="info_name">Decimals</h6>
@@ -191,7 +191,7 @@
                     </div>
                     <div class="token_distrubation_end">
                         <h6 class="info_name">Total Supply</h6>
-                        <p class="info_para">1608602.571</p>
+                        <p class="info_para">1.200000000</p>
                     </div>
                 </div>
             </div>
@@ -207,6 +207,7 @@
                 <div class="landingpage_paragharph">
                     <p>Metarix is a fully Decentralized Blockchain platform for Gaming, NFT's and Metaverse. We at Metarix are dreaming to build the community owned decentralized blockchain platform. Our platform consists of Blockchain, DEX, NFT Marketplace, Metaverse , Virtual Land Parcels , SDK and much more. </p>
                     <p>We are dreaming of building a complete ecosystem for gaming projects to give users the one stop solution for all the gaming project needs.</p>
+                    <p>Metarix is a decentralized web 3.0 platform and is powered using the Metarix Chain a layer 2 solution on top of Ethereum using Ethereum's Scaling and security</p>
                 </div>
             </div>
             <div class="col-md-6">
@@ -226,9 +227,9 @@
  <footer class="footer" id="footer" >
       <div class="container footer_data">
         <div class="row footer_items">
-            <div class="col-xl-4 footer_left">
-                <img class="footers_img" src="img/footer-logo.png" alt="">
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+            <div class="col-md-6 footer_left">
+                <img class="footers_img" src="img/metarix_update_2022.png" alt="">
+                <p>Metarix is a fully decentralized Blockchain for Gaming, NFT's and Metaverse and Digital Marketing Platform through Metaverse.</p>
             </div>
             <!-- <div class="col-xl-3">
                 <h4 class="ft_head_text">Our Products</h4>
@@ -238,28 +239,31 @@
                     <a class="footer_tags" href="market_place.php">Metarix Market Place</a>
                 </div>
             </div> -->
-          <div class="col-xl-4">
+          <!-- <div class="col-xl-4">
             <h4 class="ft_head_text">Our Links</h4>
             <div class="ft_links">
                 <a class="footer_tags" href="#Token">Terms of Services</a>
                 <a class="footer_tags" href="#Roadmap">Privacy Policy</a>
-                <!-- <a class="footer_tags" href="#Teams">Team</a>
+                <a class="footer_tags" href="#Teams">Team</a>
                 <a class="footer_tags" href="contact.php">Contact Us</a>
                 <li class="ftlightpaper">
                   <a target="_blank" href="img/whitepaper/Whitepaper .pdf">Light Paper</a>
-                </li> -->
+                </li>
             </div>
-          </div>
-          <div class="col-xl-4">
-            <h4 class="ft_head_text">Follow Us</h4>
-            <div class="ft_social_links">
-              <a target="_blank" href="https://www.facebook.com/The-Metarix-104132965453352 "><i class="fa icon_links fa-facebook" aria-hidden="true" ></i></a>
-              <a target="_blank" href="#"><i class="fa icon_links fa-instagram" aria-hidden="true"></i></a>
-              <a target="_blank" href="https://www.linkedin.com/company/the-metabox/ "><i class="fa icon_links fa-linkedin-square" aria-hidden="true"></i></a>
-              <a target="_blank" href="https://twitter.com/The_Metarix"><i class="fa icon_links fa-twitter" aria-hidden="true"></i></a>
-              <a target="_blank" href="https://t.me/metarix "><i class="fa icon_links fa-telegram" aria-hidden="true"></i></a>
-              <a target="_blank" href="#"><i class="fa icon_links fa-youtube-play" aria-hidden="true"></i></a>
-            </div>
+          </div> -->
+          <div class="col-md-6 footer_right_landing">
+              <div class="ft_right_land">
+                 <h4 class="ft_head_text">Follow Us</h4>
+                <div class="ft_social_links ft_social_links_land">
+                    <a target="_blank" href="https://www.facebook.com/The-Metarix-104132965453352 "><i class="fa icon_links fa-facebook" aria-hidden="true" ></i></a>
+                    <a target="_blank" href="#"><i class="fa icon_links fa-instagram" aria-hidden="true"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/company/the-metabox/ "><i class="fa icon_links fa-linkedin-square" aria-hidden="true"></i></a>
+                    <a target="_blank" href="https://twitter.com/The_Metarix"><i class="fa icon_links fa-twitter" aria-hidden="true"></i></a>
+                    <a target="_blank" href="https://t.me/metarix "><i class="fa icon_links fa-telegram" aria-hidden="true"></i></a>
+                    <a target="_blank" href="#"><i class="fa icon_links fa-youtube-play" aria-hidden="true"></i></a>
+                </div>
+              </div>
+
           </div>
         </div>
       </div>
