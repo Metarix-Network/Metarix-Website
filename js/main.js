@@ -309,15 +309,15 @@
         panning = false;
       }
 
-      // zoom_data.onmousemove = function (e) {
-      //   e.preventDefault();
-      //   if (!panning) {
-      //     return;
-      //   }
-      //   pointX = (e.clientX - start.x);
-      //   pointY = (e.clientY - start.y);
-      //   setTransform();
-      // }
+      zoom_data.onmousemove = function (e) {
+        e.preventDefault();
+        if (!panning) {
+          return;
+        }
+        pointX = (e.clientX - start.x);
+        pointY = (e.clientY - start.y);
+        setTransform();
+      }
       
 
 $(document).ready(function (){
@@ -337,19 +337,6 @@ function ScrollZoom(slideContainer,max_scale,factor){
 
     target.css('transform-origin','0 0')
     target.on("mousewheel DOMMouseScroll",scrolled)
-      target.on('mousemove', click)
-    target.on('mousedown', function() {
-        drag_started = 1;
-        target.css({'cursor':'click', 'transition': 'transform 0s'});
-        /* Save mouse position */
-        last_mouse_position = { x: event.pageX, y: event.pageY};
-    });
-
-    target.on('mouseup mouseout', function() {
-        drag_started = 0;
-        target.css({'cursor':'default', 'transition': curr_tranform});
-    });
-
     function scrolled(e){
         var offset = slideContainer.offset()
         zoom_point.x = e.pageX - offset.left
@@ -361,7 +348,7 @@ function ScrollZoom(slideContainer,max_scale,factor){
           //we are on firefox
           delta = e.originalEvent.detail;
         }
-        delta = Math.max(-1,Math.min(1,delta)) // cap the delta to [-1,1] for cross browser consistency
+        delta = Math.max(0.1,Math.min(0.1,delta)) // cap the delta to [-1,1] for cross browser consistency
 
         // determine the point on where the slide is zoomed in
         zoom_target.x = (zoom_point.x - pos.x)/scale
@@ -369,7 +356,7 @@ function ScrollZoom(slideContainer,max_scale,factor){
 
         // apply zoom
         scale += delta * factor * scale
-        scale = Math.max(1,Math.min(max_scale,scale))
+        scale = Math.max(0.4,Math.min(max_scale,scale))
 
         // calculate x and y based on zoom
         pos.x = -zoom_target.x * scale + zoom_point.x
@@ -378,33 +365,12 @@ function ScrollZoom(slideContainer,max_scale,factor){
         update()
     }
 
-    function click(event){
-        if(drag_started == 1) {
-            var current_mouse_position = { x: event.pageX, y: event.pageY};
-            var change_x = current_mouse_position.x - last_mouse_position.x;
-            var change_y = current_mouse_position.y - last_mouse_position.y;
+   
+    
 
-            /* Save mouse position */
-            last_mouse_position = current_mouse_position;
-            //Add the position change
-            pos.x += change_x;
-            pos.y += change_y;
-
-        update()
-        }
-    }
 
     function update(){
-        // Make sure the slide stays in its container area when zooming out
-        if(pos.x>0)
-            pos.x = 0
-        if(pos.x+size.w*scale<size.w)
-            pos.x = -size.w*(scale-1)
-        if(pos.y>0)
-            pos.y = 0
-        if(pos.y+size.h*scale<size.h)
-            pos.y = -size.h*(scale-1)
-
+       
         target.css('transform','translate('+(pos.x)+'px,'+(pos.y)+'px) scale('+scale+','+scale+')')
     }
 }
