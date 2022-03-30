@@ -107,14 +107,16 @@
   <section class="bitcoins">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <div class="bitcoins_data">
             <h2 class="bitcoin_text">Meaningful Outcomes</h2>
             <p class="bitcoin_para">We create a tangible impact. We make sure you see value from your investment.</p>
           </div>
         </div>
-        <div class="col-md-6 text-end">
+        <div class="col-lg-6 ">
+          <div class="btc-img">
           <img class="bitcoin_img animated undefined" src="img/metarix_blockchain/bitcoin.png" alt="">
+        </div>
         </div>
 
       </div>

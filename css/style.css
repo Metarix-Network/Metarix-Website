@@ -660,6 +660,9 @@ div#imageView > img {
     width: 30%;
     left: 48px;
 }
+.main_left_text.mobile-comunity {
+    display: none;
+}
 .lft_text_white{
     color: #fff;
     font-size: 40px;
@@ -1210,6 +1213,9 @@ div#imageView > img {
     height: 180px;
     border-radius: 50% !important;
 }
+img.teams_img:hover {
+    outline: 8px solid #c72c8a;
+}
 
 .fit_img {
     object-fit: cover;
@@ -1257,6 +1263,28 @@ div#imageView > img {
 .our_partners {
     padding: 50px 0px;
 }
+.Strategic_partner, .Media_Partners {
+    text-align: center;
+    position: relative;
+}
+.Strategic_partner h1 , .Media_Partners h1   {
+    font-size: 26px;
+    margin-bottom: 0;
+    padding-top: 25px;
+    /* position: relative; */
+}
+.Strategic_partner::after , .Media_Partners::after   {
+    content: " ";
+    right: 0px;
+    bottom: -9px;
+    left: 0;
+    width: 150px;
+    height: 2px;
+    margin: 0 auto;
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);
+    position: absolute;
+}
+
 
 .partner-list {
     display: flex;
@@ -2092,7 +2120,9 @@ img.cont_img {
     text-align: left;
     padding: 20px 0px 0px 0px;
 }
-
+.commuinty_button .form-group {
+    width: 100%;
+}
 
 .community_para {
     padding-top: 15px;
@@ -2101,6 +2131,7 @@ img.cont_img {
 
 .commuinty_button form {
     display: flex;
+    width: 100%;
 }
 
 .commuinty_button form .form-control {
@@ -2113,7 +2144,8 @@ img.cont_img {
     text-indent: 9px;
     height: 50px;
     margin-right: 10px;
-    min-width: 380px
+    max-width: 500px;
+    width: 100%;
 }
 
 .commuinty_button form .btn {
@@ -2144,7 +2176,9 @@ img.cont_img {
     background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);
     height: 50px;
     border-radius: 0px 10px 10px 0px;
-    width: 210px;
+    padding: 0 25px;
+    width: 100%;
+    max-width: 150px;
 }
 
 /* Blockchain page started  */
@@ -2282,7 +2316,9 @@ img.cont_img {
 .bitcoins_data {
     color: #FFF;
 }
-
+.btc-img {
+    text-align: right;
+}
 .bitcoins_data {
     color: #FFF;
     position: relative;
@@ -3867,6 +3903,16 @@ img.footers_img {
 .blockchain_head {
     top: 0;
 }
+.community .main_left_text {
+    width: 40%;
+    left: 35px;
+}
+#market_place {
+    margin-top: 65px;
+}
+.landing-foot .footer_items {
+    display: flex;
+}
 }
 
 @media (max-width: 991px) {
@@ -3937,23 +3983,23 @@ img.footers_img {
     .sdk_main_img {
         bottom: -22px;
     }
-    .button_sdk_img {
+    /*.button_sdk_img {
         top: -58px;
         width: 100px;
-    }
+    }*/
     .sdk_button_text,
     .sdk_button_para {
         font-size: 20px;
     }
-    .sdk_data {
+    /*.sdk_data {
         position: relative;
         top: -31px;
-    }
-    .play_store,
+    }*/
+    /*.play_store,
     .apple_store,
     .linux {
         height: 170px;
-    }
+    }*/
     .features-box {
         grid-template-columns: 1fr 1fr;
     }
@@ -3983,7 +4029,7 @@ img.footers_img {
         grid-gap: 61px;
     }
     .bitcoin_text {
-        font-size: 40px;
+        font-size:28px;
     }
     .bitcoin_para {
         font-size: 21px;
@@ -4149,6 +4195,23 @@ display: none;
     width: 100%;
     margin: auto;
 }
+.bitcoins_data {
+    top: 10%;
+}
+.deposits_data {
+    position: relative;
+    top: 0;
+    text-align: center;
+}
+.deposit_items {
+    display: flex;
+    padding-top: 0;
+    gap: 15px;
+    justify-content: center;
+}
+.deposit_data_2 {
+    padding: 100px 0px 0;
+}
 }
 
 
@@ -4245,21 +4308,29 @@ display: none;
         grid-template-columns: 1fr;
     }
     .bitcoins_data {
-        top: 80%;
-    }
+    top: 0;
+    margin-top: 35px;
+    text-align: center;
+}
     .bitcoin_text {
         font-size: 27px;
     }
     .bitcoin_para {
         font-size: 15px;
-        width: 50%;
+        width: 100%;
     }
     .bitcoin_img {
-        top: -158px;
+        top: 0px;
     }
     .bitcoin_img {
         max-width: 200px;
     }
+    .btc-img {
+    text-align: center;
+}
+.deposits {
+    text-align: center;
+}
     /* metarix DAO page  */
     .metarix_bitcoins_data {
         top: 4%;
@@ -4391,14 +4462,7 @@ display: none;
     padding-top: 3px;
     margin-bottom: 0;
 }
-.commuinty_button form .form-control {
-    height: 40px;
-    min-width: 340px;
-}
-.commuinty_button form .btn-primary {
-    height: 40px;
-    width: 150px;
-}
+
 .right_text {
     font-size: 20px;
 }
@@ -4408,7 +4472,60 @@ display: none;
 .heading_text {
     font-size: 25px;
 }
-
+.community .carousel {
+    display: none;
+}
+.main_left_text.mobile-comunity {
+    display: block;
+    position: inherit;
+    max-width: 500px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+}
+.community {
+    padding: 50px 0;
+}
+.market_place_data {
+    padding: 40px 0px 0;
+}
+.nft_right_img {
+    padding: 0px 0px 30px;
+    text-align: center;
+}
+.main-head {
+    top: 0;
+}
+.buttons_sdk_items {
+    padding-top: 20px;
+}
+.features-box {
+    padding: 25px 15px 50px 15px;
+}
+.metarix_artifix {
+    padding: 0px;
+}
+.meta_landing {
+    padding: 35px 0px 0px 0px;
+}
+.landing_token_informations {
+    position: relative;
+    top: 0;
+    margin-top: 20px;
+}
+.tok_info_head {
+    margin-bottom: 10px;
+    margin-top: 35px;
+}
+.landing_abt_head {
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+.ft_right_land {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+}
 }
 @media (max-width: 640px) {
 .desk-pro{
@@ -4425,6 +4542,38 @@ display: none;
     text-align: center;
 }
 .slider-two img{
+    width: 100%;
+}
+.features-box {
+ grid-template-columns: 1fr;
+ padding: 25px 15px 150px 15px;
+     grid-gap: 20px;
+}
+.metarixs_landing_logo img {
+    width: 50px;
+}
+.metarixs_landing_logo {
+    outline:2px solid #be5a3a;
+    width: 70px;
+    height: 70px;
+}
+.landing_heding p {
+    width: 100%;
+    font-size: 15px;
+}
+.tok_info_head {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 35px;
+}
+.landing_token_informations {
+    position: relative;
+    top: 0;
+    margin-top: 20px;
+}
+.landingpage_paragharph p {
+    font-size: 16px;
     width: 100%;
 }
 }
@@ -4484,15 +4633,9 @@ display: none;
     /* metarix sdk  */
     .buttons_sdk_items {
         grid-template-columns: 1fr;
-        grid-gap: 93px;
-        width: 60%;
-        margin: auto;
+        grid-gap: 50px;
     }
-    .features-box {
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 30px;
-        padding: 90px 20px 70px 20px;
-    }
+    
     .community_items {
         top: -13%;
     }
@@ -4570,6 +4713,7 @@ display: none;
     display: block;    
     margin: 20px 0px 40px 0px;
 }
+
 }
 
 @media (max-width: 478px) {
@@ -4605,9 +4749,7 @@ display: none;
         display: none;
     }
     /* metarix sdk  */
-    .features-box {
-        grid-template-columns: 1fr;
-    }
+    
     /* cooming soon  */
     .soon_text {
         font-size: 50px;
@@ -4636,7 +4778,7 @@ display: none;
 }
 #footer {
     background-color: #000;
-    padding: 0;
+    padding: 30px 0;
 }
 .heading_text{
     font-size: 20px;
@@ -4658,7 +4800,6 @@ display: none;
     height: 100%;
 }
 .staking_rewads {
-    min-height: 100%;
     align-items: center;
 }
 }

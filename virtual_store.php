@@ -1,7 +1,7 @@
 <?php include("includes/header.php"); ?>
     <!-- ======= Hero Section ======= -->
 <body  style='overflow: hidden !important;'>
-<section class="map_data" >
+<section class="map_data"  >
 
  
 <div class="CodeMirror-vscrollbar"  id ="data" cm-not-content="true" style="display: block; bottom: 0px;"><div style="min-width: 1px; height: 1052px;"></div></div>
@@ -11,7 +11,9 @@
 	<a class="map_btn zoom-out"><i class="fa fa-search-minus"></i></a> -->
 	<a class="map_btn zoom-init"><i class="fa fa-recycle"></i></a>
 </div>
+<div  id ="slideContainer">
 <img class="imgsks map target"  id="imageView"  src="img/Box_map2.jpg" />
+</div>
 </section>	  <!-- ======= map_data Section Closed ======= -->
 
  <?php // include("includes/footer.php"); ?>

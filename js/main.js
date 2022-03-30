@@ -287,49 +287,138 @@
 
 
 
- // var scale = 1,
- //        panning = false,
- //        pointX = 0,
- //        pointY = 0,
- //        maxZoom = false,
- //        start = { x: 0, y: 0 },
- //        zoom_data = document.getElementById("imageView");
+ var scale = 1,
+        panning = false,
+        pointX = 0,
+        pointY = 0,
+        maxZoom = false,
+        start = { x: 0, y: 0 },
+        zoom_data = document.getElementById("imageView");
 
- //      function setTransform() {
- //        zoom_data.style.transform = "translate(" + pointX + "px, " + pointY + "px) scale(" + scale + ")";
- //      }
+      function setTransform() {
+        zoom_data.style.transform = "translate(" + pointX + "px, " + pointY + "px) scale(" + scale + ")";
+      }
 
- //      zoom_data.onmousedown = function (e) {
- //        e.preventDefault();
- //        start = { x: e.clientX - pointX, y: e.clientY - pointY };
- //        panning = true;
- //      }
+      zoom_data.onmousedown = function (e) {
+        e.preventDefault();
+        start = { x: e.clientX - pointX, y: e.clientY - pointY };
+        panning = true;
+      }
 
- //      zoom_data.onmouseup = function (e) {
- //        panning = false;
- //      }
+      zoom_data.onmouseup = function (e) {
+        panning = false;
+      }
 
- //      zoom_data.onmousemove = function (e) {
- //        e.preventDefault();
- //        if (!panning) {
- //          return;
- //        }
- //        pointX = (e.clientX - start.x);
- //        pointY = (e.clientY - start.y);
- //        setTransform();
- //      }
+      // zoom_data.onmousemove = function (e) {
+      //   e.preventDefault();
+      //   if (!panning) {
+      //     return;
+      //   }
+      //   pointX = (e.clientX - start.x);
+      //   pointY = (e.clientY - start.y);
+      //   setTransform();
+      // }
+      
 
- //      zoom_data.onwheel = function (e) {
- //        e.preventDefault();
- //        var xs = (e.clientX - pointX) / scale,
- //          ys = (e.clientY - pointY) / scale,
- //          delta = (e.wheelDelta ? e.wheelDelta : -e.deltaY);
- //        (delta > 0) ? (scale *= 1.2) : (scale /= 1.2);
- //        pointX = e.clientX - xs * scale;
- //        pointY = e.clientY - ys * scale;
+$(document).ready(function (){
+    var scroll_zoom = new ScrollZoom($('#slideContainer'),5,0.5)
+})
 
- //        setTransform();
- //      }
+function ScrollZoom(slideContainer,max_scale,factor){
+    var target = slideContainer.children().first()
+    var size = {w:target.width(),h:target.height()}
+    var pos = {x:0,y:0}
+    var scale = 1
+    var zoom_target = {x:0,y:0}
+    var zoom_point = {x:0,y:0}
+    var curr_tranform = target.css('transition')
+    var last_mouse_position = { x:0, y:0 }
+    var drag_started = 0
+
+    target.css('transform-origin','0 0')
+    target.on("mousewheel DOMMouseScroll",scrolled)
+      target.on('mousemove', click)
+    target.on('mousedown', function() {
+        drag_started = 1;
+        target.css({'cursor':'click', 'transition': 'transform 0s'});
+        /* Save mouse position */
+        last_mouse_position = { x: event.pageX, y: event.pageY};
+    });
+
+    target.on('mouseup mouseout', function() {
+        drag_started = 0;
+        target.css({'cursor':'default', 'transition': curr_tranform});
+    });
+
+    function scrolled(e){
+        var offset = slideContainer.offset()
+        zoom_point.x = e.pageX - offset.left
+        zoom_point.y = e.pageY - offset.top
+
+        e.preventDefault();
+        var delta = e.delta || e.originalEvent.wheelDelta;
+        if (delta === undefined) {
+          //we are on firefox
+          delta = e.originalEvent.detail;
+        }
+        delta = Math.max(-1,Math.min(1,delta)) // cap the delta to [-1,1] for cross browser consistency
+
+        // determine the point on where the slide is zoomed in
+        zoom_target.x = (zoom_point.x - pos.x)/scale
+        zoom_target.y = (zoom_point.y - pos.y)/scale
+
+        // apply zoom
+        scale += delta * factor * scale
+        scale = Math.max(1,Math.min(max_scale,scale))
+
+        // calculate x and y based on zoom
+        pos.x = -zoom_target.x * scale + zoom_point.x
+        pos.y = -zoom_target.y * scale + zoom_point.y
+
+        update()
+    }
+
+    function click(event){
+        if(drag_started == 1) {
+            var current_mouse_position = { x: event.pageX, y: event.pageY};
+            var change_x = current_mouse_position.x - last_mouse_position.x;
+            var change_y = current_mouse_position.y - last_mouse_position.y;
+
+            /* Save mouse position */
+            last_mouse_position = current_mouse_position;
+            //Add the position change
+            pos.x += change_x;
+            pos.y += change_y;
+
+        update()
+        }
+    }
+
+    function update(){
+        // Make sure the slide stays in its container area when zooming out
+        if(pos.x>0)
+            pos.x = 0
+        if(pos.x+size.w*scale<size.w)
+            pos.x = -size.w*(scale-1)
+        if(pos.y>0)
+            pos.y = 0
+        if(pos.y+size.h*scale<size.h)
+            pos.y = -size.h*(scale-1)
+
+        target.css('transform','translate('+(pos.x)+'px,'+(pos.y)+'px) scale('+scale+','+scale+')')
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -344,193 +433,3 @@
 
 
 
- $("#imageView")wheelzoom(function(){
-    var defaults = {
-        zoom: 0.10,
-        maxZoom: false,
-        initialZoom: 1,
-    };
-
-    var main = function(img, options){
-        if (!img || !img.nodeName || img.nodeName !== 'IMG') { return; }
-
-        var settings = {};
-        var width;
-        var height;
-        var bgWidth;
-        var bgHeight;
-        var bgPosX;
-        var bgPosY;
-        var previousEvent;
-        var cachedDataUrl;
-
-      
-        function updateBgStyle() {
-            if (bgPosX > 0) {
-                bgPosX = 0;
-            } else if (bgPosX < width - bgWidth) {
-                bgPosX = width - bgWidth;
-            }
-
-            if (bgPosY > 0) {
-                bgPosY = 0;
-            } else if (bgPosY < height - bgHeight) {
-                bgPosY = height - bgHeight;
-            }
-
-            
-        }
-
-        function reset() {
-            bgWidth = width;
-            bgHeight = height;
-            bgPosX = bgPosY = 0;
-            updateBgStyle();
-        }
-
-        function onwheel(e) {
-            var deltaY = 0;
-
-            e.preventDefault();
-
-            if (e.deltaY) { // FireFox 17+ (IE9+, Chrome 31+?)
-                deltaY = e.deltaY;
-            } else if (e.wheelDelta) {
-                deltaY = -e.wheelDelta;
-            }
-
-            // As far as I know, there is no good cross-browser way to get the cursor position relative to the event target.
-            // We have to calculate the target element's position relative to the document, and subtrack that from the
-            // cursor's position relative to the document.
-            var rect = img.getBoundingClientRect();
-            var offsetX = e.pageX - rect.left - window.pageXOffset;
-            var offsetY = e.pageY - rect.top - window.pageYOffset;
-
-            // Record the offset between the bg edge and cursor:
-            var bgCursorX = offsetX - bgPosX;
-            var bgCursorY = offsetY - bgPosY;
-
-            // Use the previous offset to get the percent offset between the bg edge and cursor:
-            var bgRatioX = bgCursorX/bgWidth;
-            var bgRatioY = bgCursorY/bgHeight;
-
-            // Update the bg size:
-            if (deltaY < 0) {
-                bgWidth += bgWidth*settings.zoom;
-                bgHeight += bgHeight*settings.zoom;
-            } else {
-                bgWidth -= bgWidth*settings.zoom;
-                bgHeight -= bgHeight*settings.zoom;
-            }
-
-            if (settings.maxZoom) {
-                bgWidth = Math.min(width*settings.maxZoom, bgWidth);
-                bgHeight = Math.min(height*settings.maxZoom, bgHeight);
-            }
-
-            // Take the percent offset and apply it to the new size:
-            bgPosX = offsetX - (bgWidth * bgRatioX);
-            bgPosY = offsetY - (bgHeight * bgRatioY);
-
-            // Prevent zooming out beyond the starting size
-            if (bgWidth <= width || bgHeight <= height) {
-                reset();
-            } else {
-                updateBgStyle();
-            }
-        }
-
-        function drag(e) {
-            e.preventDefault();
-            bgPosX += (e.pageX - previousEvent.pageX);
-            bgPosY += (e.pageY - previousEvent.pageY);
-            previousEvent = e;
-            updateBgStyle();
-        }
-
-        function removeDrag() {
-            document.removeEventListener('mouseup', removeDrag);
-            document.removeEventListener('mousemove', drag);
-        }
-
-        // Make the background draggable
-        function draggable(e) {
-            e.preventDefault();
-            previousEvent = e;
-            document.addEventListener('mousemove', drag);
-            document.addEventListener('mouseup', removeDrag);
-        }
-
-        function load() {
-            var initial = Math.max(settings.initialZoom, 1);
-
-            if (img.src === cachedDataUrl) return;
-
-            var computedStyle = window.getComputedStyle(img, null);
-
-            width = parseInt(computedStyle.width, 10);
-            height = parseInt(computedStyle.height, 10);
-            bgWidth = width * initial;
-            bgHeight = height * initial;
-            bgPosX = -(bgWidth - width)/2;
-            bgPosY = -(bgHeight - height)/2;;
-
-            setSrcToBackground(img);
-
-            img.style.backgroundSize = bgWidth+'px '+bgHeight+'px';
-            img.style.backgroundPosition = bgPosX+'px '+bgPosY+'px';
-            img.addEventListener('wheelzoom.reset', reset);
-
-            img.addEventListener('wheel', onwheel);
-            img.addEventListener('mousedown', draggable);
-        }
-
-        var destroy = function (originalProperties) {
-            img.removeEventListener('wheelzoom.destroy', destroy);
-            img.removeEventListener('wheelzoom.reset', reset);
-            img.removeEventListener('load', load);
-            img.removeEventListener('mouseup', removeDrag);
-            img.removeEventListener('mousemove', drag);
-            img.removeEventListener('mousedown', draggable);
-            img.removeEventListener('wheel', onwheel);
-
-            img.style.backgroundImage = originalProperties.backgroundImage;
-            img.style.backgroundRepeat = originalProperties.backgroundRepeat;
-            img.src = originalProperties.src;
-        }.bind(null, {
-            backgroundImage: img.style.backgroundImage,
-            backgroundRepeat: img.style.backgroundRepeat,
-            src: img.src
-        });
-
-        img.addEventListener('wheelzoom.destroy', destroy);
-
-        options = options || {};
-
-        Object.keys(defaults).forEach(function(key){
-            settings[key] = options[key] !== undefined ? options[key] : defaults[key];
-        });
-
-        if (img.complete) {
-            load();
-        }
-
-        img.addEventListener('load', load);
-    };
-
-    // Do nothing in IE9 or below
-    if (typeof window.btoa !== 'function') {
-        return function(elements) {
-            return elements;
-        };
-    } else {
-        return function(elements, options) {
-            if (elements && elements.length) {
-                Array.prototype.forEach.call(elements, main, options);
-            } else if (elements && elements.nodeName) {
-                main(elements, options);
-            }
-            return elements;
-        };
-    }
-});

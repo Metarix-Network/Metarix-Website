@@ -191,7 +191,7 @@
                     </div>
                     <div class="token_distrubation_end">
                         <h6 class="info_name">Total Supply</h6>
-                        <p class="info_para">1.200000000</p>
+                        <p class="info_para">1,200,000,000</p>
                     </div>
                 </div>
             </div>
@@ -205,14 +205,13 @@
             <h2 class="landing_abt_head">About the Project</h2>
             <div class="col-md-6">
                 <div class="landingpage_paragharph">
-                    <p>Metarix is a fully Decentralized Blockchain platform for Gaming, NFT's and Metaverse. We at Metarix are dreaming to build the community owned decentralized blockchain platform. Our platform consists of Blockchain, DEX, NFT Marketplace, Metaverse , Virtual Land Parcels , SDK and much more. </p>
-                    <p>We are dreaming of building a complete ecosystem for gaming projects to give users the one stop solution for all the gaming project needs.</p>
-                    <p>Metarix is a decentralized web 3.0 platform and is powered using the Metarix Chain a layer 2 solution on top of Ethereum using Ethereum's Scaling and security</p>
+                    <p>Metarix is a fully Decentralized Blockchain platform for Gaming, NFT's and Metaverse. We at Metarix are dreaming to build the community owned decentralized blockchain platform. Our platform consists of Blockchain, DEX, NFT Marketplace, Metaverse , Virtual Land Parcels , SDK and much more.
+                    We are dreaming of building a complete ecosystem for gaming projects to give users the one stop solution for all the gaming project needs. Metarix is a decentralized web 3.0 platform and is powered using the Metarix Chain a layer 2 solution on top of Ethereum using Ethereum's Scaling and security measures to ensure our users are protected. </p>
                 </div>
             </div>
             <div class="col-md-6">
                  <div class="landingpage_paragharph">
-                    <p>Metarix is a decentralized web 3.0 platform and is powered using the Metarix Chain a layer 2 solution on top of Ethereum using Ethereum's Scaling and security measures to ensure our users are protected. User's who participate in this private sale and stake with us are eligible for 50 percent discount on our land parcels subject to all the terms and conditions. Metarix Virtual Land project consists of 109,000 land parcels each of different size. You can buy virtual real estate property on Metarix chain and build anything you dream of in Metarix Metaverse using our own SDK. We provide additonal support from Building NFT's and Games to customizing them and even pushing your project to greater extent with all the resources of Metarix at your disposal. </p>
+                    <p>User's who participate in this private sale and stake with us are eligible for 50 percent discount on our land parcels subject to all the terms and conditions. Metarix Virtual Land project consists of 109,000 land parcels each of different size. You can buy virtual real estate property on Metarix chain and build anything you dream of in Metarix Metaverse using our own SDK. We provide additonal support from Building NFT's and Games to customizing them and even pushing your project to greater extent with all the resources of Metarix at your disposal. </p>
                 </div>
             </div>
         </div>
@@ -224,7 +223,7 @@
 
 
  <!-- footer started  -->
- <footer class="footer" id="footer" >
+ <footer class="footer landing-foot" id="footer" >
       <div class="container footer_data">
         <div class="row footer_items">
             <div class="col-md-6 footer_left">

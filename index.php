@@ -1155,6 +1155,11 @@
 
                     <div class="team_data_3">
                         <div class="box team_member">
+                            <img class="teams_img fit_img" src="img/team/Saurabh_Gupta.png" alt="">
+                            <h4 class="teams_text">Saurabh Gupta</h4>
+                            <p class="teams_para">Chief Marketing Analyst</p>
+                        </div>
+                        <div class="box team_member">
                             <img class="teams_img fit_img" src="img/team/Giselle Cahill.jpeg" alt="">
                             <h4 class="teams_text">Giselle Cahill</h4>
                             <p class="teams_para">Chief Marketing Officer</p>
@@ -1236,13 +1241,29 @@
         <div class="container" >
             <div class="heading">
                 <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> OUR PARTNERS <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
-              </div>
+            </div>
             <div class="row">
-                    <div class="partners-data">
+                <div class="col-xl-6">
+                    <div class="Strategic_partner">
+                        <h1>Strategic Partners</h1>
+                         <!-- <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> Strategic Partners <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1> -->
+                    </div>
+                     <div class="partners-data">
                          <img class="partner_img" src="img/partners/Genesis_update_logo.png" alt="Vector.svg">
                          <img class="partner_img" src="img/partners/logo-geller.png" alt="UnrealEngine_logo.svg">
                          <img class="partner_img" src="img/partners/konma.png" alt="UnrealEngine_logo.svg">
                     </div>
+                </div>
+                <div class="col-xl-6">
+                     <div class="Media_Partners">
+                         <h1>Media Partners</h1>
+                         <!-- <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> Media Partners <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1> -->
+                    </div>
+                     <div class="partners-data">
+                         <img class="partner_img" src="img/partners/corum.png" alt="Vector.svg">
+                    </div>
+                </div>
+                   
             </div>
         </div>
     </section>
@@ -1294,7 +1315,7 @@
                                     </div>
                                   <?php } ?>
                                                 <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Your Email"></div>
-                                                <div class="form-group"><button class="btn btn-primary" type="submit">Subscribe </button></div>
+                                                <button class="btn btn-primary" type="submit">Subscribe </button>
                                             </form>                                           
                                         </div>
                                     </div>
@@ -1304,6 +1325,21 @@
                     </div>
                 </div>    
           </div>
+          <div class="main_left_text mobile-comunity">
+                                        <h2 class="right_text">JOIN OUR COMMUNITY</h2>
+                                        <!-- <p class="right_para">"Metarix is a globally operational Metaverse platform to revolutionize the virtual world and provide an interesting and satisfying experience to a huge number of people. Our major purpose as a Metaverse platform is to deliver secure and sustainable solutions to all crypto and NFT fans, artists, and other diverse users. It will be a virtual environment with a wide range of entertainment opportunities, including gaming, art, science, music, culture, fashion, and shopping."</p> -->
+                                         <div class="commuinty_button">
+                                            <form action="form/subscribe.php" class="form-inline" method="post">
+                                     <?php if(isset($message)){ ?>
+                                    <div class="alert alert-success" role="alert">
+                                        <?php echo $message; ?>
+                                    </div>
+                                  <?php } ?>
+                                                <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Your Email"></div>
+                                                <button class="btn btn-primary" type="submit">Subscribe </button>
+                                            </form>                                           
+                                        </div>
+                                    </div>
     </div>
   </section>
 <!-- community sdk  -->
