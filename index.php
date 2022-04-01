@@ -92,7 +92,7 @@
                             </div>
                     
                             <div class="zoom-text">
-                                <h2 class="features_text">Metarix Game Plaza</h2>   
+                                <h2 class="features_text">Hex Game Plaza</h2>   
                                 <p class="features_para"> Playing slot machines is one of the most famous games played in casinos around the world.</p>
                             </div>
                         </div>
@@ -259,7 +259,7 @@
             <div class="row">
                 <div class="col-md-6">
                   <div class="mask rgba-indigo-light">
-                    <h2 class="right_text">Ethereum, Binance, and Bored Ape Islands </h2>
+                    <h2 class="right_text">Ethereum, Binance, and Ada Ape Islands </h2>
                     <p class="right_para">Looking for premium property in the Metarix world? Look no further. Metarix has Ethereum, Binance, and Bored Ape Islands within the platform.</p>
                   </div>
                 </div>
@@ -324,7 +324,7 @@
                                 </video>
                                 <div class="mask rgba-indigo-light">
                                     <div class="main_right_text">
-                                        <h2 class="right_text">Ethereum, Binance, and Bored Ape Islands </h2>
+                                        <h2 class="right_text">Ethereum, Binance, and Ada Ape Islands </h2>
                                         <p class="right_para">Looking for premium property in the Metarix world? Look no further. Metarix has Ethereum, Binance, and Bored Ape Islands within the platform.</p>
                                     </div>
                                 </div>

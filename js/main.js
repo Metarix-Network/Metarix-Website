@@ -348,7 +348,7 @@ function ScrollZoom(slideContainer,max_scale,factor){
           //we are on firefox
           delta = e.originalEvent.detail;
         }
-        delta = Math.max(0.1,Math.min(0.1,delta)) // cap the delta to [-1,1] for cross browser consistency
+        delta = Math.max(-1,Math.min(0.5,delta)) // cap the delta to [-1,1] for cross browser consistency
 
         // determine the point on where the slide is zoomed in
         zoom_target.x = (zoom_point.x - pos.x)/scale
@@ -356,7 +356,7 @@ function ScrollZoom(slideContainer,max_scale,factor){
 
         // apply zoom
         scale += delta * factor * scale
-        scale = Math.max(0.4,Math.min(max_scale,scale))
+        scale = Math.max(0.2,Math.min(max_scale,scale))
 
         // calculate x and y based on zoom
         pos.x = -zoom_target.x * scale + zoom_point.x

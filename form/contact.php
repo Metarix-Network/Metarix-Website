@@ -14,7 +14,7 @@ require 'sendgrid/vendor/autoload.php'; // If you're using Composer (recommended
 $email = new \SendGrid\Mail\Mail(); 
 $email->setFrom("admin@genesisblockchainlabs.com", "Metarix");
 $email->setSubject($_POST['subject']);
-print_r($email);
+
 
 $email->addTo("support@metarix.network", "Support Metarix");
 $email->addCc("paluvala@genesisblockchainlabs.com", "Paluvala Metarix");
