@@ -3818,6 +3818,58 @@ img.footers_img {
 
 
 
+/* landing timer page  */
+
+.landing_timmer {
+    padding: 150px 0px 200px 0px;
+    text-align: center;
+    background: url(../img/metarix_landing/landing_bgg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.timer_head h1 {
+    font-size: 45px;
+    font-weight: 700;
+    background: -webkit-linear-gradient(right, #0756d2 0%, #c72c8a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.timer_head p {
+    width: 66%;
+    margin: 0 auto;
+    padding: 15px 0px 50px 0;
+}
+
+#clockdiv{
+	color: #fff;
+    display: flex;
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+    gap: 40px;
+}
+
+#clockdiv .timmer{
+	padding: 12px 18px;
+    border-radius: 15px;
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);
+    width: 115px;
+    height: 115px;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+/* landing timer Ending */
+
+
 
 
 
@@ -4690,7 +4742,7 @@ display: none;
 }
 .header-scrolled .container {
     margin: 0px;
-    padding: 0px 12px;
+    padding: 0px 15px;
 }
 .carousel-fade .carousel-item {
     padding-top: 45px;

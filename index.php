@@ -260,7 +260,7 @@
                 <div class="col-md-6">
                   <div class="mask rgba-indigo-light">
                     <h2 class="right_text">Ethereum, Binance, and Ada Ape Islands </h2>
-                    <p class="right_para">Looking for premium property in the Metarix world? Look no further. Metarix has Ethereum, Binance, and Bored Ape Islands within the platform.</p>
+                    <p class="right_para">Looking for premium property in the Metarix world? Look no further. Metarix has Ethereum, Binance, and Ada Ape Islands within the platform.</p>
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -325,7 +325,7 @@
                                 <div class="mask rgba-indigo-light">
                                     <div class="main_right_text">
                                         <h2 class="right_text">Ethereum, Binance, and Ada Ape Islands </h2>
-                                        <p class="right_para">Looking for premium property in the Metarix world? Look no further. Metarix has Ethereum, Binance, and Bored Ape Islands within the platform.</p>
+                                        <p class="right_para">Looking for premium property in the Metarix world? Look no further. Metarix has Ethereum, Binance, and Ada Ape Islands within the platform.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1249,9 +1249,9 @@
                          <!-- <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> Strategic Partners <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1> -->
                     </div>
                      <div class="partners-data">
-                         <img class="partner_img" src="img/partners/Genesis_update_logo.png" alt="Vector.svg">
-                         <img class="partner_img" src="img/partners/logo-geller.png" alt="UnrealEngine_logo.svg">
-                         <img class="partner_img" src="img/partners/konma.png" alt="UnrealEngine_logo.svg">
+                         <!-- <img class="partner_img" src="img/partners/Genesis_update_logo.png" alt="Vector.svg"> -->
+                         <a href="#" target="_blank"><img class="partner_img" src="img/partners/logo-geller.png" alt="UnrealEngine_logo.svg"></a>
+                         <a href="https://www.konma.community/" target="_blank" ><img class="partner_img" src="img/partners/konma.png" alt="UnrealEngine_logo.svg"></a>
                     </div>
                 </div>
                 <div class="col-xl-6">
@@ -1260,7 +1260,7 @@
                          <!-- <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> Media Partners <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1> -->
                     </div>
                      <div class="partners-data">
-                         <img class="partner_img" src="img/partners/corum.png" alt="Vector.svg">
+                         <a href="https://corum8.com/" target="_blank" ><img class="partner_img" src="img/partners/corum.png" alt="Vector.svg"></a>
                     </div>
                 </div>
                    
@@ -1280,7 +1280,7 @@
                 <!-- <div class="col-md-12"> -->
                     <div class="partners-data">
                          <img src="https://everdome-static.s3.eu-north-1.amazonaws.com/Vector_23ae3b3aba.svg" alt="Vector.svg">
-                         <img class="partner_img" src="img/partners/Unity_Technologies_logo.png" alt="UnrealEngine_logo.svg">
+                         <a href="https://unity.com/" target="_blank"><img class="partner_img" src="img/partners/Unity_Technologies_logo.png" alt="UnrealEngine_logo.svg"></a>  
                     </div>
                 <!-- </div> -->
             </div>

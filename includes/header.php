@@ -80,8 +80,8 @@
           <li><a class="nav-link scrollto" href="metarix_landing.php">More</a></li> -->
           <li><a class="nav-link scrollto"  href="contact.php">Contact Us</a></li>
           <li><a class="getstarted scrollto" target="_blank" href="img/whitepaper/Whitepaper.pdf">Whitepaper</a></li>
-          <li><a class="getstarted scrollto"  href="staking.php">Staking</a></li>
-          <li><a class="getstarted scrollto pre_sale_btn"  target="_blank" href="metarix_landing.php">PreSale</a></li>
+          <li><a class="getstarted scrollto"  href="coming_soon.php">Staking</a></li>
+          <li><a class="getstarted scrollto pre_sale_btn"  target="_blank" href="landing_timmer.php">Presale !!</a></li>
         </ul>
         <i class="fa fa-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->

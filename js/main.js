@@ -376,26 +376,16 @@ function ScrollZoom(slideContainer,max_scale,factor){
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
     $("#data").scroll(function() {
   var scroll = $("#data").scrollTop();
   $("#imageView").css({
      width: (100 + scroll/5) + "%"
   })
 })
+
+
+
+
 
 
 
