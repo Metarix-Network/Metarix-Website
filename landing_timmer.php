@@ -1,9 +1,102 @@
-<!-- Header started  -->
-<?php include("includes/header.php"); ?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Metarix - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  
+  <!-- Favicons -->
+  <link href="img/metrix_fav_icon.png" rel="icon">
+  <link href="img/metrix_fav_icon.png" rel="apple-touch-icon">
+
+  <!-- font awsome  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Bootstrap Files -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+  
+  <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="css/style.css" >
+
+
+  <!-- slider  -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" rel="stylesheet" />
+
+
+<!-- animation bounce  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+
+
+
+
+  <!-- ========================================================  -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top" >
+    <div class="container ">
+    <div class="header-inner">
+      <h1 class="logo me-auto"><a href="index.php"><img src="img/metarix_update_2022.png" alt=""></a></h1>
+    
+
+    </div>
+    </div>
+  </header><!-- End Header -->
+
+  <!-- <div id="preloader"></div> -->
+
+        <div id="loader" >
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="lading"></div>
+        </div>
+
+
+
+
+
+
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z3HR2PVS87"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Z3HR2PVS87');
+</script>
+
+
+
+
+
+
+
 
 <div class="metarixs_landing">
-
-
 <section class="landing_timmer">
     <div class="container">
         <div class="row">
@@ -12,11 +105,11 @@
                <p>A pre-sale is a targeted sale before your product actually goes live. You sell the idea of your course to a small portion of your audience before you’ve created all of your course content. Typically, you pre-sell by setting up your sales page, discounting your course, and sending an email out to your list (or communicating the sale to your audience in another way).</p>
            </div>
             <div id="clockdiv">
-                <div class="timmer">
+                <div class="timmer ">
                     <span class="days"></span>
                     <div class="smalltext">Days</div>
                 </div>
-                <div class="timmer">
+                <div class="timmer ">
                     <span class="hours"></span>
                     <div class="smalltext">Hours</div>
                 </div>
@@ -100,13 +193,18 @@ function initializeClock(id, endtime) {
 
     if (t.total <= 0) {
       clearInterval(timeinterval);
+      //console.log('kuldeep');
+      window.location = "metarix_landing.php";
     }
+    
   }
 
   updateClock();
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
+const deadline = '2022-04-19 12:00 am'; //final
+//const deadline = '2022-04-07 04:58 pm'; //testing
+//var deadline = new Date(Date.parse(new Date()) + 18 * 24 * 60 * 60 * 1000);
 initializeClock('clockdiv', deadline);
 </script>

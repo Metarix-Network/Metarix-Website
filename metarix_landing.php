@@ -43,6 +43,11 @@
 
 
   <!-- ========================================================  -->
+  <style type="text/css">
+      #btn-disconnect{
+        display: none;
+      }
+  </style>
 </head>
 
 <body>
@@ -57,7 +62,9 @@
       <nav id="navbar" class="navbar">
         
         <ul>
-          <li><a class="getstarted scrollto" target="_blank" href="#">Connect Wallet</a></li>
+          <li><a class="getstarted scrollto" id="btn-connect" href="javascript:void(0);">Connect Wallet</a></li>
+          <li><a class="getstarted scrollto" id="btn-disconnect" href="javascript:void(0);">Disconnect Wallet</a></li>
+
           <!-- <li><a class="getstarted scrollto"  href="#"><i class="fa fa-user-o" aria-hidden="true"></i></a></li> -->
           <li><a class="users"  href="#"><i class="fa user_btn fa-user-o" aria-hidden="true"></i></a></li>
         </ul>
@@ -284,6 +291,12 @@
   <!-- Template Main JS File -->
   <script src="js/main.js"></script>
   <script src="js/custom.js"></script>
+
+  <script src="https://unpkg.com/web3@latest/dist/web3.min.js"></script>
+<script type="text/javascript" src="https://unpkg.com/web3modal"></script>
+<script type="text/javascript" src="https://unpkg.com/evm-chains/lib/index.js"></script>
+<script type="text/javascript" src="https://unpkg.com/@walletconnect/web3-provider"></script>
+<script src="js/walletConnect.js"></script>
 
 
 </body>

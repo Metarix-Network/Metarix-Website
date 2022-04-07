@@ -3855,17 +3855,24 @@ img.footers_img {
 }
 
 #clockdiv .timmer{
-	padding: 12px 18px;
-    border-radius: 15px;
-    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);
+	padding: 18px;
+    border-radius: 50%;
     width: 115px;
     height: 115px;
+    border-top: 3px solid #ae308f;
+    border-bottom: 3px solid #2849b7;
+    background-image: linear-gradient(#b22f8d, #2949b7), linear-gradient(#ab3190, #2949b6);
+    background-size: 0px 0;
 }
 
 .smalltext{
 	padding-top: 5px;
 	font-size: 16px;
 }
+
+
+
+
 
 /* landing timer Ending */
 

@@ -5,10 +5,10 @@
       <div class="row">
         <h1 class="soon_text">Comming Soon</h1>
         <!-- <img src="img/commingsoon.png" alt=""> -->
-        <div class="comming_button">
+        <!-- <div class="comming_button">
           <a class="soon_btn" href="#">Windows SDK</a>
           <a class="soon_btn" href="#">IOS SDK</a>
-        </div>
+        </div> -->
       </div>
     </div>
   </section><!-- End Hero -->

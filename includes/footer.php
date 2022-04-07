@@ -3,7 +3,7 @@
       <div class="container footer_data">
         <div class="row footer_items">
           <div class="col-xl-2 footer_left">
-            <img class="footer_logo" src="img/footer-logo.png" alt="">
+            <a href="index.php"><img class="footer_logo" src="img/footer-logo.png" alt=""></a>
           </div>
           <div class="col-xl-3">
             <h4 class="ft_head_text">Our Products</h4>
