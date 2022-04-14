@@ -1252,6 +1252,7 @@
                          <!-- <img class="partner_img" src="img/partners/Genesis_update_logo.png" alt="Vector.svg"> -->
                          <a href="#" target="_blank"><img class="partner_img" src="img/partners/logo-geller.png" alt="UnrealEngine_logo.svg"></a>
                          <a href="https://www.konma.community/" target="_blank" ><img class="partner_img" src="img/partners/konma.png" alt="UnrealEngine_logo.svg"></a>
+                         <a href="https://www.tenset.io/en" target="_blank" ><img class="partner_img" src="img/partners/tenset.png" alt="UnrealEngine_logo.svg"></a>
                     </div>
                 </div>
                 <div class="col-xl-6">
