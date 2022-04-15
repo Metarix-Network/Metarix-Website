@@ -31,11 +31,11 @@
             <h4 class="ft_head_text">Follow Us</h4>
             <div class="ft_social_links">
               <a target="_blank" href="https://www.facebook.com/The-Metarix-104132965453352 "><i class="fa icon_links fa-facebook" aria-hidden="true" ></i></a>
-              <a target="_blank" href="#"><i class="fa icon_links fa-instagram" aria-hidden="true"></i></a>
-              <a target="_blank" href="https://www.linkedin.com/company/the-metabox/ "><i class="fa icon_links fa-linkedin-square" aria-hidden="true"></i></a>
+              <a target="_blank" href="https://www.instagram.com/the_metarix/"><i class="fa icon_links fa-instagram" aria-hidden="true"></i></a>
+              <a target="_blank" href="https://www.linkedin.com/company/metarix/ "><i class="fa icon_links fa-linkedin-square" aria-hidden="true"></i></a>
               <a target="_blank" href="https://twitter.com/The_Metarix"><i class="fa icon_links fa-twitter" aria-hidden="true"></i></a>
-              <a target="_blank" href="https://t.me/metarix "><i class="fa icon_links fa-telegram" aria-hidden="true"></i></a>
-              <a target="_blank" href="#"><i class="fa icon_links fa-youtube-play" aria-hidden="true"></i></a>
+              <a target="_blank" href="https://t.me/metarix_official"><i class="fa icon_links fa-telegram" aria-hidden="true"></i></a>
+              <a target="_blank" href="https://www.youtube.com/channel/UCvrtvQGYuu-ZiSzIpO8noHw"><i class="fa icon_links fa-youtube-play" aria-hidden="true"></i></a>
             </div>
           </div>
         </div>
