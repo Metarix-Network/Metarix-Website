@@ -1018,9 +1018,39 @@ div#imageView > img {
     margin-bottom: 0;
 }
 .total_supply h6 {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 600;
     font-style: italic;
+}
+.smart_cont_head p {
+    color: #b5338d;
+    font-size: 21px;
+    margin-bottom: 0;
+}
+.smart_cont_head {
+    display: flex;
+    justify-content: space-between;
+}
+.smart_contact {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.smart_contact h6 {
+    font-size: 30px;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 0;
+}
+.smart_contact .fa {
+    font-size: 22px;
+}
+.smart_contact_btn {
+    background: transparent !important;
+    border: none;
+    color: #fff !important;
+    font-size: 30px;
+    padding: 0;
 }
 .staking_rew_items h6 {
     font-size: 20px;
@@ -1067,6 +1097,7 @@ div#imageView > img {
     left: 0;
     border-radius: 25px 0px 0px 25px;
 }
+
 /* .token_sale.items {
     padding-top: 20px;
 }
@@ -1943,8 +1974,6 @@ img.cont_img {
 
 
 /* sdk  */
-
-
 
 .sdk_main_bold {
     background: -webkit-linear-gradient(#bf2d8a ,#124dbd );
@@ -3549,7 +3578,6 @@ section.blog_details {
     object-fit: cover;
     border: 5px solid #893fee;
     margin-top: 90px;
-
 }
 
 .point {
@@ -3619,8 +3647,7 @@ img.imgsks.map.target {
 }
 .map_data{
     overflow: hidden;
-      background: #1d1d1d;
-
+    background: #1d1d1d;
 }
 
 /* update pages  */
@@ -3870,23 +3897,260 @@ img.footers_img {
 	font-size: 16px;
 }
 
-
-
-
-
 /* landing timer Ending */
 
+/* preesale wallets page started  */
+
+.preesale_wallet{
+    padding: 150px 0px 100px 0px;
+}
+
+.conectionshead {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+.conectionshead h6 {
+    margin-bottom: 0;
+}
+.conectionshead img {
+    width: 30px;
+    height: 30px;
+}
 
 
+.wallet_connections {
+    background: linear-gradient(to bottom, #19192a 0%, #000000 100%) !important;
+    display: flex;
+    padding: 50px;
+    border-radius: 20px;
+}
+.wallet_conct_data {
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #010101 0%,#181827 100%);
+    text-align: left;
+    height: 270px;
+    padding-left: 50px;
+    width: 80%;
+}
+.claim_item {
+    padding-top: 20px;
+    color: #f5f5f59c;
+    font-weight: 900;
+    color: #ffffffb3;
+}
+.ready_claim {
+    display: flex;
+    justify-content: space-between;
+}
+.locked_balance {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ffffffb3;
+}
+.right_wallet_conct {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #fffc;
+}
+.wallet_buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 25px;
+    gap: 20px;
+}
+.wallet_buttons img {
+    width: 21px;
+}
+a.wallet_btn {
+    padding: 7px 20px;
+    margin-left: 18px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 16px;
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);
+    font-weight: 400;
+    width: 40%;
+}
+.leftside_info h6 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+a.wallet_btn:hover {
+    background: linear-gradient(to right, #124dbd 0%, #bf2d8a 100%);
+  
+}
+.leftside_info {
+    text-align: left;
+    height: 300px;
+}
+.left_info_details li {
+    list-style-type: disc;
+    padding-bottom: 20px;
+    font-size: 16px;
+    color: #fffc;
+}
+.rightside_info{
+    background: linear-gradient(to bottom, #19192a 0%, #000000 100%) !important;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: left;
+    height: 300px;
+}
+.preesale_infos {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.preesale_infos h6 {
+    color: #fffc;
+}
+.wallet_progress {
+    padding-top: 30px;
+}
+.progress_white {
+    outline: 3px solid #fff;
+    width: 90%;
+    margin-bottom: 18px;
+}
+span.bold_info {
+    color: #cf2374;
+    display: flex;
+    justify-content: space-between;
+}
+.fa-clone{
+    color: #fff;
+}
 
+               /* staking pool  */
 
+.Staking_pool {
+    padding-top: 100px ;
+}   
+.staking_mts_pools {
+    border: 2px solid #9a72e1;
+    padding: 30px;
+    border-radius: 20px;
+}
+.stak_pool {
+    text-align: center;
+    padding: 100px 0px ;
+}
+.stak_head {
+    position: relative;
+}
+.stak_head::after{
+    content: " ";
+    position: absolute;
+    width: 150px;
+    height: 2px;
+    background-color: #9b2572;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -10px;
+}
+.mts_pool {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}      
+.mts_logo {
+    background: #fff;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+}
+.mts_logo img {
+    width: 40px;
+    height: 40px;
+} 
+.mts_pools_head h2 {
+    font-size: 22px;
+}
+.mts_pool_btn {
+    background: #a03393;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 14px;
+}
 
+.mts_pools_data {
+    padding: 20px 0px 0px 0px;
+}
+.pool_max {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.mts_pools_data {
+    padding: 20px 0px 0px 0px;
+    border-bottom: 1px solid #ffffff8f;
+}    
+.approved_data {
+    padding: 30px 0;
+    text-align: center;
+}
+.pool_max h6 {
+    font-size: 16px;
+}
+.pool_max p {
+    font-size: 16px;
+    color: #9b2572;
+    font-weight: 600;
+}
+.mts_pools_para {
+    text-align: center;
+}
+.mts_pools_para p {
+    font-size: 16px;
+}
+.mts_pools_token {
+    text-align: center;
+}
+.mts_token_links {
+    font-size: 16px;
+    color: #9b2564;
+    font-weight: 600;
+    position: relative;
+}
+.mts_token_links::before{
+    content: " ";
+    position: absolute;
+    width: 95px;
+    height: 1px;
+    background-color: #9b2572;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -5px;
 
-
-
-
-
-
+}
+.approved_btn{
+    padding: 9px 40px; 
+    border-radius: 50px;
+    color: #fff;
+    font-size: 16px;
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);
+    font-weight: 400;
+}
+.approved_btn:hover{
+    background: linear-gradient(to right, #124dbd 0%, #bf2d8a 100%);
+}
+section.mtxs_pools {
+    margin-top: -280px;
+    background: #16191e9c;
+    padding-top: 330px;
+    padding-bottom: 80px;
+}
 
 
 
@@ -4786,6 +5050,7 @@ display: none;
 }
 
 }
+
 
 @media (max-width: 478px) {
     .hero_head_text {

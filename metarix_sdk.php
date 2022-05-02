@@ -20,7 +20,7 @@ unset($_SESSION['message']);
              <div class="col-md-6">
                  <div class="main-head">
                      <h1 class="heading_text"> Metarix SDK  <span class="sdk_main_bold"></span></h1>
-                     <p class="sdk_main_para">It is a long established fact that a reader will be distracted by the readable content of a page when lokking at its layout. Creators can use the Metarix SDK and Assets store to unleash their creativity and make games, in-game material, characters, and more as blockchain developers without much skill, utilizing publicly available software tools and programmed codes</p>
+                     <p class="sdk_main_para">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Creators can use the Metarix SDK and Assets store to unleash their creativity and make games, in-game material, characters, and more as blockchain developers without much skill, utilizing publicly available software tools and programmed codes</p>
                  </div>
                 
              </div>

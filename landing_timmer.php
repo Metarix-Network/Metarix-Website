@@ -138,7 +138,7 @@
             </div>
             <div class="col-md-6">
                  <div class="landingpage_paragharph">
-                    <p>User's who participate in this private sale and stake with us are eligible for discounts on our land parcels. Discount details will be disclosed soon before the launch. Metarix Virtual Land project consists of 109,000 land parcels each of different size. You can buy virtual real estate property on Metarix chain and build anything you dream of in Metarix Metaverse using our own SDK. We provide additonal support from Building NFT's and Games to customizing them and even pushing your project to greater extent with all the resources of Metarix at your disposal. </p>
+                    <p>User's who participate in this private sale and stake with us are eligible for discounts on our land parcels. Discount details will be disclosed soon before the launch. Metarix Virtual Land project consists of 109,000 land parcels each of different size. You can buy virtual real estate property on Metarix chain and build anything you dream of in Metarix Metaverse using our own SDK. We provide additional support from Building NFT's and Games to customizing them and even pushing your project to greater extent with all the resources of Metarix at your disposal. </p>
                 </div>
             </div>
         </div>
@@ -203,8 +203,8 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-const deadline = '2022-05-06 12:00 am'; //final
-//const deadline = '2022-04-07 04:58 pm'; //testing
+const deadline = '2022-05-20 12:00 am'; //final
+// const deadline = '2022-05-02 12:38 pm'; //testing
 //var deadline = new Date(Date.parse(new Date()) + 18 * 24 * 60 * 60 * 1000);
 initializeClock('clockdiv', deadline);
 </script>

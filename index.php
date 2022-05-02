@@ -482,6 +482,26 @@
                         <p>Symbol</p>
                         <h6>MTRX</h6>
                     </div>
+                    <div class="smart_cont_supply">
+                        <div class="smart_cont_head">
+                            <a target="_blank" href="https://bscscan.com/token/0x55382eeef32eb87aa27d13d7637954c344154151"><p>Smart Contract</p></a>
+                            <a target="_blank" href="https://bscscan.com/token/0x55382eeef32eb87aa27d13d7637954c344154151"><p><i class="fa fa-share-square-o" aria-hidden="true"></i></p></a>
+
+                        </div>
+                        
+                        
+                        <div class="smart_contact">
+                            <input type="hidden" id="copyRefrelInput" value="0x55382eEEF32EB87AA27D13d7637954C344154151">
+                            <button type="button" class="btn btn-primary smart_contact_btn" data-toggle="tooltip" data-placement="bottom" title="0x55382eEEF32EB87AA27D13d7637954C344154151"> 0x5538...4151</button> 
+                            <button type="button" class="btn btn-primary smart_contact_btn" data-toggle="tooltip" data-placement="bottom" title="Click to copy" id="myTooltip"  onclick="copyToClipboard('#copyRefrelInput')"> <i class="fa fa-clone" aria-hidden="true"></i></button> 
+                            <button type="button" class="btn btn-primary smart_contact_btn" data-toggle="tooltip" data-placement="bottom" title="Copied" id="myTooltipshow" style="display: none;"> <i class="fa fa-check" aria-hidden="true"></i></button> 
+                        </div>
+
+
+
+                        
+                        
+                    </div>
                     <div class="total_supply">
                         <p>Blockchain</p>
                         <h6>Binance Smart Chain</h6>
@@ -593,7 +613,7 @@
                      <div class="staking_rewads">
                         <div class="staking_rew_items">
                             <h6><span>10% </span> Founders and stakeholders </h6>
-                            <p>0 % TGE for 3 months and 10 % unlock each month after</p>
+                            <p>0 % TGE 5 % unlock each month after</p>
                         </div>
                         <div class="tokens">
                             <p>Tokens</p>
@@ -644,7 +664,7 @@
                 <div class="col-lg-6">
                      <div class="staking_rewads">
                         <div class="staking_rew_items">
-                            <h6><span>1% </span> Tenset Partnership </h6>
+                            <h6><span>1% </span> Tenet Partnership </h6>
                             <p>20 %TGE 10 % vested monthly</p>
                         </div>
                         <div class="tokens">
@@ -840,7 +860,7 @@
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Virtual Land Integrations</p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix SDK Alpha Release </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Pre Launch Game Experience Release </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix VR Aplha Game Experience </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix VR Alpha Game Experience </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Play to Earn Game Version 1.0 Launch(Pre selected Theme Artifact Areas) </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Virtual smart watch Development Launch </p>
                 </div>
@@ -901,7 +921,7 @@
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Virtual Land Integrations</p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix SDK Alpha Release </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Pre Launch Game Experience Release </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix VR Aplha Game Experience </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix VR Alpha Game Experience </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Play to Earn Game Version 1.0 Launch(Pre selected Theme Artifact Areas) </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Virtual smart watch Development Launch </p>
                 </div>
@@ -986,7 +1006,7 @@
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Virtual Land Integrations</p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix SDK Alpha Release </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Pre Launch Game Experience Release </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix VR Aplha Game Experience </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix VR Alpha Game Experience </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Play to Earn Game Version 1.0 Launch(Pre selected Theme Artifact Areas) </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Virtual smart watch Development Launch </p>
                 </div>
@@ -1052,22 +1072,22 @@
                         <div class="box team_member">
                             <img class="teams_img" src="img/team/justin.jpeg" alt="">
                             <h4 class="teams_text">Justin Schopp</h4>
-                            <p class="teams_para">Chief Executive Officer </p>
+                            <p class="teams_para">Co-Founder<br> Chief Executive Officer </p>
                         </div>
                         <div class="box team_member">
                             <img class="teams_img" src="img/team/Nakia Geller.jpg" alt="">
                             <h4 class="teams_text">Nakia Geller</h4>
-                            <p class="teams_para">Co-Founder<br>Chief Financial Officer </p>
+                            <p class="teams_para">Co-Founder<br> Chief Financial Officer </p>
                         </div>
                         <div class="box team_member">
                             <img class="teams_img" src="img/team/Pandu.jpg" alt="">
                             <h4 class="teams_text">Pandu Ranga<br>Reddy Aluvala</h4>
-                            <p class="teams_para">Founder <br> Chief Technology Officer </p>
+                            <p class="teams_para">Co-Founder<br> Chief Technology Officer </p>
                         </div>
                         <div class="box team_member">
                             <img class="teams_img" src="img/team/caleb-Geller.jpg" alt="">
                             <h4 class="teams_text">Caleb Geller </h4>
-                            <p class="teams_para">Co-Founder<br>Chief Management Officer</p>
+                            <p class="teams_para">Co-Founder<br> Chief Management Officer</p>
                         </div>
                     </div>
                 </div>
@@ -1354,5 +1374,20 @@
 
     <!-- footer  -->
 <?php include("includes/footer.php"); ?>
+
+<script type="text/javascript">
+function copyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).val()).select();
+  document.execCommand("copy");
+  $temp.remove();
+  $("#myTooltip").hide();
+  $("#myTooltipshow").show();
+ 
+                        
+    
+}
+</script>
 
     
