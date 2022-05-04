@@ -285,6 +285,7 @@
             </div>
         </div>
     </section>
+
   <section class="all_products desk-pro" id="Products">
     <div class="container-fluid p-0">
           <div class="row"> 
@@ -308,9 +309,6 @@
                         </div>
                     </div>
                 </div>
-
-
-
 
                 <div id="video-carousel-example2" class="carousel slide carousel-fade desk-slid" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -472,7 +470,7 @@
                 <div class="token_sale_items">
                     <div class="total_supply">
                         <p>Total Supply</p>
-                        <h6>1.2B</h6>
+                        <h6>1.2 billion</h6>
                     </div>
                     <div class="total_supply">
                         <p>Total Name</p>
@@ -486,21 +484,14 @@
                         <div class="smart_cont_head">
                             <a target="_blank" href="https://bscscan.com/token/0x55382eeef32eb87aa27d13d7637954c344154151"><p>Smart Contract</p></a>
                             <a target="_blank" href="https://bscscan.com/token/0x55382eeef32eb87aa27d13d7637954c344154151"><p><i class="fa fa-share-square-o" aria-hidden="true"></i></p></a>
-
                         </div>
-                        
-                        
+    
                         <div class="smart_contact">
                             <input type="hidden" id="copyRefrelInput" value="0x55382eEEF32EB87AA27D13d7637954C344154151">
                             <button type="button" class="btn btn-primary smart_contact_btn" data-toggle="tooltip" data-placement="bottom" title="0x55382eEEF32EB87AA27D13d7637954C344154151"> 0x5538...4151</button> 
                             <button type="button" class="btn btn-primary smart_contact_btn" data-toggle="tooltip" data-placement="bottom" title="Click to copy" id="myTooltip"  onclick="copyToClipboard('#copyRefrelInput')"> <i class="fa fa-clone" aria-hidden="true"></i></button> 
                             <button type="button" class="btn btn-primary smart_contact_btn" data-toggle="tooltip" data-placement="bottom" title="Copied" id="myTooltipshow" style="display: none;"> <i class="fa fa-check" aria-hidden="true"></i></button> 
-                        </div>
-
-
-
-                        
-                        
+                        </div>  
                     </div>
                     <div class="total_supply">
                         <p>Blockchain</p>
@@ -512,19 +503,7 @@
                     <div class="staking_rewads">
                         <div class="staking_rew_items">
                             <h6><span>10% </span> Staking Rewards</h6>
-                            <p>20 % TGE 10 % unlock each month after</p>
-                        </div>
-                        <div class="tokens">
-                            <p>Tokens</p>
-                            <h6>120,000,000</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                     <div class="staking_rewads">
-                        <div class="staking_rew_items">
-                            <h6><span>10% </span> P2E Rewards</h6>
-                            <p>0% TGE for 3 months 10 % unlock each month after</p>
+                            <p>20% TGE 10% unlock each month after</p>
                         </div>
                         <div class="tokens">
                             <p>Tokens</p>
@@ -537,19 +516,7 @@
                     <div class="staking_rewads">
                         <div class="staking_rew_items">
                             <h6><span>5% </span> Marketing</h6>
-                            <p>25 % TGE 15 % unlock each month after</p>
-                        </div>
-                        <div class="tokens">
-                            <p>Tokens</p>
-                            <h6>60,000,000</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                     <div class="staking_rewads">
-                        <div class="staking_rew_items">
-                            <h6><span>5% </span> Team</h6>
-                            <p>0 % TGE for 3 months 5 % unlock each month after</p>
+                            <p>Unlocked</p>
                         </div>
                         <div class="tokens">
                             <p>Tokens</p>
@@ -561,33 +528,8 @@
                 <div class="col-lg-6">
                     <div class="staking_rewads">
                         <div class="staking_rew_items">
-                            <h6><span>5% </span> Development</h6>
-                            <p>10 % TGE 5 % unlock each month after</p>
-                        </div>
-                        <div class="tokens">
-                            <p>Tokens</p>
-                            <h6>60,000,000</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                     <div class="staking_rewads">
-                        <div class="staking_rew_items">
-                            <h6><span>15% </span> Exchange Listing and Liquidity</h6>
-                            <p>20 % TGE 10 % unlock each month after</p>
-                        </div>
-                        <div class="tokens">
-                            <p>Tokens</p>
-                            <h6>180,000,000</h6>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                     <div class="staking_rewads">
-                        <div class="staking_rew_items">
-                            <h6><span>10% </span> Token Sale</h6>
-                            <p>15 % TGE and 5% vested each week after</p>
+                            <h6><span>10% </span> Development</h6>
+                            <p>10% TGE 5% unlock each month after</p>
                         </div>
                         <div class="tokens">
                             <p>Tokens</p>
@@ -599,8 +541,21 @@
                 <div class="col-lg-6">
                      <div class="staking_rewads">
                         <div class="staking_rew_items">
+                            <h6><span>20% </span> Exchange Listing and Liquidity</h6>
+                            <p>20% TGE 10% unlock each month after</p>
+                        </div>
+                        <div class="tokens">
+                            <p>Tokens</p>
+                            <h6>240,000,000</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                     <div class="staking_rewads">
+                        <div class="staking_rew_items">
                             <h6><span>4% </span> Advisors</h6>
-                            <p>0 % TGE for 3 months and 10 % unlock each month after</p>
+                            <p>0% TGE for 3 months and 10% unlock each month after</p>
                         </div>
                         <div class="tokens">
                             <p>Tokens</p>
@@ -612,12 +567,12 @@
                 <div class="col-lg-6">
                      <div class="staking_rewads">
                         <div class="staking_rew_items">
-                            <h6><span>10% </span> Founders and stakeholders </h6>
-                            <p>0 % TGE 5 % unlock each month after</p>
+                            <h6><span>15% </span> Team</h6>
+                            <p>0% TGE 5 % unlock each month after</p>
                         </div>
                         <div class="tokens">
                             <p>Tokens</p>
-                            <h6>120,000,000</h6>
+                            <h6>180,000,000</h6>
                         </div>
                     </div>
                 </div>
@@ -625,12 +580,12 @@
                 <div class="col-lg-6">
                      <div class="staking_rewads">
                         <div class="staking_rew_items">
-                            <h6><span>10% </span> Launchpads</h6>
-                            <p>20 % TGE and 3 % vested weekly</p>
+                            <h6><span>20% </span> Launchpads and Presale</h6>
+                            <p>20% TGE and 3% vested weekly</p>
                         </div>
                         <div class="tokens">
                             <p>Tokens</p>
-                            <h6>120,000,000</h6>
+                            <h6>240,000,000</h6>
                         </div>
                     </div>
                 </div>
@@ -639,7 +594,7 @@
                      <div class="staking_rewads">
                         <div class="staking_rew_items">
                             <h6><span>5% </span> Reward Campaigns</h6>
-                            <p>10 % TGE and 5 % unlock each month after</p>
+                            <p>10% TGE and 5% unlock each month after</p>
                         </div>
                         <div class="tokens">
                             <p>Tokens</p>
@@ -651,8 +606,8 @@
                 <div class="col-lg-6">
                      <div class="staking_rewads">
                         <div class="staking_rew_items">
-                            <h6><span>10% </span> Reserve </h6>
-                            <p>10 % TGE and 5 % unlock each month after</p>
+                            <h6><span>10% </span> Company Reserves</h6>
+                            <p>10% TGE 5% unlock each month after</p>
                         </div>
                         <div class="tokens">
                             <p>Tokens</p>
@@ -664,7 +619,7 @@
                 <div class="col-lg-6">
                      <div class="staking_rewads">
                         <div class="staking_rew_items">
-                            <h6><span>1% </span> Tenet Partnership </h6>
+                            <h6><span>1% </span> Tenset Partnership </h6>
                             <p>20 %TGE 10 % vested monthly</p>
                         </div>
                         <div class="tokens">
@@ -674,104 +629,9 @@
                     </div>
                 </div>
                 
-
-
-
-
-
-
             </div>
-          <!-- <div class="row token_sale items">
-                 <div class="col-xl-6 left_side_sale_data">
-                    <div class="right_sale2">
-                        <div class="token-sale-items">
-                            <h4 class="sale_text">Total <SPan class="sale_bold"> Supply</SPan></h4>
-                            <H3>1.2B</H3>
-                        </div>
-                        <div class="token-sale-items">
-                            <h4 class="sale_text"><SPan class="sale_bold">  Blockchain</SPan></h4>
-                            <H3>Binance smart chain</H3>
-                        </div>
-                        <div class="token-sale-items">
-                            <h4 class="sale_text">Token <SPan class="sale_bold"> Name</SPan></h4>
-                            <H3>Metarix</H3>
-                        </div>
-                        <div class="token-sale-items">
-                            <h4 class="sale_text"><SPan class="sale_bold"> Symbol</SPan></h4>
-                            <H3>MTRX</H3>
-                        </div>
-                        <div class="token-sale-items">
-                            <h4 class="sale_text">Airdrop and<SPan class="sale_bold"> Reward Campaigns</SPan></h4>
-                            <H3>6%</H3>
-                        </div>
-                        <div class="token-sale-items">
-                            <h4 class="sale_text">P2E<SPan class="sale_bold"> Rewards</SPan></h4>
-                            <H3>10%</H3>
-                        </div>
-                        
-                     </div>
-
-                    <div class="left_sale">
-                        <div class="token-sale-items">
-                            <h4 class="sale_text">Staking<SPan class="sale_bold"> Rewards</SPan></h4>
-                            <H3>10%</H3>
-                        </div>
-                        <div class="token-sale-items">
-                            <h4 class="sale_text">Play To<SPan class="sale_bold"> Earn</SPan></h4>
-                            <H3>10%</H3>
-                        </div>
-                        <div class="token-sale-items">
-                            <h4 class="sale_text"><SPan class="sale_bold">Marketing</SPan></h4>
-                            <H3>5%</H3>
-                        </div>
-                        <div class="token-sale-items">
-                            <h4 class="sale_text"> <SPan class="sale_bold"> Team</SPan></h4>
-                            <H3>5%</H3>
-                        </div>
-                        <div class="token-sale-items">
-                            <h4 class="sale_text"> <SPan class="sale_bold"> Development</SPan></h4>
-                            <H3>5%</H3>
-                        </div>
-                        
-                        <div class="token-sale-items">
-                            <h4 class="sale_text">Exchange <SPan class="sale_bold">  Listing</SPan></h4>
-                            <H3>15%</H3>
-                        </div>
-                    </div>
-
-                    <div class="right_sale">
-                        <div class="token-sale-items">
-                            <h4 class="sale_text">Token <SPan class="sale_bold"> SALE</SPan></h4>
-                            <H3>10%</H3>
-                        </div>
-                        <div class="token-sale-items">
-                            <h4 class="sale_text"><SPan class="sale_bold"> Advisors</SPan></h4>
-                            <H3>4%</H3>
-                        </div>
-                        <div class="token-sale-items">
-                            <h4 class="sale_text">Founders and<SPan class="sale_bold"> Stakeholders</SPan></h4>
-                            <H3>10%</H3>
-                        </div>
-                        <div class="token-sale-items">
-                            <h4 class="sale_text"><SPan class="sale_bold"> Launchpad</SPan></h4>
-                            <H3>10%</H3>
-                        </div>
-                        <div class="token-sale-items">
-                            <h4 class="sale_text">Reward <SPan class="sale_bold">  Campaigns</SPan></h4>
-                            <H3>6%</H3>
-                        </div>
-                        <div class="token-sale-items">
-                            <h4 class="sale_text"><SPan class="sale_bold">  Reserve</SPan></h4>
-                            <H3>10%</H3>
-                        </div>
-                     </div>
-                </div>
-              <div class="col-xl-6 right_side_sale_data">
-                <img class="token_sale_img animated undefined" src="img/token_sale.png" alt="">
-              </div>
-          </div> -->
-    </div>
-  </section>
+        </div>
+    </section>
 
   <!-- END-TOKEN-SALE  -->
 
@@ -1115,7 +975,7 @@
                         <div class="box team_member">
                             <img class="teams_img" src="img/team/yashwanth.jpg" alt="">
                             <h4 class="teams_text">Yashwanth Kasturi </h4>
-                            <p class="teams_para">Senior Unity Developer</p>
+                            <p class="teams_para">Business Development Manager</p>
                         </div>
                         <!-- <div class="box team_member">
                             <img class="teams_img fit_img" src="img/team/hardeep.png" alt="">
