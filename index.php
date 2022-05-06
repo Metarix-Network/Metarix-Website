@@ -581,7 +581,7 @@
                      <div class="staking_rewads">
                         <div class="staking_rew_items">
                             <h6><span>20% </span> Launchpads and Presale</h6>
-                            <p>20% TGE and 3% vested weekly</p>
+                            <p>20% TGE and 5% vested weekly</p>
                         </div>
                         <div class="tokens">
                             <p>Tokens</p>
