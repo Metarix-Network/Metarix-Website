@@ -555,7 +555,7 @@
                      <div class="staking_rewads">
                         <div class="staking_rew_items">
                             <h6><span>4% </span> Advisors</h6>
-                            <p>0% TGE for 3 months and 10% unlock each month after</p>
+                            <p>0 % TGE and 10 % unlock each month after</p>
                         </div>
                         <div class="tokens">
                             <p>Tokens</p>
