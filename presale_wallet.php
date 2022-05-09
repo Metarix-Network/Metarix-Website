@@ -42,10 +42,10 @@
                            <h6>Amount in dollars</h6>
                            <h6>$</h6>
                        </div>
-                       <div class="ready_claim">
+                       <!-- <div class="ready_claim">
                            <h6>Total Balance </h6>
                            <h6>0</h6>
-                       </div>
+                       </div> -->
                    </div>
                    <div class="wallet_buttons">
                        <a class="wallet_btn" href="#"><img src="img/presale_wallet/tiger.png" alt=""> MetaMask</a>
@@ -77,7 +77,7 @@
                         </div>
                         <div class="clone">
                             <h6>Address</h6>
-                            <span class="bold_info">0x475bfaa1848591ae0e6ab69600f48d828f61a80e       <i class="fa fa-clone" aria-hidden="true"></i></span>
+                            <span class="bold_info">0x55382eEEF32EB87AA27D13d7637954C344154151       <i class="fa fa-clone" aria-hidden="true"></i></span>
                         </div>
                         <div class="happ">
                             <h6>Decimals</h6>

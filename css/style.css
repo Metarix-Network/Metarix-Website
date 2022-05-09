@@ -3972,16 +3972,17 @@ img.footers_img {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #ffffffb3;
+    padding-bottom: 20px;
 }
 .right_wallet_conct {
     display: flex;
     flex-direction: column;
     gap: 30px;
     color: #fffc;
+    margin-top: 50px;
 }
 .wallet_buttons {
     display: flex;
-    flex-direction: column;
     align-items: flex-start;
     padding-top: 25px;
     gap: 20px;
