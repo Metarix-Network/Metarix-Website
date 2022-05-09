@@ -17,9 +17,9 @@
                        </div>
                        <div class="claim_item">
                            <h6>claimed</h6>
-                           <span>0 Done</span>
+                           <span>0 MTRX </span>
                            <h6>of</h6>
-                           <span>0 Done</span>
+                           <span>0 MTRX </span>
                        </div>
                        <div class="wallet_progress">
                             <div class="progress progress_white">
