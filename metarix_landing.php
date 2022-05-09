@@ -118,7 +118,7 @@
             <div class="col-md-6">
                 <div class="landing_ryt_data">
                     <div class="busnd">
-                        <h6>1 BNB = 6900 MTRX</h6>
+                        <h6>1 MTRX = $0.05</h6>
                     </div>
                     <div class="total rasid">
                         <h6>Total Raised</h6>
@@ -131,7 +131,7 @@
                         </div>
                         <p>0 MTRX</p>
                     </div>
-                    <div class="limites_status">
+                   <!--  <div class="limites_status">
                         <div class="limited">
                             <h6>Limited</h6>
                             <h6>Participants <span>465</span></h6>
@@ -140,7 +140,7 @@
                             <h6>Status</h6>
                             <h6>Upcoming</h6>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -163,7 +163,7 @@
                     </div>
                     <div class="token_distrubation">
                         <h6 class="info_name">Total Price</h6>
-                        <p class="info_para">1 BNB = 6900 MTRX</p>
+                        <p class="info_para">1 MTRX = $0.05</p>
                     </div>
                     <div class="token_distrubation_end">
                         <h6 class="info_name">Access Type</h6>
