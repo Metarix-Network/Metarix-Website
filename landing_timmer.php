@@ -99,11 +99,14 @@
 <div class="metarixs_landing">
 <section class="landing_timmer">
     <div class="container">
-        <div class="row">
+        <div class="col-sm-12 p-0">
            <div class="timer_head">
                <h1>We Are Launching New Presale</h1>
-               <p>A pre-sale is a targeted sale before your product actually goes live. You sell the idea of your course to a small portion of your audience before you’ve created all of your course content. Typically, you pre-sell by setting up your sales page, discounting your course, and sending an email out to your list (or communicating the sale to your audience in another way).</p>
+               <!-- <p>A pre-sale is a targeted sale before your product actually goes live. You sell the idea of your course to a small portion of your audience before you’ve created all of your course content. Typically, you pre-sell by setting up your sales page, discounting your course, and sending an email out to your list (or communicating the sale to your audience in another way).</p> -->
            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">          
             <div id="clockdiv">
                 <div class="timmer ">
                     <span class="days"></span>
@@ -122,10 +125,96 @@
                     <div class="smalltext">Seconds</div>
                 </div>
             </div>
+            <div class="timer-btm">
+                <ul>
+                    <li>PreSale will be started at 20th May 2022 13:00 CET </li>
+                    <li>Will be last upto 27th May 2022</li>
+                    <li>No bar for Min BNB to purchase MTRX</li>
+                    <li>Max purchases would be $5000 of BNB</li>
+                </ul>
+            </div>
+            </div>
+             <div class="col-md-6">
+                <div class="landing_ryt_data">
+                    <div class="busnd">
+                        <h6>1 BNB = 6900 MTRX</h6>
+                    </div>
+                    <div class="total rasid">
+                        <h6>Total Raised</h6>
+                        <p>000.00 MTRX</p>
+                    </div>
+                    <div class="landing_progress">
+                        <h6>Progress <span>0%</span></h6>
+                        <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+                        </div>
+                        <p>0 MTRX</p>
+                    </div>
+                    <div class="limites_status">
+                        <div class="limited">
+                            <h6>Limited</h6>
+                            <h6>Participants <span>465</span></h6>
+                        </div>
+                        <div class="status">
+                            <h6>Status</h6>
+                            <h6>Upcoming</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
+<section class="landing_token_informations timer-tkn">
+    <div class="container">
+         <div class="row">
+            <div class="col-md-6">
+                <h1 class="tok_info_head">Pool Information</h1>
+                <div class="pool_info_data">                   
+                    <div class="token_distrubation">
+                        <h6 class="info_name">Min. Allocation</h6>
+                        <p class="info_para">$0</p>
+                    </div>
+                    <div class="token_distrubation">
+                        <h6 class="info_name">Max Allocation</h6>
+                        <p class="info_para">$5000</p>
+                    </div>
+                    <div class="token_distrubation">
+                        <h6 class="info_name">Total Price</h6>
+                        <p class="info_para">1 BNB = 6900 MTRX</p>
+                    </div>
+                    <div class="token_distrubation_end">
+                        <h6 class="info_name">Access Type</h6>
+                        <p class="info_para">Private</p>
+                    </div>
 
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <h1 class="tok_info_head">Token Information</h1>
+                <div class="token_info_data">
+                    <div class="token_distrubation">
+                        <h6 class="info_name">Name / Symbol</h6>
+                        <p class="info_para">Metarix / MTRX</p>
+                    </div>
+                    <div class="token_distrubation">
+                        <h6 class="info_name">Decimals</h6>
+                        <p class="info_para">9</p>
+                    </div>
+                    <div class="token_distrubation">
+                        <h6 class="info_name">Address</h6>
+                        <p class="info_para">0x55382eEEF32EB87AA27D13d7637954C344154151 <span class="cpy"><i class="fa fa-clone" aria-hidden="true"></i></span></p>
+                    </div>
+                    <div class="token_distrubation_end">
+                        <h6 class="info_name">Total Supply</h6>
+                        <p class="info_para">1,200,000,000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <section>
     <div class="container">
         <div class="row">

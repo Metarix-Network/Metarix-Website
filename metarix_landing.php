@@ -118,7 +118,7 @@
             <div class="col-md-6">
                 <div class="landing_ryt_data">
                     <div class="busnd">
-                        <h6>1 BNB = 50000 MTRX</h6>
+                        <h6>1 BNB = 6900 MTRX</h6>
                     </div>
                     <div class="total rasid">
                         <h6>Total Raised</h6>
@@ -129,7 +129,7 @@
                         <div class="progress">
                         <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
                         </div>
-                        <p>000000000000.0000 MTRX</p>
+                        <p>0 MTRX</p>
                     </div>
                     <div class="limites_status">
                         <div class="limited">
@@ -138,7 +138,7 @@
                         </div>
                         <div class="status">
                             <h6>Status</h6>
-                            <h6>Closed</h6>
+                            <h6>Upcoming</h6>
                         </div>
                     </div>
                 </div>
@@ -152,22 +152,18 @@
          <div class="row">
             <div class="col-md-6">
                 <h1 class="tok_info_head">Pool Information</h1>
-                <div class="pool_info_data">
-                    <div class="token_distrubation">
-                        <h6 class="info_name">Token Distribution</h6>
-                        <p class="info_para">Date UTC</p>
-                    </div>
+                <div class="pool_info_data">                   
                     <div class="token_distrubation">
                         <h6 class="info_name">Min. Allocation</h6>
-                        <p class="info_para">0.5 BNB</p>
+                        <p class="info_para">$0</p>
                     </div>
                     <div class="token_distrubation">
                         <h6 class="info_name">Max Allocation</h6>
-                        <p class="info_para">10 BNB</p>
+                        <p class="info_para">$5000</p>
                     </div>
                     <div class="token_distrubation">
                         <h6 class="info_name">Total Price</h6>
-                        <p class="info_para">1 BNB= 50000 MTRX</p>
+                        <p class="info_para">1 BNB = 6900 MTRX</p>
                     </div>
                     <div class="token_distrubation_end">
                         <h6 class="info_name">Access Type</h6>
@@ -181,20 +177,16 @@
                 <h1 class="tok_info_head">Token Information</h1>
                 <div class="token_info_data">
                     <div class="token_distrubation">
-                        <h6 class="info_name">Name</h6>
-                        <p class="info_para">Metarix</p>
-                    </div>
-                    <div class="token_distrubation">
-                        <h6 class="info_name">symbol</h6>
-                        <p class="info_para">MTRX</p>
+                        <h6 class="info_name">Name / Symbol</h6>
+                        <p class="info_para">Metarix / MTRX</p>
                     </div>
                     <div class="token_distrubation">
                         <h6 class="info_name">Decimals</h6>
-                        <p class="info_para">18</p>
+                        <p class="info_para">9</p>
                     </div>
                     <div class="token_distrubation">
                         <h6 class="info_name">Address</h6>
-                        <p class="info_para">TBA</p>
+                        <p class="info_para">0x55382eEEF32EB87AA27D13d7637954C344154151 <span class="cpy"><i class="fa fa-clone" aria-hidden="true"></i></span></p>
                     </div>
                     <div class="token_distrubation_end">
                         <h6 class="info_name">Total Supply</h6>

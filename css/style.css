@@ -1990,7 +1990,7 @@ img.cont_img {
 
 
 .buttons_sdk_data {
-    padding: 100px 0px;
+    padding: 100px 15px;
 }
 
 .buttons_sdk_items {
@@ -2230,7 +2230,7 @@ img.cont_img {
 }
 
 .blockchain_main_data {
-    padding: 50px 0px;
+    padding: 50px 15px;
 }
 
 .left_blockchain {
@@ -2290,7 +2290,7 @@ img.cont_img {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
     text-align: center;
-    padding: 30px 0px;
+    padding: 30px 15px;
 }
 
 .box_container {
@@ -3262,10 +3262,10 @@ a.nft_btn:hover{
 }
 
 @media(max-width: 575.5px) {
-    .header-scrolled .container {
-        margin: 0px;
-        padding: 15px
-    }
+   .header-scrolled .container {
+    margin: 0px;
+    padding: 0 12px;
+}
 }
 /* blog page  */
 
@@ -3729,6 +3729,7 @@ a.users {
     background: #171727;
     border-radius: 10px;
     padding: 20px;
+    text-align: left;
 }
 .busnd {
     text-align: center;
@@ -3803,10 +3804,12 @@ a.users {
 }
 .info_para {
     margin-bottom: 5px;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 18px;
 }
-
+.cpy{
+    margin-left: 7px;
+}
 .landing_abt_head{
     color: #fff;
     font-size: 30px;
@@ -3841,6 +3844,12 @@ img.footers_img {
     display: none;
     background: #040305;
 }
+
+.landing_token_informations.timer-tkn {
+    position: relative;
+    top: 0;
+    margin-bottom: 50px;
+}
 /* landing page ended  */
 
 
@@ -3848,11 +3857,14 @@ img.footers_img {
 /* landing timer page  */
 
 .landing_timmer {
-    padding: 150px 0px 200px 0px;
+    padding: 40px 0px 80px 0px;
     text-align: center;
     background: url(../img/metarix_landing/landing_bgg.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+}
+.timer_head {
+    margin-bottom: 80px;
 }
 
 .timer_head h1 {
@@ -3864,23 +3876,34 @@ img.footers_img {
     width: 65%;
     margin: 0 auto;
 }
-
+.timer-btm {
+    text-align: left;
+    margin-top: 30px;
+    font-size: 20px;
+}
 .timer_head p {
     width: 66%;
     margin: 0 auto;
     padding: 15px 0px 50px 0;
 }
-
-#clockdiv{
-	color: #fff;
+.timer-btm ul {
+    margin: 0;
+}
+.timer-btm ul li {
+    list-style-type: disc;
+    font-size: 18px;
+    line-height: 38px;
+}
+#clockdiv {
+    color: #fff;
     display: flex;
     font-weight: 600;
     text-align: center;
     font-size: 30px;
-    justify-content: center;
-    gap: 40px;
+    justify-content: left;
+    gap: 15px;
+        margin-top: 45px;
 }
-
 #clockdiv .timmer{
 	padding: 18px;
     border-radius: 50%;
@@ -3902,7 +3925,7 @@ img.footers_img {
 /* preesale wallets page started  */
 
 .preesale_wallet{
-    padding: 150px 0px 100px 0px;
+    padding: 100px 0px 100px 0px;
 }
 
 .conectionshead {
@@ -3925,6 +3948,7 @@ img.footers_img {
     display: flex;
     padding: 50px;
     border-radius: 20px;
+    margin-bottom: 70px;
 }
 .wallet_conct_data {
     border-radius: 20px;
@@ -3966,14 +3990,14 @@ img.footers_img {
     width: 21px;
 }
 a.wallet_btn {
-    padding: 7px 20px;
-    margin-left: 18px;
+    padding: 7px 0px;
+    margin-left: 0;
     border-radius: 50px;
     color: #fff;
     font-size: 16px;
     background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);
     font-weight: 400;
-    width: 40%;
+    width: 50%;
 }
 .leftside_info h6 {
     font-size: 30px;
@@ -4151,7 +4175,6 @@ section.mtxs_pools {
     padding-top: 330px;
     padding-bottom: 80px;
 }
-
 
 
 
@@ -4547,6 +4570,12 @@ display: none;
 .deposit_data_2 {
     padding: 100px 0px 0;
 }
+.wallet_conct_data {
+    width: 90%;
+}
+.wallet_connections {
+    display: block;
+}
 }
 
 
@@ -4881,7 +4910,7 @@ display: none;
 }
 .features-box {
  grid-template-columns: 1fr;
- padding: 25px 15px 150px 15px;
+ padding: 25px 15px 60px 15px;
      grid-gap: 20px;
 }
 .metarixs_landing_logo img {
@@ -4910,6 +4939,10 @@ display: none;
 .landingpage_paragharph p {
     font-size: 16px;
     width: 100%;
+}
+#our_services {
+    color: #FFF;
+    padding: 70px 0px 80px 0px;
 }
 }
 
@@ -5048,7 +5081,21 @@ display: none;
     display: block;    
     margin: 20px 0px 40px 0px;
 }
-
+.sliders_texed {
+    font-size: 23px;
+}
+.slider {
+    padding: 40px 0;
+}
+.nft_links {
+    padding: 80px 0px 30px;
+}
+img.footer_logo {
+    margin-top: 30px;
+}
+#footer {
+    padding: 15px;
+}
 }
 
 
@@ -5110,7 +5157,12 @@ display: none;
     padding: 30px 0px 0;
 }
 .partners-data {
-    padding: 0 0px;
+    padding: 40px 0px;
+}
+.partners-data {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 #footer {
     background-color: #000;
@@ -5138,6 +5190,7 @@ display: none;
 .staking_rewads {
     align-items: center;
 }
+
 }
 
 @media (max-width: 375px) {

@@ -35,12 +35,12 @@
                <div class="col-md-6">
                    <div class="right_wallet_conct">
                        <div class="ready_claim">
-                           <h6>Ready to Claim </h6>
+                           <h6>Balance in MTRX</h6>
                            <h6>0</h6>
                        </div>
                        <div class="locked_balance">
-                           <h6>Locked Balance </h6>
-                           <h6>0</h6>
+                           <h6>Amount in dollars</h6>
+                           <h6>$</h6>
                        </div>
                        <div class="ready_claim">
                            <h6>Total Balance </h6>
@@ -58,12 +58,12 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="leftside_info">
-                    <h6>what is lorems ?</h6>
+                    <h6>Few notes for the Users!</h6>
                     <ul class="left_info_details">
-                        <li>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</li>
-                        <li>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</li>
-                        <li>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</li>
-                        <li>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</li>
+                        <li>Metarix will announce a claim date sooner!. </li>
+                        <li>Users can claim 20% of the token that they have purchased. </li>
+                        <li>Rest of the tokens will be claimed 5% per week. </li>
+                        <li>Remaining tokens will go under the vesting schedule.</li>
                     </ul>
                 </div>
             </div>
@@ -73,15 +73,15 @@
                     <div class="preesale_infos">
                         <div class="happ">
                             <h6>Name</h6>
-                            <span class="bold_info">Done</span>
+                            <span class="bold_info">MTRX</span>
                         </div>
                         <div class="clone">
-                            <h6>Name</h6>
+                            <h6>Address</h6>
                             <span class="bold_info">0x475bfaa1848591ae0e6ab69600f48d828f61a80e       <i class="fa fa-clone" aria-hidden="true"></i></span>
                         </div>
                         <div class="happ">
                             <h6>Decimals</h6>
-                            <span class="bold_info">22</span>
+                            <span class="bold_info">9</span>
                         </div> 
                     </div>
                 </div>
