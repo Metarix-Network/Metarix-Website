@@ -1154,16 +1154,30 @@
     <!-- powered by   -->
     <section class="poweredby" id="Powerdby">
         <div class="container" >
-            <div class="heading">
-                <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> POWERED BY <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
-              </div>
             <div class="row">
-                <!-- <div class="col-md-12"> -->
-                    <div class="partners-data">
-                         <img src="https://everdome-static.s3.eu-north-1.amazonaws.com/Vector_23ae3b3aba.svg" alt="Vector.svg">
-                         <a href="https://unity.com/" target="_blank"><img class="partner_img" src="img/partners/Unity_Technologies_logo.png" alt="UnrealEngine_logo.svg"></a>  
+                <div class="col-md-6">
+                    <div class="heading">
+                        <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> AUDITED BY <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
                     </div>
-                <!-- </div> -->
+       
+                    <div class="partners-data">
+                        <a href="https://blog.hashex.org/metarix-smart-contracts-audit-report-1790b5f8e3ff" target="_blank"><img class="partner_img" src="img/partners/has.png" alt="UnrealEngine_logo.svg"></a>   
+                        <a href="https://github.com/Quillhash/QuillAudit_Reports/blob/master/Metarix%20Smart%20Contract%20Audit%20Report%20-%20QuillAudits.pdf" target="_blank"><img class="partner_img" src="img/partners/wuillaudit.png" alt="UnrealEngine_logo.svg"></a>   
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="heading">
+                        <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> POWERED BY <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
+                    </div>
+                    <div class="row">
+                        <div class="partners-data">
+                            <img src="https://everdome-static.s3.eu-north-1.amazonaws.com/Vector_23ae3b3aba.svg" alt="Vector.svg">
+                            <a href="https://unity.com/" target="_blank"><img class="partner_img" src="img/partners/Unity_Technologies_logo.png" alt="UnrealEngine_logo.svg"></a>  
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>

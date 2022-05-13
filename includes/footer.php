@@ -58,7 +58,33 @@
   <!-- Template Main JS File -->
   <script src="js/main.js"></script>
   <script src="js/custom.js"></script>
-
+  <script type="text/javascript">
+    function checkAmount(){
+      $.ajax({
+        url: "functions.php",
+        method:'post',
+        data: {
+          "type": "getTokenBalance",
+          },
+        dataType: "json",
+        beforeSend: function(){
+         // Show image container
+        },
+        success:function(response) {
+          if(response.status == '1')
+          {
+            var price = response.price;
+            $("#current_price").html('$'+response.price);
+          }
+        },
+        complete:function(data){
+          // Hide image container
+        }
+    });
+    } 
+    checkAmount();
+    setInterval(checkAmount, 5000);
+  </script>
   
 
 

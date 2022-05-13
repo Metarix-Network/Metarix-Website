@@ -2998,6 +2998,13 @@ a.nft_btn:hover{
     color: #fff;
 
 }
+.token_adress {
+    display: flex;
+    gap: 12px;
+}
+.token_adress a:hover {
+    color: #b1308e;
+}
 
 
                                          /* nft marketplace details place  */
@@ -3695,7 +3702,7 @@ a.users {
 }
 .metarixs_landing{
     background: #09090f;
-    padding: 85px 0px;
+    padding: 85px 0px 0;
    
 }
 .meta_landing{
@@ -3805,7 +3812,14 @@ a.users {
 .info_para {
     margin-bottom: 5px;
     font-weight: 400;
+        text-decoration: underline;
     font-size: 18px;
+}
+.clone_btn {
+    text-decoration: underline;
+}
+.clone_btn:hover {
+    text-decoration: underline;
 }
 .cpy{
     margin-left: 7px;
@@ -3818,6 +3832,7 @@ a.users {
 
 .landingpage_paragharph {
     padding-top: 25px;
+        padding-bottom: 50px;
 }
 
 .landingpage_paragharph p {
@@ -3849,6 +3864,7 @@ img.footers_img {
     position: relative;
     top: 0;
     margin-bottom: 50px;
+        padding-top: 70px;
 }
 /* landing page ended  */
 
@@ -3859,7 +3875,7 @@ img.footers_img {
 .landing_timmer {
     padding: 40px 0px 80px 0px;
     text-align: center;
-    background: url(../img/metarix_landing/landing_bgg.png);
+    background: url(../img/preesale_ended.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -3900,7 +3916,7 @@ img.footers_img {
     font-weight: 600;
     text-align: center;
     font-size: 30px;
-    justify-content: left;
+    justify-content: center;
     gap: 15px;
         margin-top: 15px;
 }
@@ -3941,12 +3957,14 @@ img.footers_img {
     width: 30px;
     height: 30px;
 }
-
+.wallet_connections .col-md-6{
+    padding-left: 15px;padding-right:15px; ;
+}
 
 .wallet_connections {
     background: linear-gradient(to bottom, #19192a 0%, #000000 100%) !important;
     display: flex;
-    padding: 50px;
+        padding: 40px 25px;
     border-radius: 20px;
     margin-bottom: 70px;
 }
@@ -3955,8 +3973,8 @@ img.footers_img {
     background: linear-gradient(to bottom, #010101 0%,#181827 100%);
     text-align: left;
     height: 270px;
-    padding-left: 50px;
-    width: 80%;
+    padding-left: 20px;
+    width: 100%;
 }
 .claim_item {
     padding-top: 20px;
@@ -4050,6 +4068,9 @@ span.bold_info {
 }
 .fa-clone{
     color: #fff;
+}
+.clone_btn:hover {
+    color: #cf2374;
 }
 
                /* staking pool  */
@@ -4177,9 +4198,33 @@ section.mtxs_pools {
     padding-bottom: 80px;
 }
 
+/* Pree-Sale_Ended Pages   */
+.main_presale_ended {
+    padding: 80px 0px 0px 0px;
+}
+
+.Pre_sale_ended{
+    background: url(../img/preesale_ended.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 200px 0;
+}
+.pree-sale_ended_data {
+    text-align: center;
+}
+.sale_ended_paragraph p {
+    font-size: 28px;
+    width: 70%;
+    margin: 50px auto;
+    font-weight: 300;
+}
 
 
-     /* responsive website  */
+
+
+
+                                                  /* responsive website  */
 
 @media (max-width: 1199px) {
     .navbar a, .navbar a:focus {

@@ -53,6 +53,14 @@
     <div class="container ">
     <div class="header-inner">
       <h1 class="logo me-auto"><a href="index.php"><img src="img/metarix_update_2022.png" alt=""></a></h1>
+
+      <nav id="navbar" class="navbar">
+        
+        <ul>
+          <li><a class="getstarted scrollto "   href="#">Connect Wallet</a></li>
+        </ul>
+        <i class="fa fa-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
     
 
     </div>
@@ -101,7 +109,7 @@
     <div class="container">
         <div class="col-sm-12 p-0">
            <div class="timer_head">
-               <h1>We Are Launching New Presale</h1>
+               <h1>PRESALE COUNTDOWN!</h1>
                <!-- <p>A pre-sale is a targeted sale before your product actually goes live. You sell the idea of your course to a small portion of your audience before you’ve created all of your course content. Typically, you pre-sell by setting up your sales page, discounting your course, and sending an email out to your list (or communicating the sale to your audience in another way).</p> -->
            </div>
         </div>
@@ -127,28 +135,29 @@
             </div>
             <div class="timer-btm">
                 <ul>
-                    <li>PreSale will be started at 20th May 2022 13:00 CET </li>
-                    <li>Will be last upto 27th May 2022</li>
-                    <li>No bar for Min BNB to purchase MTRX</li>
-                    <li>Max purchases would be $5000 of BNB</li>
+                    <li>Presale will starts on the 20th May 13:00 CET and will last until 3 million dollar hardcap is hit or till 27th May 13:00 CET. </li>
+                    <li>No minimum purchase and Maximum purchase is $5000 in BNB</li>
+                    <li>Presale will be done through our audited crowdfunding contract, which we will share with you when presale goes LIVE!</li>
+                    <!-- <li>To participate in the presale, you will simply need to transfer BNB to it, and in return you will get the equivalent amount of tokens in MTRX, which can be claimed at and after launch</li> -->
+                    <li>Be careful of scammers. Only get information from Metarix’s official media channels.</li>
                 </ul>
             </div>
             </div>
              <div class="col-md-6">
                 <div class="landing_ryt_data">
                     <div class="busnd">
-                        <h6>1 MTRX = $0.05</h6>
+                        <h6>1 BNB = <span id="current_price"></span></h6>
                     </div>
                     <div class="total rasid">
-                        <h6>Total Raised</h6>
-                        <p>000.00 MTRX</p>
+                        <h6>Total BNB Raised</h6>
+                        <p>0.0 BNB</p>
                     </div>
                     <div class="landing_progress">
                         <h6>Progress <span>0%</span></h6>
                         <div class="progress">
                         <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
                         </div>
-                        <p>0 MTRX</p>
+                        <!-- <p>0 MTRX</p> -->
                     </div>
                    <!--  <div class="limites_status">
                         <div class="limited">
@@ -161,6 +170,9 @@
                         </div>
                     </div> -->
                 </div>
+                <div class="timer-btm">
+    <ul><li>To participate in the presale, you will simply need to transfer BNB to it, and in return you will get the equivalent amount of tokens in MTRX, which can be claimed at and after launch</li></ul>
+    </div>
             </div>
         </div>
     </div>
@@ -185,7 +197,7 @@
                     </div>
                     <div class="token_distrubation_end">
                         <h6 class="info_name">Access Type</h6>
-                        <p class="info_para">Private</p>
+                        <p class="info_para">Crowd Sale</p>
                     </div>
 
                 </div>
@@ -204,7 +216,16 @@
                     </div>
                     <div class="token_distrubation">
                         <h6 class="info_name">Address</h6>
-                        <p class="info_para">0x55382eEEF32EB87AA27D13d7637954C344154151 <span class="cpy"><i class="fa fa-clone" aria-hidden="true"></i></span></p>
+                        <div class="token_adress">
+                            <input type="hidden" id="copyRefrelInput" value="0x55382eEEF32EB87AA27D13d7637954C344154151">
+                            <a href="https://bscscan.com/address/0x55382eeef32eb87aa27d13d7637954c344154151" target="_blank"><p class="info_para">0x55382eEEF32EB87AA27D13d7637954C344154151</p></a>
+                            <span class="cpy" onclick="copyToClipboard('#copyRefrelInput')" id="myTooltip"><i class="fa fa-clone" aria-hidden="true"></i></span>
+                            <span class="cpy" onclick="copyToClipboard('#copyRefrelInput')" id="myTooltipshow" style="display: none;"><i class="fa fa-check" aria-hidden="true"></i></span>
+                        </div>
+
+                        
+                        
+                          
                     </div>
                     <div class="token_distrubation_end">
                         <h6 class="info_name">Total Supply</h6>
@@ -296,4 +317,35 @@ const deadline = '2022-05-20 12:00 am'; //final
 // const deadline = '2022-05-02 12:38 pm'; //testing
 //var deadline = new Date(Date.parse(new Date()) + 18 * 24 * 60 * 60 * 1000);
 initializeClock('clockdiv', deadline);
+
+
+function updateClock() {
+    var t = getTimeRemaining(endtime);
+
+    daysSpan.innerHTML = t.days;
+    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+    if (t.total <= 0) {
+      clearInterval(timeinterval);
+      //console.log('kuldeep');
+      window.location = "metarix_landing.php";
+    }
+    
+  }
+  
 </script>
+
+<script type="text/javascript">
+function copyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).val()).select();
+  document.execCommand("copy");
+  $temp.remove();
+  $("#myTooltip").hide();
+  $("#myTooltipshow").show();
+}
+</script>
+
