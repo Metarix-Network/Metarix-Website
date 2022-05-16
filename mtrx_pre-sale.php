@@ -218,7 +218,7 @@
                         <h6 class="info_name">Address</h6>
                         <div class="token_adress">
                             <input type="hidden" id="copyRefrelInput" value="0x55382eEEF32EB87AA27D13d7637954C344154151">
-                            <a href="https://bscscan.com/address/0x55382eeef32eb87aa27d13d7637954c344154151" target="_blank"><p class="info_para">0x55382eEEF32EB87AA27D13d7637954C344154151</p></a>
+                            <a href="https://bscscan.com/address/0x55382eeef32eb87aa27d13d7637954c344154151" target="_blank"><p class="info_para adres-lnk">0x55382eEEF32EB87AA27D13d7637954C344154151</p></a>
                             <span class="cpy" onclick="copyToClipboard('#copyRefrelInput')" id="myTooltip"><i class="fa fa-clone" aria-hidden="true"></i></span>
                             <span class="cpy" onclick="copyToClipboard('#copyRefrelInput')" id="myTooltipshow" style="display: none;"><i class="fa fa-check" aria-hidden="true"></i></span>
                         </div>

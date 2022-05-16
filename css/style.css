@@ -3811,9 +3811,15 @@ a.users {
 }
 .info_para {
     margin-bottom: 5px;
-    font-weight: 400;
-        text-decoration: underline;
+    font-weight: 400;       
     font-size: 18px;
+}
+.adress-dta {
+    display: flex;
+    justify-content: space-between;
+}
+.info_para.adres-lnk{
+    text-decoration: underline; 
 }
 .clone_btn {
     text-decoration: underline;
@@ -3823,6 +3829,7 @@ a.users {
 }
 .cpy{
     margin-left: 7px;
+    cursor: pointer;
 }
 .landing_abt_head{
     color: #fff;

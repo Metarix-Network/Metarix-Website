@@ -84,6 +84,7 @@
                         </div>
                         <div class="clone">
                             <h6>Address</h6>
+                            <div class="adress-dta">
                             <span class="bold_info">
                                 <input type="hidden" id="copyRefrelInputClaim" value="0x55382eEEF32EB87AA27D13d7637954C344154151">
                                 <a class="clone_btn" target="_blank" href="https://bscscan.com/address/0x55382eeef32eb87aa27d13d7637954c344154151"> 0x55382eEEF32EB87AA27D13d7637954C344154151</a>  
@@ -92,7 +93,7 @@
                             </span>
                             <span class="cpy" onclick="copyToClipboard('#copyRefrelInputClaim')" id="myTooltip"><i class="fa fa-clone" aria-hidden="true"></i></span>
                             <span class="cpy" onclick="copyToClipboard('#copyRefrelInputClaim')" id="myTooltipshow" style="display: none;"><i class="fa fa-check" aria-hidden="true"></i></span>
-
+                          </div>
                             
                         </div>
                         <div class="happ">
