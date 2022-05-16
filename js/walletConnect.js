@@ -85,6 +85,7 @@ async function fetchAccountData() {
     //document.querySelector("#prepare").style.display = "none";
     //document.querySelector("#connected").style.display = "block";
 	$("#btn-connect").css("display", "none");
+	$("#btn-buy").css("display", "block");
 	$("#btn-disconnect").css("display", "block");
     let firstFive = accounts[0].substring(0, 4);
     let lastFive = accounts[0].substr(accounts[0].length - 4);
@@ -108,6 +109,7 @@ async function refreshAccountData() {
     //document.querySelector("#connected").style.display = "none";
     //document.querySelector("#prepare").style.display = "block";
 	$("#btn-connect").css("display", "block");
+	$("#btn-buy").css("display", "none");
 	$("#btn-disconnect").css("display", "none");
 
     // Disable button while UI is loading.
@@ -176,6 +178,7 @@ async function onDisconnect() {
     //document.querySelector("#prepare").style.display = "block";
     //document.querySelector("#connected").style.display = "none";
 	$("#btn-connect").css("display", "block");
+	$("#btn-buy").css("display", "none");
 	$("#btn-disconnect").css("display", "none");
 	//localStorage.setItem('walletConnect', 0);
 }

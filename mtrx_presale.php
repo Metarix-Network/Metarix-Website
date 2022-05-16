@@ -114,7 +114,7 @@
            </div>
         </div>
         <div class="row">
-            <div class="col-sm-6">          
+            <div class="col-lg-6">          
             <div id="clockdiv">
                 <div class="timmer ">
                     <span class="days"></span>
@@ -143,7 +143,7 @@
                 </ul>
             </div>
             </div>
-             <div class="col-md-6">
+             <div class="col-lg-6">
                 <div class="landing_ryt_data">
                     <div class="busnd">
                         <h6>1 BNB = <span id="current_price"></span></h6>
@@ -180,7 +180,7 @@
 <section class="landing_token_informations timer-tkn">
     <div class="container">
          <div class="row">
-            <div class="col-md-6">
+            <div class="col-lg-6">
                 <h1 class="tok_info_head">Pool Information</h1>
                 <div class="pool_info_data">                   
                     <div class="token_distrubation">
@@ -203,7 +203,7 @@
                 </div>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-lg-6">
                 <h1 class="tok_info_head">Token Information</h1>
                 <div class="token_info_data">
                     <div class="token_distrubation">
@@ -218,7 +218,10 @@
                         <h6 class="info_name">Address</h6>
                         <div class="token_adress">
                             <input type="hidden" id="copyRefrelInput" value="0x55382eEEF32EB87AA27D13d7637954C344154151">
-                            <a href="https://bscscan.com/address/0x55382eeef32eb87aa27d13d7637954c344154151" target="_blank"><p class="info_para adres-lnk">0x55382eEEF32EB87AA27D13d7637954C344154151</p></a>
+                            <a href="https://bscscan.com/address/0x55382eeef32eb87aa27d13d7637954c344154151" target="_blank">
+                                <p class="info_para adres-lnk">0x55382eEEF32EB87AA27D13d7637954C344154151</p></a>
+                                <a href="https://bscscan.com/address/0x55382eeef32eb87aa27d13d7637954c344154151" target="_blank">
+                                <p class="info_para adres-lnk mbl-adres-lnk">0x5538...4151</p></a>
                             <span class="cpy" onclick="copyToClipboard('#copyRefrelInput')" id="myTooltip"><i class="fa fa-clone" aria-hidden="true"></i></span>
                             <span class="cpy" onclick="copyToClipboard('#copyRefrelInput')" id="myTooltipshow" style="display: none;"><i class="fa fa-check" aria-hidden="true"></i></span>
                         </div>
@@ -236,17 +239,17 @@
         </div>
     </div>
 </section>
-<section>
+<section class="preslae-abt">
     <div class="container">
         <div class="row">
             <h2 class="landing_abt_head">About the Project</h2>
-            <div class="col-md-6">
+            <div class="col-lg-6">
                 <div class="landingpage_paragharph">
                     <p>Metarix is a fully Decentralized Blockchain platform for Gaming, NFT's and Metaverse. We at Metarix are dreaming to build the community owned decentralized blockchain platform. Our platform consists of Blockchain, DEX, NFT Marketplace, Metaverse , Virtual Land Parcels , SDK and much more.
                     We are dreaming of building a complete ecosystem for gaming projects to give users the one stop solution for all the gaming project needs. Metarix is a decentralized web 3.0 platform and is powered using the Metarix Chain a layer 2 solution on top of Ethereum using Ethereum's Scaling and security measures to ensure our users are protected. </p>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-6">
                  <div class="landingpage_paragharph">
                     <p>User's who participate in this private sale and stake with us are eligible for discounts on our land parcels. Discount details will be disclosed soon before the launch. Metarix Virtual Land project consists of 109,000 land parcels each of different size. You can buy virtual real estate property on Metarix chain and build anything you dream of in Metarix Metaverse using our own SDK. We provide additional support from Building NFT's and Games to customizing them and even pushing your project to greater extent with all the resources of Metarix at your disposal. </p>
                 </div>
@@ -267,8 +270,27 @@
 <?php include("includes/footer.php"); ?>
 
     
-
-
+<script src="https://cdn.ethers.io/lib/ethers-5.0.umd.min.js" type="text/javascript"></script>
+<script>
+$(document).ready(function(){
+	var contractAddress="0x1f88beb3ebd47ca8285b270b14c5c66bfd5f9d1d";
+	var rpcUrl="https://data-seed-prebsc-1-s1.binance.org:8545/";
+	var abi=[{"inputs":[{"internalType":"uint256","name":"_maxCap","type":"uint256"},{"internalType":"uint256","name":"_saleStartTime","type":"uint256"},{"internalType":"uint256","name":"_saleEndTime","type":"uint256"},{"internalType":"address payable","name":"_projectOwner","type":"address"}],"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"previousOwner","type":"address"},{"indexed":true,"internalType":"address","name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},{"inputs":[],"name":"NAME","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"buy","outputs":[],"stateMutability":"payable","type":"function"},{"inputs":[],"name":"maxCap","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"owner","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"projectOwner","outputs":[{"internalType":"address payable","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"saleEndTime","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"saleStartTime","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"totalBnbReceived","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"totalBuys","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"stateMutability":"nonpayable","type":"function"}];
+	const provider = new ethers.providers.Web3Provider(window.ethereum);
+	const walletSigner = provider.getSigner();
+	const contract = new ethers.Contract(contractAddress, abi, walletSigner);
+	contract.totalBnbReceived().then((data1) => {
+		contract.maxCap().then((data2) => {
+			var result=((data1)/(data2))*100;
+			if(isNaN(result)){
+				result=0;
+			}
+			$(".landing_progress span").html(result+"%");
+			$(".progress-bar").removeAttr("style").css("width", result+"%");
+		});
+	});
+});
+</script>
 <!-- timer jss  -->
 <script>
     function getTimeRemaining(endtime) {
@@ -304,7 +326,7 @@ function initializeClock(id, endtime) {
     if (t.total <= 0) {
       clearInterval(timeinterval);
       //console.log('kuldeep');
-      window.location = "metarix_landing.php";
+      window.location = "mtrx_presale-on.php";
     }
     
   }
@@ -314,7 +336,7 @@ function initializeClock(id, endtime) {
 }
 
 const deadline = '2022-05-20 12:00 am'; //final
-// const deadline = '2022-05-02 12:38 pm'; //testing
+// const deadline = '2022-05-16 09:57 am'; //testing
 //var deadline = new Date(Date.parse(new Date()) + 18 * 24 * 60 * 60 * 1000);
 initializeClock('clockdiv', deadline);
 
@@ -330,7 +352,7 @@ function updateClock() {
     if (t.total <= 0) {
       clearInterval(timeinterval);
       //console.log('kuldeep');
-      window.location = "metarix_landing.php";
+      window.location = "mtrx_presale-on.php";
     }
     
   }

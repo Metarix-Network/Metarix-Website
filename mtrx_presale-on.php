@@ -44,7 +44,7 @@
 
   <!-- ========================================================  -->
   <style type="text/css">
-      #btn-disconnect{
+      #btn-disconnect, #btn-buy{
         display: none;
       }
   </style>
@@ -62,6 +62,7 @@
       <nav id="navbar" class="navbar">
         
         <ul>
+		  <li><a class="getstarted scrollto buyMtrx" id="btn-buy" href="javascript:void(0);">Buy MTRX</a></li>	
           <li><a class="getstarted scrollto" id="btn-connect" href="javascript:void(0);">Connect Wallet</a></li>
           <li><a class="getstarted scrollto" id="btn-disconnect" href="javascript:void(0);">Disconnect Wallet</a></li>
 
@@ -106,7 +107,7 @@
 <section class="meta_landing">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-lg-6">
                 <div class="metarixs_landing_logo">
                     <img src="img/footer-logo.png" alt="">
                 </div>
@@ -115,21 +116,21 @@
                     <p>Metarix is a fully decentralized Blockchain for Gaming, NFT's and Metaverse and Digital Marketing Platform through Metaverse</p>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-6">
                 <div class="landing_ryt_data">
                     <div class="busnd">
-                        <h6>1 MTRX = $0.05</h6>
+                        <h6>1 BNB = <span id="current_price"></span></h6>
                     </div>
                     <div class="total rasid">
                         <h6>Total Raised</h6>
-                        <p>000.00 MTRX</p>
+                        <p>000.00 BNB</p>
                     </div>
                     <div class="landing_progress">
                         <h6>Progress <span>0%</span></h6>
                         <div class="progress">
                         <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
                         </div>
-                        <p>0 MTRX</p>
+                        <!-- <p>0 MTRX</p> -->
                     </div>
                    <!--  <div class="limites_status">
                         <div class="limited">
@@ -150,7 +151,7 @@
 <section class="landing_token_informations">
     <div class="container">
          <div class="row">
-            <div class="col-md-6">
+            <div class="col-lg-6">
                 <h1 class="tok_info_head">Pool Information</h1>
                 <div class="pool_info_data">                   
                     <div class="token_distrubation">
@@ -167,13 +168,13 @@
                     </div>
                     <div class="token_distrubation_end">
                         <h6 class="info_name">Access Type</h6>
-                        <p class="info_para">Private</p>
+                        <p class="info_para">Crowd Sale</p>
                     </div>
 
                 </div>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-lg-6">
                 <h1 class="tok_info_head">Token Information</h1>
                 <div class="token_info_data">
                     <div class="token_distrubation">
@@ -186,7 +187,15 @@
                     </div>
                     <div class="token_distrubation">
                         <h6 class="info_name">Address</h6>
-                        <p class="info_para">0x55382eEEF32EB87AA27D13d7637954C344154151 <span class="cpy"><i class="fa fa-clone" aria-hidden="true"></i></span></p>
+                        <div class="token_adress">
+                        <p class="info_para"><a class="info_para adres-lnk" href="https://bscscan.com/address/0x55382eeef32eb87aa27d13d7637954c344154151" target="_blank">0x55382eEEF32EB87AA27D13d7637954C344154151</a>
+                            <a href="https://bscscan.com/address/0x55382eeef32eb87aa27d13d7637954c344154151" target="_blank">
+                                <p class="info_para adres-lnk mbl-adres-lnk">0x5538...4151</p></a>
+							<input type="hidden" id="copyRefrelInputClaim" value="0x55382eEEF32EB87AA27D13d7637954C344154151">
+							<span class="cpy" onclick="copyToClipboard('#copyRefrelInputClaim')" id="myTooltip"><i class="fa fa-clone" aria-hidden="true"></i></span>
+							<span class="cpy" onclick="copyToClipboard('#copyRefrelInputClaim')" id="myTooltipshow" style="display: none;"><i class="fa fa-check" aria-hidden="true"></i></span>
+						</p>
+                    </div>
                     </div>
                     <div class="token_distrubation_end">
                         <h6 class="info_name">Total Supply</h6>
@@ -198,17 +207,17 @@
     </div>
 </section>
 
-<section>
+<section class="preslae-abt">
     <div class="container">
         <div class="row">
             <h2 class="landing_abt_head">About the Project</h2>
-            <div class="col-md-6">
+            <div class="col-lg-6">
                 <div class="landingpage_paragharph">
                     <p>Metarix is a fully Decentralized Blockchain platform for Gaming, NFT's and Metaverse. We at Metarix are dreaming to build the community owned decentralized blockchain platform. Our platform consists of Blockchain, DEX, NFT Marketplace, Metaverse , Virtual Land Parcels , SDK and much more.
                     We are dreaming of building a complete ecosystem for gaming projects to give users the one stop solution for all the gaming project needs. Metarix is a decentralized web 3.0 platform and is powered using the Metarix Chain a layer 2 solution on top of Ethereum using Ethereum's Scaling and security measures to ensure our users are protected. </p>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-6">
                  <div class="landingpage_paragharph">
                     <p>User's who participate in this private sale and stake with us are eligible for 50 percent discount on our land parcels subject to all the terms and conditions. Metarix Virtual Land project consists of 109,000 land parcels each of different size. You can buy virtual real estate property on Metarix chain and build anything you dream of in Metarix Metaverse using our own SDK. We provide additonal support from Building NFT's and Games to customizing them and even pushing your project to greater extent with all the resources of Metarix at your disposal. </p>
                 </div>
@@ -276,6 +285,31 @@
 
   <!-- <div id="preloader"></div>-->
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="fa fa-arrow-up"></i></a>
+  
+  <!-- Modal -->
+	<div class="modal fade" id="buyModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+		<form method="post" class="buySubmit">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Buy MTRX</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			  </div>
+			  <div class="modal-body">
+				<div class="mb-3">
+				  <label for="tokens" class="form-label">BNB Tokens</label>
+				  <input type="text" class="form-control" name="tokens" id="tokens" placeholder="BNB Tokens">
+				  <span class="red">You will get approximately <span class="mtrxCount">0</span> MTRX</span>
+				</div>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+				<button type="submit" class="btn btn-primary">Buy</button>
+			  </div>
+			</div>
+		</form>
+	  </div>
+	</div>
 
  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -289,7 +323,123 @@
 <script type="text/javascript" src="https://unpkg.com/evm-chains/lib/index.js"></script>
 <script type="text/javascript" src="https://unpkg.com/@walletconnect/web3-provider"></script>
 <script src="js/walletConnect.js"></script>
-
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://cdn.ethers.io/lib/ethers-5.0.umd.min.js" type="text/javascript"></script>
+<script>
+$(document).ready(function(){
+	var contractAddress="0x1f88beb3ebd47ca8285b270b14c5c66bfd5f9d1d";
+	var rpcUrl="https://data-seed-prebsc-1-s1.binance.org:8545/";
+	var abi=[{"inputs":[{"internalType":"uint256","name":"_maxCap","type":"uint256"},{"internalType":"uint256","name":"_saleStartTime","type":"uint256"},{"internalType":"uint256","name":"_saleEndTime","type":"uint256"},{"internalType":"address payable","name":"_projectOwner","type":"address"}],"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"previousOwner","type":"address"},{"indexed":true,"internalType":"address","name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},{"inputs":[],"name":"NAME","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"buy","outputs":[],"stateMutability":"payable","type":"function"},{"inputs":[],"name":"maxCap","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"owner","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"projectOwner","outputs":[{"internalType":"address payable","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"saleEndTime","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"saleStartTime","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"totalBnbReceived","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"totalBuys","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"stateMutability":"nonpayable","type":"function"}];
+	const provider = new ethers.providers.Web3Provider(window.ethereum);
+	const walletSigner = provider.getSigner();
+	const contract = new ethers.Contract(contractAddress, abi, walletSigner);
+	contract.totalBnbReceived().then((data1) => {
+		contract.maxCap().then((data2) => {
+			var result=((data1)/(data2))*100;
+			if(isNaN(result)){
+				result=0;
+			}
+			$(".landing_progress span").html(result+"%");
+			$(".progress-bar").removeAttr("style").css("width", result+"%");
+		});
+	});
+});
+</script>
+<script type="text/javascript">
+function checkAmount(){
+  $.ajax({
+	url: "functions.php",
+	method:'post',
+	data: {
+	  "type": "getTokenBalance",
+	  },
+	dataType: "json",
+	beforeSend: function(){
+	 // Show image container
+	},
+	success:function(response) {
+	  if(response.status == '1')
+	  {
+		var price = response.price;
+		$("#current_price").html('$'+response.price);
+	  }
+	},
+	complete:function(data){
+	  // Hide image container
+	}
+  });
+} 
+checkAmount();
+setInterval(checkAmount, 5000);
+</script>
+<script type="text/javascript">
+function copyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).val()).select();
+  document.execCommand("copy");
+  $temp.remove();
+  $("#myTooltip").hide();
+  $("#myTooltipshow").show();
+}
+</script>
+<script>
+$(document).ready(function(){
+	$('[name="tokens"]').keyup(function(){
+		$.ajax({
+			url: "functions.php",
+			method:'post',
+			data: {
+			  "type": "getTokenBalance",
+			  },
+			dataType: "json",
+			beforeSend: function(){
+			 // Show image container
+			},
+			success:function(response) {
+			  if(response.status == '1')
+			  {
+				var price = response.price;
+				$(".mtrxCount").html(($('[name="tokens"]').val()*price)/0.05);
+			  }
+			},
+			complete:function(data){
+			  // Hide image container
+			}
+		});
+	});
+	$(".buyMtrx").click(function(){
+		$("#buyModal").modal("show");
+	});
+	$(".buySubmit").submit(function(){
+		try {
+			var tokens=$(this).find('[name="tokens"]').val();
+			var contractAddress="0x1f88beb3ebd47ca8285b270b14c5c66bfd5f9d1d";
+			var rpcUrl="https://data-seed-prebsc-1-s1.binance.org:8545/";
+			var abi=[{"inputs":[{"internalType":"uint256","name":"_maxCap","type":"uint256"},{"internalType":"uint256","name":"_saleStartTime","type":"uint256"},{"internalType":"uint256","name":"_saleEndTime","type":"uint256"},{"internalType":"address payable","name":"_projectOwner","type":"address"}],"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"previousOwner","type":"address"},{"indexed":true,"internalType":"address","name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},{"inputs":[],"name":"NAME","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"buy","outputs":[],"stateMutability":"payable","type":"function"},{"inputs":[],"name":"maxCap","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"owner","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"projectOwner","outputs":[{"internalType":"address payable","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"saleEndTime","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"saleStartTime","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"totalBnbReceived","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"totalBuys","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"stateMutability":"nonpayable","type":"function"}];
+			const provider = new ethers.providers.Web3Provider(window.ethereum);
+			const walletSigner = provider.getSigner();
+			const contract = new ethers.Contract(contractAddress, abi, walletSigner);
+			let value = ethers.utils.parseUnits(tokens);
+			var options = { gasLimit: 9000000 };
+			contract.buy({ value }).then((tx) => {
+				//console.log(tx.hash);
+				$("#buyModal").modal("hide");
+				swal("Conguratiolations!", "You have successfully participated in our presale. Please check your token balance in the claim page. Metarix will announce a claim date soon.", "success");
+			})
+			.catch(function(err) {
+				if(err.data){
+					swal("Error", err.data.message, "error");
+				}
+			});
+		}
+		catch(err) {
+			swal("Error", err.message, "error");
+		}
+		return false;
+	})
+});
+</script>
 
 </body>
 

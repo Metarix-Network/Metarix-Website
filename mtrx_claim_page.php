@@ -17,7 +17,8 @@
                        <div class="conectionshead">
                             <input type="hidden" id="copyRefrelInputCurrent" value="">
                            <img src="img/staking/plus_icon.png" alt="">
-                           <h6 id="wallet_connect">Wallet not connected</h6>
+                           <h6 id="wallet_connect" class="desk-wlcont">Wallet not connected</h6>
+                           <h6 id="wallet_connect" class="responsive-wlcont">Wallet not connected</h6>
                        </div>
                        <div class="claim_item">
                            <h6>claimed</h6>
@@ -87,7 +88,8 @@
                             <div class="adress-dta">
                             <span class="bold_info">
                                 <input type="hidden" id="copyRefrelInputClaim" value="0x55382eEEF32EB87AA27D13d7637954C344154151">
-                                <a class="clone_btn" target="_blank" href="https://bscscan.com/address/0x55382eeef32eb87aa27d13d7637954c344154151"> 0x55382eEEF32EB87AA27D13d7637954C344154151</a>  
+                                <a class="clone_btn" target="_blank" href="https://bscscan.com/address/0x55382eeef32eb87aa27d13d7637954c344154151">0x55382eEEF32EB87AA27D13d7637954C344154151</a> 
+                                <a class="clone_btn response-clnbtn" target="_blank" href="https://bscscan.com/address/0x55382eeef32eb87aa27d13d7637954c344154151">0x5538...4151</a>  
                                 <!-- <i class="fa fa-clone" aria-hidden="true"></i> -->
                                 
                             </span>

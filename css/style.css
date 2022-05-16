@@ -504,14 +504,7 @@ div#imageView > img {
     position: relative;
 }
 
-@media (max-width: 1366px) {
-    .navbar .dropdown .dropdown ul {
-        left: -90%;
-    }
-    .navbar .dropdown .dropdown:hover>ul {
-        left: -100%;
-    }
-}
+
 .nav-link {
     padding: 0px ;
 }
@@ -532,29 +525,6 @@ div#imageView > img {
     color: #fff;
 }
 
-@media (max-width: 1152px) {
-    .mobile-nav-toggle {
-        display: block;
-    }
-    .navbar ul {
-        display: none;
-    }
-    .mobile-nav-toggle {
-    margin-top: 15px;
-}
-.dropbtn {
-    color: #fff !important;
-    background-color: transparent !important;
-    border: none !important;
-    font-size: 20px !important;
-}
-.navbar .dropdown:hover>ul {
-    opacity: 1;
-    top: 100%;
-    visibility: visible;
-    display: block;
-}
-}
 
 .navbar-mobile {
     position: fixed;
@@ -1045,12 +1015,13 @@ div#imageView > img {
 .smart_contact .fa {
     font-size: 22px;
 }
-.smart_contact_btn {
+.btn.smart_contact_btn {
     background: transparent !important;
     border: none;
     color: #fff !important;
     font-size: 30px;
     padding: 0;
+    font-weight: 600 !important;
 }
 .staking_rew_items h6 {
     font-size: 20px;
@@ -3000,12 +2971,14 @@ a.nft_btn:hover{
 }
 .token_adress {
     display: flex;
-    gap: 12px;
+    gap: 2px;
 }
 .token_adress a:hover {
     color: #b1308e;
 }
-
+.info_para {
+    font-size: 16px;
+}
 
                                          /* nft marketplace details place  */
 
@@ -3266,6 +3239,14 @@ a.nft_btn:hover{
 .owl-theme .owl-nav [class*='owl-']:hover {
     border: 3px solid #893fee;
     color: #893fee !important
+}
+
+#buyModal {
+  color: #000;
+}
+
+#buyModal .red {
+  color: red;
 }
 
 @media(max-width: 575.5px) {
@@ -4226,12 +4207,52 @@ section.mtxs_pools {
     margin: 50px auto;
     font-weight: 300;
 }
+.response-clnbtn{
+    display: none;
+}
 
+.responsive-wlcont{
+    display: none;
+}
+.mbl-adres-lnk{
+    display: none;
+}
 
-
-
-
-                                                  /* responsive website  */
+ /****************************************** responsive website  ***************************************/
+ @media (max-width: 1399px) {
+    .navbar .dropdown .dropdown ul {
+        left: -90%;
+    }
+    .navbar .dropdown .dropdown:hover>ul {
+        left: -100%;
+    }
+    .info_para {
+    font-size: 16px;
+}
+}
+@media (max-width: 1152px) {
+    .mobile-nav-toggle {
+        display: block;
+    }
+    .navbar ul {
+        display: none;
+    }
+    .mobile-nav-toggle {
+    margin-top: 15px;
+}
+.dropbtn {
+    color: #fff !important;
+    background-color: transparent !important;
+    border: none !important;
+    font-size: 20px !important;
+}
+.navbar .dropdown:hover>ul {
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+    display: block;
+}
+}
 
 @media (max-width: 1199px) {
     .navbar a, .navbar a:focus {
@@ -4324,6 +4345,34 @@ section.mtxs_pools {
 .landing-foot .footer_items {
     display: flex;
 }
+.btn.smart_contact_btn {
+    font-size: 25px;
+}
+.desk-wlcont{
+    display: none;
+}
+.responsive-wlcont{
+    display: block;
+}
+#clockdiv {
+    font-size: 20px;
+}
+.smalltext {
+    padding-top: 0;
+}
+#clockdiv .timmer {
+    width: 115px;
+    height: 105px;
+}
+.adres-lnk{
+    display: none;
+}
+.mbl-adres-lnk{
+    display: block;
+}
+.metarixs_landing {
+    padding: 65px 0px 0;
+}
 }
 
 @media (max-width: 991px) {
@@ -4390,27 +4439,16 @@ section.mtxs_pools {
     .check-heading::before {
         top: 95px;
     }
-    /* metarix sdk page  */
+   
     .sdk_main_img {
         bottom: -22px;
     }
-    /*.button_sdk_img {
-        top: -58px;
-        width: 100px;
-    }*/
+ 
     .sdk_button_text,
     .sdk_button_para {
         font-size: 20px;
     }
-    /*.sdk_data {
-        position: relative;
-        top: -31px;
-    }*/
-    /*.play_store,
-    .apple_store,
-    .linux {
-        height: 170px;
-    }*/
+   
     .features-box {
         grid-template-columns: 1fr 1fr;
     }
@@ -4623,11 +4661,60 @@ display: none;
 .deposit_data_2 {
     padding: 100px 0px 0;
 }
-.wallet_conct_data {
-    width: 90%;
+.clone_btn{
+    display: none;
 }
-.wallet_connections {
+.response-clnbtn {
     display: block;
+}
+.leftside_info h6 {
+    font-size: 24px;
+}
+.timer_head h1 {
+    font-size: 35px;
+    width: 100%;
+}
+#clockdiv .timmer {
+    width: 115px;
+    height: 115px;
+    line-height: 25px;
+}
+.timmer span {
+    padding-top: 10px;
+    display: inline-block;
+}
+.timer_head {
+    margin-bottom: 40px;
+}
+.landing_ryt_data {
+    margin-top: 30px;
+}
+.tok_info_head {
+    margin-top: 50px;
+}
+.landing_token_informations.timer-tkn {
+    padding-top: 0;
+}
+.landingpage_paragharph {
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+.preslae-abt{
+    padding-bottom: 15px;
+}
+.meta_landing {
+    background: url(../img/preesale_ended.png);
+    padding: 60px 0px 60px 0px;
+}
+.landing_token_informations {
+    position: inherit;
+    top: 0;
+}
+.landing_abt_head {
+    margin-top: 40px;
+}
+.landingpage_paragharph p {
+    color: #b9b9b9;
 }
 }
 
@@ -4702,6 +4789,10 @@ display: none;
         height: 140px;
         margin: auto;
     }
+    .timer-btm ul li {
+    font-size: 16px;
+    line-height: 32px;
+}
     .rewards_data {
     min-height: 140px;
 }
@@ -4732,6 +4823,9 @@ display: none;
     .bitcoin_text {
         font-size: 27px;
     }
+    .landing_timmer {
+    padding: 40px 0px 30px 0px;
+}
     .bitcoin_para {
         font-size: 15px;
         width: 100%;
@@ -4853,11 +4947,11 @@ display: none;
    grid-template-columns: 1fr;
 }
 .main_left_text {
-    top: 10%;
+    top: 30%;
     left: 100px;
 }
 .main_right_text {
-    top: 10%;
+    top: 25%;
     right: 20px;
 }
 .right_text {
@@ -4918,9 +5012,10 @@ display: none;
 }
 .features-box {
     padding: 25px 15px 50px 15px;
+        grid-gap: 30px;
 }
 .metarix_artifix {
-    padding: 0px;
+    padding: 30px 0;
 }
 .meta_landing {
     padding: 35px 0px 0px 0px;
@@ -4935,13 +5030,40 @@ display: none;
     margin-top: 35px;
 }
 .landing_abt_head {
-    margin-top: 40px;
+    margin-top: 0;
     margin-bottom: 0;
+    font-size: 22px;
 }
 .ft_right_land {
     width: 100%;
     float: none;
     margin: 0 auto;
+}
+.token_sale_items {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 50% 50%;
+}
+.features-box {
+    grid-template-columns: 1fr;
+    padding: 25px 15px 60px 15px;
+    grid-gap: 20px;
+}
+.wallet_connections {
+    display: block;
+        padding: 25px 10px;
+}
+.preesale_wallet {
+    padding:40px 0px 50px 0px;
+}
+.Pre_sale_ended {
+    padding: 30px 0;
+}
+.sale_ended_paragraph p {
+    font-size: 18px;
+    width: 100%;
+    margin: 30px auto;
+    font-weight: 300;
 }
 }
 @media (max-width: 640px) {
@@ -4961,11 +5083,7 @@ display: none;
 .slider-two img{
     width: 100%;
 }
-.features-box {
- grid-template-columns: 1fr;
- padding: 25px 15px 60px 15px;
-     grid-gap: 20px;
-}
+
 .metarixs_landing_logo img {
     width: 50px;
 }
@@ -4992,10 +5110,18 @@ display: none;
 .landingpage_paragharph p {
     font-size: 16px;
     width: 100%;
+        line-height: 28px;
 }
 #our_services {
     color: #FFF;
     padding: 70px 0px 80px 0px;
+}
+.timer_head h1 {
+    font-size: 23px;
+    width: 100%;
+}
+.landing_heding {
+    padding: 35px 0 0;
 }
 }
 
@@ -5097,12 +5223,9 @@ display: none;
     font-size: 14px;
     line-height: 23px;
 }
-.header-scrolled .container {
-    margin: 0px;
-    padding: 0px 15px;
-}
+
 .carousel-fade .carousel-item {
-    padding-top: 45px;
+    padding-top: 80px;
 }
 .box-head h3 {
     font-size: 17px;
@@ -5148,6 +5271,16 @@ img.footer_logo {
 }
 #footer {
     padding: 15px;
+}
+#clockdiv {
+    display: grid;
+    font-size: 20px;
+    gap: 0px;
+    margin-top: 15px;
+    grid-template-columns: 50% 50%;
+}
+#clockdiv .timmer {
+    margin: 0 auto 30px;
 }
 }
 
