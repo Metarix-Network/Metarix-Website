@@ -525,7 +525,29 @@ div#imageView > img {
     color: #fff;
 }
 
-
+@media (max-width: 1152px) {
+    .mobile-nav-toggle {
+        display: block;
+    }
+    .navbar ul {
+        display: none;
+    }
+    .mobile-nav-toggle {
+    margin-top: 15px;
+}
+.dropbtn {
+    color: #fff !important;
+    background-color: transparent !important;
+    border: none !important;
+    font-size: 20px !important;
+}
+.navbar .dropdown:hover>ul {
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+    display: block;
+}
+}
 .navbar-mobile {
     position: fixed;
     overflow: hidden;
@@ -4230,29 +4252,7 @@ section.mtxs_pools {
     font-size: 16px;
 }
 }
-@media (max-width: 1152px) {
-    .mobile-nav-toggle {
-        display: block;
-    }
-    .navbar ul {
-        display: none;
-    }
-    .mobile-nav-toggle {
-    margin-top: 15px;
-}
-.dropbtn {
-    color: #fff !important;
-    background-color: transparent !important;
-    border: none !important;
-    font-size: 20px !important;
-}
-.navbar .dropdown:hover>ul {
-    opacity: 1;
-    top: 100%;
-    visibility: visible;
-    display: block;
-}
-}
+
 
 @media (max-width: 1199px) {
     .navbar a, .navbar a:focus {

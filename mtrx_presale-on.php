@@ -67,7 +67,7 @@
           <li><a class="getstarted scrollto" id="btn-disconnect" href="javascript:void(0);">Disconnect Wallet</a></li>
 
           <!-- <li><a class="getstarted scrollto"  href="#"><i class="fa fa-user-o" aria-hidden="true"></i></a></li> -->
-          <li><a class="users"  href="#"><i class="fa user_btn fa-user-o" aria-hidden="true"></i></a></li>
+          <!--<li><a class="users"  href="#"><i class="fa user_btn fa-user-o" aria-hidden="true"></i></a></li>-->
         </ul>
         <i class="fa fa-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -325,26 +325,6 @@
 <script src="js/walletConnect.js"></script>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <script src="https://cdn.ethers.io/lib/ethers-5.0.umd.min.js" type="text/javascript"></script>
-<script>
-$(document).ready(function(){
-	var contractAddress="0x1f88beb3ebd47ca8285b270b14c5c66bfd5f9d1d";
-	var rpcUrl="https://data-seed-prebsc-1-s1.binance.org:8545/";
-	var abi=[{"inputs":[{"internalType":"uint256","name":"_maxCap","type":"uint256"},{"internalType":"uint256","name":"_saleStartTime","type":"uint256"},{"internalType":"uint256","name":"_saleEndTime","type":"uint256"},{"internalType":"address payable","name":"_projectOwner","type":"address"}],"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"previousOwner","type":"address"},{"indexed":true,"internalType":"address","name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},{"inputs":[],"name":"NAME","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"buy","outputs":[],"stateMutability":"payable","type":"function"},{"inputs":[],"name":"maxCap","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"owner","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"projectOwner","outputs":[{"internalType":"address payable","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"saleEndTime","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"saleStartTime","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"totalBnbReceived","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"totalBuys","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"stateMutability":"nonpayable","type":"function"}];
-	const provider = new ethers.providers.Web3Provider(window.ethereum);
-	const walletSigner = provider.getSigner();
-	const contract = new ethers.Contract(contractAddress, abi, walletSigner);
-	contract.totalBnbReceived().then((data1) => {
-		contract.maxCap().then((data2) => {
-			var result=((data1)/(data2))*100;
-			if(isNaN(result)){
-				result=0;
-			}
-			$(".landing_progress span").html(result+"%");
-			$(".progress-bar").removeAttr("style").css("width", result+"%");
-		});
-	});
-});
-</script>
 <script type="text/javascript">
 function checkAmount(){
   $.ajax({
@@ -382,63 +362,6 @@ function copyToClipboard(element) {
   $("#myTooltip").hide();
   $("#myTooltipshow").show();
 }
-</script>
-<script>
-$(document).ready(function(){
-	$('[name="tokens"]').keyup(function(){
-		$.ajax({
-			url: "functions.php",
-			method:'post',
-			data: {
-			  "type": "getTokenBalance",
-			  },
-			dataType: "json",
-			beforeSend: function(){
-			 // Show image container
-			},
-			success:function(response) {
-			  if(response.status == '1')
-			  {
-				var price = response.price;
-				$(".mtrxCount").html(($('[name="tokens"]').val()*price)/0.05);
-			  }
-			},
-			complete:function(data){
-			  // Hide image container
-			}
-		});
-	});
-	$(".buyMtrx").click(function(){
-		$("#buyModal").modal("show");
-	});
-	$(".buySubmit").submit(function(){
-		try {
-			var tokens=$(this).find('[name="tokens"]').val();
-			var contractAddress="0x1f88beb3ebd47ca8285b270b14c5c66bfd5f9d1d";
-			var rpcUrl="https://data-seed-prebsc-1-s1.binance.org:8545/";
-			var abi=[{"inputs":[{"internalType":"uint256","name":"_maxCap","type":"uint256"},{"internalType":"uint256","name":"_saleStartTime","type":"uint256"},{"internalType":"uint256","name":"_saleEndTime","type":"uint256"},{"internalType":"address payable","name":"_projectOwner","type":"address"}],"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"previousOwner","type":"address"},{"indexed":true,"internalType":"address","name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},{"inputs":[],"name":"NAME","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"buy","outputs":[],"stateMutability":"payable","type":"function"},{"inputs":[],"name":"maxCap","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"owner","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"projectOwner","outputs":[{"internalType":"address payable","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"saleEndTime","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"saleStartTime","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"totalBnbReceived","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"totalBuys","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"stateMutability":"nonpayable","type":"function"}];
-			const provider = new ethers.providers.Web3Provider(window.ethereum);
-			const walletSigner = provider.getSigner();
-			const contract = new ethers.Contract(contractAddress, abi, walletSigner);
-			let value = ethers.utils.parseUnits(tokens);
-			var options = { gasLimit: 9000000 };
-			contract.buy({ value }).then((tx) => {
-				//console.log(tx.hash);
-				$("#buyModal").modal("hide");
-				swal("Conguratiolations!", "You have successfully participated in our presale. Please check your token balance in the claim page. Metarix will announce a claim date soon.", "success");
-			})
-			.catch(function(err) {
-				if(err.data){
-					swal("Error", err.data.message, "error");
-				}
-			});
-		}
-		catch(err) {
-			swal("Error", err.message, "error");
-		}
-		return false;
-	})
-});
 </script>
 
 </body>

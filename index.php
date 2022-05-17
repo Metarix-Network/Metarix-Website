@@ -620,7 +620,7 @@
                      <div class="staking_rewads">
                         <div class="staking_rew_items">
                             <h6><span>1% </span> Tenset Partnership </h6>
-                            <p>20 %TGE 10 % vested monthly</p>
+                            <p></p>
                         </div>
                         <div class="tokens">
                             <p>Tokens</p>
@@ -649,12 +649,11 @@
                 </div>
                 <div class="card-head">
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Website Development</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Token development and deployment</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Game VFX Design</p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Smart contract Audit</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>white Paper  </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>white Paper </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Light Paper </p>
                      <p class="roadmap_text"><i class="fa fa-circle"></i>Strategic Initial Partnerships</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Token Listings </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Marketing </p>
                 </div>    
             </div>
@@ -663,14 +662,15 @@
                     <h2>Q2 - 2022</h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>ICO Launch </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Airdrop and Marketing Campaigns </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Private Exchange Token Sale </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Team Building </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>1st Presale launch </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Airdrop and Marketing Campaigns</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Layer 2 Metarix Blockchain Deployment </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Private Exchange Token Sale</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Team Building  </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Call out for strategic partnerships  </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Tier 1 and Tier 2 Exchange Listings  </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Enable Staking and rewards  </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Blockchain, Dex and MarketPlace Development </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Blockchain, Dex and MarketPlace Development  </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Migration to own blockchain </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>2nd round of presale and launchpad offerings </p>
                 </div>
             </div>
             <div class="card roadmap-card  border_radi_us">
@@ -678,12 +678,12 @@
                     <h2>Q3 - 2022 </h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Layer 2 Metarix Blockchain Deployment</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix MarketPlace Launch</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Virtual Land PreSale </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>IEO/Listing on CEX</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Tier 1 Exchange Listing</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix NFT MarketPlace Launch </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Virtual Land PreSale</p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Dex Launch </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Enable Smart Contracts for Gaming and NFT's </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Enable Voting on Metarix Gaming Projects with DAO </p>
                 </div>   
             </div>
                <div class="card roadmap-card  border_radi_us">
@@ -735,12 +735,11 @@
                 </div>
                 <div class="card-head">
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Website Development</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Token development and deployment</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Game VFX Design</p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Smart contract Audit</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>white Paper  </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>white Paper </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Light Paper </p>
                      <p class="roadmap_text"><i class="fa fa-circle"></i>Strategic Initial Partnerships</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Token Listings </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Marketing </p>
                 </div>
             </div>
@@ -749,14 +748,15 @@
                     <h2>Q2 - 2022</h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>ICO Launch </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Airdrop and Marketing Campaigns </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Private Exchange Token Sale </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Team Building </p>
+                     <p class="roadmap_text"><i class="fa fa-circle"></i>1st Presale launch </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Airdrop and Marketing Campaigns</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Layer 2 Metarix Blockchain Deployment </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Private Exchange Token Sale</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Team Building  </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Call out for strategic partnerships  </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Tier 1 and Tier 2 Exchange Listings  </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Enable Staking and rewards  </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Blockchain, Dex and MarketPlace Development </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Blockchain, Dex and MarketPlace Development  </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Migration to own blockchain </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>2nd round of presale and launchpad offerings </p>
                 </div>
             </div>
             <div class="card roadmap-card  border_radi_us">
@@ -764,12 +764,12 @@
                     <h2>Q3 - 2022 </h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Layer 2 Metarix Blockchain Deployment</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix MarketPlace Launch</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Virtual Land PreSale </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>IEO/Listing on CEX</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Tier 1 Exchange Listing</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix NFT MarketPlace Launch </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Virtual Land PreSale</p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Dex Launch </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Enable Smart Contracts for Gaming and NFT's </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Enable Voting on Metarix Gaming Projects with DAO </p>
                 </div>     
             </div>
             <div class="card roadmap-card  border_radi_us">
@@ -830,13 +830,12 @@
                     <h2>Q1 - 2022 </h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Website Development</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Token development and deployment</p>
+                     <p class="roadmap_text"><i class="fa fa-circle"></i>Website Development</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Game VFX Design</p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Smart contract Audit</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>white Paper  </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>white Paper </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Light Paper </p>
                      <p class="roadmap_text"><i class="fa fa-circle"></i>Strategic Initial Partnerships</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Token Listings </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Marketing </p>
                 </div>
             </div>
@@ -845,14 +844,15 @@
                     <h2>Q2 - 2022</h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>ICO Launch </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Airdrop and Marketing Campaigns </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Private Exchange Token Sale </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Team Building </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>1st Presale launch </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Airdrop and Marketing Campaigns</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Layer 2 Metarix Blockchain Deployment </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Private Exchange Token Sale</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Team Building  </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Call out for strategic partnerships  </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Tier 1 and Tier 2 Exchange Listings  </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Enable Staking and rewards  </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Blockchain, Dex and MarketPlace Development </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Blockchain, Dex and MarketPlace Development  </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Migration to own blockchain </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>2nd round of presale and launchpad offerings </p>
                 </div>
             </div>
           </div>
@@ -876,12 +876,12 @@
                     <h2>Q3 - 2022 </h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Layer 2 Metarix Blockchain Deployment</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix MarketPlace Launch</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Virtual Land PreSale </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>IEO/Listing on CEX</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Tier 1 Exchange Listing</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix NFT MarketPlace Launch </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Virtual Land PreSale</p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Dex Launch </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Enable Smart Contracts for Gaming and NFT's </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Enable Voting on Metarix Gaming Projects with DAO </p>
                 </div>    
             </div>
            

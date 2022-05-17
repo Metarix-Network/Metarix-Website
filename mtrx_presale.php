@@ -136,7 +136,8 @@
             <div class="timer-btm">
                 <ul>
                     <li>Presale will starts on the 20th May 13:00 CET and will last until 3 million dollar hardcap is hit or till 27th May 13:00 CET. </li>
-                    <li>No minimum purchase and Maximum purchase is $5000 in BNB</li>
+                    <li>No minimum purchase </li>
+                    <li>Maximum purchase = 5000$ in BNB</li>
                     <li>Presale will be done through our audited crowdfunding contract, which we will share with you when presale goes LIVE!</li>
                     <!-- <li>To participate in the presale, you will simply need to transfer BNB to it, and in return you will get the equivalent amount of tokens in MTRX, which can be claimed at and after launch</li> -->
                     <li>Be careful of scammers. Only get information from Metarix’s official media channels.</li>
@@ -269,28 +270,7 @@
 <!-- footer  -->
 <?php include("includes/footer.php"); ?>
 
-    
 <script src="https://cdn.ethers.io/lib/ethers-5.0.umd.min.js" type="text/javascript"></script>
-<script>
-$(document).ready(function(){
-	var contractAddress="0x1f88beb3ebd47ca8285b270b14c5c66bfd5f9d1d";
-	var rpcUrl="https://data-seed-prebsc-1-s1.binance.org:8545/";
-	var abi=[{"inputs":[{"internalType":"uint256","name":"_maxCap","type":"uint256"},{"internalType":"uint256","name":"_saleStartTime","type":"uint256"},{"internalType":"uint256","name":"_saleEndTime","type":"uint256"},{"internalType":"address payable","name":"_projectOwner","type":"address"}],"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"previousOwner","type":"address"},{"indexed":true,"internalType":"address","name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},{"inputs":[],"name":"NAME","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"buy","outputs":[],"stateMutability":"payable","type":"function"},{"inputs":[],"name":"maxCap","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"owner","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"projectOwner","outputs":[{"internalType":"address payable","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"saleEndTime","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"saleStartTime","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"totalBnbReceived","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"totalBuys","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"stateMutability":"nonpayable","type":"function"}];
-	const provider = new ethers.providers.Web3Provider(window.ethereum);
-	const walletSigner = provider.getSigner();
-	const contract = new ethers.Contract(contractAddress, abi, walletSigner);
-	contract.totalBnbReceived().then((data1) => {
-		contract.maxCap().then((data2) => {
-			var result=((data1)/(data2))*100;
-			if(isNaN(result)){
-				result=0;
-			}
-			$(".landing_progress span").html(result+"%");
-			$(".progress-bar").removeAttr("style").css("width", result+"%");
-		});
-	});
-});
-</script>
 <!-- timer jss  -->
 <script>
     function getTimeRemaining(endtime) {
