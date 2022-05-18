@@ -664,11 +664,11 @@
                 <div class="card-head">
                     <p class="roadmap_text"><i class="fa fa-circle"></i>1st Presale launch </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Airdrop and Marketing Campaigns</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Layer 2 Metarix Blockchain Deployment </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Private Exchange Token Sale</p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Team Building  </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Call out for strategic partnerships  </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Blockchain, Dex and MarketPlace Development  </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Layer 2 Metarix Blockchain Deployment </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Migration to own blockchain </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>2nd round of presale and launchpad offerings </p>
                 </div>
@@ -750,11 +750,11 @@
                 <div class="card-head">
                      <p class="roadmap_text"><i class="fa fa-circle"></i>1st Presale launch </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Airdrop and Marketing Campaigns</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Layer 2 Metarix Blockchain Deployment </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Private Exchange Token Sale</p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Team Building  </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Call out for strategic partnerships  </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Blockchain, Dex and MarketPlace Development  </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Layer 2 Metarix Blockchain Deployment </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Migration to own blockchain </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>2nd round of presale and launchpad offerings </p>
                 </div>
@@ -846,11 +846,11 @@
                 <div class="card-head">
                     <p class="roadmap_text"><i class="fa fa-circle"></i>1st Presale launch </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Airdrop and Marketing Campaigns</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Layer 2 Metarix Blockchain Deployment </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Private Exchange Token Sale</p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Team Building  </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Call out for strategic partnerships  </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Blockchain, Dex and MarketPlace Development  </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Layer 2 Metarix Blockchain Deployment </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Migration to own blockchain </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>2nd round of presale and launchpad offerings </p>
                 </div>

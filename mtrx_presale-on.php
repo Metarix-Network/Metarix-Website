@@ -62,7 +62,7 @@
       <nav id="navbar" class="navbar">
         
         <ul>
-		  <li><a class="getstarted scrollto buyMtrx" id="btn-buy" href="javascript:void(0);">Buy MTRX</a></li>	
+		  <!-- <li><a class="getstarted scrollto buyMtrx" id="btn-buy" href="javascript:void(0);">Buy MTRX</a></li>	 -->
           <li><a class="getstarted scrollto" id="btn-connect" href="javascript:void(0);">Connect Wallet</a></li>
           <li><a class="getstarted scrollto" id="btn-disconnect" href="javascript:void(0);">Disconnect Wallet</a></li>
 
@@ -121,15 +121,27 @@
                     <div class="busnd">
                         <h6>1 BNB = <span id="current_price"></span></h6>
                     </div>
-                    <div class="total rasid">
-                        <h6>Total Raised</h6>
-                        <p>000.00 BNB</p>
-                    </div>
                     <div class="landing_progress">
                         <h6>Progress <span>0%</span></h6>
                         <div class="progress">
                         <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
-                        </div>
+                    </div>
+                    <div class="buys_button">
+                      <div class="total rasid">
+                          <h6>Total Raised</h6>
+                          <p class="totalRaised">0.00 BNB</p>
+                      </div>
+                      <div class="buy_btns">
+                         <a class="getstarted scrollto btnss1 buyMtrx" id="btn-buy" href="javascript:void(0);">Buy MTRX</a>
+                         <!-- <a class="getstarted scrollto buyMtrx" id="btn-buy" href="javascript:void(0);">Buy MTRX</a> -->
+                         <!-- <a class="getstarted scrollto" id="btn-disconnect" href="javascript:void(0);">Disconnect Wallet</a></li> -->
+                         
+
+                      </div>
+                      
+                    </div>
+                    
+                    
                         <!-- <p>0 MTRX</p> -->
                     </div>
                    <!--  <div class="limites_status">
@@ -219,7 +231,7 @@
             </div>
             <div class="col-lg-6">
                  <div class="landingpage_paragharph">
-                    <p>User's who participate in this private sale and stake with us are eligible for 50 percent discount on our land parcels subject to all the terms and conditions. Metarix Virtual Land project consists of 109,000 land parcels each of different size. You can buy virtual real estate property on Metarix chain and build anything you dream of in Metarix Metaverse using our own SDK. We provide additonal support from Building NFT's and Games to customizing them and even pushing your project to greater extent with all the resources of Metarix at your disposal. </p>
+                    <p>subject to all the terms and conditions. Metarix Virtual Land project consists of 109,000 land parcels each of different size. You can buy virtual real estate property on Metarix chain and build anything you dream of in Metarix Metaverse using our own SDK. We provide additonal support from Building NFT's and Games to customizing them and even pushing your project to greater extent with all the resources of Metarix at your disposal. </p>
                 </div>
             </div>
         </div>
@@ -263,11 +275,11 @@
                  <h4 class="ft_head_text">Follow Us</h4>
                 <div class="ft_social_links ft_social_links_land">
                     <a target="_blank" href="https://www.facebook.com/The-Metarix-104132965453352 "><i class="fa icon_links fa-facebook" aria-hidden="true" ></i></a>
-                    <a target="_blank" href="#"><i class="fa icon_links fa-instagram" aria-hidden="true"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/the_metarix/"><i class="fa icon_links fa-instagram" aria-hidden="true"></i></a>
                     <a target="_blank" href="https://www.linkedin.com/company/the-metabox/ "><i class="fa icon_links fa-linkedin-square" aria-hidden="true"></i></a>
                     <a target="_blank" href="https://twitter.com/The_Metarix"><i class="fa icon_links fa-twitter" aria-hidden="true"></i></a>
                     <a target="_blank" href="https://t.me/metarix "><i class="fa icon_links fa-telegram" aria-hidden="true"></i></a>
-                    <a target="_blank" href="#"><i class="fa icon_links fa-youtube-play" aria-hidden="true"></i></a>
+                    <a target="_blank" href="https://www.youtube.com/channel/UCvrtvQGYuu-ZiSzIpO8noHw"><i class="fa icon_links fa-youtube-play" aria-hidden="true"></i></a>
                 </div>
               </div>
 
@@ -303,7 +315,7 @@
 				</div>
 			  </div>
 			  <div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+				<!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
 				<button type="submit" class="btn btn-primary">Buy</button>
 			  </div>
 			</div>

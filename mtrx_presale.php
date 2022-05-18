@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -57,7 +55,7 @@
       <nav id="navbar" class="navbar">
         
         <ul>
-          <li><a class="getstarted scrollto "   href="#">Connect Wallet</a></li>
+          <li><a class="getstarted scrollto "   href="mtrx_presale-on.php">Connect Wallet</a></li>
         </ul>
         <i class="fa fa-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -137,7 +135,7 @@
                 <ul>
                     <li>Presale will starts on the 20th May 13:00 CET and will last until 3 million dollar hardcap is hit or till 27th May 13:00 CET. </li>
                     <li>No minimum purchase </li>
-                    <li>Maximum purchase = 5000$ in BNB</li>
+                    <li>Maximum purchase is $5000 in BNB</li>
                     <li>Presale will be done through our audited crowdfunding contract, which we will share with you when presale goes LIVE!</li>
                     <!-- <li>To participate in the presale, you will simply need to transfer BNB to it, and in return you will get the equivalent amount of tokens in MTRX, which can be claimed at and after launch</li> -->
                     <li>Be careful of scammers. Only get information from Metarix’s official media channels.</li>
@@ -149,10 +147,6 @@
                     <div class="busnd">
                         <h6>1 BNB = <span id="current_price"></span></h6>
                     </div>
-                    <div class="total rasid">
-                        <h6>Total BNB Raised</h6>
-                        <p>0.0 BNB</p>
-                    </div>
                     <div class="landing_progress">
                         <h6>Progress <span>0%</span></h6>
                         <div class="progress">
@@ -160,6 +154,20 @@
                         </div>
                         <!-- <p>0 MTRX</p> -->
                     </div>
+                    <div class="buys_button">
+                      <div class="total rasid">
+                          <h6>Total Raised</h6>
+                          <p class="totalRaised">0.00 BNB</p>
+                      </div>
+                      <div class="buy_btns">
+                            <button class="buy_disablebtns" type="button" disabled>Buy MTRX</button>
+                         <!-- <a class="getstarted scrollto btnss1 buyMtrx" id="btn-buy" href="javascript:void(0);" disabled >Buy MTRX</a> -->
+                         <!-- <a class="getstarted scrollto buyMtrx" id="btn-buy" href="javascript:void(0);">Buy MTRX</a> -->
+                         <!-- <a class="getstarted scrollto" id="btn-disconnect" href="javascript:void(0);">Disconnect Wallet</a></li> -->
+                      </div>
+                      
+                    </div>
+                    
                    <!--  <div class="limites_status">
                         <div class="limited">
                             <h6>Limited</h6>
@@ -252,7 +260,7 @@
             </div>
             <div class="col-lg-6">
                  <div class="landingpage_paragharph">
-                    <p>User's who participate in this private sale and stake with us are eligible for discounts on our land parcels. Discount details will be disclosed soon before the launch. Metarix Virtual Land project consists of 109,000 land parcels each of different size. You can buy virtual real estate property on Metarix chain and build anything you dream of in Metarix Metaverse using our own SDK. We provide additional support from Building NFT's and Games to customizing them and even pushing your project to greater extent with all the resources of Metarix at your disposal. </p>
+                    <p>Discount details will be disclosed soon before the launch. Metarix Virtual Land project consists of 109,000 land parcels each of different size. You can buy virtual real estate property on Metarix chain and build anything you dream of in Metarix Metaverse using our own SDK. We provide additional support from Building NFT's and Games to customizing them and even pushing your project to greater extent with all the resources of Metarix at your disposal. </p>
                 </div>
             </div>
         </div>
@@ -273,7 +281,11 @@
 <script src="https://cdn.ethers.io/lib/ethers-5.0.umd.min.js" type="text/javascript"></script>
 <!-- timer jss  -->
 <script>
+
+
+
     function getTimeRemaining(endtime) {
+ 
   var t = Date.parse(endtime) - Date.parse(new Date());
   var seconds = Math.floor((t / 1000) % 60);
   var minutes = Math.floor((t / 1000 / 60) % 60);
@@ -294,7 +306,7 @@ function initializeClock(id, endtime) {
   var hoursSpan = clock.querySelector('.hours');
   var minutesSpan = clock.querySelector('.minutes');
   var secondsSpan = clock.querySelector('.seconds');
-
+ // console.log(endtime);
   function updateClock() {
     var t = getTimeRemaining(endtime);
 
@@ -315,7 +327,8 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-const deadline = '2022-05-20 12:00 am'; //final
+const deadline = '2022-05-21T00:00:00Z'; //final
+
 // const deadline = '2022-05-16 09:57 am'; //testing
 //var deadline = new Date(Date.parse(new Date()) + 18 * 24 * 60 * 60 * 1000);
 initializeClock('clockdiv', deadline);

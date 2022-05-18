@@ -3263,13 +3263,7 @@ a.nft_btn:hover{
     color: #893fee !important
 }
 
-#buyModal {
-  color: #000;
-}
 
-#buyModal .red {
-  color: red;
-}
 
 @media(max-width: 575.5px) {
    .header-scrolled .container {
@@ -3678,7 +3672,7 @@ canvas {
 
 
 
-/* Metarix Landing Page  */
+/* Metarix preesale on Page  */
 
 a.users {
     /* background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%); */
@@ -3874,13 +3868,124 @@ img.footers_img {
     position: relative;
     top: 0;
     margin-bottom: 50px;
-        padding-top: 70px;
+    padding-top: 70px;
 }
-/* landing page ended  */
+form.buySubmit .modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #040407;
+    background-clip: padding-box;
+    border: 2px solid #5b1848;
+    outline: 0;
+    color: #f5f5f5c9;
+    border-radius: 10px;
+}
+form.buySubmit .modal-body .form-control {
+    background-color: transparent;
+    border: 1px solid #ffffff45;
+    box-shadow: none;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+form.buySubmit .modal-body .form-control::placeholder { 
+    color: #f5f5f5c9;
+    opacity: 1; 
+}
+  
+ 
+form.buySubmit .modal-body .form-label {
+    color: #f5f5f5c9;
+}
+form.buySubmit .modal-header {
+    border-bottom: 1px solid #ffffff45;
+}
+form.buySubmit .modal-header .btn-close {
+    box-sizing: content-box;
+    width: 3px;
+    height: 3px;
+    padding: 6px;
+    color: #e12d2d;
+    background: url(../img/close.png);
+    background-repeat: no-repeat;
+    border: 0;
+    background-size: 100% 100%;
+    border-radius: 0;
+    opacity: .5;
+    margin-right: 4px;
+}
+form.buySubmit .modal-footer {
+    border-top: none;
+}
+.modal-footer .btn-primary, .modal-footer .btn-secondary {
+    padding: 8px 40px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 18px;
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);
+    font-weight: 400;
+    border-color: transparent;
+}
+.buySubmit .modal-header .modal-title{
+    background: -webkit-linear-gradient(right, #0756d2 0%, #c72c8a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    display: inline-block;
+}
+
+
+#buyModal .red {
+    color: #f5f5f5c9;;
+}
+.modal-footer .btn-primary:hover, .modal-footer .btn-secondary:hover {
+    color: #fff;
+    background: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%);
+}
 
 
 
-/* landing timer page  */
+.buys_button {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.buy_btns {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.buy_btns .buy_disablebtns {
+    cursor: not-allowed;
+    padding: 8px 20px;
+    margin-left: 18px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.buy_btns .btnss1{
+    padding: 8px 20px;
+    margin-left: 18px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 16px;
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);
+    font-weight: 400;
+}
+.buy_btns .btnss1:hover{
+    color: #fff;
+    background: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%);
+}
+
+/* Metarix preesale on page ended  */
+
+
+
+/* Metarix preesale page  */
 
 .landing_timmer {
     padding: 40px 0px 80px 0px;
