@@ -42,14 +42,21 @@ function getBnbPrice(){
  *************************************************************/
 if($_REQUEST['type'] == 'change_presale')
 {
-	$sql=mysqli_query($con, "select * from sale_settings");
-	if(mysqli_num_rows($sql) > 0) {
-	{
-		$res=mysqli_fetch_object($sql);
-		$id = $res->id;
-		mysqli_query($con, "UPDATE `sale_settings` SET `pre_sale` = '0' WHERE `id` = $id");
-		print_r(json_encode(array('status'=>'success')));
-	}
+	$exists = "no";
+	$sql = "select * from sale_settings";
+	$result = mysqli_query($con, $sql);
+	if (mysqli_num_rows($result) > 0) {
+		// output data of each row
+	  	while($row = mysqli_fetch_assoc($result)) {
+	  	$id = $row["id"];
+	  }
+	  if(!empty($id))
+	  {
+	  	mysqli_query($con, "UPDATE `sale_settings` SET `pre_sale` = '0' WHERE `id` = $id");
+	  	print_r(json_encode(array('status'=>'success')));
+	  }
+	  
+	} 
 	else
 	{
 		mysqli_query($con, "insert into sale_settings(pre_sale) values('0')");

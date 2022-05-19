@@ -339,10 +339,10 @@ function redirect_another()
 //const registration_date_customer = new Date("2022-05-19T09:17:00Z"); //testing
 //const deadline = registration_date_customer.toLocaleString("sv", { timeZone: "Europe/Paris"});
   
-const deadline = '2022-05-20T11:00:00Z'; //final
 //const deadline = '2022-05-20T11:00:00Z'; //final
+const deadline = '2022-05-20T11:00:00Z'; //final
 
-// const deadline = '2022-05-16 09:57 am'; //testing
+//const deadline = '2022-05-19 12:03 pm'; //testing
 //var deadline = new Date(Date.parse(new Date()) + 18 * 24 * 60 * 60 * 1000);
 initializeClock('clockdiv', deadline);
 

@@ -1,22 +1,30 @@
 <?php 
 
 include("config.php");
-/*$sql=mysqli_query($con, "select * from sale_settings");
-if(!empty($sql))
-{
-    $res=mysqli_fetch_object($sql);
-    $pre_sale = $res->pre_sale;
-    if($pre_sale == '1')
+/*$redirect = "no";
+$sql = "select * from sale_settings";
+$result = mysqli_query($con, $sql);
+
+if (mysqli_num_rows($result) > 0) {
+  // output data of each row
+  while($row = mysqli_fetch_assoc($result)) {
+    if($row["pre_sale"] == '1')
     {
-        header("Location: ".MAIN_URL);
-        die();
+        $redirect = "yes";
     }
+  }
+} else {
+  $redirect = "yes";
 }
-else
+
+if($redirect == "yes")
 {
     header("Location: ".MAIN_URL);
     die();
 }*/
+
+
+
 
 ?>
 <!DOCTYPE html>
