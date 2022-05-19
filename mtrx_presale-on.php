@@ -1,4 +1,24 @@
-<?php include("../config.php"); ?>
+<?php 
+
+include("config.php");
+/*$sql=mysqli_query($con, "select * from sale_settings");
+if(!empty($sql))
+{
+    $res=mysqli_fetch_object($sql);
+    $pre_sale = $res->pre_sale;
+    if($pre_sale == '1')
+    {
+        header("Location: ".MAIN_URL);
+        die();
+    }
+}
+else
+{
+    header("Location: ".MAIN_URL);
+    die();
+}*/
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -63,8 +83,8 @@
         
         <ul>
 		  <!-- <li><a class="getstarted scrollto buyMtrx" id="btn-buy" href="javascript:void(0);">Buy MTRX</a></li>	 -->
-<!--           <li><a class="getstarted scrollto" id="btn-connect" href="javascript:void(0);">Connect Wallet</a></li>
-          <li><a class="getstarted scrollto" id="btn-disconnect" href="javascript:void(0);">Disconnect Wallet</a></li> -->
+          <li><a class="getstarted scrollto" id="btn-connect" href="javascript:void(0);">Connect Wallet</a></li>
+          <li><a class="getstarted scrollto" id="btn-disconnect" href="javascript:void(0);">Disconnect Wallet</a></li>
 
           <!-- <li><a class="getstarted scrollto"  href="#"><i class="fa fa-user-o" aria-hidden="true"></i></a></li> -->
           <!--<li><a class="users"  href="#"><i class="fa user_btn fa-user-o" aria-hidden="true"></i></a></li>-->

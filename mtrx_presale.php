@@ -318,7 +318,10 @@ function initializeClock(id, endtime) {
     if (t.total <= 0) {
       clearInterval(timeinterval);
       //console.log('kuldeep');
-      window.location = "mtrx_presale-on.php";
+      changePreSaleStatus();
+     
+      setInterval(redirect_another, 1000);
+      //window.location = "mtrx_presale-on.php";
     }
     
   }
@@ -327,10 +330,16 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-const registration_date_customer = new Date("2022-05-20 14:30:00Z");
-const deadline = registration_date_customer.toLocaleString("sv", { timeZone: "Europe/Paris"});
+function redirect_another()
+{
+    window.location = "mtrx_presale-on.php";
+}
+
+//const registration_date_customer = new Date("2022/05/20 14:30:00Z"); //live
+//const registration_date_customer = new Date("2022-05-19T09:17:00Z"); //testing
+//const deadline = registration_date_customer.toLocaleString("sv", { timeZone: "Europe/Paris"});
   
-//const deadline = '2022-05-21T00:00:00Z'; //final
+const deadline = '2022-05-20T11:00:00Z'; //final
 //const deadline = '2022-05-20T11:00:00Z'; //final
 
 // const deadline = '2022-05-16 09:57 am'; //testing
@@ -338,7 +347,7 @@ const deadline = registration_date_customer.toLocaleString("sv", { timeZone: "Eu
 initializeClock('clockdiv', deadline);
 
 
-function updateClock() {
+/*function updateClock() {
     var t = getTimeRemaining(endtime);
 
     daysSpan.innerHTML = t.days;
@@ -352,7 +361,7 @@ function updateClock() {
       window.location = "mtrx_presale-on.php";
     }
     
-  }
+  }*/
   
 </script>
 
@@ -365,6 +374,23 @@ function copyToClipboard(element) {
   $temp.remove();
   $("#myTooltip").hide();
   $("#myTooltipshow").show();
+}
+
+/**************************************************************
+ * function used for change pre sale status
+ *************************************************************/
+function changePreSaleStatus(){
+      $.ajax({
+        url: "functions.php",
+        method:'post',
+        data: {
+          "type": "change_presale",
+          },
+        dataType: "json",
+        success:function(response) {
+          console.log('done');
+        }
+    });
 }
 </script>
 

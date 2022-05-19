@@ -106,8 +106,8 @@ $(document).ready(async function(){
 	})
 	.done(function( result ) {
 		result=JSON.parse(result);
-		$("#total_coins_show").html(result.totalBnbTokens);
 		var bnbPrice=(5000/result.currentBnbPrice);
+		$("#total_coins_show").html(result.totalBnbTokens);
 		$('[name="tokens"]').val(bnbPrice);
 		$(".mtrxCount").html(((bnbPrice*result.currentBnbPrice)/0.05).toFixed(2));
 	});

@@ -164,6 +164,7 @@
 <script type="text/javascript" src="https://unpkg.com/evm-chains/lib/index.js"></script>
 <script type="text/javascript" src="https://unpkg.com/@walletconnect/web3-provider"></script>
 <script src="js/walletConnectClaim.js"></script>
+<script src="https://cdn.ethers.io/lib/ethers-5.0.umd.min.js" type="text/javascript"></script>
 
 
 

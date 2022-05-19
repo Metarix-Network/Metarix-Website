@@ -37,6 +37,26 @@ function getBnbPrice(){
   	}
 }
 
+/**************************************************************
+ * function used for change pre sale status
+ *************************************************************/
+if($_REQUEST['type'] == 'change_presale')
+{
+	$sql=mysqli_query($con, "select * from sale_settings");
+	if(mysqli_num_rows($sql) > 0) {
+	{
+		$res=mysqli_fetch_object($sql);
+		$id = $res->id;
+		mysqli_query($con, "UPDATE `sale_settings` SET `pre_sale` = '0' WHERE `id` = $id");
+		print_r(json_encode(array('status'=>'success')));
+	}
+	else
+	{
+		mysqli_query($con, "insert into sale_settings(pre_sale) values('0')");
+		print_r(json_encode(array('status'=>'success')));
+	}
+}
+
 if($_REQUEST['type'] == 'getTokenBalance')
 {
 	echo getBnbPrice();
@@ -63,5 +83,7 @@ if($_REQUEST['type'] == 'getData')
 	$response['totalBnbTokens'] = ($res->totalBnbTokens*$price)/0.05;
 	echo json_encode($response);
 }
+
+
 
 ?>
