@@ -55,7 +55,7 @@
       <nav id="navbar" class="navbar">
         
         <ul>
-          <li><a class="getstarted scrollto "   href="mtrx_presale-on.php">Connect Wallet</a></li>
+          <li><a class="getstarted scrollto " href="javascript:void();">Connect Wallet</a></li>
         </ul>
         <i class="fa fa-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -327,7 +327,11 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-const deadline = '2022-05-21T00:00:00Z'; //final
+const registration_date_customer = new Date("2022-05-20 14:30:00Z");
+const deadline = registration_date_customer.toLocaleString("sv", { timeZone: "Europe/Paris"});
+  
+//const deadline = '2022-05-21T00:00:00Z'; //final
+//const deadline = '2022-05-20T11:00:00Z'; //final
 
 // const deadline = '2022-05-16 09:57 am'; //testing
 //var deadline = new Date(Date.parse(new Date()) + 18 * 24 * 60 * 60 * 1000);

@@ -63,8 +63,8 @@
         
         <ul>
 		  <!-- <li><a class="getstarted scrollto buyMtrx" id="btn-buy" href="javascript:void(0);">Buy MTRX</a></li>	 -->
-          <li><a class="getstarted scrollto" id="btn-connect" href="javascript:void(0);">Connect Wallet</a></li>
-          <li><a class="getstarted scrollto" id="btn-disconnect" href="javascript:void(0);">Disconnect Wallet</a></li>
+<!--           <li><a class="getstarted scrollto" id="btn-connect" href="javascript:void(0);">Connect Wallet</a></li>
+          <li><a class="getstarted scrollto" id="btn-disconnect" href="javascript:void(0);">Disconnect Wallet</a></li> -->
 
           <!-- <li><a class="getstarted scrollto"  href="#"><i class="fa fa-user-o" aria-hidden="true"></i></a></li> -->
           <!--<li><a class="users"  href="#"><i class="fa user_btn fa-user-o" aria-hidden="true"></i></a></li>-->
@@ -129,11 +129,11 @@
                     <div class="buys_button">
                       <div class="total rasid">
                           <h6>Total Raised</h6>
-                          <p class="totalRaised">0.00 BNB</p>
+                          <!-- <p class="totalRaised">0.00 BNB</p> -->
                       </div>
                       <div class="buy_btns">
-                         <a class="getstarted scrollto btnss1 buyMtrx" id="btn-buy" href="javascript:void(0);">Buy MTRX</a>
-                         <!-- <a class="getstarted scrollto buyMtrx" id="btn-buy" href="javascript:void(0);">Buy MTRX</a> -->
+                        <!--  <a class="getstarted scrollto btnss1 buyMtrx" id="btn-buy" href="javascript:void(0);">Buy MTRX</a>
+ -->                         <!-- <a class="getstarted scrollto buyMtrx" id="btn-buy" href="javascript:void(0);">Buy MTRX</a> -->
                          <!-- <a class="getstarted scrollto" id="btn-disconnect" href="javascript:void(0);">Disconnect Wallet</a></li> -->
                          
 
