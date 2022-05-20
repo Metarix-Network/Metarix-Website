@@ -70,8 +70,8 @@ async function fetchAccountData() {
     // Get connected chain id from Ethereum node
     const chainId = await web3.eth.getChainId();
     console.log(chainId);
-	if(chainId!=97){
-		swal("Error", "Please connect with Binance Smartchain Testnet!","error");
+	if(chainId!=56){
+		swal("Error", "Please connect with Binance Smartchain Mainnet!","error");
 		return false;
 	}
     // Load chain information over an HTTP API

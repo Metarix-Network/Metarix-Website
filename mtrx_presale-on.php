@@ -172,7 +172,7 @@ if($redirect == "yes")
                       <li>Presale will starts on the 20th May 13:00 CET and will last until 3 million dollar hardcap is hit or till 27th May 13:00 CET. </li>
                       <li>No minimum purchase </li>
                       <li>Maximum purchase is $5000 in BNB</li>
-                      <li>Presale will be done through our audited crowdfunding contract, which we will share with you when presale goes LIVE!</li>
+                      <li>HOW TO: You connect your wallet, enter the amount of BNB (BEP20) you want to purchase for, click BUY, confirm transaction, and now you have successfully participated in MTRX presale</li>
                   </ul>
                 </div>
             </div>

@@ -1,3 +1,7 @@
+<?php
+header("location: /mtrx_presale-on.php");
+die();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -117,19 +121,19 @@
             <div class="col-lg-6">          
             <div id="clockdiv">
                 <div class="timmer ">
-                    <span class="days"></span>
+                    <span class="days">0</span>
                     <div class="smalltext">Days</div>
                 </div>
                 <div class="timmer ">
-                    <span class="hours"></span>
+                    <span class="hours">00</span>
                     <div class="smalltext">Hours</div>
                 </div>
                 <div class="timmer">
-                    <span class="minutes"></span>
+                    <span class="minutes">00</span>
                     <div class="smalltext">Minutes</div>
                 </div>
                 <div class="timmer">
-                    <span class="seconds"></span>
+                    <span class="seconds">00</span>
                     <div class="smalltext">Seconds</div>
                 </div>
             </div>
@@ -142,7 +146,7 @@
                     <li>Presale will starts on the 20th May 13:00 CET and will last until 3 million dollar hardcap is hit or till 27th May 13:00 CET. </li>
                     <li>No minimum purchase </li>
                     <li>Maximum purchase is $5000 in BNB</li>
-                    <li>Presale will be done through our audited crowdfunding contract, which we will share with you when presale goes LIVE!</li>
+                    <li>HOW TO: You connect your wallet, enter the amount of BNB (BEP20) you want to purchase for, click BUY, confirm transaction, and now you have successfully participated in MTRX presale</li>
                 </ul>
             </div>
             </div>
@@ -347,11 +351,11 @@ function redirect_another()
 //const deadline = registration_date_customer.toLocaleString("sv", { timeZone: "Europe/Paris"});
   
 //const deadline = '2022-05-20T11:00:00Z'; //final
-const deadline = '2022-05-20T11:00:00Z'; //final
+const deadline = '2022-05-20T12:15:00Z'; //final
 
 //const deadline = '2022-05-19 12:03 pm'; //testing
 //var deadline = new Date(Date.parse(new Date()) + 18 * 24 * 60 * 60 * 1000);
-initializeClock('clockdiv', deadline);
+//initializeClock('clockdiv', deadline);
 
 
 /*function updateClock() {
