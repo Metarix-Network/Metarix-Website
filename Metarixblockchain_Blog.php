@@ -3,7 +3,7 @@
 
 <section class="blogbanner">
         <div class="blog_banner">
-            <img class="blog_banner_img" src="img/blog/metarics_blogchain.jpeg" alt="">
+            <img class="blog_banner_img" src="img/blogs/2.jpeg" alt="">
         </div>
 </section>
 
@@ -13,21 +13,25 @@
     <div class="container">
         <div class="row">
             <div class="blog_details_head">
-                <h1>Know the Augmented reality - Metarix Blockchain and Its Uses</h1>
+                <h1>THE METARIX BLOCKCHAIN (METARIX CHAIN)</h1>
             </div>
             <div class="blog_details_para">
-                <p>As we  all know about blockchain and how it works. For people who do not understand the simple complexity, Metarix has created a fun and easy way to work, enjoy and earn from it. You must be wondering what we are talking about right? </p>
-                <p>As blockchain has already proven as a herald of revolution around the globe and has turned the world towards. It has made the world; to invest and earn from technology. Metaverse is a platform that revolves around gaming and NFT alternatives. Metaverse is an immersive and interactive VR experience and its currency, economy, social network and governance system. There is a plethora of organizations that are opting for it and embracing innovation.   </p>
-                <p>Well, lets us walk you through the Metarix  and Metarix Blockchain below:  </p>
+                <p>A blockchain is a distributed database that is shared among the nodes of a computer network. As a database, a blockchain stores information electronically in digital format. Blockchains are best known for their crucial role in cryptocurrency systems, such as Bitcoin & Ethereum, for maintaining a secure and decentralized record of transactions. The innovation with a blockchain is that it guarantees the fidelity and security of a record of data and generates trust without the need for a trusted third party. </p>
+                <p>The blockchain is the means in which transactions, records and information is transmitted, stored, and exchanged publicly, securely, and could even be done so in a decentralized means. </p>
+                <p>It was determined many years ago by Satoshi Nakamoto that the blockchain would be used as database and immutable ledger that Bitcoin would use to record and verify transactions in a permanent way.   Bitcoin revolutionized finance and introduced cryptocurrency to the world.</p>
+                <p>On that same track of thinking, other blockchains were developed, and many for different purposes and functions, all with one thing in common= permanent, verifiable, safe, transactions between 2 parties without a middleman, a company, government, or person that could stop the transaction on the blockchain. In comes Ethereum, a smart contract platform that is constructed in a way that allows programmable contracts, to run and perform tasks on the blockchain, utilizing the same benefits and security that Bitcoin was using to secure transactions of payments through the Bitcoin. </p>
+                <p>At this current point of development, Ethereum, is congested, slow (compared to newer blockchains), and developed on the proof of work technology which is the main cause of its issues.  Ethereum is a beautiful machine that is long overdue for an upgrade.  Enter layer 2 solutions. </p>
+                <p>As mentioned before, Ethereum operates as a smart contract platform that allows smart contracts to run and execute transactions on its system, including extensions of the blockchain itself to form Layer 2 solutions or Layer 2 blockchains.</p>
+                <p>Layer 2 blockchains, as mentioned before are extensions of Ethereum’s layer 1 blockchain that offer scaling solutions to cut down on transaction fees, and congestion.  The benefits of using a layer 2 is being able to utilize the security, data availability, and decentralization of Ethereum’s Layer 1.</p>
             </div>
 
             <div class="blog_metarixs">
                 <div class="metarixs_details">
-                    <h4>What is Metarix?</h4>
+                    <h4>THE METARIX BLOCKCHAIN (Metarix Chain)</h4>
                 </div>
                 <div class="metarixs_details_data">
-                    <p>A virtual social space, that is a tokenized and decentralized world or simply say an NFT based theme park that comprises 12 zones , 9 themes & 3 virtual properties. That offers extensive numbers of opportunities to engage and grow in the upcoming future. This theme park is land for Dogecoin, Shiba Inu and Bitcoins. </p>
-                    <p>It is based on Blockchain Technology and plans to bring NFT in the gaming form. </p>
+                    <p>As mentioned above, layer 2 blockchains are extensions of the layer 1 (Ethereum) blockchain, but they’re multiplying transaction speed, transaction capability all while drastically cutting down transaction fees.   </p>
+                    <p>It is imperative that METARIX CHAIN develop its own layer 2 blockchain in order to sustain and handle the stress of an entire ecosystem of transactions and handle a heavy-duty load of users of on its network all while delivering low fees with very fast transaction speeds. </p>
                 </div>
             </div>
 
@@ -35,22 +39,25 @@
 
             <div class="blog_metarixs">
                 <div class="metarixs_details">
-                    <h4>Features of Metarix:</h4>
+                    <h4>The METARIX ecosystem</h4>
                 </div>
                 <div class="metarixs_details_data">
-                    <p>The following are the features of Metarix: </p>
-                    <ul>
-                        <li>1.	A layer 2 solution. </li>
-                        <li>2.	Helps in accelerating mass adoption of cryptocurrencies. </li>
-                        <li>3.	It is an NFT Marketplace. </li>
-                        <li>4.	A top Ethereum  blockchain governed platform. </li>
-                        <li>5.	It allows you to choose your own Avatar. </li>
-                        <li>6.	You can hold social events virtually. </li>
-                        <li>7.	A unique experience that has a plethora of stages. u can hold social events virtually. </li>
+                    <p>The Metarix chain will utilize the MTRX token as its governing coin and currency for all projects running on its blockchain. The developing Metarix ecosystem will be developed on the Metarix Chain, easily communicating, and executing transactions between each other.  </p>
+                    <p>SOME OF THE INTIAL USES OF THE METARIX CHAIN & MTRX COIN </p>
+                    <ul class="blogs_bullets">
+                        <li>1.  NFT marketplace </li>
+                        <li>2.	MTRX peer to peer transactions </li>
+                        <li>3.	WEB 3.0 commerce</li>
+                        <li>4.	Metaverse attractions  </li>
+                        <li>5.	SDKs for game & NFT development services </li>
+                        <li>6.	DEX to support the METARIX ecosystem and all its projects and supporting cryptocurrencies </li>
+                        <li>7.	Metaverse Blockchain Gaming </li>
+                        <li>8.	Traditional Crypto Financial Services </li>
+                        <li>9.	And more…. </li>
                     </ul>
                 </div>
             </div>
-
+<!-- 
             <div class="blog_metarixs">
                 <div class="metarixs_details">
                     <h4>What is Metarix Blockchain?</h4>
@@ -111,7 +118,7 @@
                 </div>
             </div>
 
-
+ -->
 
 
 

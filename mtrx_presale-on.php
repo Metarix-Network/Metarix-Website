@@ -134,14 +134,46 @@ if($redirect == "yes")
 
 <section class="meta_landing">
     <div class="container">
+        <div class="col-sm-12 p-0">
+           <div class="timer_head">
+               <h1>PRESALE IS ENDING IN</h1>
+               <!-- <p>A pre-sale is a targeted sale before your product actually goes live. You sell the idea of your course to a small portion of your audience before you’ve created all of your course content. Typically, you pre-sell by setting up your sales page, discounting your course, and sending an email out to your list (or communicating the sale to your audience in another way).</p> -->
+           </div>
+        </div>
         <div class="row">
             <div class="col-lg-6">
-                <div class="metarixs_landing_logo">
+                <!-- <div class="metarixs_landing_logo">
                     <img src="img/footer-logo.png" alt="">
+                </div> -->
+                <div id="clockdiv">
+                <div class="timmer ">
+                    <span class="days"></span>
+                    <div class="smalltext">Days</div>
                 </div>
+                <div class="timmer ">
+                    <span class="hours"></span>
+                    <div class="smalltext">Hours</div>
+                </div>
+                <div class="timmer">
+                    <span class="minutes"></span>
+                    <div class="smalltext">Minutes</div>
+                </div>
+                <div class="timmer">
+                    <span class="seconds"></span>
+                    <div class="smalltext">Seconds</div>
+                </div>
+            </div>
                 <div class="landing_heding">
                     <h1 class="heading_text">Metarix Presale </h1>
                     <p>Metarix is a fully decentralized Blockchain for Gaming, NFT's and Metaverse and Digital Marketing Platform through Metaverse</p>
+                </div>
+                <div class="timer-btm">
+                  <ul>
+                      <li>Presale will starts on the 20th May 13:00 CET and will last until 3 million dollar hardcap is hit or till 27th May 13:00 CET. </li>
+                      <li>No minimum purchase </li>
+                      <li>Maximum purchase is $5000 in BNB</li>
+                      <li>Presale will be done through our audited crowdfunding contract, which we will share with you when presale goes LIVE!</li>
+                  </ul>
                 </div>
             </div>
             <div class="col-lg-6">
@@ -164,7 +196,6 @@ if($redirect == "yes")
                          <!-- <a class="getstarted scrollto buyMtrx" id="btn-buy" href="javascript:void(0);">Buy MTRX</a> -->
                          <!-- <a class="getstarted scrollto" id="btn-disconnect" href="javascript:void(0);">Disconnect Wallet</a></li> -->
                          
-
                       </div>
                       
                     </div>
@@ -172,6 +203,7 @@ if($redirect == "yes")
                     
                         <!-- <p>0 MTRX</p> -->
                     </div>
+                   
                    <!--  <div class="limites_status">
                         <div class="limited">
                             <h6>Limited</h6>
@@ -182,6 +214,12 @@ if($redirect == "yes")
                             <h6>Upcoming</h6>
                         </div>
                     </div> -->
+                </div>
+                <div class="timer-btm">
+                    <ul>
+                      <li>Be careful of scammers. Only get information from Metarix’s official media channels.</li>
+                      <li>To participate in the presale, you will simply need to transfer BNB to it, and in return you will get the equivalent amount of tokens in MTRX, which can be claimed at and after launch</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -259,7 +297,7 @@ if($redirect == "yes")
             </div>
             <div class="col-lg-6">
                  <div class="landingpage_paragharph">
-                    <p>subject to all the terms and conditions. Metarix Virtual Land project consists of 109,000 land parcels each of different size. You can buy virtual real estate property on Metarix chain and build anything you dream of in Metarix Metaverse using our own SDK. We provide additonal support from Building NFT's and Games to customizing them and even pushing your project to greater extent with all the resources of Metarix at your disposal. </p>
+                    <p>Discount details will be disclosed soon before the launch. Metarix Virtual Land project consists of 109,000 land parcels each of different size. You can buy virtual real estate property on Metarix chain and build anything you dream of in Metarix Metaverse using our own SDK. We provide additional support from Building NFT's and Games to customizing them and even pushing your project to greater extent with all the resources of Metarix at your disposal. </p>
                 </div>
             </div>
         </div>
@@ -270,58 +308,8 @@ if($redirect == "yes")
 </div>
 
 
- <!-- footer started  -->
- <footer class="footer landing-foot" id="footer" >
-      <div class="container footer_data">
-        <div class="row footer_items">
-            <div class="col-md-6 footer_left">
-                <img class="footers_img" src="img/metarix_update_2022.png" alt="">
-                <p>Metarix is a fully decentralized Blockchain for Gaming, NFT's and Metaverse and Digital Marketing Platform through Metaverse.</p>
-            </div>
-            <!-- <div class="col-xl-3">
-                <h4 class="ft_head_text">Our Products</h4>
-                <div class="ft_links">
-                    <a class="footer_tags" href="metarix_blockchain.php">Metarix Blockchain</a>
-                    <a class="footer_tags" href="metarix_sdk.php">Metarix SDK</a>
-                    <a class="footer_tags" href="market_place.php">Metarix Market Place</a>
-                </div>
-            </div> -->
-          <!-- <div class="col-xl-4">
-            <h4 class="ft_head_text">Our Links</h4>
-            <div class="ft_links">
-                <a class="footer_tags" href="#Token">Terms of Services</a>
-                <a class="footer_tags" href="#Roadmap">Privacy Policy</a>
-                <a class="footer_tags" href="#Teams">Team</a>
-                <a class="footer_tags" href="contact.php">Contact Us</a>
-                <li class="ftlightpaper">
-                  <a target="_blank" href="img/whitepaper/Whitepaper .pdf">Light Paper</a>
-                </li>
-            </div>
-          </div> -->
-          <div class="col-md-6 footer_right_landing">
-              <div class="ft_right_land">
-                 <h4 class="ft_head_text">Follow Us</h4>
-                <div class="ft_social_links ft_social_links_land">
-                    <a target="_blank" href="https://www.facebook.com/The-Metarix-104132965453352 "><i class="fa icon_links fa-facebook" aria-hidden="true" ></i></a>
-                    <a target="_blank" href="https://www.instagram.com/the_metarix/"><i class="fa icon_links fa-instagram" aria-hidden="true"></i></a>
-                    <a target="_blank" href="https://www.linkedin.com/company/the-metabox/ "><i class="fa icon_links fa-linkedin-square" aria-hidden="true"></i></a>
-                    <a target="_blank" href="https://twitter.com/The_Metarix"><i class="fa icon_links fa-twitter" aria-hidden="true"></i></a>
-                    <a target="_blank" href="https://t.me/metarix "><i class="fa icon_links fa-telegram" aria-hidden="true"></i></a>
-                    <a target="_blank" href="https://www.youtube.com/channel/UCvrtvQGYuu-ZiSzIpO8noHw"><i class="fa icon_links fa-youtube-play" aria-hidden="true"></i></a>
-                </div>
-              </div>
-
-          </div>
-        </div>
-      </div>
-  </footer>
-
-  <footer class="footer_ended">
-    <div class="footer_ended">
-      <h5 class="footer-ended_text">@Copyright Metarix 2022</h5>
-    </div>
-  </footer>
-<!-- footer ended  -->
+  <!-- footer  -->
+  <?php include("includes/footer.php"); ?>
 
   <!-- <div id="preloader"></div>-->
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="fa fa-arrow-up"></i></a>
@@ -351,12 +339,12 @@ if($redirect == "yes")
 	  </div>
 	</div>
 
- 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-  <!-- Template Main JS File -->
+   
+                
+            
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="js/main.js"></script>
-  <script src="js/custom.js"></script>
+  <script src="js/custom.js"></script>-->
 
   <script src="https://unpkg.com/web3@latest/dist/web3.min.js"></script>
 <script type="text/javascript" src="https://unpkg.com/web3modal"></script>
@@ -402,6 +390,65 @@ function copyToClipboard(element) {
   $("#myTooltip").hide();
   $("#myTooltipshow").show();
 }
+</script>
+
+
+
+<script>
+function getTimeRemaining(endtime) {
+  var t = Date.parse(endtime) - Date.parse(new Date());
+  var seconds = Math.floor((t / 1000) % 60);
+  var minutes = Math.floor((t / 1000 / 60) % 60);
+  var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+  var days = Math.floor(t / (1000 * 60 * 60 * 24));
+  return {
+    'total': t,
+    'days': days,
+    'hours': hours,
+    'minutes': minutes,
+    'seconds': seconds
+  };
+}
+
+function initializeClock(id, endtime) {
+  var clock = document.getElementById(id);
+  var daysSpan = clock.querySelector('.days');
+  var hoursSpan = clock.querySelector('.hours');
+  var minutesSpan = clock.querySelector('.minutes');
+  var secondsSpan = clock.querySelector('.seconds');
+ // console.log(endtime);
+  function updateClock() {
+    var t = getTimeRemaining(endtime);
+
+    daysSpan.innerHTML = t.days;
+    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+    if (t.total <= 0) {
+      clearInterval(timeinterval);
+      //console.log('kuldeep');
+      
+     
+     
+      window.location = "mtrx_pre_sale_ended.php";
+    }
+    
+  }
+
+  updateClock();
+  var timeinterval = setInterval(updateClock, 1000);
+}
+
+
+const deadline = '2022-05-27T11:00:00Z'; //final
+//const deadline = '2022-05-19 03:42 pm'; //testing
+
+initializeClock('clockdiv', deadline);
+
+
+
+  
 </script>
 
 </body>

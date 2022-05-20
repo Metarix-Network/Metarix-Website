@@ -3,7 +3,7 @@
 
 <section class="blogbanner">
         <div class="blog_banner">
-            <img class="blog_banner_img" src="img/blog/virtual_plot.jpeg" alt="">
+            <img class="blog_banner_img" src="img/blogs/4.jpeg" alt="">
         </div>
 </section>
 

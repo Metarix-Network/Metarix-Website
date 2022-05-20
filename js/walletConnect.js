@@ -95,6 +95,7 @@ async function fetchAccountData() {
     let lastFive = accounts[0].substr(accounts[0].length - 4);
     $("#btn-disconnect").html("Disconnect Wallet "+firstFive+"...."+lastFive);
 	//localStorage.setItem('walletConnect', 1);
+	refreshFunction();
 }
 
 

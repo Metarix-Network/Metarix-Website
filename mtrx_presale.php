@@ -54,8 +54,10 @@
 
       <nav id="navbar" class="navbar">
         
-        <ul>
-          <li><a class="getstarted scrollto " href="javascript:void();">Connect Wallet</a></li>
+        <ul class="buy_btns1">
+          <li><button class="buy_disablebtns" type="button" disabled>Connect Wallet</button>
+              <!-- <a class="getstarted scrollto " href="javascript:void();">Connect Wallet</a> -->
+            </li>
         </ul>
         <i class="fa fa-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -131,14 +133,16 @@
                     <div class="smalltext">Seconds</div>
                 </div>
             </div>
-            <div class="timer-btm">
+            <div class="landing_heding update_head">
+                <h1 class="heading_text">Metarix Presale </h1>
+                <p>Metarix is a fully decentralized Blockchain for Gaming, NFT's and Metaverse and Digital Marketing Platform through Metaverse</p>
+            </div>
+            <div class="timer-btm update_left_bullets">
                 <ul>
                     <li>Presale will starts on the 20th May 13:00 CET and will last until 3 million dollar hardcap is hit or till 27th May 13:00 CET. </li>
                     <li>No minimum purchase </li>
                     <li>Maximum purchase is $5000 in BNB</li>
                     <li>Presale will be done through our audited crowdfunding contract, which we will share with you when presale goes LIVE!</li>
-                    <!-- <li>To participate in the presale, you will simply need to transfer BNB to it, and in return you will get the equivalent amount of tokens in MTRX, which can be claimed at and after launch</li> -->
-                    <li>Be careful of scammers. Only get information from Metarix’s official media channels.</li>
                 </ul>
             </div>
             </div>
@@ -180,8 +184,11 @@
                     </div> -->
                 </div>
                 <div class="timer-btm">
-    <ul><li>To participate in the presale, you will simply need to transfer BNB to it, and in return you will get the equivalent amount of tokens in MTRX, which can be claimed at and after launch</li></ul>
-    </div>
+                     <ul>
+                        <li>Be careful of scammers. Only get information from Metarix’s official media channels.</li>
+                        <li>To participate in the presale, you will simply need to transfer BNB to it, and in return you will get the equivalent amount of tokens in MTRX, which can be claimed at and after launch</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -275,8 +282,8 @@
 
 
 
-<!-- footer  -->
-<?php include("includes/footer.php"); ?>
+    <!-- footer  -->
+    <?php include("includes/footer.php"); ?>
 
 <script src="https://cdn.ethers.io/lib/ethers-5.0.umd.min.js" type="text/javascript"></script>
 <!-- timer jss  -->

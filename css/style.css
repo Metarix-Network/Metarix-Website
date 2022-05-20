@@ -3309,8 +3309,7 @@ section.blog_details {
     margin: 0 auto;
 }   
 .blog_details_para p {
-    font-size: 21px;
-    font-weight: 500;
+    font-size: 18px;
     color: #fff;
 }
 .blog_metarixs {
@@ -3326,6 +3325,9 @@ section.blog_details {
     display: inline-block;
 }
 .metarixs_details_data p {
+    font-size: 18px;
+}
+.blogs_bullets li{
     font-size: 18px;
 }
 
@@ -3682,6 +3684,12 @@ a.users {
     text-align: center;
 
  }
+ .update_head{
+     text-align: left;
+ }
+ .update_left_bullets{
+     margin-top: 30px !important;
+ }
  .user_btn {
     color: #fff !important;
     display: flex;
@@ -3703,10 +3711,10 @@ a.users {
    
 }
 .meta_landing{
-    background: url(../img/metarix_landing/landing_bgg.png);
+    background: url(../img/preesale_ended.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    padding: 100px 0px 300px 0px;
+    padding: 40px 0px 300px 0px;
 
 }
 .metarixs_landing_logo {
@@ -3723,7 +3731,7 @@ a.users {
     width: 100px;
 }
 .landing_heding {
-    padding: 35px 0;
+    padding: 35px 0px 20px 0px;
 }
 .landing_heding p {
     width: 94%;
@@ -3805,6 +3813,15 @@ a.users {
     margin-bottom: 5px;
     font-size: 16px;
     font-weight: 100;
+}
+.buy_btns1 .buy_disablebtns {
+    cursor: not-allowed;
+    padding: 8px 20px;
+    margin-left: 18px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
 }
 .info_para {
     margin-bottom: 5px;
@@ -3999,6 +4016,7 @@ form.buySubmit .modal-footer {
 }
 .timer_head {
     margin-bottom: 80px;
+    text-align: center;
 }
 
 .timer_head h1 {
@@ -4012,7 +4030,7 @@ form.buySubmit .modal-footer {
 }
 .timer-btm {
     text-align: left;
-    margin-top: 30px;
+    margin-top: 60px;
     font-size: 20px;
 }
 .timer_head p {
@@ -4119,10 +4137,22 @@ form.buySubmit .modal-footer {
 }
 .wallet_buttons {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     padding-top: 25px;
     gap: 20px;
+    justify-content: space-between;
 }
+.wallet_buttons .buy_disablebtns {
+    cursor: not-allowed;
+    padding: 6px 20px;
+    margin-left: 18px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    width: 50%;
+}
+
 .wallet_buttons img {
     width: 21px;
 }
