@@ -116,7 +116,7 @@ async function refreshFunction(){
 		$("#total_coins_dollar").html("$"+(result.totalBnbTokens*0.05).toFixed(2));
 		$('[name="tokens"]').val(bnbPrice);
 		$(".mtrxCount").html(((bnbPrice*result.currentBnbPrice)/0.05).toFixed(2));
-		var progressBar=parseInt($(".progress-bar").css("width"));
+		var progressBar=parseFloat($(".progress-bar").html());
 		if(progressBar>=99.50){
 			$(".buyMtrx").remove();
 		}
