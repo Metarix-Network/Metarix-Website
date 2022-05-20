@@ -17,8 +17,8 @@
                        <div class="conectionshead">
                             <input type="hidden" id="copyRefrelInputCurrent" value="">
                            <img src="img/staking/plus_icon.png" alt="">
-                           <h6 id="wallet_connect" class="desk-wlcont">Wallet not connected</h6>
-                           <h6 id="wallet_connect" class="responsive-wlcont">Wallet not connected</h6>
+                           <h6 id="wallet_connect" class="desk-wlcont">Wallet not connected!</h6>
+                           <h6 id="wallet_connect" class="responsive-wlcont">Wallet not connected!</h6>
                        </div>
                        <div class="claim_item">
                            <h6>claimed</h6>
@@ -28,7 +28,7 @@
                        </div>
                        <div class="wallet_progress">
                             <div class="progress progress_white">
-                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div> 
+                                <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div> 
                             </div>
                             <span class="bold_info">0%</span>
 

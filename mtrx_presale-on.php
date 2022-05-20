@@ -184,7 +184,7 @@ if($redirect == "yes")
                     <div class="landing_progress">
                         <h6>Progress <span>0%</span></h6>
                         <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+                        <div id="progress-bar" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
                     </div>
                     <div class="buys_button">
                       <div class="total rasid">
@@ -327,7 +327,7 @@ if($redirect == "yes")
 				<div class="mb-3">
 				  <label for="tokens" class="form-label">BNB Tokens</label>
 				  <input type="text" class="form-control" name="tokens" id="tokens" placeholder="BNB Tokens">
-				  <span class="red">You will get approximately <span class="mtrxCount">0</span> MTRX</span>
+				  <span class="red" style="display: none;">You will get approximately <span class="mtrxCount">0</span> MTRX</span>
 				</div>
 			  </div>
 			  <div class="modal-footer">
@@ -354,7 +354,7 @@ if($redirect == "yes")
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <script src="https://cdn.ethers.io/lib/ethers-5.0.umd.min.js" type="text/javascript"></script>
 <script type="text/javascript">
-function checkAmount(){
+function checkAmount(){	
   $.ajax({
 	url: "functions.php",
 	method:'post',
@@ -378,7 +378,7 @@ function checkAmount(){
   });
 } 
 checkAmount();
-setInterval(checkAmount, 5000);
+setInterval(checkAmount, 10000);
 </script>
 <script type="text/javascript">
 function copyToClipboard(element) {

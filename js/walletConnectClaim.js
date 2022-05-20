@@ -187,8 +187,10 @@ async function onDisconnect() {
 	$("#btn-connect").css("display", "block");
 	$("#btn-disconnect").css("display", "none");
 	//localStorage.setItem('walletConnect', 0);
+	$(".total_coins_show").html('0');
 	$("#total_coins_show").html('0');
 	$("#total_coins_dollar").html('$');
+	$(".desk-wlcont").html("Wallet not connected!");
 }
 
 

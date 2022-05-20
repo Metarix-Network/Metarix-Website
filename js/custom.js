@@ -14,7 +14,9 @@ function contractFunction()
 	const contractData = new ethers.Contract(contractAddress, abi, walletSigner);
 	return contractData;
 }
-$(document).ready(function(){
+
+function progressBar()
+{
 	let contract = contractFunction();
 	contract.totalBnbReceived().then((data1) => {
 		contract.maxCap().then((data2) => {
@@ -23,13 +25,20 @@ $(document).ready(function(){
 				result=0;
 			}
 			$(".landing_progress span").html(result+"%");
-			$(".progress-bar").removeAttr("style").css("width", result+"%").html(result+"%");
+			$("#progress-bar").removeAttr("style").css("width", result+"%").html(result+"%");
 			$(".totalRaised").html(data1/1000000000000000000+" BNB");
 			if(result>=99.50){
 				$(".buyMtrx").remove();
 			}
 		});
 	});
+}
+
+$(document).ready(function(){
+	progressBar();
+	setInterval(function () {
+		progressBar();
+	}, 5000);
 });
 
 $(document).ready(function(){
@@ -112,11 +121,11 @@ async function refreshFunction(){
 	.done(function( result ) {
 		result=JSON.parse(result);
 		var bnbPrice=(5000/result.currentBnbPrice);
-		$("#total_coins_show").html((result.totalBnbTokens).toFixed(2));
+		$(".total_coins_show").html((result.totalBnbTokens).toFixed(2));
 		$("#total_coins_dollar").html("$"+(result.totalBnbTokens*0.05).toFixed(2));
 		$('[name="tokens"]').val(bnbPrice);
 		$(".mtrxCount").html(((bnbPrice*result.currentBnbPrice)/0.05).toFixed(2));
-		var progressBar=parseFloat($(".progress-bar").html());
+		var progressBar=parseFloat($("#progress-bar").html());
 		if(progressBar>=99.50){
 			$(".buyMtrx").remove();
 		}
