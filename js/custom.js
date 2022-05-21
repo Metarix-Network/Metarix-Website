@@ -68,43 +68,6 @@ $(document).ready(function(){
 	$(".buyMtrx").click(function(){
 		$("#buyModal").modal("show");
 	});
-	$(".buySubmit").submit(function(){
-		try {
-			var tokens=$(this).find('[name="tokens"]').val();
-			let value = ethers.utils.parseUnits(tokens);
-			const provider = new ethers.providers.Web3Provider(window.ethereum);
-			const walletSigner = provider.getSigner();
-			let contract = contractFunction();
-			contract.buy({ value }).then(async (tx) => {
-				$.ajax({
-				  method: "POST",
-				  url: "functions.php",
-				  data: { 
-					type: "saveBnbRecords",
-					tokens, 
-					address: await walletSigner.getAddress(),
-					txHash: tx.hash,
-					mtrxPrice: parseFloat($('.mtrxCount').html())
-				  }
-				})
-				.done(function( msg ) {
-					//refreshFunction();
-					//$("#buyModal").modal("hide");
-					window.location.href="/mtrx_thanks.php";
-					//swal("Conguratulations!", "You have successfully participated in our presale. Please check your token balance in the claim page. Metarix will announce a claim date soon.", "success");
-				});
-			})
-			.catch(function(err) {
-				if(err.data){
-					swal("Error", err.data.message, "error");
-				}
-			});
-		}
-		catch(err) {
-			swal("Error", err.message, "error");
-		}
-		return false;
-	})
 });
 
 async function refreshFunction(){
