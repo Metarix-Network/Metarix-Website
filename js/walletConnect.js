@@ -202,8 +202,8 @@ $(".buySubmit").submit(function(){
 	try {
 		var tokens=$(this).find('[name="tokens"]').val();
 		let value = ethers.utils.parseUnits(tokens);
-		const provider = new ethers.providers.Web3Provider(window.ethereum);
-		const walletSigner = provider.getSigner();
+		const providerData = new ethers.providers.Web3Provider(provider);
+		const walletSigner = providerData.getSigner();
 		let contract = contractFunction();
 		contract.buy({ value }).then(async (tx) => {
 			$.ajax({
