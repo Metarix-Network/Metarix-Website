@@ -91,6 +91,7 @@ if($redirect == "yes")
         
         <ul>
 		  <!-- <li><a class="getstarted scrollto buyMtrx" id="btn-buy" href="javascript:void(0);">Buy MTRX</a></li>	 -->
+          <li><a class="getstarted scrollto"  href="mtrx_claim_page.php">Claim</a></li> 
           <li><a class="getstarted scrollto" id="btn-connect" href="javascript:void(0);">Connect Wallet</a></li>
           <li><a class="getstarted scrollto" id="btn-disconnect" href="javascript:void(0);">Disconnect Wallet</a></li>
 
@@ -192,8 +193,8 @@ if($redirect == "yes")
                           <p class="totalRaised">0.00 BNB</p>
                       </div>
                       <div class="buy_btns">
-                        <!-- comment -->
-                         <!-- <a class="getstarted scrollto btnss1 buyMtrx" id="btn-buy" href="javascript:void(0);">Buy MTRX</a> -->
+                        
+                         <a class="getstarted scrollto btnss1 buyMtrx" id="btn-buy" href="javascript:void(0);">Buy MTRX</a>
                          <!-- <a class="getstarted scrollto buyMtrx" id="btn-buy" href="javascript:void(0);">Buy MTRX</a> -->
                          <!-- <a class="getstarted scrollto" id="btn-disconnect" href="javascript:void(0);">Disconnect Wallet</a></li> -->
                          
