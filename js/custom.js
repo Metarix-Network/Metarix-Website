@@ -84,8 +84,10 @@ async function refreshFunction(){
 	.done(function( result ) {
 		result=JSON.parse(result);
 		var bnbPrice=(5000/result.currentBnbPrice);
-		$(".total_coins_show").html((result.totalBnbTokens).toFixed(2));
-		$("#total_coins_dollar").html("$"+(result.totalBnbTokens*0.05).toFixed(2));
+		//$(".total_coins_show").html((result.totalBnbTokens).toFixed(2));
+		//$("#total_coins_dollar").html("$"+(result.totalBnbTokens*0.05).toFixed(2));
+		$(".total_coins_show").html(parseFloat(result.totalBnbTokens).toFixed(2));
+		$("#total_coins_dollar").html("$"+parseFloat(result.totalBnbTokens*0.05).toFixed(2));
 		$('[name="tokens"]').val(bnbPrice);
 		$(".mtrxCount").html(((bnbPrice*result.currentBnbPrice)/0.05).toFixed(2));
 		var progressBar=parseFloat($("#progress-bar").html());
