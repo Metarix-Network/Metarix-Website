@@ -1262,6 +1262,10 @@ function copyToClipboard(element) {
                         
     
 }
+$(".scrollto").click(function(){
+    $(".navbar-mobile ul").css("display", "none");
+});
+
 </script>
 
     
