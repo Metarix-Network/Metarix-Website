@@ -778,6 +778,55 @@ div#imageView > img {
     margin-bottom: 100px;
 }
 
+/* METARIX Blockchain  */
+
+.blockchain_data_meta {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+.zk_proof {
+    background: #000;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50%;
+}
+.zk_proof h2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+.zk_proof h6 {
+    font-size: 18px;
+    font-weight: 100;
+}
+.meta_blocchan_texed h6 {
+    font-size: 22px;
+}
+
+
+/* METARIX ECOSYSTEM section  */
+
+.metarix_ecosyscope{
+    padding: 100px 0px;
+}
+.metarix_ecosystems {
+    text-align: center;
+    padding: 30px 0px;
+}
+.metarix_ecosystems h6 {
+    font-size: 18px;
+}
+.metarix_ecosystems_picture img {
+    width: 100%;
+}
 
 /* ArtiFacts */
 
@@ -3742,14 +3791,16 @@ a.users {
     border-radius: 10px;
     padding: 20px;
     text-align: left;
+    height: 100%;
+    max-height: 300px;
 }
 .busnd {
     text-align: center;
     padding: 20px 0px;
 }
 .busnd h6 {
-    font-size: 18px;
-    font-weight: 100;
+    font-size: 22px;
+    font-weight: 600;
 }
 .total.rasid h6 {
     font-size: 16px;
@@ -4019,7 +4070,9 @@ form.buySubmit .modal-footer {
     margin-bottom: 80px;
     text-align: center;
 }
-
+.prsaleOnText h5 {
+    font-size: 36px;
+}
 .timer_head h1, .prsaleOnText {
     font-size: 45px;
     font-weight: 700;
@@ -4034,6 +4087,7 @@ form.buySubmit .modal-footer {
     margin-top: 60px;
     font-size: 20px;
 }
+
 .timer_head p {
     width: 66%;
     margin: 0 auto;
@@ -4377,6 +4431,15 @@ section.mtxs_pools {
 }
 .mbl-adres-lnk{
     display: none;
+}
+
+
+
+
+.redLabel {
+    text-align: left;
+    color: red;
+    margin: 14px 0 0 0;
 }
 
  /****************************************** responsive website  ***************************************/

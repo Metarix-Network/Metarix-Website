@@ -22,6 +22,58 @@
     </div>
   </section>
 
+  <!-- METARIX Blockchain  -->
+  <!-- <section class="metarix_blockchains">
+      <div class="container">
+
+      
+            <div class="heading update_text">
+                <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> METARIX BLOCKCHAIN <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
+            </div> 
+      <div class="blockchain_data_meta">
+          <div class="zk_proof">
+              <h2>170 milliseconds</h2>
+              <h6>ZK Proof</h6>
+          </div>
+          <div class="zk_proof">
+              <h2>45kb size</h2>
+              <h6>optimized mode</h6>
+          </div>
+          <div class="zk_proof">
+              <h2>100</h2>
+              <h6>TPS</h6>
+          </div>
+          <div class="meta_blocchan_texed">
+              <h6>Trusted by over 6million <br> people to buy, sell, and track <br> their favorite cryptocurrencies</h6>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum <br> in corrupti velit non eveniet voluptates tempora et aliquam. Natus, <br> voluptates!</p>
+          </div>
+      </div>
+    </div> 
+
+  </section> -->
+
+
+
+
+
+
+  <!-- METARIX ECOSYSTEM -->
+  <section class="metarix_ecosyscope">
+      <div class="container">
+            <div class="heading update_text">
+                <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> METARIX ECOSYSTEM <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
+            </div> 
+          <div class="row">
+              <div class="metarix_ecosystems">
+                  <h6>METARIX is a completely decentralized ecosystem for Gaming, NFT's and Metaverse</h6>
+              </div>
+              <div class="metarix_ecosystems_picture">
+                  <img src="img/METARIX_ECOSYSTEM.png" alt="">
+              </div>
+          </div>
+      </div>
+  </section>
+
 
   <!-- artificial -->
   <section class="metarix_artifix">

@@ -59,6 +59,7 @@
                        <a class="wallet_btn" id="btn-disconnect" href="javascript:void(0);">Disconnect Wallet</a>
                        <button class="buy_disablebtns" type="button" disabled="">Withdraw</button>
                    </div>
+				   <div class="redLabel">*Note: New MTRX will reflect with in 4 to 6 hours.</div>
                </div>
            </div>
         </div>

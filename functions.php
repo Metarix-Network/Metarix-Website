@@ -84,12 +84,12 @@ if($_REQUEST['type'] == 'getData')
 	$price=json_decode(getBnbPrice())->price;
 	$address=$_REQUEST['address'];
 	//$qry=mysqli_query($con, "select sum(bnbTokens) as totalBnbTokens from transactionRecords where walletAddress='$address'");
-	$qry=mysqli_query($con, "select sum(mtrxPrice) as totalBnbTokens from transactionRecords where walletAddress='$address'");
+	$qry=mysqli_query($con, "select sum(mtrxPrice) as totalMtrxTokens from transactionRecords where walletAddress='$address'");
 	$res=mysqli_fetch_object($qry);
 	$response['status'] = '1';
 	$response['currentBnbPrice'] = $price;
 	//$response['totalBnbTokens'] = ($res->totalBnbTokens*$price)/0.05;
-	$response['totalBnbTokens'] = $res->totalBnbTokens;
+	$response['totalMtrxTokens'] = ($res->totalMtrxTokens!=null)?$res->totalMtrxTokens:0;
 	echo json_encode($response);
 }
 

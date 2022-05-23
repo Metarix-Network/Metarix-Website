@@ -168,21 +168,14 @@ if($redirect == "yes")
                     <h1 class="heading_text">Metarix Presale </h1>
                     <p>Metarix is a fully decentralized Blockchain for Gaming, NFT's and Metaverse and Digital Marketing Platform through Metaverse</p>
                 </div>
-                <div class="timer-btm">
-                  <ul>
-                      <li>Presale will starts on the 20th May 13:00 CET and will last until 3 million dollar hardcap is hit or till 27th May 13:00 CET. </li>
-                      <li>No minimum purchase </li>
-                      <li>Maximum purchase is $5000 in BNB</li>
-                      <li>HOW TO: You connect your wallet, enter the amount of BNB (BEP20) you want to purchase for, click BUY, confirm transaction, and now you have successfully participated in MTRX presale</li>
-                  </ul>
-                </div>
+               
             </div>
             <div class="col-lg-6">
                 <div class="landing_ryt_data">
                     <div class="busnd">
                         <h6>1 BNB = <span id="current_price"></span></h6>
                     </div>
-					<div class="prsaleOnText"><h5><center>Please connect with your Wallet in order participate in the PreSale.</center></h5></div>
+					<div class="prsaleOnText"><h5><center>Please connect with your Wallet in order to participate in the PreSale.</center></h5></div>
 					<div class="buy_btns">
 						<a class="getstarted scrollto btnss1 buyMtrx" id="btn-buy" href="javascript:void(0);">Buy MTRX</a>
                         <!-- <a class="getstarted scrollto buyMtrx" id="btn-buy" href="javascript:void(0);">Buy MTRX</a> -->
@@ -212,16 +205,38 @@ if($redirect == "yes")
                         </div>
                     </div> -->
                 </div>
-                <div class="timer-btm">
+                
+            </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+          <div class="timer-btm">
+                  <ul>
+                      <li>Presale will starts on the 20th May 13:00 CET and will last until 3 million dollar hardcap is hit or till 27th May 13:00 CET. </li>
+                      <li>No minimum purchase </li>
+                      <li>Maximum purchase is $5000 in BNB</li>
+                      <li>HOW TO: You connect your wallet, enter the amount of BNB (BEP20) you want to purchase for, click BUY, confirm transaction, and now you have successfully participated in MTRX presale</li>
+                  </ul>
+                </div>
+          </div>
+          <div class="col-md-6">
+          <div class="timer-btm ">
                     <ul>
                       <li>Be careful of scammers. Only get information from Metarix’s official media channels.</li>
                       <li>To participate in the presale, you will simply need to transfer BNB to it, and in return you will get the equivalent amount of tokens in MTRX, which can be claimed at and after launch</li>
                     </ul>
                 </div>
-            </div>
+          </div>
         </div>
+
+
+
+
     </div>
 </section>
+
+
 
 <section class="landing_token_informations">
     <div class="container">
@@ -342,8 +357,11 @@ if($redirect == "yes")
   <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="js/main.js"></script>
   <script src="js/custom.js"></script>-->
+<script>
+	var contractAddress="<?php echo $smartContract; ?>";
+</script>  
 
-  <script src="https://unpkg.com/web3@latest/dist/web3.min.js"></script>
+<script src="https://unpkg.com/web3@latest/dist/web3.min.js"></script>
 <script type="text/javascript" src="https://unpkg.com/web3modal"></script>
 <script type="text/javascript" src="https://unpkg.com/evm-chains/lib/index.js"></script>
 <script type="text/javascript" src="https://unpkg.com/@walletconnect/web3-provider"></script>

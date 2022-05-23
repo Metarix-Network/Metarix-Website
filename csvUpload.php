@@ -1,13 +1,14 @@
 <form method="post" enctype="multipart/form-data">
-<input type="file" name="csv" value="" />
-<input type="submit" name="submit" value="Save" /></form>
+	<input type="file" name="csv" value="" />
+	<input type="submit" name="submit" value="Save" />
+</form>
 
 <?php
 include("config.php");
 $csv = array();
 
 // check there are no errors
-if($_FILES['csv']['error'] == 0){
+if($_FILES['csv'] && $_FILES['csv']['error'] == 0){
     $name = $_FILES['csv']['name'];
     $ext = strtolower(end(explode('.', $_FILES['csv']['name'])));
     $type = $_FILES['csv']['type'];
@@ -15,7 +16,7 @@ if($_FILES['csv']['error'] == 0){
 
     // check the file is a csv
     if($ext === 'csv'){
-		mysqli_query($con, "delete from transactionRecords");
+		mysqli_query($con, "TRUNCATE TABLE transactionRecords");
         if(($handle = fopen($tmpName, 'r')) !== FALSE) {
             // necessary if a large csv file
             set_time_limit(0);
