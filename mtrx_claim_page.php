@@ -17,18 +17,18 @@
                        <div class="conectionshead">
                             <input type="hidden" id="copyRefrelInputCurrent" value="">
                            <img src="img/staking/plus_icon.png" alt="">
-                           <h6 id="wallet_connect" class="desk-wlcont">Wallet not connected</h6>
-                           <h6 id="wallet_connect" class="responsive-wlcont">Wallet not connected</h6>
+                           <h6 id="wallet_connect" class="desk-wlcont">Wallet not connected!</h6>
+                           <h6 id="wallet_connect" class="responsive-wlcont">Wallet not connected!</h6>
                        </div>
                        <div class="claim_item">
                            <h6>claimed</h6>
                            <span>0 MTRX </span>
                            <h6>of</h6>
-                           <span>0 MTRX </span>
+                           <span><span class="total_coins_show">0</span> MTRX </span>
                        </div>
                        <div class="wallet_progress">
                             <div class="progress progress_white">
-                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div> 
+                                <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div> 
                             </div>
                             <span class="bold_info">0%</span>
 
@@ -41,7 +41,7 @@
                    <div class="right_wallet_conct">
                        <div class="ready_claim">
                            <h6>Balance in MTRX</h6>
-                           <h6 id="total_coins_show">0</h6>
+                           <h6 id="total_coins_show" class="total_coins_show">0</h6>
                        </div>
                        <div class="locked_balance">
                            <h6>Amount in dollars</h6>
@@ -57,7 +57,7 @@
                        <!-- <a class="wallet_btn" href="javascript:void()"><img src="img/presale_wallet/ww.png" alt=""> WalletConnect</a> -->
                        <a class="wallet_btn" id="btn-connect" href="javascript:void(0);">Connect Wallet</a>
                        <a class="wallet_btn" id="btn-disconnect" href="javascript:void(0);">Disconnect Wallet</a>
-                       
+                       <button class="buy_disablebtns" type="button" disabled="">Withdraw</button>
                    </div>
                </div>
            </div>

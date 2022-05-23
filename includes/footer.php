@@ -82,8 +82,8 @@
         }
     });
     } 
-    checkAmount();
-    setInterval(checkAmount, 5000);
+    //checkAmount();
+    //setInterval(checkAmount, 5000);
   </script>
   
 

@@ -691,7 +691,7 @@
                     <h2>Q2 - 2023</h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metrix Asset Store for Game Developers</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Asset Store for Game Developers</p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Digital Marketing Platform Launch</p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Metaverse Full version launch </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix tools for Content Creators, Digital Artists  </p>
@@ -804,7 +804,7 @@
                     <h2>Q2 - 2023</h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metrix Asset Store for Game Developers</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Asset Store for Game Developers</p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Digital Marketing Platform Launch</p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Metaverse Full version launch </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix tools for Content Creators, Digital Artists  </p>
@@ -906,7 +906,7 @@
                     <h2>Q2 - 2023</h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metrix Asset Store for Game Developers</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Asset Store for Game Developers</p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Digital Marketing Platform Launch</p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Metaverse Full version launch </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix tools for Content Creators, Digital Artists  </p>
@@ -1076,12 +1076,12 @@
        <div class="col-lg-4 col-md-6">
         <div class="card">
           <div class="zoom-img">
-          <img class="card-img-top features_img" src="img/blog/metarics_blogchain.jpeg" alt="Card image cap">
+          <img class="card-img-top features_img" src="img/blogs/1.jpeg" alt="Card image cap">
           </div>
           <div class="card-body">
-            <h5 class="card-title">Know the Augmented reality- Metarix Blockchain and Its Uses</h5>
-            <span>March 24, 2022 -3 min read</span>
-            <p class="card-text">As we  all know about blockchain and how it works. For people who do not understand the simple complexity. </p>
+            <h5 class="card-title">THE METARIX BLOCKCHAIN (METARIX CHAIN) </h5>
+            <span>May 19, 2022 - 2 mins read</span>
+            <p class="card-text">A blockchain is a distributed database that is shared among the nodes of a computer network. As a database, a blockchain stores information electronically in digital format. Blockchains are best known for their crucial role in cryptocurrency systems, such as Bitcoin & Ethereum, for maintaining a secure and decentralized record of transactions. </p>
             <a target="_blank" href="Metarixblockchain_Blog.php" class="sdk_btn">Read More</a>
           </div>
         </div>
@@ -1089,12 +1089,12 @@
          <div class="col-lg-4 col-md-6">
         <div class="card">
           <div class="zoom-img">
-          <img class="card-img-top features_img" src="img/blog/metarix_metaverse.jpeg" alt="Card image cap">
+          <img class="card-img-top features_img" src="img/blogs/3.jpeg" alt="Card image cap">
         </div>
           <div class="card-body">
-            <h5 class="card-title">Essential Information About Metarix and Metaverse</h5>
-            <span>March 24, 2022 -3 min read</span>
-            <p class="card-text">In 2021 when Facebook changed its name to meta, everyone was left wondering what is meta all about.  </p>
+            <h5 class="card-title">THE METARIX METAVERSE</h5>
+            <span>May 19, 2022 - 3 mins read</span>
+            <p class="card-text">The metaverse is a concept of a persistent, online, 3D universe that combines multiple different virtual spaces. You can think of it as a future iteration of the internet. The metaverse will allow users to work, meet, game, and socialize together in these 3D spaces.</p>
             <a href="about_metaverse_blog.php" target="_blank" class="sdk_btn">Read More</a>
           </div>
         </div>
@@ -1102,12 +1102,12 @@
          <div class="col-lg-4 col-md-6">
         <div class="card">
           <div class="zoom-img">
-          <img class="card-img-top features_img" src="img/blog/virtual_plot.jpeg" alt="Card image cap">
+          <img class="card-img-top features_img" src="img/blogs/4.jpeg" alt="Card image cap">
         </div>
           <div class="card-body">
-            <h5 class="card-title">Virtual Plot in Metaverse</h5>
-            <span>March 24, 2022 -3 min read</span>
-            <p class="card-text">‘Meta’ means ‘after’ or ‘beyond’ in Greek. Meta will now be the name of the overall Facebook company.”</p>
+            <h5 class="card-title">VIRTUAL PLOT IN METAVERSE</h5>
+            <span>March 24, 2022 - 3 mins read</span>
+            <p class="card-text">‘Meta’ means ‘after’ or ‘beyond’ in Greek. Meta will now be the name of the overall Facebook company..</p>
             <a href="virtual-plot_blog.php" target="_blank" class="sdk_btn">Read More</a>
           </div>
         </div>

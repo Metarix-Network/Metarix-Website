@@ -95,6 +95,7 @@ async function fetchAccountData() {
     let lastFive = accounts[0].substr(accounts[0].length - 4);
     $("#btn-disconnect").html("Disconnect Wallet "+firstFive+"...."+lastFive);
 	//localStorage.setItem('walletConnect', 1);
+	refreshFunction();
 }
 
 
@@ -195,4 +196,53 @@ window.addEventListener('load', async () => {
     init();
     document.querySelector("#btn-connect").addEventListener("click", onConnect);
     document.querySelector("#btn-disconnect").addEventListener("click", onDisconnect);
+});
+
+function contractFunction()
+{
+	var contractAddress="0xab75a21fd3cbf92e5e10c27982562e9b9ebbae2e";
+	var rpcUrl="https://bsc-dataseed.binance.org/";
+	var abi=[{"inputs":[{"internalType":"uint256","name":"_maxCap","type":"uint256"},{"internalType":"uint256","name":"_saleStartTime","type":"uint256"},{"internalType":"uint256","name":"_saleEndTime","type":"uint256"},{"internalType":"address payable","name":"_projectOwner","type":"address"}],"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"previousOwner","type":"address"},{"indexed":true,"internalType":"address","name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},{"inputs":[],"name":"NAME","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"buy","outputs":[],"stateMutability":"payable","type":"function"},{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"investedAmount","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"maxCap","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"owner","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"projectOwner","outputs":[{"internalType":"address payable","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"saleEndTime","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"saleStartTime","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"totalBnbReceived","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"stateMutability":"nonpayable","type":"function"}];
+	const providerSign = new ethers.providers.Web3Provider(provider);
+	const walletSigner = providerSign.getSigner();
+	const contractData = new ethers.Contract(contractAddress, abi, walletSigner);
+	return contractData;
+}
+
+$(".buySubmit").submit(function(){
+	try {
+		var tokens=$(this).find('[name="tokens"]').val();
+		let value = ethers.utils.parseUnits(tokens);
+		const providerData = new ethers.providers.Web3Provider(provider);
+		const walletSigner = providerData.getSigner();
+		let contract = contractFunction();
+		contract.buy({ value }).then(async (tx) => {
+			$.ajax({
+			  method: "POST",
+			  url: "functions.php",
+			  data: { 
+				type: "saveBnbRecords",
+				tokens, 
+				address: await walletSigner.getAddress(),
+				txHash: tx.hash,
+				mtrxPrice: parseFloat($('.mtrxCount').html())
+			  }
+			})
+			.done(function( msg ) {
+				//refreshFunction();
+				//$("#buyModal").modal("hide");
+				window.location.href="/mtrx_thanks.php";
+				//swal("Conguratulations!", "You have successfully participated in our presale. Please check your token balance in the claim page. Metarix will announce a claim date soon.", "success");
+			});
+		})
+		.catch(function(err) {
+			if(err.data){
+				swal("Error", err.data.message, "error");
+			}
+		});
+	}
+	catch(err) {
+		swal("Error", err.message, "error");
+	}
+	return false;
 });

@@ -86,7 +86,7 @@ include("../functions.php");
           <li><a class="getstarted scrollto" target="_blank" href="img/whitepaper/Whitepaper.pdf">Whitepaper</a></li>
           <!-- <li><a class="getstarted scrollto"  href="staking.php">Staking</a></li> -->
           <li><a class="getstarted scrollto"  href="mtrx_claim_page.php">Claim</a></li>
-          <li><a class="getstarted scrollto pre_sale_btn"  target="_blank" href="mtrx_presale.php">Presale !!</a></li>
+          <li><a class="getstarted scrollto pre_sale_btn"  target="_blank" href="mtrx_presale-on.php">Presale !!</a></li>
           <!-- <li><a class="getstarted scrollto pre_sale_btn"  target="_blank" href="mtrx_pre_sale_ended.php">Presale ended !</a></li> -->
         </ul>
         <i class="fa fa-list mobile-nav-toggle"></i>

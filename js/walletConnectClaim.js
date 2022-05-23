@@ -96,8 +96,9 @@ async function fetchAccountData() {
     $("#btn-disconnect").html("Disconnect Wallet");
     /*var html = '<span class="cpy" onclick="copyToClipboardCurrent(/'"#copyRefrelInputCurrent"/')" id="myTooltipCurrent"><i class="fa fa-clone" aria-hidden="true"></i></span><span class="cpy" onclick="copyToClipboardCurrent(/'"#copyRefrelInputCurrent"/')" id="myTooltipCurrentshow" style="display: none;"><i class="fa fa-check" aria-hidden="true"></i></span>';*/
     $("#wallet_connect").html(accounts[0]);
-    showWalletAmount(accounts[0]);
+    //showWalletAmount(accounts[0]);
 	//localStorage.setItem('walletConnect', 1);
+	refreshFunction();
 }
 
 
@@ -186,6 +187,10 @@ async function onDisconnect() {
 	$("#btn-connect").css("display", "block");
 	$("#btn-disconnect").css("display", "none");
 	//localStorage.setItem('walletConnect', 0);
+	$(".total_coins_show").html('0');
+	$("#total_coins_show").html('0');
+	$("#total_coins_dollar").html('$');
+	$(".desk-wlcont").html("Wallet not connected!");
 }
 
 
@@ -198,27 +203,26 @@ window.addEventListener('load', async () => {
     document.querySelector("#btn-disconnect").addEventListener("click", onDisconnect);
 });
 
-var contractAddress="0x8fb73353b44276974a50ab422d3d467aa6ea06eb";
+//var contractAddress="0x8fb73353b44276974a50ab422d3d467aa6ea06eb";
 //var contractAddress="0x55382eEEF32EB87AA27D13d7637954C344154151";
-var abi=[{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"previousOwner","type":"address"},{"indexed":true,"internalType":"address","name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"from","type":"address"},{"indexed":true,"internalType":"address","name":"to","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"}],"name":"Transfer","type":"event"},{"constant":true,"inputs":[{"internalType":"address","name":"_owner","type":"address"}],"name":"balanceOf","outputs":[{"internalType":"uint256","name":"balance","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"internalType":"address","name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"totalSupply","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"internalType":"address","name":"_to","type":"address"},{"internalType":"uint256","name":"_value","type":"uint256"}],"name":"transfer","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"internalType":"address","name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"}];
+//var abi=[{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"previousOwner","type":"address"},{"indexed":true,"internalType":"address","name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"from","type":"address"},{"indexed":true,"internalType":"address","name":"to","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"}],"name":"Transfer","type":"event"},{"constant":true,"inputs":[{"internalType":"address","name":"_owner","type":"address"}],"name":"balanceOf","outputs":[{"internalType":"uint256","name":"balance","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"internalType":"address","name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"totalSupply","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"internalType":"address","name":"_to","type":"address"},{"internalType":"uint256","name":"_value","type":"uint256"}],"name":"transfer","outputs":[{"internalType":"bool","name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"internalType":"address","name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"}];
 
 
-async function showWalletAmount(address){
-    
-    const provider = new ethers.providers.Web3Provider(window.ethereum, "any");
-    const walletSigner = provider.getSigner();
-    const contract = new ethers.Contract(contractAddress, abi, walletSigner);
-    contract.balanceOf(address).then((bal) => {
+//async function showWalletAmount(address){
+    //const provider = new ethers.providers.Web3Provider(window.ethereum, "any");
+    //const walletSigner = provider.getSigner();
+    //const contract = new ethers.Contract(contractAddress, abi, walletSigner);
+    //contract.balanceOf(address).then((bal) => {
         //console.log(bal);
         //console.log(bal._hex);
-        var walletamount = parseInt(bal._hex, 16);
-        walletamount = walletamount/1000000000;
-        $("#total_coins_show").html(""+walletamount+"");
-        var dollaramount =  parseFloat(walletamount*0.05);
-        $("#total_coins_dollar").html("$"+dollaramount+"");
+        //var walletamount = parseInt(bal._hex, 16);
+        //walletamount = walletamount/1000000000;
+        //$("#total_coins_show").html(""+walletamount+"");
+        //var dollaramount =  parseFloat(walletamount*0.05);
+        //$("#total_coins_dollar").html("$"+dollaramount+"");
         
             
-    });
-}
+    //});
+//}
 
 
