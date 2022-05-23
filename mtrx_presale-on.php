@@ -182,28 +182,23 @@ if($redirect == "yes")
                     <div class="busnd">
                         <h6>1 BNB = <span id="current_price"></span></h6>
                     </div>
-                    <div class="landing_progress">
+					<div class="prsaleOnText"><h5><center>Please connect with your Wallet in order participate in the PreSale.</center></h5></div>
+					<div class="buy_btns">
+						<a class="getstarted scrollto btnss1 buyMtrx" id="btn-buy" href="javascript:void(0);">Buy MTRX</a>
+                        <!-- <a class="getstarted scrollto buyMtrx" id="btn-buy" href="javascript:void(0);">Buy MTRX</a> -->
+                        <!-- <a class="getstarted scrollto" id="btn-disconnect" href="javascript:void(0);">Disconnect Wallet</a></li> -->
+                    </div>
+                    <div class="landing_progress" style="display: none">
                         <h6>Progress <span>0%</span></h6>
                         <div class="progress">
-                        <div id="progress-bar" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
-                    </div>
-                    <div class="buys_button">
-                      <div class="total rasid">
-                          <h6>Total Raised</h6>
-                          <p class="totalRaised">0.00 BNB</p>
-                      </div>
-                      <div class="buy_btns">
-                        
-                         <a class="getstarted scrollto btnss1 buyMtrx" id="btn-buy" href="javascript:void(0);">Buy MTRX</a>
-                         <!-- <a class="getstarted scrollto buyMtrx" id="btn-buy" href="javascript:void(0);">Buy MTRX</a> -->
-                         <!-- <a class="getstarted scrollto" id="btn-disconnect" href="javascript:void(0);">Disconnect Wallet</a></li> -->
-                         
-                      </div>
-                      
-                    </div>
-                    
-                    
-                        <!-- <p>0 MTRX</p> -->
+							<div id="progress-bar" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+						</div>
+						<div class="buys_button">
+						  <div class="total rasid">
+							  <h6>Total Raised</h6>
+							  <p class="totalRaised">0.00 BNB</p>
+						  </div>
+						</div>
                     </div>
                    
                    <!--  <div class="limites_status">

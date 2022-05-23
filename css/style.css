@@ -3296,7 +3296,7 @@ section.blog_details {
 
 .blog_details_head {
     text-align: center;
-    padding: 60px;
+    padding: 20px 0px;
 } 
 .blog_details_head h1 {
     font-size: 45px;
@@ -3995,6 +3995,7 @@ form.buySubmit .modal-footer {
     font-size: 16px;
     background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);
     font-weight: 400;
+	margin: auto;
 }
 .buy_btns .btnss1:hover{
     color: #fff;
@@ -4019,7 +4020,7 @@ form.buySubmit .modal-footer {
     text-align: center;
 }
 
-.timer_head h1 {
+.timer_head h1, .prsaleOnText {
     font-size: 45px;
     font-weight: 700;
     background: -webkit-linear-gradient(right, #0756d2 0%, #c72c8a 100%);
@@ -5554,5 +5555,6 @@ img.footer_logo {
     }
     .partner-list {
     grid-template-columns: 1fr ;
-}
+    }
+  
 }

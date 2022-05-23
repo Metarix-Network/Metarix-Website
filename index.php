@@ -1263,7 +1263,8 @@ function copyToClipboard(element) {
     
 }
 $(".scrollto").click(function(){
-    $(".navbar-mobile ul").css("display", "none");
+    $(".navbar").removeClass("navbar-mobile");
+    $(".fa fa-list").removeClass("bi-list bi-x");
 });
 
 </script>
