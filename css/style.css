@@ -4453,12 +4453,18 @@ section.mtxs_pools {
     .info_para {
     font-size: 16px;
 }
+.prsaleOnText h5 {
+    font-size: 28px;
+}
 }
 
 
 @media (max-width: 1199px) {
     .navbar a, .navbar a:focus {
     display: block;
+}
+.prsaleOnText h5 {
+    font-size: 28px;
 }
 .navbar {
     position: relative;
@@ -5584,7 +5590,9 @@ img.footer_logo {
 @media (max-width: 375px) {
 	.icon_links {
     margin: 2px !important;
+
 }
+
     .team_data_1,
     .team_data_2,
     .team_data_3 {
@@ -5619,5 +5627,9 @@ img.footer_logo {
     .partner-list {
     grid-template-columns: 1fr ;
     }
+    .prsaleOnText h5 {
+        font-size: 25px;
+        }
+    
   
 }
