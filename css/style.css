@@ -780,25 +780,29 @@ div#imageView > img {
 
 /* METARIX Blockchain  */
 
+.metarix_blockchains {
+    padding: 50px 0px;
+}
 .blockchain_data_meta {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     gap: 50px;
-    width: 80%;
     margin: 0 auto;
     padding: 100px 0px;
 }
 .zk_proof {
     background: #000;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     border-radius: 50%;
+    box-shadow: 0 0 20px #bf2d8a;
 }
+
 .zk_proof h2 {
     font-size: 22px;
     font-weight: 600;
@@ -808,14 +812,18 @@ div#imageView > img {
     font-weight: 100;
 }
 .meta_blocchan_texed h6 {
-    font-size: 22px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 25px;
 }
+
+
 
 
 /* METARIX ECOSYSTEM section  */
 
 .metarix_ecosyscope{
-    padding: 100px 0px;
+    padding: 0px 0px 50px 0px;
 }
 .metarix_ecosystems {
     text-align: center;
@@ -1057,6 +1065,7 @@ div#imageView > img {
     color: #b5338d;
     font-size: 21px;
     margin-bottom: 0;
+    text-align: center;
 }
 .total_supply h6 {
     font-size: 30px;
@@ -4456,6 +4465,24 @@ section.mtxs_pools {
 .prsaleOnText h5 {
     font-size: 28px;
 }
+.zk_proof {
+    width: 200px;
+    height: 200px;
+}
+.zk_proof h2 {
+    font-size: 18px;
+}
+.zk_proof h6 {
+    font-size: 13px;
+}
+.meta_blocchan_texed h6 {
+    font-size: 22px;
+}
+.meta_blocchan_texed p {
+    font-size: 14px;
+}
+
+
 }
 
 
@@ -4581,6 +4608,27 @@ section.mtxs_pools {
 .metarixs_landing {
     padding: 65px 0px 0;
 }
+
+.zk_proof {
+    width: 150px;
+    height: 150px;
+}
+.zk_proof h2 {
+    font-size: 13px;
+}
+.zk_proof h6 {
+    font-size: 10px;
+}
+.meta_blocchan_texed h6 {
+    font-size: 18px;
+}
+.meta_blocchan_texed p {
+    font-size: 12px;
+}
+
+
+
+
 }
 
 @media (max-width: 991px) {
@@ -4924,6 +4972,30 @@ display: none;
 .landingpage_paragharph p {
     color: #b9b9b9;
 }
+.blockchain_data_meta {
+    flex-direction: column;
+}
+.meta_blocchan_texed {
+    text-align: center;
+}
+.zk_proof {
+    width: 250px;
+    height: 250px;
+}
+.zk_proof h2 {
+    font-size: 24px;
+}
+.zk_proof h6 {
+    font-size: 18px;
+}
+.meta_blocchan_texed h6 {
+    font-size: 22px;
+}
+.meta_blocchan_texed p {
+    font-size: 16px;
+}
+
+
 }
 
 
@@ -5629,7 +5701,23 @@ img.footer_logo {
     }
     .prsaleOnText h5 {
         font-size: 25px;
-        }
+    }
+    .zk_proof {
+        width: 200px;
+        height: 200px;
+    }
+    .zk_proof h2 {
+        font-size: 18px;
+    }
+    .zk_proof h6 {
+        font-size: 14px;
+    }
+    .meta_blocchan_texed h6 {
+        font-size: 20px;
+    }
+    .meta_blocchan_texed p {
+        font-size: 16px;
+    }
     
   
 }

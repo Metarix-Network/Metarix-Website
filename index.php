@@ -529,7 +529,7 @@
                         <h6>1.2 billion</h6>
                     </div>
                     <div class="total_supply">
-                        <p>Total Name</p>
+                        <p>Name</p>
                         <h6>Metarix</h6>
                     </div>
                     <div class="total_supply">
