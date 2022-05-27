@@ -47,14 +47,15 @@ if($_POST){
 		<?php
 		$inc=1;
 		while($data=mysqli_fetch_object($qry)){
-			$date = new DateTime($data->createdAt, new DateTimeZone('GMT'));
-			$date->setTimezone(new DateTimeZone('IST'));
+			$offset=5.50*60*60;
+			$timestamp = strtotime($data->createdAt)+$offset;
+			$date = date('Y-m-d H:i:s', $timestamp);
 			?>
 			<tr>
 				<td><?php echo $inc++; ?></td>
 				<td><?php echo $data->txHash; ?></td>
 				<td><?php echo $data->createdAt; ?></td>
-				<td><?php echo $date->format('Y-m-d H:i:s'); ?></td>
+				<td><?php echo $date; ?></td>
 				<td><?php echo ($data->bnbPrice==0)?"--":$data->bnbPrice; ?></td>
 				<td><?php echo $data->bnbTokens; ?></td>
 				<td><?php echo ($data->mtrxPrice==0)?"--":$data->mtrxPrice; ?></td>
