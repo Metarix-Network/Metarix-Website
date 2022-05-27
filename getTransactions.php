@@ -59,7 +59,7 @@ if($_POST){
 				<td><?php echo ($data->bnbPrice==0)?"--":$data->bnbPrice; ?></td>
 				<td><?php echo $data->bnbTokens; ?></td>
 				<td><?php echo ($data->mtrxPrice==0)?"--":$data->mtrxPrice; ?></td>
-				<td><?php echo ($data->bnbPrice==0)?"Pending":"Approve"; ?></td>
+				<td><?php echo ($data->bnbPrice==0)?"Pending":"Approved"; ?></td>
 			</tr>
 		<?php } ?>
 	</table>
