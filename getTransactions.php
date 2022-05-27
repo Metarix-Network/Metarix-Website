@@ -37,8 +37,8 @@ if($_POST){
 		<tr>
 			<th>Sr.No.</th>
 			<th>Hash</th>
-			<th>Date</th>
-			<th>IST Date</th>
+			<th>Date and Time (GMT)</th>
+			<th>Date and Time (IST)</th>
 			<th>BNBPrice</th>
 			<th>BNBTokens</th>
 			<th>mtrxToken</th>
