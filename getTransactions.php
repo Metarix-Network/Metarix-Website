@@ -37,7 +37,7 @@ if($_POST){
 		<tr>
 			<th>Sr.No.</th>
 			<th>Hash</th>
-			<th>Date and Time (GMT)</th>
+			<th>Date and Time (CET)</th>
 			<th>Date and Time (IST)</th>
 			<th>BNBPrice</th>
 			<th>BNBTokens</th>
@@ -47,15 +47,26 @@ if($_POST){
 		<?php
 		$inc=1;
 		while($data=mysqli_fetch_object($qry)){
-			$offset=5.50*60*60;
-			$timestamp = strtotime($data->createdAt)+$offset;
-			$date = date('Y-m-d H:i:s', $timestamp);
+			date_default_timezone_set('UTC');
+			$timestamp = strtotime($data->createdAt);
 			?>
 			<tr>
 				<td><?php echo $inc++; ?></td>
 				<td><?php echo $data->txHash; ?></td>
-				<td><?php echo $data->createdAt; ?></td>
-				<td><?php echo $date; ?></td>
+				<td>
+					<?php
+					date_default_timezone_set('UTC');
+					echo date('Y-m-d H:i:s', $timestamp); 
+					?>
+				</td>
+				<td>
+					<?php
+					date_default_timezone_set('Asia/Kolkata');
+					echo date('Y-m-d H:i:s', $timestamp); 
+					?>
+				</td>
+				<!--<td><?php echo $data->createdAt; ?></td>
+				<td><?php echo $date; ?></td>-->
 				<td><?php echo ($data->bnbPrice==0)?"--":$data->bnbPrice; ?></td>
 				<td><?php echo $data->bnbTokens; ?></td>
 				<td><?php echo ($data->mtrxPrice==0)?"--":$data->mtrxPrice; ?></td>
