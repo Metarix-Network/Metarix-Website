@@ -1,0 +1,141 @@
+<?php
+/*ini_set('display_errors', '1');
+ini_set('display_startup_errors', '1');
+error_reporting(E_ALL);*/
+header('Access-Control-Allow-Origin: ' . $_SERVER['HTTP_ORIGIN']);
+header('Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS');
+header('Access-Control-Max-Age: 1000');
+header('Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With');
+
+/****************************************************************************************
+ *  					used for get current price of coin
+*****************************************************************************************/
+include("config.php");
+function getBnbPrice(){
+	$curl_handle=curl_init();
+		
+	curl_setopt($curl_handle,CURLOPT_URL,"https://dapi.binance.com/dapi/v1/ticker/price?symbol=BNBUSD_PERP");
+	curl_setopt($curl_handle,CURLOPT_CONNECTTIMEOUT,2);
+	curl_setopt($curl_handle,CURLOPT_RETURNTRANSFER,1);
+	$buffer = curl_exec($curl_handle);
+  	curl_close($curl_handle);
+  	if (empty($buffer)){
+		//print "Nothing returned from url.<p>";die;
+		//return false;
+		$response['status'] = '0';
+		return json_encode($response);
+  	}
+  	else{
+		//print $buffer;die;
+		//return $buffer;
+  		$result = json_decode($buffer);
+  		$response['status'] = '0';
+  		if(!empty($result[0]))
+  		{
+  			$response['status'] = '1';
+  			$response['price'] = $result[0]->price;
+  			$response['symbol'] = $result[0]->symbol;
+  			$response['ps'] = $result[0]->ps;
+  		}
+  		return json_encode($response);
+  	}
+}
+
+/**************************************************************
+ * function used for change pre sale status
+ *************************************************************/
+if($_REQUEST['type'] == 'change_presale')
+{
+	$exists = "no";
+	$sql = "select * from sale_settings";
+	$result = mysqli_query($con, $sql);
+	if (mysqli_num_rows($result) > 0) {
+		// output data of each row
+	  	while($row = mysqli_fetch_assoc($result)) {
+	  	$id = $row["id"];
+	  }
+	  if(!empty($id))
+	  {
+	  	mysqli_query($con, "UPDATE `sale_settings` SET `pre_sale` = '0' WHERE `id` = $id");
+	  	print_r(json_encode(array('status'=>'success')));
+	  }
+	  
+	} 
+	else
+	{
+		mysqli_query($con, "insert into sale_settings(pre_sale) values('0')");
+		print_r(json_encode(array('status'=>'success')));
+	}
+}
+
+if($_REQUEST['type'] == 'getTokenBalance')
+{
+	echo getBnbPrice();
+}
+
+if($_REQUEST['type'] == 'saveBnbRecords')
+{
+	$tokens=$_REQUEST['tokens'];
+	$address=$_REQUEST['address'];
+	$txHash=$_REQUEST['txHash'];
+	$mtrxPrice=$_REQUEST['mtrxPrice'];
+	$price=json_decode(getBnbPrice())->price;
+	mysqli_query($con, "insert into transactionRecords(bnbTokens, walletAddress, txHash, mtrxPrice, bnbPrice) values('$tokens', '$address', '$txHash', '$mtrxPrice', '$price')");
+}
+
+if($_REQUEST['type'] == 'getData')
+{
+	$price=json_decode(getBnbPrice())->price;
+	$address=$_REQUEST['address'];
+	//$qry=mysqli_query($con, "select sum(bnbTokens) as totalBnbTokens from transactionRecords where walletAddress='$address'");
+	$qry=mysqli_query($con, "select sum(mtrxPrice) as totalMtrxTokens from transactionRecords where walletAddress='$address'");
+	$res=mysqli_fetch_object($qry);
+	$response['status'] = '1';
+	$response['currentBnbPrice'] = $price;
+	//$response['totalBnbTokens'] = ($res->totalBnbTokens*$price)/0.05;
+	$response['totalMtrxTokens'] = ($res->totalMtrxTokens!=null)?$res->totalMtrxTokens:0;
+	echo json_encode($response);
+}
+
+if($_REQUEST['type'] == 'subscribe')
+{
+	$my_count = count($_REQUEST);
+	if($my_count > 2 || !isset($_REQUEST['email']) || !isset($_REQUEST['type']))
+	{
+		$response['status'] = '0';
+		$response['message'] = 'Invalid details.';
+	    echo json_encode($response);die;
+	}
+	else
+	{
+		$email=$_REQUEST['email'];
+		if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+			$response['status'] = '0';
+			$response['message'] = 'Invalid email.';
+		    echo json_encode($response);die;
+		}
+		else
+		{
+			$sql = "select * from subscribers WHERE `email` = '$email'";
+		
+			$result = mysqli_query($con, $sql);
+			if (mysqli_num_rows($result) > 0) {
+				$response['status'] = '2';
+				$response['message'] = 'Already exists.';
+				echo json_encode($response);die;
+			}
+			else
+			{   
+				$timestamp = time();
+				mysqli_query($con, "insert into subscribers(`email`,`timestamp`) values('".$email."','".$timestamp."')");
+				$response['status'] = '1';
+				$response['message'] = 'Successfully subscribe.';
+				echo json_encode($response);die;
+
+			}
+		}
+	}
+}
+
+
+?>
