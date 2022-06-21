@@ -216,7 +216,7 @@
                     <p>The Metarix Launchpad is a blockchain based incubator that empowers new age creators by helping them raise funds from the Blockchain community through a DAO-driven decentralized seed fund. By offering a credible community-driven governance framework, the Metarix Launchpad also helps investors/backers make a careful selection of games they can reliably invest in.</p>
                 </div>
                 <div class="launchpafd_button">
-                    <a class="btn" target="_blank" href="https://dev.launchpad.metarix.network/">
+                    <a class="btn" target="_blank" href="https://launchpad.metarix.network/">
                         <span>EXPLORE</span>
                      </a>
                 </div>
