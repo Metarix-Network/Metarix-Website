@@ -921,7 +921,7 @@ p{
 }
 .metarix_roadmap_data{
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 160px;
 }
 .roadmap_content {
@@ -967,10 +967,10 @@ p{
     position: absolute;
     content: " ";
     background: transparent;
-    width: 262px;
+    width: 305px;
     height: 2px;
     top: 50%;
-    left: 197px;
+    left: 290px;
     border: 2px dotted #413a75;
 }
 .nav-link {
@@ -2760,4 +2760,30 @@ img.cont_img {
 
 .soon_pic img {
     width: 100%;
+}
+
+
+/* Responsive started  */
+
+@media (max-width: 1400px){
+    /* index page  */
+
+    .metarix_metaverse_items {
+        left: -235px;
+        top: 200px;
+    }
+    .matrix_block img {
+        width: 90%;
+    }
+    .metarix_meta {
+        padding: 50px 0px 150px 0px;
+    }
+    .partners_lines::after {
+        left: 27%;
+    }
+    .partners_lines_2::after {
+        right: 25%;
+    }
+
+
 }

@@ -286,7 +286,7 @@
     </div>
 </section>
 
-<section>
+<section class="metarix_meta">
     <div class="container-fluid ">
         <div class="row metarix_metaverse">
 

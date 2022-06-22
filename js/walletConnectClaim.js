@@ -72,10 +72,9 @@ async function fetchAccountData() {
     console.log(chainId);
     //97 testnet
     //56 mainnet
-	if(chainId!=97){
-		//swal("Error", "Please connect with Binance Smartchain Mainnet!","error");
-        swal("Error", "Please connect with Binance Smart Chain - Testnet!","error");
-        //alert("Please connect with Binance Smartchain Mainnet!");
+	if(chainId!=56){
+		swal("Error", "Please connect with Binance Smartchain Mainnet!","error");
+        //swal("Error", "Please connect with Binance Smart Chain - Testnet!","error");
 		return false;
 	}
     // Load chain information over an HTTP API
