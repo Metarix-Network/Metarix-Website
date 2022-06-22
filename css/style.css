@@ -444,6 +444,10 @@ p{
     display: flex;
     align-items: center;
 }
+.live_data {
+    display: flex;
+    align-items: center;
+}
 .main_button a  {
     font-size: 22px;
 }
@@ -1503,6 +1507,10 @@ form#subscribe {
     background-repeat: no-repeat;
     background-position: bottom right;
     padding: 100px 0px;
+}
+.footer_data_row {
+    display: flex;
+    justify-content: space-between;
 }
 .footer_head h2 {
     font-size: 28px;
@@ -3031,6 +3039,7 @@ img.cont_img {
     }
     .our_team_cards {
         width: 200px;
+        margin: 0 auto;
     }
     .card-title {
         font-size: 17px;
@@ -3081,6 +3090,18 @@ img.cont_img {
     .metarix_sdk_data h4 {
         font-size: 35px;
     }
+    .main_head::after {
+        display: none;
+     }
+     .main_head {
+        padding: 50px 0px 0px 0px;
+    }
+    .main_hero {
+        padding: 70px 0px 0px 0px;
+    }
+    .main_button {
+        padding: 30px 0px;
+    }
 
     .metarix_metaverse_items {
         left: -93px;
@@ -3101,9 +3122,367 @@ img.cont_img {
         align-items: center;
         gap: 70px;
     }
+    .partners_logo img {
+        max-height: 50px;
+    }
+    .partners_logo1 img {
+        max-height: 45px;
+    }
+    .get_subs_bgg {
+        justify-content: unset;
+        flex-direction: column;
+        gap: 35px;
+    }
+    .partners_heading h2 {
+        font-size: 40px;
+    }
+    .partners_logo1 {
+        grid-gap: 20px;
+        grid-template-columns: 1fr;
+    }
+    .footer_dats{
+        background-size: 180px 150px;
+    }
+    
+
+}
+
+
+@media (max-width:640px){
+    /* index page  */
+    .main_head h6 {
+        font-size: 13px;
+    }
+    .main_head h1 {
+        font-size: 32px;
+    }
+    .main_head p {
+        font-size: 14px;
+    }
+    .main_button {
+        align-items: unset;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .headings h2 {
+        font-size: 50px;
+    }
+    .headings p {
+        font-size: 13px;
+    }
+    .flex {
+        grid-template-columns: 1fr;
+    }
+    .box_data h6 {
+        font-size: 26px;
+    }
+    .box_data p {
+        font-size: 20px;
+    }
+    .what_metarix_head h2 {
+        font-size: 45px;
+    }
+    .what_metarix_head p {
+        font-size: 10px;
+        padding: 20px 0px;
+    }
+    .what_matarix::after {
+        right: 50px;
+        width: 80px;
+        height: 80px;
+        top: -39px;
+    }
+    .what_metarix_head p::after {
+        width: 35px;
+        height: 35px;
+    }
+    .metarix_diagrams::after {
+        width: 60px;
+        height: 60px;
+    }
+    .products_heading h2 {
+        font-size: 50px;
+    }
+    .matrix_lauch {
+        text-align: center;
+    }
+    .metarix_launchpad_data {
+        text-align: center;
+        padding-top: 35px;
+    }
+    .matrix_nft {
+        text-align: center;
+    }
+    .metarix_nft_data {
+        text-align: center;
+        padding-top: 25px;
+    }
+    .metarix_sdk_data {
+        text-align: center;
+    }
+
+    .matrix_block {
+        padding-top: 26px;
+    }
+    .metarix_metaverse_items {
+        left: 0;
+        top: 30px;
+    }
+    .btn {
+        margin: 0 auto;
+    }
+    .update_btn {
+        margin: unset;
+        width: 225px;
+        height: 58px;
+    }
+    .tokenomics_items {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 26px;
+    }
+    .tokenomics::before {
+        width: 114px;
+        height: 123px;
+        top: 165px;
+    }
+    .token_items h6 {
+        font-size: 21px;
+    }
+    .token_items h2 {
+        font-size: 23px;
+    }
+    .token_items h6 {
+        font-size: 18px;
+    }
+    .smart_cont img {
+        width: 28px;
+    }
+    .tokenomics_left_items, .tokenomics_right_items {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .tokenomics_data {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .token_sale_details_head h4 {
+        font-size: 20px;
+    }
+    .token_sale_details h6 {
+        font-size: 14px;
+    }
+    .mtrx_roadmap_heading h2 {
+        font-size: 45px;
+    }
+    .metarix_roadmap_data {
+        grid-template-columns: 1fr;
+    }
+    .roadmap_nav-link.active::after {
+       display: none;
+    }
+    .metarix_smart_watch_data h4 {
+        font-size: 17px;
+    }
+    .metarix_smart_watch_data p {
+        font-size: 11px;
+    }
+    .btn {
+        height: 55px;
+        width: 226px;
+        font-size: 20px;
+    }
+    .smart_watch_img::after {
+        width: 250px;
+        height: 450px;
+        top: -50px;
+    }
+    .matrix_virtual_map {
+        text-align: center;
+    }
+    .nav-pills .roadmap_nav-link.active, .nav-pills .show>.nav-link {
+        width: 35%;
+    }
+    .roadmap_nav {
+        flex-direction: row !important;
+    }
+    .roadmap_content {
+        border-left: none;
+    }
+    .roadmap_content::before, .roadmap_content::after {
+       display: none;
+    }
+    .mtrx_content_details {
+        gap: 50px;
+        justify-content: center;
+    }
+    .roadmap_content_data h4 {
+        font-size: 20px;
+    }
+    .roadmap_content_data p {
+        font-size: 16px;
+    }
+    .mtrx_blogs_data {
+        grid-template-columns: 1fr;
+    }
+    .partners_lines::before, .partners_lines_2::after, .partners_lines::after {
+        display: none;
+    }
+    .partners_first, .partners_second {
+        padding: 50px 0px;
+    }
+    .get_subscribe_data {
+        width: 100%;
+    }
+    .emails {
+        width: 400px;
+    }
+    .get_subs_bgg h2 {
+        font-size: 32px;
+    }
 
 
 
 }
+
+@media (max-width: 480px){
+    /* index page  */
+    .main_head h1 {
+        font-size: 20px;
+    }
+    .headings h2 {
+        font-size: 32px;
+    }
+    .main_head h6 {
+        font-size: 16px;
+    }
+    .headings p {
+        font-size: 13px;
+    }
+    .box_data h6 {
+        font-size: 22px;
+    }
+    .box_data p {
+        font-size: 18px;
+    }
+    .what_metarix_head h2 {
+        font-size: 31px;
+    }
+    .what_metarix_head p {
+        font-size: 10px;
+        padding: 20px 0px;
+    }
+    .what_metarix_head p::after {
+        display: none;
+    }
+    .products_heading h2 {
+        font-size: 34px;
+    }
+    .metarix_meta {
+        padding:  0px;
+    }
+    .smart_watch_app {
+        flex-direction: column;
+        align-items: center;
+    }
+    .smart_watch_text {
+        width: 100%;
+        padding: 20px;
+    }
+    .metarix_smart_watch_data {
+        text-align: center;
+    }
+    .metarix_smart_watch_data p {
+        font-size: 14px;
+    }
+    .smart_watch_img::after {
+       display: none;
+    }
+    .smart_watch_img {
+        background: none;
+    }
+    .tokenomics_heading h2 {
+        font-size: 50px;
+    }
+    .tokenomics_items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .token_sale_details_head h4 {
+        font-size: 15px;
+    }
+    .token_sale_details h6 {
+        font-size: 11px;
+    }
+    .mtrx_roadmap_heading h2 {
+        font-size: 30px;
+    }
+    .roadmap_nav {
+        flex-direction: column !important;
+    }
+    .mtrx_content_details {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .roadmap_content_data {
+        text-align: center;
+    }
+    .team_heading h2 {
+        font-size: 35px;
+    }
+    .Blogs_heading h2 {
+        font-size: 40px;
+    }
+    .partners_heading h2 {
+        font-size: 26px;
+    }
+    .partners_logo {
+        flex-direction: column;
+    }
+    .strat_partners h2 {
+        font-size: 36px;
+    }
+    .partners_logo img {
+        max-height: 30px;
+    }
+    .partners_logo1 img {
+        max-height: 40px;
+    }
+    .emails {
+        width: 276px;
+        height: 45px;
+    }
+    .get_subs_bgg h2 {
+        font-size: 25px;
+    }
+    .main_head::after {
+       display: none;
+    }
+    .footer_data_row {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .footer_head h2 {
+        font-size: 30px;
+    }
+    .footer_tags {
+        font-size: 14px;
+    }
+    .ft_links {
+        align-items: center;
+    }
+  
+
+
+
+
+
+}
+
 
 

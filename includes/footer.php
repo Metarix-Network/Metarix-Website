@@ -4,55 +4,57 @@
     <div class="footer_dats">
         <div class="container">
             <div class="row">
-                <div class="col-md-2 d-flex align-items-center ">
-                    <div class="footer_logo">
-                        <img src="images/footer_logo.png" alt="">
+                <div class="footer_data_row">
+                    <div class="ft_row_1 ">
+                        <div class="footer_logo">
+                            <img src="images/footer_logo.png" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="footer_head">
-                        <h2 class="text_gradient">Products</h2>
+                    <div class="ft_row_2">
+                        <div class="footer_head">
+                            <h2 class="text_gradient">Products</h2>
+                        </div>
+                        <div class="ft_links">
+                            <a class="footer_tags" target="_blank" href="mtrx_blockchain.php">Metarix Blockchain</a>
+                            <a class="footer_tags" target="_blank" href="https://launchpad.metarix.network/">LaunchPad</a>
+                            <a class="footer_tags" target="_blank" href="mtrx_app_store.php">Metarix App Store</a>
+                            <a class="footer_tags" target="_blank" href="mtrx_sdk.php">Game SDK</a>
+                            <a class="footer_tags" target="_blank" href="comming_soon.php">Virtual Map</a>
+                        </div>
+                    </div>    
+                    <div class="ft_row_3">
+                        <div class="footer_head">
+                            <h2 class="text_gradient">Links</h2>
+                        </div>
+                        <div class="ft_links">
+                            <a class="footer_tags" href="<?php echo BASE_URL; ?>#Token_sale">Token Sale</a>
+                            <a class="footer_tags" href="<?php echo BASE_URL; ?>#RoadMap">Roadmap</a>
+                            <a class="footer_tags" href="<?php echo BASE_URL; ?>#TEAMS">Team</a>
+                            <a class="footer_tags" target="_blank" href="contact_us.php">Contact Us</a>
+                            <a class="footer_tags" target="_blank" href="images/lightpaper/mtrx_lightpaper.pdf">Light Paper</a>
+                        </div>
                     </div>
-                    <div class="ft_links">
-                        <a class="footer_tags" target="_blank" href="mtrx_blockchain.php">Metarix Blockchain</a>
-                        <a class="footer_tags" target="_blank" href="https://launchpad.metarix.network/">LaunchPad</a>
-                        <a class="footer_tags" target="_blank" href="mtrx_app_store.php">Metarix App Store</a>
-                        <a class="footer_tags" target="_blank" href="mtrx_sdk.php">Game SDK</a>
-                        <a class="footer_tags" target="_blank" href="comming_soon.php">Virtual Map</a>
+                    <div class="ft_row_4">
+                        <div class="footer_head">
+                            <h2 class="text_gradient">Quick Links</h2>
+                        </div>
+                        <div class="ft_links">
+                            <a class="footer_tags" target="_blank" href="comming_soon.php">Testnet <sup >Live</sup></a>
+                            <a class="footer_tags" target="_blank" href="comming_soon.php">MainNet <sup >Coming Soon</sup></a>
+                        </div>
                     </div>
-                </div>    
-                <div class="col-md-2">
-                    <div class="footer_head">
-                        <h2 class="text_gradient">Links</h2>
-                    </div>
-                    <div class="ft_links">
-                        <a class="footer_tags" href="<?php echo BASE_URL; ?>#Token_sale">Token Sale</a>
-                        <a class="footer_tags" href="<?php echo BASE_URL; ?>#RoadMap">Roadmap</a>
-                        <a class="footer_tags" href="<?php echo BASE_URL; ?>#TEAMS">Team</a>
-                        <a class="footer_tags" target="_blank" href="contact_us.php">Contact Us</a>
-                        <a class="footer_tags" target="_blank" href="images/lightpaper/mtrx_lightpaper.pdf">Light Paper</a>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="footer_head">
-                        <h2 class="text_gradient">Quick Links</h2>
-                    </div>
-                    <div class="ft_links">
-                        <a class="footer_tags" target="_blank" href="comming_soon.php">Testnet <sup >Live</sup></a>
-                        <a class="footer_tags" target="_blank" href="comming_soon.php">MainNet <sup >Coming Soon</sup></a>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="footer_head">
-                        <h2 class="text_gradient">Follow us</h2>
-                    </div>
-                    <div class="ft_social_links">
-                        <a target="_blank" href="https://www.facebook.com/The-Metarix-104132965453352 "> <img src="images/SOCIAL_ICONS/FB.png" alt=""></a>
-                        <a target="_blank" href="https://www.instagram.com/the_metarix/"><img src="images/SOCIAL_ICONS/IG.png" alt=""></a>
-                        <a target="_blank" href="https://www.linkedin.com/company/metarix/ "><img src="images/SOCIAL_ICONS/LI.png" alt=""></a>
-                        <a target="_blank" href="https://twitter.com/The_Metarix"><img src="images/SOCIAL_ICONS/TW.png" alt=""></a>
-                        <a target="_blank" href="https://t.me/metarix_official"><img src="images/SOCIAL_ICONS/TG.png" alt=""></a>
-                        <a target="_blank" href="https://www.youtube.com/channel/UCvrtvQGYuu-ZiSzIpO8noHw"><img src="images/SOCIAL_ICONS/YT.png" alt=""></a>
+                    <div class="ft_row_5">
+                        <div class="footer_head">
+                            <h2 class="text_gradient">Follow us</h2>
+                        </div>
+                        <div class="ft_social_links">
+                            <a target="_blank" href="https://www.facebook.com/The-Metarix-104132965453352 "> <img src="images/SOCIAL_ICONS/FB.png" alt=""></a>
+                            <a target="_blank" href="https://www.instagram.com/the_metarix/"><img src="images/SOCIAL_ICONS/IG.png" alt=""></a>
+                            <a target="_blank" href="https://www.linkedin.com/company/metarix/ "><img src="images/SOCIAL_ICONS/LI.png" alt=""></a>
+                            <a target="_blank" href="https://twitter.com/The_Metarix"><img src="images/SOCIAL_ICONS/TW.png" alt=""></a>
+                            <a target="_blank" href="https://t.me/metarix_official"><img src="images/SOCIAL_ICONS/TG.png" alt=""></a>
+                            <a target="_blank" href="https://www.youtube.com/channel/UCvrtvQGYuu-ZiSzIpO8noHw"><img src="images/SOCIAL_ICONS/YT.png" alt=""></a>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -17,18 +17,20 @@
                 community owned end-to-end gaming ecosystem.</p>
 
             <div class="main_button">
-                <a class="btn popup-youtube" target="_blank" href="images/Metarix_Video.mp4">
+                <a class="btn popup-youtube update_btn" target="_blank" href="images/Metarix_Video.mp4">
                     <span>SEE VIDEO</span>
                 </a>
-                <div class="">
+                <div class="live_data">
                     <svg height="60" width="60" class="blinking">
                     <circle cx="40" cy="30" r="10" fill="green" />
                          Sorry, your browser does not support inline SVG.  
                     </svg> 
+
+                    <div class="live_text">
+                        <h6><span class="bl">Testnet is Live</span></h6>
+                    </div>
                 </div>
-                <div class="live_text">
-                    <h6><span class="bl">Testnet is Live</span></h6>
-                </div>
+                
             </div>   
             
         </div>
