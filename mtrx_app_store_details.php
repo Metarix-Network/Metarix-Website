@@ -438,8 +438,8 @@
                 <h2>Subscribe to get <br> the latest from <br> Metarix!</h2>
                 <div class="emails ">
                     <form id="subscribe" novalidate="true">
-                        <input class="enteremail subscribe-email" name="EMAIL" id="subscribe-email" placeholder="Your Email" spellcheck="false" type="text">
-                        <button type="submit" id="subscribe-button" class="subscribe-button "><a href="#"><img src="/images/form_button.png" alt=""></a></button>
+                        <input class="enteremail subscribe-email" name="email" id="email" placeholder="Your Email" spellcheck="false" type="text">
+                        <button type="button" id="subscribe-button" class="subscribe-button" onclick="sendContactAdmin()"><a href="javascript:void()"><img src="/images/form_button.png" alt=""></a></button>
                         <label for="subscribe-email" class="subscribe-message"></label>
                     </form>
 

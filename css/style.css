@@ -433,7 +433,7 @@ p{
     display: inline-block;  
 }
 .main_head h1{
-    font-size: 100px;
+    font-size: 75px;
     letter-spacing: 20px;
 }
 .main_head p {
@@ -492,6 +492,19 @@ p{
 } */
 
 
+/* preesale button glow  */
+
+@keyframes glowing {
+    0% { box-shadow: 0 0 -10px #e06736; }
+    40% { box-shadow: 0 0 20px #b93288; }
+    60% { box-shadow: 0 0 20px #214ab9; }
+    100% { box-shadow: 0 0 -10px #b93288; }
+  }
+  
+  .button-glow {
+    animation: glowing 5000ms infinite;
+  }
+  
 
 /* Metarix Artifacts started */
 
@@ -1943,7 +1956,7 @@ a.footer_tags sup {
 }
 .top_dapp_texed h6, .top_dapp_para h6 {
     margin-bottom: 0;
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'Garet';
 }
 .top_dapp_para h6 span {
@@ -2785,5 +2798,312 @@ img.cont_img {
         right: 25%;
     }
 
+}
+
+@media (max-width: 1199px){
+    /* index page  */
+
+    .main_head h1 {
+        font-size: 40px;
+    }
+    .main_head h6 {
+        font-size: 30px;
+    }
+    .main_head p {
+        font-size: 23px;
+    }
+    .main_head::after {
+        width: 350px;
+        height: 570px;
+    }
+    .box_data h6 {
+        height: 50px;
+        font-size: 20px;
+    }
+    .box_data p {
+        font-size: 15px;
+    }
+    .what_metarix_head p {
+        font-size: 17px;
+    }
+    .what_matarix::after {
+        right: 135px;
+    }
+    .headings p {
+        font-size: 18px;
+    }
+    .metarix_launchpad_data h4 {
+        font-size: 40px;
+    }
+    .metarix_nft_data h4 {
+        font-size: 38px;
+    }
+    .metarix_nft_data p, .metarix_launchpad_data p {
+        font-size: 17px;
+    }
+    .metarix_diagrams::after {
+        width: 80px;
+        height: 80px;
+    }
+    .metarix_sdk_data h4 {
+        font-size: 45px;
+    }
+    .metarix_sdk_data p {
+        font-size: 17px;
+    }
+    .metarix_metaverse_items {
+        left: -200px;
+        top: 185px;
+    }
+    .metarix_smart_watch_data h4 {
+        font-size: 30px;
+    }
+    .metarix_smart_watch_data p {
+        font-size: 17px;
+    }
+    .tokenomics_items {
+        gap: 30px;
+    }
+    .token_items h2 {
+        font-size: 22px;
+    }
+    .token_items h6 {
+        font-size: 16px;
+    }
+    .smart_cont img {
+        width: 22px;
+    }
+    .tokenomics::before {
+        width: 250px;
+        height: 300px;
+    }
+    .token_sale_details_head h4 {
+        font-size: 16px;
+    }
+    .token_sale_details h6 {
+        font-size: 14px;
+    }
+    .nav-pills .roadmap_nav-link.active, .nav-pills .show>.nav-link {
+        width: 60%;
+    }
+    .roadmap_nav-link.active::after {
+        width: 217px;
+        left: 178px;
+    }
+    
+    .mtrx_blogs_data {
+        gap: 20px;
+    }
+    .strat_partners h2 {
+        font-size: 28px;
+    }
+    .partners_logo {
+        gap: 30px;
+    }
+    .partners_logo img {
+        max-height: 35px;
+    }
+    .partners_logo1 {
+        grid-gap: 10px;
+    }
+    .partners_logo1 img {
+        max-height: 40px;
+    }
+    .footer_head h2 {
+        font-size: 21px;
+    }
+    .footer_tags {
+        font-size: 15px;
+    }
+    .ft_social_links img {
+        width: 40px;
+    }
+    .footer_ended h5 {
+        font-size: 15px;
+    }
+    .footer_logo img {
+        width: 85%;
+    }
 
 }
+
+@media (max-width: 991px){
+    /* index page  */
+
+    .main_head h1 {
+        font-size: 28px;
+    }
+    .main_head h6 {
+        font-size: 19px;
+    }
+    .main_head p {
+        font-size: 18px;
+    }
+    .main_head::after {
+        width: 290px;
+        height: 500px;
+    }
+    .headings p {
+        font-size: 15px;
+    }
+    .flex {
+        grid-template-columns: 1fr 1fr;
+    }
+    .what_metarix_head p {
+        font-size: 12px;
+    }
+    .what_metarix_head p::after {
+        width: 70px;
+        height: 70px;
+    }
+    .metarix_diagrams::after {
+        width: 70px;
+        height: 70px;
+        right: 0;
+    }
+    .metarix_launchpad_data h4 {
+        font-size: 30px;
+    }
+    .metarix_nft_data p, .metarix_launchpad_data p {
+        font-size: 14px;
+    }
+    .metarix_nft_data h4 {
+        font-size: 28px;
+    }
+    .metarix_sdk_data h4 {
+        font-size: 38px;
+    }
+    .metarix_sdk_data p {
+        font-size: 15px;
+    }
+    .metarix_metaverse_items {
+        left: -155px;
+        top: 150px;
+    }
+    .metarix_smart_watch_data h4 {
+        font-size: 22px;
+    }
+    .metarix_smart_watch_data p {
+        font-size: 14px;
+    }
+    .smart_watch_img::after {
+        width: 310px;
+        height: 500px;
+        top: -50px;
+    }
+    .btn {
+        height: 70px;
+        width: 300px;
+    }
+    .token_items h2 {
+        font-size: 16px;
+    }
+    .token_items h6 {
+        font-size: 13px;
+    }
+    .smart_cont img {
+        width: 20px;
+    }
+    .token_sale_details_head h4 {
+        font-size: 14px;
+    }
+    .token_sale_details h6 {
+        font-size: 11px;
+    }
+    .metarix_roadmap_data {
+        grid-gap: 50px;
+    }
+    .mtrx_content_details {
+        gap: 30px;
+    }
+    .roadmap_content_data h4 {
+        font-size: 16px;
+    }
+    .roadmap_content_data p {
+        font-size: 12px;
+    }
+    .nav-pills .roadmap_nav-link.active, .nav-pills .show>.nav-link {
+        width: 45%;
+    }
+    .roadmap_nav-link.active::after {
+        width: 135px;
+        left: 145px;
+    }
+    .our_team_cards {
+        width: 200px;
+    }
+    .card-title {
+        font-size: 17px;
+    }
+    .mtrx_blogs_data {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .tokenomics::before {
+        width: 200px;
+        height: 250px;
+        top: 95px;
+    }
+    .strat_partners h2 {
+        font-size: 24px;
+    }
+    .partners_logo img {
+        max-height: 30px;
+    }
+    .partners_logo1 img {
+        max-height: 35px;
+    }
+    .partners_lines::after {
+        left: 20%;
+    }
+    .partners_lines_2::after {
+        right: 22%;
+    }
+    .get_subs_bgg h2 {
+        font-size: 21px;
+    }
+    .footer_head h2 {
+        font-size: 15px;
+    }
+    .footer_tags {
+        font-size: 12px;
+    }
+    .ft_social_links img {
+        width: 36px;
+    }
+    
+}
+
+
+@media (max-width: 768px){
+    /* index page  */
+
+    .metarix_sdk_data h4 {
+        font-size: 35px;
+    }
+
+    .metarix_metaverse_items {
+        left: -93px;
+        top: 93px;
+    }
+    .metarix_sdk_data p {
+        font-size: 12px;
+    }
+    .metarix_launchpad_data p {
+        font-size: 12px;
+    }
+    .metarix_smart_watch_data p {
+        font-size: 12px;
+    }
+    .partners_first, .partners_second {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+    }
+
+
+
+}
+
+

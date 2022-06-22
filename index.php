@@ -12,7 +12,7 @@
     <div class="container">
         <div class="main_head">
             <h6>YOUR GATEWAY TO</h6>
-            <h1 class="text_gradient">WEB 3.0 GAMING</h1>
+            <h1 class="text_gradient">WEB 3.0 ECOSYSTEM</h1>
             <p>Metarix is a fully decentralized, secure and <br>
                 community owned end-to-end gaming ecosystem.</p>
 
@@ -227,7 +227,7 @@
             <div class="col-md-6">
                 <div class="metarix_launchpad_data">
                     <h4 class="text_gradient">Metarix Blockchain</h4>
-                    <p>Metarix will be a layer 2 solution built on top of the Ethereum blockchain. We believe layer 2 is the future of blockchain technology and can help accelerate the mass adoption of cryptocurrencies.</p>
+                    <p>Metarix will be a layer 2 solution built on top of the Metarix blockchain. We believe layer 2 is the future of blockchain technology and can help accelerate the mass adoption of cryptocurrencies.</p>
                 </div>
                 <div class="launchpafd_button">
                     <a class="btn" target="_blank" href="mtrx_blockchain.php">
@@ -495,7 +495,7 @@
 
                     <div class="token_items_deta">
                         <div class="token_sale_details_head">
-                            <h4>10% Launchpads & Presale</h4>
+                            <h4>17.5% Launchpads & Presale</h4>
                             <h4>240,000,000</h4>
                         </div>
                         <div class="token_sale_details">
@@ -520,8 +520,8 @@
                 <div class="tokenomics_right_items">
                     <div class="token_items_deta">
                         <div class="token_sale_details_head">
-                            <h4>5% Marketing</h4>
-                            <h4>60,000,000</h4>
+                            <h4>7.5% Marketing</h4>
+                            <h4>90,000,000</h4>
                         </div>
                         <div class="token_sale_details">
                             <h6>Unlocked</h6>
@@ -532,10 +532,10 @@
                     <div class="token_items_deta">
                         <div class="token_sale_details_head">
                             <h4>20% Exchange Listing and Liquidity</h4>
-                            <h4>240,000,000</h4>
+                            <h4>210,000,000</h4>
                         </div>
                         <div class="token_sale_details">
-                            <h6>20% TGE 10% unlock each month after</h6>
+                            <h6>20% TGE 5% unlock each month after</h6>
                             <h6>Tokens</h6>
                         </div>
                     </div>
@@ -568,7 +568,7 @@
                             <h4>12,000,000</h4>
                         </div>
                         <div class="token_sale_details">
-                            <h6>10% TGE and 5% unlock each month after</h6>
+                            <h6>Vesting as per Tenset Schedule</h6>
                             <h6>Tokens</h6>
                         </div>
                     </div>
@@ -723,7 +723,7 @@
                                 <div class="mtrx_content_right_details">
                                     <div class="roadmap_content_data">
                                         <h6>Q2</h6>
-                                        <h4>Tier 1 Exchange</h4>
+                                        <h4>Centralized Exchange</h4>
                                         <p>Listing</p>
                                     </div>
                                     <div class="roadmap_content_data">
@@ -1234,7 +1234,7 @@
                         <div class="strat_partners">
                             <h2 class="text_gradient">Strategic Partners</h2>
                             <div class="partners_logo">
-                                <a href="#"><img src="images/partners/stragic/geller.png" alt=""></a>
+                                <a href=""><img src="images/partners/stragic/geller.png" alt=""></a>
                                 <a href="https://www.konma.community/" target="_blank"> <img src="images/partners/stragic/konma.png" alt=""></a>
                                 <a href="https://www.tenset.io/en" target="_blank"><img src="images/partners/stragic/tenset.png" alt=""></a>
                             </div>
@@ -1276,7 +1276,7 @@
                         <div class="strat_partners">
                             <h2 class="text_gradient">Powered By</h2>
                             <div class="partners_logo">
-                                <a href=""><img src="https://everdome-static.s3.eu-north-1.amazonaws.com/Vector_23ae3b3aba.svg" alt=""></a>
+                                <a href="https://bscscan.com/token/0x55382eeef32eb87aa27d13d7637954c344154151" target="_blank"><img src="https://everdome-static.s3.eu-north-1.amazonaws.com/Vector_23ae3b3aba.svg" alt=""></a>
                                 <a href="https://unity.com/" target="_blank"><img src="images/partners/powered/unity.png" alt=""></a>
                             </div>
                         </div>
@@ -1344,88 +1344,6 @@ function copyToClipboard(element) {
     
 }
 
-
-
-function sendContactAdmin()
-{
-  var emRegex = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,15}(?:\.[a-z]{2})?)$/i;
- 
-  var email=$('#email').val();
-  if(email == "")
-  {
-   
-    Swal.fire({
-      text: 'Email field is required.',
-      confirmButtonText: 'OK',
-      confirmButtonColor: "#3085d6",
-      icon: 'warning',
-     }).then((result) => {
-     })
-    //alert('Email field is required.');
-    $('#email').focus();
-    return false;
-    
-  }
-  else if(!emRegex.test(email)) {
-    Swal.fire({
-      text: 'Please enter valid email.',
-      confirmButtonText: 'OK',
-      confirmButtonColor: "#3085d6",
-      icon: 'warning',
-     }).then((result) => {
-     })
-    //alert('Please enter valid email.');
-    $('#email').focus();
-    return false;
-  }
-  else
-  {
-    //$.ajax({url: "form/subscribe_us.php", //using sendgrid
-    $.ajax({url: "functions.php", //save in database
-      method:"POST",
-      data:{'email':email,'type':'subscribe'},
-      dataType: "json",
-      success: function(response){
-        $('#email').val('');
-        if(response.status == '1'){
-          
-          //alert('Thanks for Subscribe with us!.');
-          Swal.fire({
-          text: 'Thank for Subscribe with us!',
-          confirmButtonText: 'OK',
-          confirmButtonColor: "#3085d6",
-          icon: 'success',
-         }).then((result) => {
-         })
-        }
-        else if(response.status == '2'){
-          
-          //alert('Thanks for Subscribe with us!.');
-          Swal.fire({
-          text: 'Thank for Subscribe with us!',
-          confirmButtonText: 'OK',
-          confirmButtonColor: "#3085d6",
-          icon: 'success',
-         }).then((result) => {
-         })
-        }
-        else
-        {
-            Swal.fire({
-              text: 'Something went wrong.',
-              confirmButtonText: 'OK',
-              confirmButtonColor: "#3085d6",
-              icon: 'warning',
-             }).then((result) => {
-             })
-             //alert('Something went wrong.');
-                $('#email').focus();
-                return false;
-        }
-      }
-    });
-  }
-}
 </script>
 
 

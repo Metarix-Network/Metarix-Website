@@ -4,12 +4,12 @@
     <div class="footer_dats">
         <div class="container">
             <div class="row">
-                <div class="col-xl-2 d-flex align-items-center ">
+                <div class="col-md-2 d-flex align-items-center ">
                     <div class="footer_logo">
                         <img src="images/footer_logo.png" alt="">
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-md-3">
                     <div class="footer_head">
                         <h2 class="text_gradient">Products</h2>
                     </div>
@@ -21,7 +21,7 @@
                         <a class="footer_tags" target="_blank" href="comming_soon.php">Virtual Map</a>
                     </div>
                 </div>    
-                <div class="col-xl-2">
+                <div class="col-md-2">
                     <div class="footer_head">
                         <h2 class="text_gradient">Links</h2>
                     </div>
@@ -33,7 +33,7 @@
                         <a class="footer_tags" target="_blank" href="images/lightpaper/mtrx_lightpaper.pdf">Light Paper</a>
                     </div>
                 </div>
-                <div class="col-xl-2">
+                <div class="col-md-2">
                     <div class="footer_head">
                         <h2 class="text_gradient">Quick Links</h2>
                     </div>
@@ -42,7 +42,7 @@
                         <a class="footer_tags" target="_blank" href="comming_soon.php">MainNet <sup >Coming Soon</sup></a>
                     </div>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-md-3">
                     <div class="footer_head">
                         <h2 class="text_gradient">Follow us</h2>
                     </div>
@@ -77,6 +77,7 @@
    <script src="js/main.js"></script>
     <script src="js/custom.js"></script>
    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 
    <!-- Google Analytics -->
@@ -88,6 +89,92 @@
 
     gtag('config', 'G-Z3HR2PVS87');
     </script>
+
+    <script type="text/javascript">
+function sendContactAdmin()
+{
+  
+
+  var emRegex = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,15}(?:\.[a-z]{2})?)$/i;
+ 
+  var email=$('#email').val();
+  if(email == "")
+  {
+   
+    Swal.fire({
+      text: 'Email field is required.',
+      confirmButtonText: 'OK',
+      confirmButtonColor: "#3085d6",
+      icon: 'warning',
+     }).then((result) => {
+     })
+    //alert('Email field is required.');
+    $('#email').focus();
+    return false;
+    
+  }
+  else if(!emRegex.test(email)) {
+    Swal.fire({
+      text: 'Please enter valid email.',
+      confirmButtonText: 'OK',
+      confirmButtonColor: "#3085d6",
+      icon: 'warning',
+     }).then((result) => {
+     })
+    //alert('Please enter valid email.');
+    $('#email').focus();
+    return false;
+  }
+  else
+  {
+    //$.ajax({url: "form/subscribe_us.php", //using sendgrid
+    $.ajax({url: "functions.php", //save in database
+      method:"POST",
+      data:{'email':email,'type':'subscribe'},
+      dataType: "json",
+      success: function(response){
+        $('#email').val('');
+        if(response.status == '1'){
+          
+          //alert('Thanks for Subscribe with us!.');
+          Swal.fire({
+          text: 'Thank you for subscribing with us!',
+          confirmButtonText: 'OK',
+          confirmButtonColor: "#3085d6",
+          icon: 'success',
+          
+         }).then((result) => {
+         })
+        }
+        else if(response.status == '2'){
+          
+          //alert('Thanks for Subscribe with us!.');
+          Swal.fire({
+          text: 'Thank for Subscribe with us!',
+          confirmButtonText: 'OK',
+          confirmButtonColor: "#3085d6",
+          icon: 'success',
+         }).then((result) => {
+         })
+        }
+        else
+        {
+            Swal.fire({
+              text: 'Something went wrong.',
+              confirmButtonText: 'OK',
+              confirmButtonColor: "#3085d6",
+              icon: 'warning',
+             }).then((result) => {
+             })
+             //alert('Something went wrong.');
+                $('#email').focus();
+                return false;
+        }
+      }
+    });
+  }
+}
+</script>
 
 </body>
 </html>

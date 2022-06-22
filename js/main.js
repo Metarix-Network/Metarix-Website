@@ -200,12 +200,9 @@
     
 $("#carousel").owlCarousel({
   autoplay: true,
-  rewind: true, /* use rewind if you don't want loop */
+  rewind: true, 
   margin: 20,
-   /*
-  animateOut: 'fadeOut',
-  animateIn: 'fadeIn',
-  */
+   
   responsiveClass: true,
   autoHeight: true,
   autoplayTimeout: 7000,
@@ -217,8 +214,11 @@ $("#carousel").owlCarousel({
     },
 
     600: {
-      items: 3
+      items: 2
     },
+    // 900: {
+    //   items: 2
+    // },
 
     1024: {
       items: 4
@@ -235,6 +235,8 @@ $("#carousel").owlCarousel({
 $(document).ready(function() {
 
   $(".items").owlCarousel({
+
+
   
   autoPlay: 3000,
   items : 4,
@@ -244,10 +246,25 @@ $(document).ready(function() {
   nav:true,
   loop:true,
   responsive: {
-  600: {
-  items: 4
-  }
-  }
+        0: {
+          items: 1
+        },
+    
+        600: {
+          items: 2
+        },
+        // 900: {
+        //   items: 2
+        // },
+    
+        1024: {
+          items: 4
+        },
+    
+        1366: {
+          items: 4
+        }
+      }
  
 });
 

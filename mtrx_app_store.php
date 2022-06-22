@@ -111,7 +111,7 @@
                                         <h6 class="text_gradient">Metarix DAO</h6>
                                         <div class="top_dapp_texed_items">
                                             <p>Exchange</p>
-                                            <p>Ethereum</p>
+                                            <!-- <p>Ethereum</p> -->
                                         </div>
                                     </div>
                                     <div class="top_dapp_para">
@@ -132,7 +132,7 @@
                                         <h6 class="text_gradient">Metarix LaunchPad</h6>
                                         <div class="top_dapp_texed_items">
                                             <p>Finance</p>
-                                            <p>Ethereum</p>
+                                            <!-- <p>Ethereum</p> -->
                                         </div>
                                     </div>
                                     <div class="top_dapp_para">
@@ -150,10 +150,10 @@
                                         <img src="images/app_store/pancake_swap.png" alt="">
                                     </div>
                                     <div class="top_dapp_texed">
-                                        <h6 class="text_gradient">MTRX NFT Marketplace</h6>
+                                        <h6 class="text_gradient">NFT Marketplace</h6>
                                         <div class="top_dapp_texed_items">
                                             <p>Exchange</p>
-                                            <p>BNB Chain</p>
+                                            <!-- <p>BNB Chain</p> -->
                                         </div>
                                     </div>
                                     <div class="top_dapp_para">
@@ -173,7 +173,7 @@
                                     <h6 class="text_gradient">Metarix Dex </h6>
                                     <div class="top_dapp_texed_items">
                                         <p>Exchange</p>
-                                        <p>Ethereum</p>
+                                        <!-- <p>Ethereum</p> -->
                                     </div>
                                 </div>
                                 <div class="top_dapp_para">
@@ -192,7 +192,7 @@
                                     <h6 class="text_gradient">StepUp</h6>
                                     <div class="top_dapp_texed_items">
                                         <p>Finance </p>
-                                        <p>BNB Chain</p>
+                                        <!-- <p>BNB Chain</p> -->
                                     </div>
                                 </div>
                                 <div class="top_dapp_para">
@@ -453,8 +453,8 @@
                 <h2>Subscribe to get <br> the latest from <br> Metarix!</h2>
                 <div class="emails ">
                     <form id="subscribe" novalidate="true">
-                        <input class="enteremail subscribe-email" name="EMAIL" id="subscribe-email" placeholder="Your Email" spellcheck="false" type="text">
-                        <button type="submit" id="subscribe-button" class="subscribe-button "><a href="#"><img src="/images/form_button.png" alt=""></a></button>
+                        <input class="enteremail subscribe-email" name="email" id="email" placeholder="Your Email" spellcheck="false" type="text">
+                        <<button type="button" id="subscribe-button" class="subscribe-button" onclick="sendContactAdmin()"><a href="javascript:void()"><img src="/images/form_button.png" alt=""></a></button>
                         <label for="subscribe-email" class="subscribe-message"></label>
                     </form>
 

@@ -65,6 +65,7 @@ $page = basename($_SERVER['REQUEST_URI'], '?' . $_SERVER['QUERY_STRING']);
           <li><a href="mtrx_claim.php">Claim</a></li>
           <li><a class="nav-link scrollto" href="contact.php">Contact Us</a></li>
           <li><a class="getstarted scrollto" target="_blank" href=" images/whitepaper/mtrx_whitepaper.pdf">Whitepaper</a></li>
+          <li><a class="getstarted scrollto button-glow" target="_blank" href="https://launchpad.metarix.network/pool_detail/featured/62b1f253e4ee47a3e6a6a6f5">PreSale</a></li>
           <?php if($page == 'mtrx_claim.php') { ?>
           <li><a class="getstarted scrollto" id="btn-connect" href="javascript:void(0);">Connect Wallet</a></li>
           <li><a class="getstarted scrollto" id="btn-disconnect" href="javascript:void(0);">Disconnect Wallet</a></li>
