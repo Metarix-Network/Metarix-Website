@@ -102,15 +102,15 @@ try {
 	echo json_encode($response);
     //echo "Email sent!" , PHP_EOL;
 } catch (phpmailerException $e) {
-    echo "An error occurred. {$e->errorMessage()}", PHP_EOL; //Catch errors from PHPMailer.
-    /*$response['status'] = '0';
+    //echo "An error occurred. {$e->errorMessage()}", PHP_EOL; //Catch errors from PHPMailer.
+    $response['status'] = '0';
     $response['message'] = 'Something went wrong!';
-	echo json_encode($response);*/
+	echo json_encode($response);
 } catch (Exception $e) {
-    echo "Email not sents. {$mail->ErrorInfo}", PHP_EOL; //Catch errors from Amazon SES.
-    /*$response['status'] = '0';
+    //echo "Email not sents. {$mail->ErrorInfo}", PHP_EOL; //Catch errors from Amazon SES.
+    $response['status'] = '0';
     $response['message'] = 'Something went wrong!';
-	echo json_encode($response);*/
+	echo json_encode($response);
 }
 
 
