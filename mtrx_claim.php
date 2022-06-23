@@ -78,10 +78,10 @@
                             <h2 class="text_gradient">FEW NOTES FOR THE USERS!</h2>
                         </div>
                         <div class="few_notes_items">
-                            <h6>Claiming MTRX can be done at launch time. <br> Date and time will be announced later.</h6> <br>
-                            <h6>20% TGE ( unlocked ).</h6><br>
-                            <h6>80% vested, 5% weekly unlock.</h6> <br>
-                            <h6>Remember to have a little BNB for gas fee, <br> when claiming your MTRX tokens.</h6> <br>
+                            <h6>Claiming MTRX can be done at launch time. <br> Date and time will be announced later.</h6> 
+                            <h6>20% TGE ( unlocked ).</h6>
+                            <h6>80% vested, 5% weekly unlock.</h6> 
+                            <h6>Remember to have a little BNB for gas fee, <br> when claiming your MTRX tokens.</h6> 
                         </div>
 
                     </div>

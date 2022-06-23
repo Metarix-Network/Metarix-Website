@@ -20,7 +20,7 @@ unset($_SESSION['message']);
 
         <div class="row">
 
-          <div class="col-lg-5 d-flex align-items-stretch">
+          <div class="col-lg-5 d-flex align-items-stretch contact_logo">
              <img class="cont_img" src="images/contact_us/contactpagelogo.png" alt="">
             <!-- <div class="info">
               <div class="address">

@@ -17,15 +17,16 @@
                         <a class="btn" href="comming_soon.php">
                             <span>Coming Soon</span>
                         </a>
-                        <div class="">
+                        <div class="live_data">
                             <svg height="60" width="60" class="blinking">
                             <circle cx="40" cy="30" r="10" fill="green" />
                                 Sorry, your browser does not support inline SVG.  
                             </svg> 
+                            <div class="live_text">
+                                 <h6><span class="bl">Testnet is Live</span></h6>
+                            </div>
                         </div>
-                        <div class="live_text">
-                            <h6><span class="bl">Testnet is Live</span></h6>
-                        </div>
+                        
                     </div> 
                 </div>
             </div>
@@ -47,8 +48,8 @@
             <p>Blockchain services can help you build components like 
                 3D virtual spaces, NFT marketplaces, art galleries, social networks, decentralized platforms, and much more.</p>
         </div>
-        <div class="row">
-            <div class="col-md-4">
+        <div class="row mtx_services_rows">
+            <div class="blockchain_services_data">
                 <div class=" box-container services_box">
                     <div class="services_items">
                         <img src="images/mtrx_blockchain/decod.png" alt="">
@@ -61,7 +62,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="blockchain_services_data">
                 <div class=" box-container services_box">
                     <div class="services_items">
                         <img src="images/mtrx_blockchain/metaverse.png" alt="">
@@ -75,7 +76,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="blockchain_services_data">
                 <div class=" box-container services_box">
                     <div class="services_items">
                         <img src="images/mtrx_blockchain/integrations.png" alt="">
@@ -91,7 +92,7 @@
         </div>
 
         <div class="row mtx_services_rows">
-            <div class="col-md-4">
+            <div class="blockchain_services_data">
                 <div class=" box-container services_box">
                     <div class="services_items">
                         <img src="images/mtrx_blockchain/nft.png" alt="">
@@ -104,7 +105,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="blockchain_services_data">
                 <div class=" box-container services_box">
                     <div class="services_items">
                         <img src="images/mtrx_blockchain/token_develop.png" alt="">
@@ -117,7 +118,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="blockchain_services_data">
                 <div class=" box-container services_box">
                     <div class="services_items">
                         <img src="images/mtrx_blockchain/meta_market.png" alt="">

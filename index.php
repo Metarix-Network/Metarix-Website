@@ -498,7 +498,7 @@
                     <div class="token_items_deta">
                         <div class="token_sale_details_head">
                             <h4>17.5% Launchpads & Presale</h4>
-                            <h4>240,000,000</h4>
+                            <h4>210,000,000</h4>
                         </div>
                         <div class="token_sale_details">
                             <h6>20% TGE and 5% vested weekly</h6>
@@ -534,7 +534,7 @@
                     <div class="token_items_deta">
                         <div class="token_sale_details_head">
                             <h4>20% Exchange Listing and Liquidity</h4>
-                            <h4>210,000,000</h4>
+                            <h4>240,000,000</h4>
                         </div>
                         <div class="token_sale_details">
                             <h6>20% TGE 5% unlock each month after</h6>
@@ -577,6 +577,9 @@
 
                 </div><!-- tokenomics_right_items  -->
             </div>
+        </div>
+        <div class="tockens_details">
+            <p>Any tokens not sold in the private, presale and launchpad rounds will be burnt.</p>
         </div>
     </div>
 </section>

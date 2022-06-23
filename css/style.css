@@ -334,8 +334,8 @@ p{
   }
   .navbar-mobile .mobile-nav-toggle {
     position: absolute;
-    top: 15px;
-    right: 15px;
+    top: 26px;
+    right: 32px;
   }
   .navbar-mobile ul {
     display: block;
@@ -917,6 +917,15 @@ p{
 .token_sale_details h6 {
     color: #666666;
     font-size: 16px;
+}
+.tockens_details {
+    padding-top: 50px;
+    text-align: center;
+}
+.tockens_details p {
+    color: #df6439;
+    margin-bottom: 0;
+    font-size: 20px;
 }
 
 /* metarix roadmap started  */
@@ -1679,6 +1688,9 @@ a.footer_tags sup {
 .blockchain_services_heading {
     text-align: center;
 }
+.blockchain_services_heading h2 {
+    font-size: 60px;
+}
 .blockchain_services_heading p {
     font-size: 24px;
     color: #666666;
@@ -1720,6 +1732,12 @@ a.footer_tags sup {
 }
 .mtx_services_rows{
     padding-top: 35px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.blockchain_services_data {
+    width: 430px;
 }
 
 .mtrx_blockchain_blank{
@@ -2404,6 +2422,9 @@ span#myTooltip img {
 }
 .few_notes_items {
     padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 .few_notes_items h6{
     background: url(../images/claim_page/few_notes_icon.png);
@@ -2416,6 +2437,8 @@ span#myTooltip img {
     align-items: center;
     background-size: 24px 24px;
     line-height: 1.5;
+    font-size: 22px;
+    margin-bottom: 0;
 
 }
 
@@ -2784,7 +2807,7 @@ img.cont_img {
 }
 
 
-/* Responsive started  */
+                                                          /* Responsive started  */
 
 @media (max-width: 1400px){
     /* index page  */
@@ -2805,6 +2828,80 @@ img.cont_img {
     .partners_lines_2::after {
         right: 25%;
     }
+
+    /* MTRX BLOCKCHAIN PAGE  */
+
+    .blockchain_main_head h2 {
+        font-size: 45px;
+    }
+    .blockchain_main_head p {
+        font-size: 20px;
+    }
+    .live_text h6 {
+        font-size: 18px !important;
+    }
+    .blockchain_services_heading p {
+        font-size: 20px;
+        width: 55%;
+    }
+    .mean_fill_img::after {
+        width: 620px;
+    }
+    .mean_fill_img {
+        width: 41%;
+    }
+    .meanfull_heading h2 {
+        font-size: 36px;
+        margin-bottom: 0;
+    }
+    .block_services_data h5 {
+        font-size: 22px;
+    }
+    .menigful_texed h6 {
+        color: #6d6a63;
+        font-family: 'Garet';
+        font-size: 22px;
+    }
+    .menigful_texed p {
+        font-size: 22px;
+    }
+    .earn_head h2 {
+        font-size: 55px;
+    }
+    .stake_earn_head h6 {
+        font-size: 22px;
+    }
+    .stake_earn_head p {
+        font-size: 20px;
+        padding: 25px 0px;
+        width: 82%;
+    }
+
+    /* MTRX CLAIM PAGE  */
+    .Claim_main_page::before {
+        width: 580px;
+        height: 600px;
+    }
+    .Claim_main_page::after {
+        width: 580px;
+        height: 420px;
+    }
+    .few_notes_pictures {
+        left: -75px;
+        top: 60px;
+    }
+    .few_notes_items {
+        gap: 20px;
+    }
+    .few_notes_items h6 {
+        background-size: 20px 20px;
+        font-size: 20px;
+    }
+    .token_info_picture img {
+        width: 75%;
+    }
+
+
 
 }
 
@@ -2933,6 +3030,132 @@ img.cont_img {
         width: 85%;
     }
 
+    /* Contact Us */
+
+    .contact .info {
+        gap: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* MTRX BLOCKCHAIN PAGE  */
+    .main_blockchain_hero {
+        padding: 150px 0px 0px 0px;
+    }
+    .blockchain_main_head h2 {
+        font-size: 40px;
+    }
+    .blockchain_main_head p {
+        font-size: 17px;
+    }
+    .blockchain_services_heading h2 {
+        font-size: 50px;
+    }
+    .blockchain_services_heading p {
+        font-size: 18px;
+        width: 70%;
+    }
+    .block_services_data h5 {
+        font-size: 16px;
+    }
+    .block_services_data p {
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+    .services_items img {
+        left: -48px;
+        max-width: 100px;
+    }
+    .mean_fill_img::after {
+        width: 570px;
+    }
+    .meanfull_heading h2 {
+        font-size: 30px;
+    }
+    .menigful_texed h6 {
+        font-size: 20px;
+    }
+    .menigful_texed p {
+        font-size: 18px;
+    }
+    .earn_head h2 {
+        font-size: 42px;
+    }
+    .stake_earn_head p {
+        font-size: 16px;
+    }
+    .stake_earn_head h6 {
+        font-size: 18px;
+    }
+    .mtx_services_rows {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px;
+    }
+
+    /* MTRX CLAIM PAGE  */
+
+    .Claim_main_page::before {
+        width: 460px;
+    }
+    .Claim_main_page::after {
+        width: 500px;
+    }
+    .main_claim_page_data {
+        width: 500px;
+        height: 540px;
+    }
+    .conectionshead h6 {
+        font-size: 24px;
+    }
+    .conectionshead p {
+        font-size: 18px;
+    }
+    .claim_item_texed h6 {
+        font-size: 13px;
+    }
+    .progress {
+        width: 80%;
+    }
+    .ready_claim h6, .locked_balance h6 {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+    .right_wallet_conct {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .ready_claim p, .locked_balance p {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .redLabel {
+        font-size: 15px;
+    }
+    .Claim_main_page {
+        background-size: 520px 590px;
+    }
+    .few_notes_heading h2 {
+        font-size: 28px;
+    }
+    .few_notes_items h6 {
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+    .name p {
+        font-size: 14px;
+    }
+    .name h4 {
+        font-size: 21px;
+    }
+    .token_info_picture img {
+        width: 90%;
+    }
+    .token_info_picture {
+        top: -90px;
+    }
+    
+
 }
 
 @media (max-width: 991px){
@@ -3009,6 +3232,9 @@ img.cont_img {
     .token_items h6 {
         font-size: 13px;
     }
+    .tockens_details p {
+        font-size: 14px;
+    }
     .smart_cont img {
         width: 20px;
     }
@@ -3020,6 +3246,7 @@ img.cont_img {
     }
     .metarix_roadmap_data {
         grid-gap: 50px;
+        grid-template-columns: 45% 55%;
     }
     .mtrx_content_details {
         gap: 30px;
@@ -3071,16 +3298,172 @@ img.cont_img {
     .get_subs_bgg h2 {
         font-size: 21px;
     }
-    .footer_head h2 {
+    
+
+    /* Contact us  */
+    .contact_logo {
+        justify-content: center;
+    }
+
+    /* MTRX BLOCKCHAIN  */
+
+    .blockchain_main_head h2 {
+        font-size: 32px;
+    }
+    .blockchain_main_button {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .main_blockchain_hero {
+        padding: 150px 0px 40px 0px;
+    }
+    .blockchain_services_heading h2 {
+        font-size: 45px;
+    }
+    .blockchain_services_heading p {
+        font-size: 17px;
+        width: 75%;
+    }
+    .blockchain_services_data {
+        width: 360px;
+    }
+    .block_services_data h5 {
+        font-size: 21px;
+    }
+    .block_services_data p {
+        font-size: 18px;
+    }
+    .mean_fill_img img {
+        width: 60%;
+    }
+    .mean_fill_img {
+        width: 40%;
+        top: -35px;
+    }
+    .mean_fill_img::after {
+        width: 470px;
+        height: 175px;
+    }
+    .meaningful_background {
+        height: 230px;
+    }
+    .meanfull_heading {
+        top: -35px;
+    }
+    .meanfull_heading h2 {
+        font-size: 23px;
+    }
+    .menigful_texed {
+        padding-top: 15px;
+    }
+    .menigful_texed h6 {
+        font-size: 16px;
+    }
+    .menigful_texed p {
+        font-size: 16px;
+    }
+    .earn_head h2 {
+        font-size: 32px;
+    }
+    .stake_earn_head h6 {
+        font-size: 14px;
+    }
+    .stake_earn_head p {
+        font-size: 14px;
+        width: 100%;
+    }
+    .Stake_EARNS {
+        padding: 100px 0px;
+    }
+    .get_subscribe_data {
+        width: 100%;
+    }
+
+    /* MTRX CLAIM  */
+
+    .Claim_main_page::before {
+        width: 335px;
+    }
+    .Claim_main_page::after {
+        width: 400px;
+    }
+    .main_claim_page_data {
+        width: 400px;
+        height: 480px;
+    }
+    .conectionshead h6 {
+        font-size: 21px;
+    }
+    .conectionshead p {
         font-size: 15px;
     }
-    .footer_tags {
+    .claim_item_texed h6 {
+        font-size: 10px;
+    }
+    .ready_claim h6, .locked_balance h6 {
+        font-size: 16px;
+    }
+    .ready_claim p, .locked_balance p {
+        font-size: 13px;
+    }
+    .right_wallet_conct {
+        gap: 20px;
+    }
+    .widrowl_buttons {
+        padding-top: 12px;
+    }
+    .redLabel {
         font-size: 12px;
     }
-    .ft_social_links img {
-        width: 36px;
+    .Claim_main_page {
+        background-size: 420px 480px;
     }
-    
+    .few_notes_heading h2 {
+        font-size: 21px;
+    }
+    .few_notes_data {
+        top: 30px;
+    }
+    .few_notes_items {
+        padding-top: 10px;
+    }
+    .few_notes_items h6 {
+        font-size: 12px;
+    }
+    .few_notes_pictures {
+        left: -65px;
+        top: 35px;
+    }
+    .few_notes_items h6 {
+        padding-left: 35px;
+        background-size: 17px 17px;
+    }
+    .Token_Info::after {
+        width: 506px;
+        height: 863px;
+        z-index: -1;
+    }
+    .token_info_data h2 {
+        font-size: 16px;
+    }
+    .name h4 {
+        font-size: 16px;
+    }
+    .name p {
+        font-size: 10px;
+    }
+    span#myTooltip img {
+        width: 18px;
+        height: 18px;
+    }
+    .token_info_data {
+        background-size: 230px 230px;
+        height: 350px;
+    }
+    .token_info_picture {
+        top: -50px;
+    }
+
 }
 
 
@@ -3143,7 +3526,112 @@ img.cont_img {
     .footer_dats{
         background-size: 180px 150px;
     }
-    
+
+    /* MTRX BLOCKCHAIN  */
+    .row.mtx_services_rows {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .block_services_data {
+        padding: 20px 0px 0px 10px;
+    }
+    .block_services_data p {
+        font-size: 17px;
+    }
+    .mean_fill_img::after {
+        width: 374px;
+        height: 136px;
+    }
+    .mean_fill_img {
+        top: -20px;
+    }
+    .meanfull_heading {
+        top: -10px;
+    }
+    .menigful_texed h6 {
+        font-size: 13px;
+    }
+    .meanfull_heading h2 {
+        font-size: 18px;
+    }
+    .menigful_texed p {
+        font-size: 12px;
+    }
+
+    /* footer  */
+    .footer_data_row {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        justify-content: unset;
+        text-align: center;
+    }
+    .footer_logo img {
+        width: 100%;
+    }
+    .footer_head h2 {
+        font-size: 40px;
+    }
+    .footer_tags {
+        font-size: 16px;
+    }
+    .ft_social_links {
+        width: 100%;
+    }
+
+    /* MTRX CLAIM PAGE  */
+    .main_claim_page_data {
+        width: 350px;
+        height: 410px;
+    }
+    .Claim_main_page::before {
+        width: 280px;
+    }
+    .Claim_main_page::after {
+        width: 280px;
+    }
+    .wallet_conct_data {
+        padding: 30px;
+    }
+    .Claim_main_page {
+        background-size: 350px 430px;
+    }
+    .conectionshead h6 {
+        font-size: 18px;
+    }
+    .conectionshead p {
+        font-size: 13px;
+    }
+    .ready_claim h6, .locked_balance h6 {
+        font-size: 12px;
+    }
+    .ready_claim p, .locked_balance p {
+        font-size: 13px;
+    }
+    .right_wallet_conct {
+        gap: 10px;
+        padding: 15px 0;
+    }
+    .claim_widrow_button button {
+        padding: 10px;
+    }
+    .redLabel {
+        font-size: 10px;
+    }
+    .few_notes_heading h2 {
+        font-size: 19px;
+    }
+    .few_notes_items h6 {
+        font-size: 11px;
+        line-height: 1.2;
+    }
+    .few_notes_pictures {
+        left: -40px;
+        top: 28px;
+    }
+
 
 }
 
@@ -3262,6 +3750,9 @@ img.cont_img {
         width: 90%;
         margin: 0 auto;
     }
+    .tockens_details p {
+        font-size: 11px;
+    }
     .tokenomics_data {
         display: flex;
         gap: 10px;
@@ -3343,6 +3834,102 @@ img.cont_img {
         font-size: 32px;
     }
 
+    /* footer  */
+    .footer_data_row {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .footer_logo {
+        text-align: center;
+    }
+    .footer_logo img {
+        width: 50%;
+    }
+    .ft_row_2, .ft_row_3, .ft_row_4, .ft_row_5 {
+        text-align: center;
+    }
+    .footer_head h2 {
+        font-size: 40px;
+    }
+    .footer_tags {
+        font-size: 15px;
+    }
+    .ft_social_links {
+        margin: 0 auto;
+        width: unset;
+    }
+
+    /* MRTX BLOCKCHAIN  */
+
+    .blockchain_services_heading h2 {
+        font-size: 38px;
+    }
+    .blockchain_services_heading p {
+        font-size: 15px;
+        width: 100%;
+    }
+    .mean_fill_img::after {
+        height: 113px;
+        width: 295%;
+    }
+    .meanfull_heading h2 {
+        font-size: 12px;
+    }
+    .menigful_texed h6 {
+        font-size: 10px;
+    }
+    .menigful_texed p {
+        font-size: 9px;
+    }
+    .meaningful_background {
+        height: 150px;
+    }
+
+    /* MTRX CLAIM PAGE */
+    .Claim_main_page::before {
+        width: 200px;
+    }
+    .Claim_main_page::after {
+        width: 215px;
+    }
+    .Claim_main_page {
+        padding: 150px 0px 300px 0px;
+        background-size: 260px 360px;
+    }
+    .few_notes_pictures {
+        left: -165px;
+        top: 0px;
+        text-align: center;
+    }
+    .few_notes_data {
+        text-align: end;
+        top: -15px;
+    }
+    .few_notes_items {
+        align-items: end;
+        text-align: center;
+    }
+    .few_notes_pictures img {
+        width: 50%;
+    }
+    .name p {
+        font-size: 15px;
+    }
+    span#myTooltip img {
+        width: 21px;
+        height: 21px;
+    }
+    .name h4 {
+        font-size: 18px;
+    }
+    .token_info_data h2 {
+        font-size: 25px;
+        padding-top: 15px;
+    }
+    .token_info_picture {
+        top: 60px;
+    }
+
 
 
 }
@@ -3420,8 +4007,14 @@ img.cont_img {
     .mtrx_roadmap_heading h2 {
         font-size: 30px;
     }
+    .nav-pills .roadmap_nav-link.active, .nav-pills .show>.nav-link {
+        width: 85%;
+        font-size: 20px;
+    }
     .roadmap_nav {
-        flex-direction: column !important;
+        gap: 12px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
     .mtrx_content_details {
         justify-content: center;
@@ -3476,13 +4069,210 @@ img.cont_img {
     .ft_links {
         align-items: center;
     }
+    .email {
+        flex-direction: column;
+    }
+
+    /* MTRX BLOCKCHAIN  */
+    .mtrx_blockchain_main_images {
+        text-align: center;
+    }
+    .mtrx_blockchain_main_images img {
+        width: 60%;
+    }
+    .mean_fill_img::after {
+        height: 85px;
+        width: 106%;
+    }
+    .meanfull_heading {
+        width: 55%;
+    }
+    .meaningful_background {
+        height: 115px;
+    }
+    .meanfull_heading h2 {
+        font-size: 15px;
+    }
+    .menigful_texed {
+        padding-top: 5px;
+    }
+    .menigful_texed h6 {
+        font-size: 8px;
+    }
+    .menigful_texed p {
+        font-size: 9px;
+    }
+    .stake_earn_head {
+        text-align: center;
+    }
+    .earn_head h2 {
+        font-size: 45px;
+    }
+    .stake_earn_head h6 {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    /* MTRX CLAIM  */
+
+    .main_claim_page_data {
+        width: 350px;
+        height: 410px;
+        margin: 0 auto;
+    }
+
+    .Claim_main_page::before {
+        width: 142px;
+    }
+    .Claim_main_page::after {
+        width: 160px;
+    }
+    .conectionshead h6 {
+        font-size: 16px;
+    }
+    .conectionshead p {
+        font-size: 11px;
+    }
+    .claim_item_texed h6 {
+        font-size: 9px;
+    }
+    .Claim_main_page {
+        background: none;
+        padding: 150px 0px 70px 0px;
+        background-size: 230px 300px;
+    }
+    .name p {
+        font-size: 12px;
+    }
+    .name h4 {
+        font-size: 16px;
+    }
+    .Token_Info::after {
+        width: 390px;
+    }
+    .token_info_picture {
+        text-align: center;
+    }
+    .token_info_picture img {
+        width: 75%;
+        display: none;
+    }
+    .Token_Info {
+        padding: 70px 0px 70px 0px;
+    }
+    .few_notes_pictures img {
+        display: none;
+    }
+    .few_notes_background {
+        height: 200px;
+    }
+    .few_notes_data {
+        top: 15px;
+    }
+    .few_notes_items h6 {
+        font-size: 10px;
+    }
+    
   
 
+}
 
+@media (max-width: 375px){
 
+    /* index  */
+    .roadmap_nav {
+        grid-template-columns: 1fr 1fr;
+    }
+    .tockens_details p {
+        font-size: 12px;
+    }
 
+    /* MTRX BLOCKCHAIN  */
+
+    .blockchain_main_head h2 {
+        font-size: 26px;
+    }
+    .blockchain_main_head p {
+        font-size: 15px;
+    }
+    .live_text h6 {
+        font-size: 13px !important;
+    }
+    .blockchain_services_heading h2 {
+        font-size: 30px;
+    }
+    .blockchain_services_heading p {
+        font-size: 16px;
+    }
+    .services_items img {
+        left: 0;
+    }
+    .meanfull_heading h2 {
+        font-size: 10px;
+    }
+    .meneful_items {
+        align-items: unset;
+        justify-content: unset;
+        flex-direction: column;
+    }
+    .meanfull_heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .mean_fill_img img {
+        width: 77%;
+    }
+    .mean_fill_img::after {
+        width: 130%;
+    }
+    .meanfull_heading h2 {
+        font-size: 20px;
+    }
+    .menigful_texed h6 {
+        font-size: 12px;
+    }
+    .menigful_texed p {
+        font-size: 13px;
+    }
+    .meanfull_heading {
+        width: 100%;
+    }
+    .meaningful_background {
+        height: 210px;
+    }
+    .earn_head h2 {
+        font-size: 40px;
+    }
+
+    /* MTRX CLAIM  */
+
+    .Token_Info::after {
+        width: 370px;
+    }
+    .few_notes_pictures {
+        left: -115px;
+    }
+    .few_notes_heading h2 {
+        font-size: 14px;
+    }
+    .few_notes_items h6 {
+        font-size: 9px;
+    }
+    .few_notes_items h6 {
+        padding-left: 22px;
+        background-size: 10px 10px;
+    }
+    .name p {
+        font-size: 10px;
+    }
+    .name h4 {
+        font-size: 14px;
+    }
 
 }
+
 
 
 
