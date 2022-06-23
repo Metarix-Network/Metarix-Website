@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'Garet Book';
     src: url('/font/Garet-Book.eot');
@@ -3154,7 +3155,35 @@ img.cont_img {
     .token_info_picture {
         top: -90px;
     }
-    
+
+    /* Game SDK Page  */
+    .sdk_main_head h6 {
+        font-size: 22px;
+    }
+    .sdk_main_head h1 {
+        font-size: 55px;
+    }
+    .game_developmt_data h2 {
+        font-size: 48px;
+    }
+    .game_developmt_data p {
+        font-size: 22px;
+    }
+
+    /* APP STORE PAGE  */
+    .app_store_heading h6 {
+        font-size: 20px;
+    }
+    .app_store_heading h2 {
+        font-size: 48px;
+    }
+    .app_store_heading p {
+        font-size: 15px;
+    }
+    .main_button {
+        padding: 51px 0px;
+    }
+   
 
 }
 
@@ -3464,6 +3493,47 @@ img.cont_img {
         top: -50px;
     }
 
+    /* GaME SDK  */
+
+    .sdk_main_head h1 {
+        font-size: 50px;
+    }
+    .sdk_main_head h6 {
+        font-size: 19px;
+    }
+    .sdk_main_head::after {
+        width: 586px;
+        height: 500px;
+        bottom: -300px;
+    }
+    .game_development {
+        padding: 110px 0px 260px 0px;
+    }
+    .game_developmt_data h2 {
+        font-size: 30px;
+    }
+    .game_developmt_data p {
+        font-size: 18px;
+    }
+
+    /* APP STORE PAGE  */
+    .app_store_heading h6 {
+        font-size: 15px;
+    }
+    .app_store_heading h2 {
+        font-size: 36px;
+    }
+    .app_store_heading p {
+        padding: 20px 0px;
+        font-size: 12px;
+    }
+    .app_store_main_pic img {
+        width: 150%;
+    }
+    .top-dapps_data {
+        grid-template-columns: 1fr 1fr;
+    }
+
 }
 
 
@@ -3630,6 +3700,44 @@ img.cont_img {
     .few_notes_pictures {
         left: -40px;
         top: 28px;
+    }
+
+    /* APP STORE  */
+
+    .app_store_main_pic img {
+        width: 100%;
+    }
+    .app_store_heading h6 {
+        font-size: 11px;
+    }
+    .app_details_items h6 {
+        font-size: 25px;
+    }
+    .app_details_items p {
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+    .featur_heading h2 {
+        font-size: 50px;
+    }
+    .top_dapps_nav-tabs {
+        gap: 45px;
+        justify-content: center;
+    }
+    .top-dapps_items {
+        padding: 15px;
+    }
+    .top_dapp_texed h6, .top_dapp_para h6 {
+        font-size: 13px;
+    }
+    .tops_dapps_img {
+        text-align: center;
+    }
+    .tops_dapps_img img {
+        width: 70%;
+    }
+    .top_dapp_navlink {
+        font-size: 15px;
     }
 
 
@@ -3833,6 +3941,10 @@ img.cont_img {
     .get_subs_bgg h2 {
         font-size: 32px;
     }
+    .get_subs_bgg {
+        padding-top: 15px;
+    }
+ 
 
     /* footer  */
     .footer_data_row {
@@ -3929,6 +4041,75 @@ img.cont_img {
     .token_info_picture {
         top: 60px;
     }
+    
+    /* GAME SDK  */
+    .sdk_main_head h1 {
+        font-size: 38px;
+    }
+    .sdk_main_head h6 {
+        font-size: 16px;
+    }
+    .sdk_main_button {
+        padding: 40px 0px;
+    }
+    .sdk_main_head::after {
+        height: 400px;
+    }
+    .game_developmt_data h2 {
+        font-size: 40px;
+    }
+    .game_developmt_data p {
+        font-size: 15px;
+    }
+    .development_imgs img {
+        width: 68%;
+    }
+    .development_imgs {
+        text-align: center;
+        padding-top: 90px;
+    }
+
+    /* APP STORE  */
+    .app_btn {
+        font-size: 16px !important;
+        height: 70px;
+    }
+    .mtrx_app_store_main {
+        padding: 140px 0px 100px 0px;
+    }
+    .app_details_items h6 {
+        font-size: 22px;
+    }
+    .app_details_items p {
+        font-size: 11px;
+    }
+    .app_store_main_pic img {
+        width: 80%;
+    }
+    .app_store_main_pic {
+        padding-top: 35px;
+    }
+    .featur_heading h2 {
+        font-size: 45px;
+    }
+    .top-dapps_items {
+        flex-direction: column;
+        gap: 22px;
+        text-align: center;
+    }
+    .top_dapp_texed h6, .top_dapp_para h6 {
+        font-size: 18px;
+    }
+    .top_dapp_texed_items {
+        display: block;
+    }
+    .top_dapp_texed_items p, .top_dapp_para p {
+        font-size: 15px;
+    }
+    .tops_dapps_img {
+        width: 70px;
+    }
+
 
 
 
@@ -4172,6 +4353,45 @@ img.cont_img {
     .few_notes_items h6 {
         font-size: 10px;
     }
+
+    /* GAME SDK  */
+    .sdk_main_head::after {
+        width: 440px;
+        height: 360px;
+    }
+    .sdk_main_head h1 {
+        font-size: 32px;
+    }
+    .sdk_main_head h6 {
+        font-size: 14px;
+    }
+    .game_developmt_data h2 {
+        font-size: 32px;
+    }
+    .game_development {
+        padding: 40px 0px 260px 0px;
+    }
+    .game_developmt_data p {
+        font-size: 14px;
+    }
+    .development_imgs img {
+        width: 60%;
+    }
+    .sdk_main_head {
+        padding: 0px 0px 15px 0px;
+    }
+
+    /* APP STORE  */
+
+    .featur_heading h2 {
+        font-size: 35px;
+    }
+    .top_dapp_texed h6, .top_dapp_para h6 {
+        font-size: 16px;
+    }
+    .app_store_main_pic {
+        text-align: center;
+    }
     
   
 
@@ -4269,6 +4489,37 @@ img.cont_img {
     }
     .name h4 {
         font-size: 14px;
+    }
+
+    /* GAME SDK  */
+
+    .sdk_main_head::after {
+        width: 350px;
+        height: 300px;
+    }
+    .sdk_main_head h6 {
+        font-size: 10px;
+    }
+    .sdk_main_head h1 {
+        font-size: 25px;
+    }
+    .game_developmt_data h2 {
+        font-size: 25px;
+    }
+
+    /* APP STORE  */
+
+    .app_store_heading h2 {
+        font-size: 30px;
+    }
+    .app_store_heading h6 {
+        font-size: 10px;
+    }
+    .app_store_main_pic {
+        text-align: center;
+    }
+    .featur_heading h2 {
+        font-size: 31px;
     }
 
 }

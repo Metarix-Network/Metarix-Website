@@ -12,7 +12,7 @@
                     <p>Metarix hosts one of the best managed App Stores for blockchain based apps built using our Game Maker SDK. Its easy-to-use user interface allows you to build, publish and then market your custom app to our community based fan following. Best performing apps automatically get push-notified to top backers from the community so your hard work gets the exposure and financial backing it deserves. </p>
 
                     <div class="main_button">
-                        <a class="btn" href="#TOP_DAPP">
+                        <a class="btn app_btn" href="#TOP_DAPP">
                              <span>EXPLORE DAPPS</span>
                          </a>
                     </div>  
