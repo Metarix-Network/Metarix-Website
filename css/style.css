@@ -2012,10 +2012,6 @@ a.footer_tags sup {
     padding: 200px 0px 150px 0px;
 }
 
-.mtrx_app_details_img img {
-    width: 100%;
-}
-
 .mtrx_app_store_details_head {
     display: flex;
     gap: 50px;
@@ -2036,11 +2032,12 @@ a.footer_tags sup {
     font-family: 'Garet Book';
 }
 .mtrx_bnb_change a strong {
-    font-family: 'Gigantic FS Regular';
+    font-family: 'Garet Book';
 }
 .mtrx_bnb_change {
     background: #7c63b0;
     padding: 5px 5px;
+    border-radius: 6px;
 }
 .mtrx_bnb_change img {
     width: 20px;
@@ -2052,6 +2049,7 @@ a.footer_tags sup {
 }
 .mtrx_app_details_img img {
     border-radius: 28px 10px;
+    width: 100%;
 }
 .open_app_items1, .open_app_items2 {
     display: flex;
@@ -2829,6 +2827,9 @@ img.cont_img {
     .partners_lines_2::after {
         right: 25%;
     }
+    .navbar a, .navbar a:focus {
+        font-size: 15px;
+    }
 
     /* MTRX BLOCKCHAIN PAGE  */
 
@@ -3030,6 +3031,14 @@ img.cont_img {
     .footer_logo img {
         width: 85%;
     }
+    .navbar a, .navbar a:focus {
+        padding: 10px 0 10px 14px;
+        font-size: 14px;
+    }
+    .navbar .getstarted, .navbar .getstarted:focus {
+        padding: 8px 16px;
+        margin-left: 10px;
+    }
 
     /* Contact Us */
 
@@ -3182,6 +3191,64 @@ img.cont_img {
     }
     .main_button {
         padding: 51px 0px;
+    }
+
+    /* APP STORE DETAILS  */
+
+    .change_x_data h2 {
+        font-size: 28px;
+    }
+    .mtrx_bnb_change img {
+        width: 15px;
+    }
+    .mtrx_bnb_change a {
+        font-size: 13px;
+    }
+    .change_x_data {
+        gap: 35px;
+    }
+    .details_ratings {
+        gap: 8px;
+    }
+    .details_ratings h6 {
+        font-size: 17px;
+    }
+    .details_ratings1 {
+        gap: 8px;
+    }
+    .details_ratings1 h6 {
+        font-size: 15px;
+    }
+    .open_app_items1 h6 {
+        font-size: 18px;
+    }
+    .mtrx_app_details_img img {
+        width: 75%;
+    }
+    .mtrx_app_details_img {
+        text-align: center;
+    }
+    .about_game_heading h3 {
+        font-size: 28px;
+    }
+    .about_game_heading p {
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+    .about_games_items h6 {
+        font-size: 20px;
+    }
+    .about_games_items p {
+        font-size: 10px;
+    }
+    .about_games_items::after {
+        height: 50px;
+    }
+    .game_draw_texed h6 {
+        font-size: 17px;
+    }
+    .game_rate h2 {
+        font-size: 33px;
     }
    
 
@@ -3492,6 +3559,9 @@ img.cont_img {
     .token_info_picture {
         top: -50px;
     }
+    .few_notes_background {
+        width: 90%;
+    }
 
     /* GaME SDK  */
 
@@ -3534,6 +3604,68 @@ img.cont_img {
         grid-template-columns: 1fr 1fr;
     }
 
+    /* APP STORE DETAILS  */
+    .mtrx_app_store_details_head {
+        gap: 0;
+    }
+    .change_x_data h2 {
+        font-size: 19px;
+    }
+    .mtrx_bnb_change a {
+        font-size: 10px;
+    }
+    .mtrx_bnb_change {
+        padding: 2px 10px;
+    }
+    .mtrx_app_details_img img {
+        width: 65%;
+    }
+    .about_game_heading h3 {
+        font-size: 25px;
+    }
+    .about_game_heading p {
+        font-size: 11px;
+    }
+    .about_games_items h6 {
+        font-size: 15px;
+    }
+    .about_game_buttons {
+        width: 100%;
+        gap: 40px;
+    }
+    .about_games_items::after {
+        height: 42px;
+        right: -25px;
+    }
+    .about_game_heading p {
+        padding: 35px 0px 20px 0px;
+    }
+    .game_dashboard_heading h2 {
+        font-size: 35px;
+    }
+    .game_dashboard_heading p {
+        width: 78%;
+        padding: 22px 0;
+    }
+    .game_dashboard_heading p {
+        font-size: 14px;
+    }
+    .game_dash_24h_data {
+        grid-template-columns: 1fr 1fr;
+    }
+    .you_might_items h6 {
+        font-size: 14px;
+    }
+    .you_might_items p {
+        font-size: 14px;
+    }
+    .you_might_heading h2 {
+        font-size: 22px;
+    }
+    .you_might_heading a {
+        font-size: 15px;
+    }
+    
 }
 
 
@@ -3701,6 +3833,9 @@ img.cont_img {
         left: -40px;
         top: 28px;
     }
+    .few_notes_pictures img {
+        display: none;
+    }
 
     /* APP STORE  */
 
@@ -3739,7 +3874,6 @@ img.cont_img {
     .top_dapp_navlink {
         font-size: 15px;
     }
-
 
 }
 
@@ -4015,7 +4149,8 @@ img.cont_img {
     }
     .few_notes_data {
         text-align: end;
-        top: -15px;
+        top: 0;
+        padding: 50px 0;
     }
     .few_notes_items {
         align-items: end;
@@ -4110,7 +4245,86 @@ img.cont_img {
         width: 70px;
     }
 
+    /* APP STORE DETAILS  */
 
+    .mtrx_app_store_details_head {
+        gap: 50px;
+        flex-direction: column;
+    }
+    .mtrx_app_details_img img {
+        width: 30%;
+    }
+    .change_x_data h2 {
+        font-size: 25px;
+    }
+    .mtrx_bnb_change a {
+        font-size: 12px;
+    }
+    .details_ratings {
+        gap: 12px;
+    }
+    .details_ratings h6 {
+        font-size: 18px;
+    }
+    .mtrx_app_changes_data {
+        justify-content: unset;
+        gap: 45px;
+    }
+    .details_ratings1 h6 {
+        font-size: 13px;
+    }
+    .details_ratings1 {
+        padding-top: 10px;
+    }
+    .about_game_heading {
+        margin-top: 50px;
+    }
+    .About_Game {
+        padding: 50px 0px;
+    }
+    .main_app_details {
+        padding: 125px 0px 100px 0px;
+    }
+    .about_games_items::after {
+        right: -50px;
+    }
+    .game_dashboard_heading h2 {
+        font-size: 28px;
+    }
+    .game_dashboard_heading p {
+        width: 100%;
+    }
+    .game_rate h2 {
+        font-size: 25px;
+    }
+    .game_draw_texed h6 {
+        font-size: 14px;
+    }
+    .game_rate p {
+        font-size: 18px;
+    }
+    .might_data img {
+        width: 40%;
+    }
+    .you_might_items h6 {
+        font-size: 32px;
+    }
+    .you_might_heading a {
+        font-size: 20px;
+    }
+    .might_like {
+        padding: 100px 0px;
+    }
+    .game_rate h2 {
+        font-size: 21px;
+    }
+    .game_draw_texed h6 {
+        font-size: 12px;
+    }
+    .you_might_heading h2 {
+        font-size: 20px;
+    }
+    
 
 
 }
@@ -4341,9 +4555,7 @@ img.cont_img {
     .Token_Info {
         padding: 70px 0px 70px 0px;
     }
-    .few_notes_pictures img {
-        display: none;
-    }
+    
     .few_notes_background {
         height: 200px;
     }
@@ -4356,8 +4568,8 @@ img.cont_img {
 
     /* GAME SDK  */
     .sdk_main_head::after {
-        width: 440px;
-        height: 360px;
+        width: 370px;
+        height: 310px;
     }
     .sdk_main_head h1 {
         font-size: 32px;
@@ -4380,6 +4592,10 @@ img.cont_img {
     .sdk_main_head {
         padding: 0px 0px 15px 0px;
     }
+    .app_details {
+        align-items: center;
+        justify-content: center;
+    }
 
     /* APP STORE  */
 
@@ -4391,6 +4607,35 @@ img.cont_img {
     }
     .app_store_main_pic {
         text-align: center;
+    }
+
+    /* APP STORE DETAILS  */
+    .change_x_data h2 {
+        font-size: 20px;
+    }
+    .details_ratings h6 {
+        font-size: 15px;
+    }
+    .open_app_items1 h6 {
+        font-size: 16px;
+    }
+    .open_app_items1, .open_app_items2 {
+        align-items: center;
+    }
+    .about_game_heading {
+        text-align: center;
+    }
+    .game_dashboard_heading p {
+        font-size: 12px;
+    }
+    .might_data img {
+        width: 35%;
+    }
+    .you_might_items h6 {
+        font-size: 28px;
+    }
+    .you_might_items p {
+        font-size: 15px;
     }
     
   
@@ -4521,6 +4766,72 @@ img.cont_img {
     .featur_heading h2 {
         font-size: 31px;
     }
+
+    /* APP STORE DETAILS  */
+    .change_x_data {
+        gap: 25px;
+        flex-direction: column;
+    }
+    .change_x_data h2 {
+        font-size: 30px;
+    }
+    .mtrx_bnb_change a {
+        font-size: 18px;
+    }
+    .details_ratings {
+        gap: 8px;
+        justify-content: center;
+    }
+    .details_ratings1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .open_app {
+        gap: 35px;
+        flex-direction: column;
+    }
+    .about_game_buttons {
+        flex-direction: column;
+    }
+    .about_games_items::after {
+        height: 1px;
+        width: 155px;
+        top: 65px;
+    }
+    .about_games_items h6 {
+        font-size: 21px;
+    }
+    .about_games_items p {
+        font-size: 13px;
+    }
+    .game_dashboard_heading h2 {
+        font-size: 31px;
+    }
+    .game_dash_24h_data {
+        grid-template-columns: 1fr;
+    }
+    .game_draw_texed h6 {
+        font-size: 15px;
+    }
+    .game_rate p {
+        font-size: 24px;
+    }
+    .you_might_heading h2 {
+        font-size: 18px;
+    }
+    .you_might_heading a {
+        font-size: 16px;
+    }
+    .you_might_items h6 {
+        font-size: 25px;
+    }
+    .you_might_items p {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+
+
 
 }
 

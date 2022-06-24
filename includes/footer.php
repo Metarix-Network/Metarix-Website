@@ -39,7 +39,7 @@
                             <h2 class="text_gradient">Quick Links</h2>
                         </div>
                         <div class="ft_links">
-                            <a class="footer_tags" target="_blank" href="comming_soon.php">Testnet <sup >Live</sup></a>
+                            <a class="footer_tags" target="_blank" href="https://testnest.metarix.network/">Testnet <sup >Live</sup></a>
                             <a class="footer_tags" target="_blank" href="comming_soon.php">MainNet <sup >Coming Soon</sup></a>
                         </div>
                     </div>
