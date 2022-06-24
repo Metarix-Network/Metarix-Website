@@ -30,7 +30,7 @@
                             <a class="footer_tags" href="<?php echo BASE_URL; ?>#Token_sale">Token Sale</a>
                             <a class="footer_tags" href="<?php echo BASE_URL; ?>#RoadMap">Roadmap</a>
                             <a class="footer_tags" href="<?php echo BASE_URL; ?>#TEAMS">Team</a>
-                            <a class="footer_tags" target="_blank" href="contact_us.php">Contact Us</a>
+                            <a class="footer_tags" target="_blank" href="contact.php">Contact Us</a>
                             <a class="footer_tags" target="_blank" href="images/lightpaper/mtrx_lightpaper.pdf">Light Paper</a>
                         </div>
                     </div>
@@ -152,7 +152,7 @@ function sendContactAdmin()
           
           //alert('Thanks for Subscribe with us!.');
           Swal.fire({
-          text: 'Thank for Subscribe with us!',
+          text: 'Thank you for subscribing with us!',
           confirmButtonText: 'OK',
           confirmButtonColor: "#3085d6",
           icon: 'success',
