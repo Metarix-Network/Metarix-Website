@@ -906,7 +906,7 @@
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title ">Justin Schopp</h5>
-                                <p class="card-text">Co-Founder | CEO</p>
+                                <p class="card-text">Chief Executive Officer</p>
                                 <!-- <div class="team_links">
                                     <a target="_blank" href=""><i class="fa fa-linkedin-square text_gradient" aria-hidden="true"></i></a> 
                                 </div> -->
@@ -919,7 +919,7 @@
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title ">Nakia Geller</h5>
-                                <p class="card-text">Co-Founder | CEO</p>
+                                <p class="card-text">Chief Financial Officer</p>
                                 <!-- <div class="team_links">
                                     <a target="_blank" href=""> <i class="fa fa-linkedin-square text_gradient" aria-hidden="true"></i></a>
                                 </div> -->
@@ -933,7 +933,7 @@
                             <div class="card-body">
                                 <h5 class="card-title ">Pandu Ranga
                                     Reddy Aluvala</h5>
-                                <p class="card-text">Co-Founder | CEO</p>
+                                <p class="card-text">Chief Technology Officer</p>
                                 <!-- <div class="team_links">
                                     <a target="_blank" href=""><i class="fa fa-linkedin-square text_gradient" aria-hidden="true"></i></a>
                                 </div> -->
@@ -946,7 +946,7 @@
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title ">CALEB Geller</h5>
-                                <p class="card-text">Co-Founder | CEO</p>
+                                <p class="card-text">Chief Marketing Officer</p>
                                 <!-- <div class="team_links">
                                     <a target="_blank" href=""><i class="fa fa-linkedin-square text_gradient" aria-hidden="true"></i></a>                                   
                                 </div> -->
