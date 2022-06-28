@@ -609,18 +609,15 @@
                                 <div class="mtrx_content_left_details">
                                     <div class="roadmap_content_data">
                                         <h6>Q1</h6>
-                                        <h4>Website</h4>
-                                        <p>Development</p>
+                                        <h4>Website Development</h4>
                                     </div>
                                     <div class="roadmap_content_data">
                                         <h6>Q3</h6>
-                                        <h4>Smart Contract </h4>
-                                        <p>Audit</p>
+                                        <h4>Smart Contract Audit</h4>
                                     </div>
                                     <div class="roadmap_content_data">
                                         <h6>Q5</h6>
-                                        <p>Strategic</p>
-                                        <h4>Initial Partnerships</h4>
+                                        <h4>Strategic Initial Partnerships</h4>
                                     </div>
                                     <div class="roadmap_content_data">
                                         <h6>Q7</h6>
@@ -632,8 +629,7 @@
                                 <div class="mtrx_content_right_details">
                                     <div class="roadmap_content_data">
                                         <h6>Q2</h6>
-                                        <h4>Game VFX</h4>
-                                        <p>Design</p>
+                                        <h4>Game VFX Design</h4>
                                     </div>
                                     <div class="roadmap_content_data">
                                         <h6>Q4</h6>
@@ -654,51 +650,42 @@
                                 <div class="mtrx_content_left_details">
                                     <div class="roadmap_content_data">
                                         <h6>Q1</h6>
-                                        <h4>1st Presale</h4>
-                                        <p>launch</p>
+                                        <h4>1st Presale launch</h4>
                                     </div>
                                     <div class="roadmap_content_data">
                                         <h6>Q3</h6>
-                                        <h4>Airdrop and  </h4>
-                                        <p>Marketing Campaigns</p>
+                                        <h4>Airdrop and Marketing Campaigns </h4>
                                     </div>
                                     <div class="roadmap_content_data">
                                         <h6>Q5</h6>
-                                        <p>Private Exchange</p>
-                                        <h4>Token Sale</h4>
+                                        <h4>Private Exchange Token Sale</h4>
                                     </div>
                                     <div class="roadmap_content_data">
                                         <h6>Q7</h6>
-                                        <h4>Team</h4>
-                                        <p>Building</p>
+                                        <h4>Team Building</h4>
                                     </div>
                                     <div class="roadmap_content_data">
                                         <h6>Q9</h6>
-                                        <h4>2nd round of presale</h4>
-                                        <p>and launchpad offerings</p>
+                                        <h4>2nd round of presale and launchpad offerings</h4>
                                     </div>
                                 </div>
 
                                 <div class="mtrx_content_right_details">
                                     <div class="roadmap_content_data">
                                         <h6>Q2</h6>
-                                        <h4>Call out for</h4>
-                                        <p>strategic partnerships</p>
+                                        <h4>Call out for strategic partnerships</h4>
                                     </div>
                                     <div class="roadmap_content_data">
                                         <h6>Q4</h6>
-                                        <h4>Metarix Blockchain, Dex</h4>
-                                        <p>and MarketPlace Development</p>
+                                        <h4>Metarix Blockchain, Dex and MarketPlace Development</h4>
                                     </div>
                                     <div class="roadmap_content_data">
                                         <h6>Q6</h6>
-                                        <h4>Layer 2 Metarix</h4>
-                                        <p>Blockchain Deployment</p>
+                                        <h4>Layer 2 Metarix Blockchain Deployment</h4>
                                     </div>
                                     <div class="roadmap_content_data">
                                         <h6>Q8</h6>
-                                        <h4>Migration to own</h4>
-                                        <p>blockchain</p>
+                                        <h4>Migration to own blockchain</h4>
                                     </div>
                                 </div>
                             </div>
@@ -709,18 +696,15 @@
                                 <div class="mtrx_content_left_details">
                                     <div class="roadmap_content_data">
                                         <h6>Q1</h6>
-                                        <h4>IEO/Listing</h4>
-                                        <p>on CEX</p>
+                                        <h4>IEO/Listing on CEX</h4>
                                     </div>
                                     <div class="roadmap_content_data">
                                         <h6>Q3</h6>
-                                        <h4>NFT MarketPlace</h4>
-                                        <p>Launch</p>
+                                        <h4>NFT MarketPlace Launch</h4>
                                     </div>
                                     <div class="roadmap_content_data">
                                         <h6>Q5</h6>
-                                        <p>Dex</p>
-                                        <h4>Launch</h4>
+                                        <h4>Dex Launch</h4>
                                     </div>
                                    
                                 </div>
@@ -728,18 +712,15 @@
                                 <div class="mtrx_content_right_details">
                                     <div class="roadmap_content_data">
                                         <h6>Q2</h6>
-                                        <h4>Centralized Exchange</h4>
-                                        <p>Listing</p>
+                                        <h4>Centralized Exchange Listing</h4>
                                     </div>
                                     <div class="roadmap_content_data">
                                         <h6>Q4</h6>
-                                        <h4>Virtual </h4>
-                                        <p>Land PreSale</p>
+                                        <h4>Virtual Land PreSale</h4>
                                     </div>
                                     <div class="roadmap_content_data">
                                         <h6>Q6</h6>
-                                        <h4>Smart Contracts</h4>
-                                        <p>for Gaming and NFT's</p>
+                                        <h4>Smart Contracts for Gaming and NFT's</h4>
                                     </div>
                                 </div>
                           </div>
@@ -750,41 +731,34 @@
                                 <div class="mtrx_content_left_details">
                                     <div class="roadmap_content_data">
                                         <h6>Q1</h6>
-                                        <h4>Top Tier</h4>
-                                        <p>exchange listings</p>
+                                        <h4>Top Tier exchange listings</h4>
                                     </div>
                                     <div class="roadmap_content_data">
                                         <h6>Q3</h6>
-                                        <h4>SDK Alpha </h4>
-                                        <p>Release</p>
+                                        <h4>SDK Alpha Release</h4>
                                     </div>
                                     <div class="roadmap_content_data">
                                         <h6>Q5</h6>
-                                        <p>VR Alpha </p>
-                                        <h4>Game Experience</h4>
+                                        <h4>VR Alpha Game Experience</h4>
                                     </div>
                                     <div class="roadmap_content_data">
                                         <h6>Q7</h6>
-                                        <p>Virtual smart watchc</p>
-                                        <h4>Development Launch</h4>
+                                        <h4>Virtual smart watch Development Launch</h4>
                                     </div>
                                 </div>
 
                                 <div class="mtrx_content_right_details">
                                     <div class="roadmap_content_data">
                                         <h6>Q2</h6>
-                                        <h4>Virtual</h4>
-                                        <p>Land Integrations</p>
+                                        <h4>Virtual Land Integrations</h4>
                                     </div>
                                     <div class="roadmap_content_data">
                                         <h6>Q4</h6>
-                                        <h4>Pre Launch Game</h4>
-                                        <p>Experience Release</p>
+                                        <h4>Pre Launch Game Experience Release</h4>
                                     </div>
                                     <div class="roadmap_content_data">
                                         <h6>Q6</h6>
-                                        <h4>Play to Earn Game</h4>
-                                        <p>Version 1.0 Launch</p>
+                                        <h4>Play to Earn Game Version 1.0 Launch</h4>
                                     </div>
                                 </div>
                           </div>
@@ -794,18 +768,15 @@
                                 <div class="mtrx_content_left_details">
                                     <div class="roadmap_content_data">
                                         <h6>Q1</h6>
-                                        <h4>Metarix SDK</h4>
-                                        <p>version 1.0 Release</p>
+                                        <h4>Metarix SDK version 1.0 Release</h4>
                                     </div>
                                     <div class="roadmap_content_data">
                                         <h6>Q3</h6>
-                                        <h4>No code smartcontract </h4>
-                                        <p>solutions for Digital Marketing</p>
+                                        <h4>No code smartcontract solutions for Digital Marketing</h4>
                                     </div>
                                     <div class="roadmap_content_data">
                                         <h6>Q5</h6>
-                                        <p>Metaverse Multi-Language</p>
-                                        <h4>Support</h4>
+                                        <h4>Metaverse Multi-Language Support</h4>
                                     </div>
                                     
                                 </div>
@@ -813,18 +784,15 @@
                                 <div class="mtrx_content_right_details">
                                     <div class="roadmap_content_data">
                                         <h6>Q2</h6>
-                                        <h4>Devops tools</h4>
-                                        <p>Launch for Developers</p>
+                                        <h4>Devops tools Launch for Developers</h4>
                                     </div>
                                     <div class="roadmap_content_data">
                                         <h6>Q4</h6>
-                                        <h4>Metaverse Digital </h4>
-                                        <p>Marketing Platform Integration</p>
+                                        <h4>Metaverse Digital Marketing Platform Integration</h4>
                                     </div>
                                     <div class="roadmap_content_data">
                                         <h6>Q6</h6>
-                                        <h4>No code smartcontracts</h4>
-                                        <p>for Game Developers</p>
+                                        <h4>No code smartcontracts for Game Developers</h4>
                                     </div>
                                 </div>
                           </div>
@@ -835,18 +803,15 @@
                                 <div class="mtrx_content_left_details">
                                     <div class="roadmap_content_data">
                                         <h6>Q1</h6>
-                                        <h4>Asset Store for</h4>
-                                        <p>Game Developers</p>
+                                        <h4>Asset Store for Game Developers</h4>
                                     </div>
                                     <div class="roadmap_content_data">
                                         <h6>Q3</h6>
-                                        <h4>Metaverse Full  </h4>
-                                        <p>version launch</p>
+                                        <h4>Metaverse Full Game Developers</h4>
                                     </div>
                                     <div class="roadmap_content_data">
                                         <h6>Q5</h6>
-                                        <p>App Store</p>
-                                        <h4> Launch</h4>
+                                        <h4>App Store Launch</h4>
                                     </div>
                                    
                                 </div>
@@ -854,13 +819,11 @@
                                 <div class="mtrx_content_right_details">
                                     <div class="roadmap_content_data">
                                         <h6>Q2</h6>
-                                        <h4>Digital Marketing</h4>
-                                        <p>Platform Launch</p>
+                                        <h4>Digital Marketing Platform Launch</h4>
                                     </div>
                                     <div class="roadmap_content_data">
                                         <h6>Q4</h6>
-                                        <h4>Tools for Content</h4>
-                                        <p>Creators, Digital Artists</p>
+                                        <h4>Tools for Content Creators, Digital Artists</h4>
                                     </div>
                                     
                                 </div>

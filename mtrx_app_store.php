@@ -105,7 +105,7 @@
                             <div class="top-dapps_data_items">
                                 <div class="top-dapps_items">
                                     <div class="tops_dapps_img">
-                                        <img src="images/app_store/uniswap.png" alt="">
+                                        <img src="images/app_store/meta-app.png" alt="">
                                     </div>
                                     <div class="top_dapp_texed">
                                         <h6 class="text_gradient">Metarix DAO</h6>
@@ -126,7 +126,7 @@
                             <div class="top-dapps_data_items">
                                 <div class="top-dapps_items">
                                     <div class="tops_dapps_img">
-                                        <img src="images/app_store/ave_protocol.png" alt="">
+                                        <img src="images/app_store/meta-app.png" alt="">
                                     </div>
                                     <div class="top_dapp_texed">
                                         <h6 class="text_gradient">Metarix LaunchPad</h6>
@@ -147,7 +147,7 @@
                             <div class="top-dapps_data_items">
                                 <div class="top-dapps_items">
                                     <div class="tops_dapps_img">
-                                        <img src="images/app_store/pancake_swap.png" alt="">
+                                        <img src="images/app_store/meta-app.png" alt="">
                                     </div>
                                     <div class="top_dapp_texed">
                                         <h6 class="text_gradient">NFT Marketplace</h6>
@@ -167,7 +167,7 @@
                         <div class="top-dapps_data_items">
                             <div class="top-dapps_items">
                                 <div class="tops_dapps_img">
-                                    <img src="images/app_store/curve.png" alt="">
+                                    <img src="images/app_store/meta-app.png" alt="">
                                 </div>
                                 <div class="top_dapp_texed">
                                     <h6 class="text_gradient">Metarix Dex </h6>
@@ -186,7 +186,7 @@
                         <div class="top-dapps_data_items">
                             <div class="top-dapps_items">
                                 <div class="tops_dapps_img">
-                                    <img src="images/app_store/venus_protocal.png" alt="">
+                                    <img src="images/app_store/meta-app.png" alt="">
                                 </div>
                                 <div class="top_dapp_texed">
                                     <h6 class="text_gradient">StepUp</h6>

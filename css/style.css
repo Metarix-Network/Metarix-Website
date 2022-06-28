@@ -1032,7 +1032,7 @@ p{
     margin-bottom: 0;
 }
 .roadmap_content_data h4 {
-    font-size: 22px;
+    font-size: 20px;
 }
 .roadmap_content_data p {
     color: #fff;
@@ -4828,6 +4828,9 @@ img.cont_img {
     .you_might_items p {
         font-size: 20px;
         padding-bottom: 20px;
+    }
+    .About_game_pictures img {
+        width: 70%;
     }
 
 
