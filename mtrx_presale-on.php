@@ -457,7 +457,7 @@ function initializeClock(id, endtime) {
 
 
 const deadline = '2022-05-27T11:00:00Z'; //final
-//const deadline = '2022-05-19 03:42 pm'; //testing
+//const deadline = '2022-05-27T04:22:00Z'; //testing
 
 initializeClock('clockdiv', deadline);
 
