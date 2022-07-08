@@ -2,6 +2,7 @@
 include($_SERVER['DOCUMENT_ROOT']."/config.php");
 include($_SERVER['DOCUMENT_ROOT']."/functions.php"); 
 $page = basename($_SERVER['REQUEST_URI'], '?' . $_SERVER['QUERY_STRING']);
+
 ?>
 
 
@@ -33,7 +34,13 @@ $page = basename($_SERVER['REQUEST_URI'], '?' . $_SERVER['QUERY_STRING']);
 <body>
     
    <!-- ======= Header ======= -->
-   <header id="header" class="header fixed-top">
+    <?php 
+      $headerclss = "";
+      if($page == 'index.php' || $page == ""){
+        $headerclss = "home_headback";
+      }
+    ?>
+   <header id="header" class="header fixed-top <?=$headerclss?>">
     <div class="container d-flex align-items-center justify-content-between">
 
       <a href="index.php" class="logo d-flex align-items-center">
@@ -66,6 +73,22 @@ $page = basename($_SERVER['REQUEST_URI'], '?' . $_SERVER['QUERY_STRING']);
           <li><a class="nav-link scrollto" href="contact.php">Contact Us</a></li>
           <li><a class="getstarted scrollto" target="_blank" href=" images/whitepaper/mtrx_whitepaper.pdf">Whitepaper</a></li>
           <li><a class="getstarted scrollto button-glow" target="_blank" href="https://launchpad.metarix.network/pool_detail/featured/62b1f253e4ee47a3e6a6a6f5">PreSale</a></li>
+
+          <?php if($page == 'index.php' || $page == ""){?>
+              <li>
+                <div class="live_data">
+                    <svg height="60" width="60" class="blinking">
+                    <circle cx="40" cy="30" r="10" fill="green" />
+                         Sorry, your browser does not support inline SVG.  
+                    </svg> 
+
+                    <div class="live_text">
+                        <h6><span class="bl">Testnet is Live</span></h6>
+                    </div>
+                </div>
+              </li>
+          <?php }?>
+
           <?php if($page == 'mtrx_claim.php') { ?>
           <li><a class="getstarted scrollto" id="btn-connect" href="javascript:void(0);">Connect Wallet</a></li>
           <li><a class="getstarted scrollto" id="btn-disconnect" href="javascript:void(0);">Disconnect Wallet</a></li>

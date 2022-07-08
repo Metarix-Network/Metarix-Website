@@ -8,7 +8,19 @@
 </style>
 
 <!-- main_hero   -->
-<section class="main_hero">
+<section id="Hero" class="hero">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <video class="video-fluid" autoplay loop muted>
+                    <source src="images/video/Metarix_video.mp4" type="video/mp4" />
+                </video>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- <section class="main_hero">
     <div class="container">
         <div class="main_head">
             <h6>YOUR GATEWAY TO</h6>
@@ -37,7 +49,7 @@
         
        
     </div>
-</section>
+</section> -->
 <!-- main_hero closed  -->
 
 <!-- Metarix Artifacts started  -->
@@ -209,7 +221,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="matrix_lauch">
-                    <img src="images/metrarix_launchpad.png" alt="">
+                    <img src="images/metrarix_launchpad.gif" alt="">
                 </div>
             </div>
             <div class="col-md-6">
@@ -353,7 +365,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="matrix_app_store">
-                    <img src="images/ethemrum_iceland.png" alt="">
+                    <img src="images/ethemrum_iceland.gif" alt="">
                 </div>
             </div>
             <div class="col-md-6">

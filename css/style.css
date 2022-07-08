@@ -175,10 +175,14 @@ p{
     transition: all 0.5s;
     z-index: 997;
     padding: 20px 0;
+   
 }
-.header.header-scrolled {
+.home_headback{
+     background: #fff ;
+}
+.header-scrolled {
     background: #fff;
-    padding: 15px 0;
+   
     box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
 }
 
@@ -398,7 +402,20 @@ p{
 
 /* main hero started  */
 
-.main_hero{
+/* slider_videos */
+
+#carouselExampleSlidesOnly {
+    width: 100%;
+}
+
+.video-fluid {
+    width: 100%;
+    margin-top: 100px;
+}
+
+
+
+/* .main_hero{
     background: url(../images/main_hero_bgg.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -425,7 +442,7 @@ p{
 .main_head h6 {
     font-size: 45px;
     color: #804f49;
-}
+} */
 .text_gradient{
     background: linear-gradient(to right,  #e06736 0%,#b93288 47%,#214ab9 100%); 
     -webkit-background-clip: text;
@@ -433,7 +450,7 @@ p{
     font-weight: 700;
     display: inline-block;  
 }
-.main_head h1{
+/* .main_head h1{
     font-size: 75px;
     letter-spacing: 20px;
 }
@@ -444,7 +461,7 @@ p{
     padding: 90px 0px;
     display: flex;
     align-items: center;
-}
+} */
 .live_data {
     display: flex;
     align-items: center;
@@ -452,8 +469,12 @@ p{
 .main_button a  {
     font-size: 22px;
 }
+.live_data {
+    display: flex;
+    align-items: center;
+}
 .live_text h6 {
-    font-size: 23px !important;
+    font-size: 15px !important;
     margin-bottom: 0 !important;
     color: #666666 !important;
     font-family: 'Gigantic FS Regular';
@@ -483,18 +504,7 @@ p{
     max-width: 1300px !important;
 }
   
-/* @-webkit-keyframes blinker {
-    from {opacity: 1.0;}
-    to {opacity: 0.0;}
-  }
-.blink{
-      text-decoration: blink;
-      -webkit-animation-name: blinker;
-      -webkit-animation-duration: 1s;
-      -webkit-animation-iteration-count:infinite;
-      -webkit-animation-timing-function:ease-in-out;
-      -webkit-animation-direction: alternate;
-} */
+
 
 
 /* preesale button glow  */
@@ -690,7 +700,7 @@ p{
     padding-top: 60px;
 }
 .matrix_lauch img {
-    width: 63%;
+    width: 80%;
 }
 
 .matrix_block img {
