@@ -2816,6 +2816,121 @@ img.cont_img {
 }
 
 
+                                                                            /* NFT MARKETPLACE PAGE  */
+
+.nft_marketplace_bgg{
+    background: #1c1b3e;
+}
+.NFT_MARKETPLACE{
+    padding: 200px 0px;
+}
+.main_nft_marketplaced {
+    text-align: center;
+}
+.main_nft_marketplaced h1 {
+    color: #ffffff;
+    font-size: 48px;
+}
+.main_nft_marketplaced span {
+    color: #716fae;
+}
+.main_nft_marketplaced h6 {
+    color: #ffffff;
+    font-size: 20px;
+}
+.nft_market_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 60px;
+}
+.nft_btn{
+    color: #fff;
+    background: linear-gradient(to right, #214ab9 0%,#b93288 47%,#e06736 100%);
+    padding: 8px 20px;
+    border-radius: 20px 10px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.nft_btn:hover{
+    color: #cee1f0;
+    background: none;
+}
+.nft_btn1{
+    color: #cee1f0;
+    padding: 8px 20px;
+    border-radius: 20px 10px;
+    font-size: 22px;
+    font-weight: 700;
+    
+}
+.nft_btn1:hover{
+    color: #fff;
+    background: linear-gradient(to right, #214ab9 0%,#b93288 47%,#e06736 100%);
+    padding: 8px 20px;
+    border-radius: 20px 10px;
+}
+.nft_sportlight_data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.nft_card{
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    
+}
+.nft_card img{
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -52px;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+}
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+.carousel-indicators .active {
+    opacity: 1;
+}
+
+
+
+
+
+.update{
+    padding: 100px 0px;
+}
+
+
                                                           /* Responsive started  */
 
 @media (max-width: 1400px){

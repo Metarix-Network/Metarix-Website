@@ -52,7 +52,7 @@ $page = basename($_SERVER['REQUEST_URI'], '?' . $_SERVER['QUERY_STRING']);
           <li><a class="nav-link scrollto active" href="index.php">Home</a></li>
           <li class="dropdown"><a href=""><span>Products</span> <i class="fa fa-chevron-down"></i></a>
             <ul>
-              <li><a target="_blank" href="comming_soon.php">NFT Marketplace <sup>Coming Soon</sup></a></li>
+              <li><a target="_blank" href="nft_marketplace.php">NFT Marketplace <sup>Coming Soon</sup></a></li>
               <!-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="fa fa-chevron-right"></i></a>
                 <ul>
                   <li><a href="#">Deep Drop Down 1</a></li>
