@@ -480,7 +480,8 @@
                             <h4>120,000,000</h4>
                         </div>
                         <div class="token_sale_details">
-                            <h6>20% TGE 10% unlock each month after</h6>
+                            <!-- <h6>20% TGE 10% unlock each month after</h6> -->
+                            <h6></h6>
                             <h6>Tokens</h6>
                         </div>
                     </div>

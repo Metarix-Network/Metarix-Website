@@ -404,13 +404,20 @@ p{
 
 /* slider_videos */
 
+#Hero {
+    margin-top: 100px;
+}
 #carouselExampleSlidesOnly {
     width: 100%;
 }
 
 .video-fluid {
+    /* width: 100%;
+    margin-top: 100px; */
     width: 100%;
-    margin-top: 100px;
+    height: 100%;
+    /* max-height: 930px;
+    object-fit: cover; */
 }
 
 
@@ -3034,7 +3041,9 @@ img.cont_img {
 
 @media (max-width: 1199px){
     /* index page  */
-
+    .live_text h6 {
+        font-size: 10px !important;
+    }
     .main_head h1 {
         font-size: 40px;
     }
@@ -3376,12 +3385,16 @@ img.cont_img {
         font-size: 33px;
     }
    
-
 }
 
 @media (max-width: 991px){
     /* index page  */
-
+    .header {
+        height: 70px;
+    }
+    #Hero {
+        margin-top: 70px;
+    }
     .main_head h1 {
         font-size: 28px;
     }
@@ -3519,13 +3532,11 @@ img.cont_img {
     .get_subs_bgg h2 {
         font-size: 21px;
     }
-    
 
     /* Contact us  */
     .contact_logo {
         justify-content: center;
     }
-
     /* MTRX BLOCKCHAIN  */
 
     .blockchain_main_head h2 {
@@ -4456,6 +4467,7 @@ img.cont_img {
 
 @media (max-width: 480px){
     /* index page  */
+    
     .main_head h1 {
         font-size: 20px;
     }
