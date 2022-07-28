@@ -455,10 +455,10 @@
                 </div>
                 <div class="token_items">
                     <h6>Smart Contract</h6>
-                    <input type="hidden" id="copyRefrelInput" value="0x55382eEEF32EB87AA27D13d7637954C344154151">
-                    <h2 class="text_gradient">0x5538...4151</h2>
+                    <input type="hidden" id="copyRefrelInput" value="0x08B87b1cFdba00dFb79D77Cac1a5970ba6c9cDE2">
+                    <h2 class="text_gradient">0x08B...cDE2</h2>
                     <div class="smart_cont">
-                        <a target="_blank" href="https://bscscan.com/token/0x55382eeef32eb87aa27d13d7637954c344154151"> <img src="images/share_icon.png" alt=""></a>
+                        <a target="_blank" href="https://bscscan.com/token/0x08B87b1cFdba00dFb79D77Cac1a5970ba6c9cDE2"> <img src="images/share_icon.png" alt=""></a>
                         <button type="button" class="smart_contact_btn" data-toggle="tooltip" data-placement="bottom" title="Click to copy" id="myTooltip"  onclick="copyToClipboard('#copyRefrelInput')"> <img src="images/copy_icon.png" alt=""></button> 
                         <button type="button" class="smart_contact_btn" data-toggle="tooltip" data-placement="bottom" title="Copied" id="myTooltipshow" style="display: none;"> <i class="fa fa-check" aria-hidden="true"></i></button>
                     </div>
